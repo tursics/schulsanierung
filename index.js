@@ -11,6 +11,7 @@ function mapAction()
 {
 	$('#headerBox').removeClass( 'big');
 	$('#searchBox').removeClass( 'big');
+	map.scrollWheelZoom.enable();
 }
 
 // -----------------------------------------------------------------------------
@@ -23,16 +24,12 @@ function initMap( elementName, lat, lng, zoom)
 			attribution: '<a href="http://www.openstreetmap.org" target="_blank">OpenStreetMap-Mitwirkende</a>, <a href="https://www.mapbox.com" target="_blank">Mapbox</a>'
 		});
 
-		map = L.map( elementName, {zoomControl: false})
+		map = L.map( elementName, {zoomControl: false, scrollWheelZoom: false})
 			.addLayer( mapboxTiles)
 			.setView( [lat, lng], zoom);
 
 		map.addControl( L.control.zoom({ position: 'bottomright'}));
-//		map.on('click', mapAction);
-//		map.on('mousedown', mapAction);
-		map.on('dragstart', mapAction);
-		map.on('zoomstart', mapAction);
-		map.on('autopanstart', mapAction);
+		map.once('focus', mapAction);
 
 		var dataUrl = 'data/gebaeudescan.json';
 		$.getJSON( dataUrl, function( data) {
