@@ -462,5 +462,44 @@
 #pageStory div.embedTwitter iframe {
 	margin: 0 auto;
 }
+#pageStory div.embedTable {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+#pageStory div.embedTable h3 {
+	margin: 0;
+	text-align: center;
+}
+#pageStory div.embedTable table {
+	margin: 0 auto;
+	background: #fff;
+	border: 1px solid #ddd;
+	border-spacing: 0;
+	border-radius: 4px;
+	padding: 1em;
+}
+#pageStory div.embedTable tr {
+	line-height: 2em;
+}
+#pageStory div.embedTable tr:nth-child(odd) {
+	background: #f4f4f4;
+}
+#pageStory div.embedTable th {
+	background: #fff;
+	text-align: left;
+	border-bottom: 2px solid #38aadd;
+}
+#pageStory div.embedTable td {
+	border-top: 1px solid #ddd;
+}
+#pageStory div.embedTable th, #pageStory div.embedTable td {
+	padding: 0 1em;
+}
+#pageStory div.embedTable div {
+	font-size: 12px;
+	color: #999;
+	padding: .5em .5em 0 .5em;
+	line-height: 1.4em;
+}
 
 /* */
