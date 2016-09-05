@@ -429,6 +429,28 @@
 	background: #a3a3a3;
 }
 
+/* scrollDownPane */
+
+#scrollDownPane a {
+	background: rgba(255,255,255,.7);
+	width: 2em;
+	height: 2em;
+	display: block;
+	margin: -1em auto;
+	line-height: 2.2em;
+	border-radius: 50%;
+	font-size: 4em;
+	position: absolute;
+	left: 50%;
+	text-align: center;
+	color: #38aadd;
+	text-decoration: none;
+	font-weight: 400;
+	border-left: 2px solid #38aadd;
+	border-right: 2px solid #38aadd;
+	border-bottom: 2px solid #38aadd;
+}
+
 /* pageStory */
 
 #pageStory {

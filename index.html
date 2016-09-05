@@ -40,6 +40,23 @@
 	<script src="lib/jquery.mobile-1.4.2/jquery.mobile-1.4.2.min.js"></script>
 	<script src="lib/jquery.autocomplete-1.2.25/jquery.autocomplete.min.js"></script>
 	<script src="lib/leaflet.awesome-markers-2.0.2/leaflet.awesome-markers.min.js"></script>
+
+	<link rel="apple-touch-icon" sizes="57x57" href="/assets/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/assets/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/assets/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/assets/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/assets/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/assets/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/assets/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/assets/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon-96x96.png">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/assets/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
 </head>
 <body>
 	<div data-role="page" id="pageMap">
@@ -137,8 +154,8 @@
 				</div> -->
 				<div class="full">============================================</div>
 				<div class="empty"></div>
-				<div class="group groupClosed" id="thisYear"></div>
-<!--				<div><span class="half">bis Ende 2016 verbaut</span><span class="number">- EUR</span></div>
+<!--			<div class="group groupClosed" id="thisYear"></div> -->
+<!--			<div><span class="half">bis Ende 2016 verbaut</span><span class="number">- EUR</span></div>
 				<div><span class="half">Gelder bereits gesichert</span><span class="number">- EUR</span></div>
 				<div><span class="half">Restbetrag</span><span class="number">- EUR</span></div> -->
 				<div class="empty"></div>
@@ -159,6 +176,9 @@
 				<div><i class="fa fa-search" aria-hidden="true"></i></div>
 			</div>
 		</div>
+		<div id="scrollDownPane">
+			<a href="#pageStory"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
+		</div>
 		<div id="pageStory">
 			<div class="source">Quelle: Senatsverwaltung für Bildung, Jugend und Wissenschaft. Stand: 30.06.2016 (<a href="https://docs.google.com/spreadsheets/d/1RCQjdI2feFJHHFOoIYTDSB68rpUlhjqoEUc-xNOPK-Y/edit?usp=sharing" target="_blank">Rohdaten</a>)</div>
 			<div>
@@ -168,17 +188,16 @@
 				Die erste Auswertung vor vier Jahren bezifferte den Sanierungsstau noch auf 863 Millionen Euro für alle öffentlichen Schulen in Berlin.
 			</div>
 			<div>
-				2 Jahre später musste die Zahl auf <a href="http://www.tagesspiegel.de/berlin/schule/erbaermlicher-zustand-schulsanierung-in-berlin-kostet-zwei-milliarden/10806016.html" target="_blank">1,9 Milliarden Euro</a> erhöht werden.
-				Und direkt vor den gerade zu Ende gegangenen Sommerferien wurde die neuste Zahl präsentiert:
+				Zwei Jahre später musste die Zahl auf <a href="http://www.tagesspiegel.de/berlin/schule/erbaermlicher-zustand-schulsanierung-in-berlin-kostet-zwei-milliarden/10806016.html" target="_blank">1,9 Milliarden Euro</a> erhöht werden.
+				Und direkt vor den Sommerferien wurde die neuste Zahl präsentiert:
 				<a href="http://www.berliner-zeitung.de/berlin/bezirke--sanierung-der-schulen-kostet-4-9-milliarden-euro-24322136" target="_blank">4,9 Milliarden Euro</a> braucht Berlin für die Sanierung seiner Schulen.
 				Beim aktuellen Gebäudescan wurde, im Gegensatz zu den vorherigen Erhebungen, ein einheitlicher Fragebogen an die Bezirke ausgegeben.
 				Mit diesem soll es nun erstmals möglich sein, berlinweit belastbare Zahlen für die Schulen zu haben.
 			</div>
 			<div>
-				Der Senatsverwaltung für Bildung, Jugend und Wissenschaft liegen für jedes Schul- und Sportgebäude in Berlin genaue Zahlen über deren baulichen Zustand vor.
-				Sie bereitet zur Zeit die Daten auf und stimmt letzte Ungenauigkeiten mit den Bezirken ab.
-				Mal hat ein Bezirk die Außenflächen nicht bewertet, mal die Sanierungskosten für die privaten Schulen übermittelt.
-				Es ist also davon auszugehen, dass bei der Präsentation der endgültigen Zahlen Unterschiede auftreten werden.
+				Der Senatsverwaltung für Bildung, Jugend und Wissenschaft liegen für jedes Schul- und Sportgebäude in Berlin detailiertes Zahlenmaterial über deren baulichen Zustand vor.
+				Aktuell werden die Daten zusammengeführt und so aufbereitet, dass sie auch zwischen den Bezirken vergleichbar sind.
+				Es ist davon auszugehen, dass bei der Präsentation der endgültigen Zahlen noch Unterschiede auftreten werden.
 			</div>
 			<div class="embedTable">
 				<h3>Der Sanierungsstau pro Bezirk</h3>
@@ -202,11 +221,31 @@
 				<div>(*) hier fehlen noch die Zahlen für die Außenflächen</div>
 			</div>
 			<div>
-				Insgesamt muss Berlin also etwa 5 Milliarden Euro für die Instantsetzung ihrer Schulen ausgeben.
-				Aber wie setzt sich diese Summe zusammen?
-				Auch wenn die endgültigen Zahlen abweichen werden, so zeigt die obige Karte bereits jetzt, wo das Geld dringend gebraucht wird.
+				Wie setzen sich die etwa 5 Milliarden Euro zusammen?
+				Anhand der vorläufigen Zahlen aus Lichtenberg wird dies deutlich.
+				In diesem Bezirk wird ein gutes Drittel (117 Millionen Euro) zur Sanierung der Räume in den Schulgebäuden benötigt.
+				Etwa ein Viertel der Kosten (79 Millionen Euro) fallen für die Turnhallen an (<a href="#pageMap">auf der Karte ansehen</a>).
 			</div>
-			<div>Nur Lichtenberg</div>
+			<div>
+				Etwa 15 Prozent (50 Millionen Euro) müssen in die Schulhöfe und Sportanlagen gesteckt werden, weitere 11 Prozent (38 Millionen Euro) in die Barrierefreiheit.
+				Damit die Inklusion, also die Beschulung aller Schüler mit und ohne Behinderung, klappt, müssen etwa 100 Rampen neu- und etwa ebenso viele Eingangsbereiche umgebaut werden.
+				Dazu kommen diverse Aufzüge und 313 barrierefrei gestaltete Toiletten.
+			</div>
+			<div>
+				Die restlichen Bereiche Fenster, Fassade, Dach und Sanitär tauchen beim Gebäudescan mit Werten zwischen je einem und vier Prozent auf.
+				Für die Sanierung der Sanitäranlagen sind z.B. nur 6,793 Millionen Euro vorgesehen (2 Prozent).
+				Das liegt auch daran, das seit der Wende 1990 alle Toilettenbereiche bereits einmal saniert und die Rohre ausgewechselt wurden.
+			</div>
+			<div class="embedTable">
+				<table>
+					<tr><td style="background:white;border:0;">
+						To do: Interaktive Grafik mit Aufklebern? Top 10? Schulen, Turnhallen, Barrierefreiheit, Sanitär, Räume, ...
+					</td></tr>
+				</table>
+			</div>
+			<div>
+				... Einzelschulen ... Karte erklären ...
+			</div>
 			<div class="embedTwitter"><blockquote class="twitter-tweet" data-lang="de"><p lang="de" dir="ltr">Vor der Einschulung die Eltern noch den Klassenraum renovieren lassen, weil er in desolatem Zustand ist. <a href="https://twitter.com/hashtag/ditisBerlin?src=hash">#ditisBerlin</a></p>&mdash; Sebastian Fiebrig (@saumselig) <a href="https://twitter.com/saumselig/status/770872150706233344">31. August 2016</a></blockquote><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
 			<div>Pro Kind runtergerechnet<br>
 				<a href="https://www.berlin.de/sen/bjw/service/presse/pressearchiv-2016/pressemitteilung.513455.php">Schuljahr 2016/17: Anstieg der Schülerzahlen</a> "Rund 428.550 Schülerinnen und Schüler lernen im Schuljahr 2016/17 an den allgemein bildenden sowie beruflichen Schulen"<br>
@@ -222,11 +261,12 @@
 			</div>
 			<div>Bild einer Schule bei der Sanierung?</div>
 			<div>http://www.morgenpost.de/berlin/article207808669/SPD-und-CDU-wollen-Berlins-Schulen-sanieren.html</div>
+			<div>http://www.berliner-kurier.de/berlin/kiez---stadt/bruchbude-die-schul-schande-von-lichtenberg-5411764</div>
 			<div>Ausblick - Zahlen - Wahlen</div>
 			<div>Was die Anwendung zeigt</div>
 			<div>Über den Autor</div>
 			<div>Rohdaten</div>
-			<div>Fußzeile - Name + Datum + <a href="http://tursics.de/imprint" target="_blank">Impressum</a>?</div>
+			<div id="footer">Fußzeile - Name + Datum + <a href="http://tursics.de/imprint" target="_blank">Impressum</a>?</div>
 		</div>
 	</div>
 </body>
