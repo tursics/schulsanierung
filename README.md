@@ -1,20 +1,18 @@
-Kiez-Karte
-==========
+#Wo unsere Kinder lernen
 
-Die Kiez-Karte zeigt alle möglichen Open Data zu Berlin-Lichtenberg an plus einer Interaktionsmöglichkeit/ Rückkanal. So kann man alle Spielplätze im Bezirk finden - und wenn man sie besser haben möchte, dann gibt man einen Vorschlag für den Bürgerhaushalt an.
+Viele Schulen in Berlin sind marode.
+Wie teuer die Sanierung wirklich wird, können sie auf dieser Karte erkunden.
 
-Schauen sie sich die Karte live an:
+![alt text](https://raw.githubusercontent.com/tursics/schulsanierung/master/assets/social.gif "Eine Karte mit Preisetiketten für einzelne Schulen")
 
-http://www.kiez-karte.berlin
+Die Toiletten stinken, Wasser tropft von der Decke, der Putz bröckelt von der Wand.
+Vielen Schulgebäuden sieht man deren schlechten Zustand bereits von außen an.
+Bereits vor Jahren kam die Frage auf, wie teuer es wäre die Schäden bei den Schulen zu beheben.
+Die erste Auswertung vor vier Jahren bezifferte den Sanierungsstau noch auf 863 Millionen Euro für alle öffentlichen Schulen in Berlin. 
 
-Daten
-=====
+Lese hier weiter:
+http://schulsanierung.tursics.de/
 
-Oh ja. Jede Menge Daten. Die Rohdaten befinden sich in /rawdata/
+##Lizenz
 
-https://github.com/tursics/kiez-karte/blob/master/rawdata/README.md
-
-Lizenz
-======
-
-Der Code zur Webseite ist kostenlos und in die Public Domain freigegeben. Weitere Informationen finden Sie in der Datei LICENSE.md
+Der HTML- und JavaScript-Code zur Webseite ist kostenlos und in die Public Domain freigegeben. Weitere Informationen findest du in der Datei LICENSE.md
