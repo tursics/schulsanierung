@@ -118,6 +118,14 @@
 #headerBox.big div {
 	display: block;
 }
+@media (max-width: 40em) {
+	#headerBox.big h1 {
+		font-size: 20px;
+	}
+	#headerBox div {
+		font-size: 12px;
+	}
+}
 
 /* receipt at left */
 
@@ -463,6 +471,18 @@
 #pageStory div {
 	padding: 1em;
 }
+#pageStory .printerLabel {
+	margin: 0 auto;
+	display: table;
+}
+#pageStory .printerLabel div {
+	padding: 0;
+}
+#pageStory .printerLabel .leaflet-popup-content-wrapper {
+	padding: 1px;
+	float: left;
+	margin: 0 1em;
+}
 #pageStory a {
 	color: #38aadd;
 	text-decoration: none;
@@ -492,6 +512,11 @@
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 }
+@media (max-width: 40em) {
+	#pageStory div.embedTable {
+		padding: 0;
+	}
+}
 #pageStory div.embedTable h3 {
 	margin: 0;
 	text-align: center;
@@ -504,8 +529,17 @@
 	border-radius: 4px;
 	padding: 1em;
 }
+@media (max-width: 40em) {
+	#pageStory div.embedTable table {
+		width: 100%;
+		border-left: none;
+		border-right: none;
+		border-radius: 0;
+		padding: 1em 0;
+	}
+}
 #pageStory div.embedTable tr {
-	line-height: 2em;
+	line-height: 1.4em;
 }
 #pageStory div.embedTable tr:nth-child(odd) {
 	background: #f1f8fc;
@@ -519,13 +553,18 @@
 	border-top: 1px solid #ddd;
 }
 #pageStory div.embedTable th, #pageStory div.embedTable td {
-	padding: 0 1em;
+	padding: .3em 1em;
 }
 #pageStory div.embedTable div {
 	font-size: 12px;
 	color: #999;
 	padding: .5em .5em 0 .5em;
 	line-height: 1.4em;
+}
+@media (max-width: 40em) {
+	#pageStory div.embedTable div {
+		padding: 1.5em 1.5em 0 1.5em;
+	}
 }
 
 #pageStory div.embedInfo {
@@ -537,6 +576,11 @@
 	padding: 2em 2.5em 1em 2.5em;
 	margin: 1em;
 }
+@media (max-width: 40em) {
+	#pageStory div.embedInfo {
+		padding: 1em 0 0 0;
+	}
+}
 #pageStory div.embedInfo h3 {
 	font-family: 'Montserrat', sans-serif;
 	margin: 0 1em;
@@ -547,6 +591,11 @@
 	text-align: center;
 	padding: 2em 2.5em;
 	margin: 1em;
+}
+@media (max-width: 40em) {
+	#pageStory div.embedCredits {
+		padding: 1em;
+	}
 }
 
 #pageStory div.embedAuthor {
@@ -569,6 +618,42 @@
 }
 #pageStory div.embedAuthor .fa-heart {
 	color: #d63e2a;
+}
+
+#pageStory .rotate20 {
+	-moz-transform: rotate(20deg);
+	-ms-transform: rotate(20deg);
+	-o-transform: rotate(20deg);
+	-webkit-transform: rotate(20deg);
+	transform: rotate(20deg);
+}
+#pageStory .rotate10 {
+	-moz-transform: rotate(10deg);
+	-ms-transform: rotate(10deg);
+	-o-transform: rotate(10deg);
+	-webkit-transform: rotate(10deg);
+	transform: rotate(10deg);
+}
+#pageStory .rotateMin10 {
+	-moz-transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+#pageStory .rotate5 {
+	-moz-transform: rotate(5deg);
+	-ms-transform: rotate(5deg);
+	-o-transform: rotate(5deg);
+	-webkit-transform: rotate(5deg);
+	transform: rotate(5deg);
+}
+#pageStory .rotateMin5 {
+	-moz-transform: rotate(-5deg);
+	-ms-transform: rotate(-5deg);
+	-o-transform: rotate(-5deg);
+	-webkit-transform: rotate(-5deg);
+	transform: rotate(-5deg);
 }
 
 /* */
