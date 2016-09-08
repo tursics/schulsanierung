@@ -86,7 +86,7 @@
 	width: 100%;
 	background: rgba(255,255,255,.7);
 	text-align: left;
-	padding: 7px 0 7px 2em;
+	padding: 7px 0;
 	line-height: 26px;
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
@@ -99,6 +99,7 @@
 }
 #headerBox h1 {
 	margin: 0;
+	padding-left: 2em;
 	font-size: 20px;
 	-webkit-transition: font-size 200ms linear;
 	-moz-transition: font-size 200ms linear;
@@ -108,6 +109,7 @@
 }
 #headerBox.big h1 {
 	margin: 0 0 .3em 0;
+	padding-left: 0;
 	font-size: 42px;
 }
 #headerBox div {
@@ -119,6 +121,16 @@
 	display: block;
 }
 @media (max-width: 40em) {
+	#headerBox {
+		line-height: 17px;
+		white-space: nowrap;
+		overflow-x: hidden;
+	}
+	#headerBox.big {
+		padding: 7px 0;
+	}
+	#headerBox h1 {
+	}
 	#headerBox.big h1 {
 		font-size: 20px;
 	}
@@ -229,6 +241,13 @@
 	font-family: 'Montserrat', sans-serif;
 	font-size: 13px;
 }
+@media (max-width: 40em) {
+	#receiptClose {
+		font-size: 32px;
+		top: -10px;
+		right: -10px;
+	}
+}
 
 /* search at right */
 
@@ -236,7 +255,7 @@
 	position: absolute;
 	top: 40px;
 	right: 0;
-	width: 20em;
+	width: auto;
 	max-width: 20em;
 	background: rgba(255,255,255,.7);
 	border-left: 2px solid #38aadd;
@@ -284,7 +303,7 @@
 #searchBox .searchInput div:nth-child(1) {
 	border-left: none;
 	border-radius: 0 1.2em 1.2em 0;
-	width: 20em;
+	width: 18em;
 }
 #searchBox .searchInput div:nth-child(2) {
 	border-right: none;
@@ -312,6 +331,25 @@
 }
 #searchBox input:-moz-placeholder {
 	color: #aaa;
+}
+@media (max-width: 40em) {
+	#searchBox {
+		top: 31px;
+		padding-top: 0;
+	}
+	#searchBox h3 {
+		display: none;
+		font-size: 18px;
+	}
+	#searchBox.big h3 {
+		display: block;
+	}
+	#searchBox .sample {
+		display: none;
+	}
+	#searchBox.big .sample {
+		display: block;
+	}
 }
 
 /* printer label as tooltip */
@@ -439,17 +477,20 @@
 
 /* scrollDownPane */
 
+#scrollDownPane {
+	margin-left: 50%;
+}
 #scrollDownPane a {
 	background: rgba(255,255,255,.7);
 	width: 2em;
 	height: 2em;
 	display: block;
-	margin: -1em auto;
+	margin: -2em -1em;
 	line-height: 2.2em;
 	border-radius: 50%;
 	font-size: 4em;
 	position: absolute;
-	left: 50%;
+	z-index: 1000;
 	text-align: center;
 	color: #38aadd;
 	text-decoration: none;
@@ -498,7 +539,8 @@
 	color: #999;
 	position: absolute;
 	left: 0;
-	margin-top: -2.5em;
+	margin-top: -2em;
+	line-height: 1.4em;
 }
 
 #pageStory div.embedTwitter {
