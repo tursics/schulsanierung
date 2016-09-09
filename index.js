@@ -613,10 +613,15 @@ $(document).on("pageshow", "#pageMap", function () {
 		$('#autocomplete').val('Lichtenberg');
 		selectSuggestion(1100000);
 	});
+	$('.embedInfo').addClass('shrink');
+	$('.embedInfo .showMore').on('click', function (e) {
+		e.preventDefault();
+		$(this).parent().removeClass('shrink');
+	});
 });
 
 // -----------------------------------------------------------------------------
-/*
+
 $(function () {
 	'use strict';
 
@@ -625,13 +630,13 @@ $(function () {
 			var target = $(this.hash);
 			target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
 			if (target.length) {
-				$('html, body').animate({
+				$('#pageMap').animate({
 					scrollTop: parseInt(target.offset().top, 10)
-				}, 1000);
+				}, 500);
 				return false;
 			}
 		}
 	});
 });
-*/
+
 // -----------------------------------------------------------------------------
