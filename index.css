@@ -99,7 +99,7 @@
 }
 #headerBox h1 {
 	margin: 0;
-	padding-left: 2em;
+	padding-left: 3.5em;
 	font-size: 20px;
 	-webkit-transition: font-size 200ms linear;
 	-moz-transition: font-size 200ms linear;
@@ -108,7 +108,7 @@
 	transition: font-size 200ms linear;
 }
 #headerBox.big h1 {
-	margin: 0 0 .3em 0;
+	margin: 0.2em 0 .1em 0;
 	padding-left: 0;
 	font-size: 42px;
 }
@@ -120,6 +120,70 @@
 #headerBox.big div {
 	display: block;
 }
+#headerBox .author {
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+	position: absolute;
+	top: 7px;
+	left: 7px;
+	font-size: 12px;
+	border-right: 1px solid #38aadd;
+	padding: 0 7px 0 0;
+}
+#headerBox.big .author {
+	border-right: 0;
+	padding: 0;
+}
+#headerBox .author a {
+	color: #000;
+	text-decoration: none;
+	line-height: 2em;
+	padding: 0;
+	margin: 0;
+	padding: .5em 0;
+}
+#headerBox .author a img {
+	height: 25px;
+	vertical-align: middle;
+}
+#headerBox .author span {
+	display: none;
+}
+#headerBox.big .author span {
+	display: inline;
+}
+#headerBox .social {
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+	position: absolute;
+	top: 7px;
+	right: 2px;
+	font-size: 12px;
+}
+#headerBox .social .facebook, #headerBox .social .twitter {
+	color: #fff;
+	text-decoration: none;
+	line-height: 2em;
+	padding: .25em;
+	margin: 0 5px 0 0;
+	border-radius: 4px;
+}
+#headerBox .social .facebook {
+	background: #3b5998;
+}
+#headerBox .social .facebook:before {
+	content: "\f09a";
+	font: normal normal normal 14px/1 FontAwesome;
+	padding: 0 10px 0 0;
+}
+#headerBox .social .twitter {
+	background: #55acee;
+}
+#headerBox .social .twitter:before {
+	content: "\f099";
+	font: normal normal normal 14px/1 FontAwesome;
+	padding: 0 10px 0 0;
+}
 @media (max-width: 40em) {
 	#headerBox {
 		line-height: 17px;
@@ -130,12 +194,21 @@
 		padding: 7px 0;
 	}
 	#headerBox h1 {
+		padding-left: 0;
+		text-align: center;
 	}
 	#headerBox.big h1 {
 		font-size: 20px;
+		margin: 0 0 .1em 0;
 	}
 	#headerBox div {
 		font-size: 12px;
+	}
+	#headerBox .author {
+		display: none !important;
+	}
+	#headerBox .social {
+		display: none !important;
 	}
 }
 
