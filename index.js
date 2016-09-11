@@ -152,7 +152,7 @@ function createStatistics(data) {
 		Dachart: 'Diverse',
 		Schulart: 'Bezirk',
 		Schulname: 'Lichtenberg',
-		Schulnummer: '',
+		Schulnummer: 'gesamt',
 		Strasse: '',
 		PLZ: '',
 		Gebaeudenummer: 1100000,
@@ -301,6 +301,7 @@ function updateMapSelectItem(data) {
 	setText('FassadenFlaecheOhneFenster_', data.FassadenFlaecheOhneFenster);
 	setText('BGF_', data.BGF);
 	setText('Baukosten_', data.Baukosten);
+	setText('Aussenanlagen_', data.Aussenanlagen);
 
 	if (dateD < 10) {
 		dateD = '0' + dateD;

@@ -103,21 +103,20 @@
 					<div class="full bold">Priorität: <span id="recPrioritaetGesamt"></span></div>
 					<div class="sub"><span class="half">Bauwerk</span><span class="number"><span id="recBauPrioBauwerk"></span></span></div>
 					<div class="sub"><span class="half">Technische Anlagen</span><span class="number"><span id="recBauPrioTGA"></span></span></div>
-					<div class="sub"><span class="half">Summe (ohne Wichtung)</span><span class="number"><span id="recBauprioSumme"></span></span></div>
 				</div>
 				<div class="empty"></div>
 				<div class="full">--------------------------------------------</div>
 				<div class="group groupClosed">
 					<div><span class="half">Fenster</span><span class="number"><span id="recFensterKosten"></span> EUR</span></div>
-					<div class="sub"><span class="half"><span id="recFensterFaktorFlaechenanteil"></span>x <span id="recFensterFlaeche"></span> m² á <span id="recFensterKostenpauschale"></span> €/m²</span><span class="number"><span id="recFensterKosten_"></span> EUR</span></div>
+					<div class="sub"><span class="half"><span id="recFensterFlaeche"></span> m² á <span id="recFensterKostenpauschale"></span> €/m²</span><span class="number"><span id="recFensterKosten_"></span> EUR</span></div>
 					<div class="sub"><span class="half">Sanierung notwendig</span><span class="boolean"><span id="recSanierungFensterNotwendig"></span></span></div>
 				</div>
 				<div class="group groupClosed">
 					<div><span class="half">Fassade</span><span class="number"><span id="recFassadenKosten"></span> EUR</span></div>
 					<div class="sub"><span class="full"><span id="recGebaeudeHoeheInM"></span> m hoch x <span id="recGebaeudeUmfangInMAusConject"></span> m Umfang</span></div>
-					<div class="sub"><span class="full">= <span id="recFassadenFlaeche"></span> m² mit Fenster</span></div>
-					<div class="sub"><span class="full">= <span id="recFassadenFlaecheOhneFenster_"></span> m² ohne Fenster</span></div>
-					<div class="sub"><span class="half"><span id="recFassadenFaktorFlaechenanteil"></span>x <span id="recFassadenFlaecheOhneFenster"></span> m² á <span id="recFassadenKostenpauschale"></span> €/m²</span><span class="number"><span id="recFassadenKosten_"></span> EUR</span></div>
+					<div class="sub"><span class="full">&nbsp;&nbsp;(<span id="recFassadenFlaeche"></span> m² mit Fenster</span>)</div>
+					<div class="sub"><span class="full">&nbsp;&nbsp;(<span id="recFassadenFlaecheOhneFenster_"></span> m² ohne Fenster</span>)</div>
+					<div class="sub"><span class="half"><span id="recFassadenFlaecheOhneFenster"></span> m² á <span id="recFassadenKostenpauschale"></span> €/m²</span><span class="number"><span id="recFassadenKosten_"></span> EUR</span></div>
 					<div class="sub"><span class="half">Sanierung notwendig</span><span class="boolean"><span id="recSanierungFassadenNotwendig"></span></span></div>
 				</div>
 				<div class="group groupClosed">
@@ -139,43 +138,27 @@
 					<div class="sub"><span class="half">Zweiter Rettungsweg</span><span class="number"><span id="reczweiterRettungswegKosten_"></span> EUR</span></div>
 				</div>
 				<div class="group groupClosed">
+					<div><span class="half">Räume</span><span class="number"><span id="recRaeumeKosten"></span> EUR</span></div>
+					<div class="sub"><span class="half"><span id="recRaeumeNutzflaecheBGF"></span> m² á <span id="recRaeumeKostenpauschale"></span> €/m²</span><span class="number"><span id="recRaeumeKosten_"></span> EUR</span></div>
+					<div class="sub"><span class="half">Sanierung notwendig</span><span class="boolean"><span id="recSanierungRaeumeNotwendig"></span></span></div>
+				</div>
+				<div class="group groupClosed">
 					<div><span class="half">Sanitär</span><span class="number"><span id="recSanitaerKosten"></span> EUR</span></div>
 					<div class="sub"><span class="half"><span id="recSanitaerflaeche"></span> m² Sanitärräume</div>
 					<div class="sub"><span class="half"><span id="recbereitsSanierteFlaecheInProzent"></span>% im Jahr <span id="recSanitaerSanierungsjahr"></span> saniert</div>
 					<div class="sub"><span class="half">noch zu sanieren: <span id="recFlaecheNichtSaniert"></span> m²</div>
 				</div>
 				<div class="group groupClosed">
-					<div><span class="half">Räume</span><span class="number"><span id="recRaeumeKosten"></span> EUR</span></div>
-					<div class="sub"><span class="full"><span id="recBGF_"></span> m² Bruttogeschossfläche</span></div>
-					<div class="sub"><span class="half"><span id="recRaeumeNutzflaecheBGF"></span> m² á <span id="recRaeumeKostenpauschale"></span> €/m²</span><span class="number"><span id="recRaeumeKosten_"></span> EUR</span></div>
-					<div class="sub"><span class="half">Sanierung notwendig</span><span class="boolean"><span id="recSanierungRaeumeNotwendig"></span></span></div>
-					<div class="empty"></div>
-					<div><span class="half">Räume (alternativ)</span><span class="number"><span id="recRaeume2Kosten"></span> EUR</span></div>
-					<div class="sub"><span class="full"><span id="recRaeume2NF_"></span> m² Nutzfläche - Sanitär</span></div>
-					<div class="sub"><span class="half"><span id="recRaeume2Nutzflaeche"></span> m² á <span id="recRaeume2Kostenpauschale"></span> €/m²</span><span class="number"><span id="recRaeume2Kosten_"></span> EUR</span></div>
-					<div class="sub"><span class="half">Sanierung notwendig</span><span class="boolean"><span id="recSanierungRaeume2Notwendig"></span></span></div>
-				</div>
-				<div class="group groupClosed">
-					<div><span class="half">Baukosten</span><span class="number"><span id="recBaukosten"></span> EUR</span></div>
+					<div><span class="half">Sporthalle</span><span class="number"><span id="recBaukosten"></span> EUR</span></div>
 					<div class="sub"><span class="half">Pauschale Baukosten</span><span class="number"><span id="recBaukosten_"></span> EUR</span></div>
 				</div>
 				<div class="group groupClosed">
 					<div><span class="half">Außenanlagen</span><span class="number"><span id="recAussenanlagen">-</span> EUR</span></div>
-					<div class="sub"><span class="half">Schulhof</span><span class="number"></div>
-					<div class="sub"><span class="half">Sportplatz</span><span class="number"></div>
+					<div class="sub"><span class="half">Außenanlagen</span><span class="number"><span id="recAussenanlagen_"></span> EUR</span></div>
 				</div>
 				<div class="full">--------------------------------------------</div>
 				<div><span class="half">SUMME</span><span class="number"><span id="recGebaeudeGesamt"></span> EUR</span></div>
-<!--				<div class="group groupClosed">
-					<div><span class="half">SUMME</span><span class="number"><span id="recGebaeudeGesamt"></span> EUR</span></div>
-					<div class="sub"><span class="half">Summe der Einzelposten</span><span class="number"><span id="recGebaeudeGesamt_"></span> EUR</span></div>
-				</div> -->
 				<div class="full">============================================</div>
-				<div class="empty"></div>
-<!--			<div class="group groupClosed" id="thisYear"></div> -->
-<!--			<div><span class="half">bis Ende 2016 verbaut</span><span class="number">- EUR</span></div>
-				<div><span class="half">Gelder bereits gesichert</span><span class="number">- EUR</span></div>
-				<div><span class="half">Restbetrag</span><span class="number">- EUR</span></div> -->
 				<div class="empty"></div>
 				<div class="full" id="recNow_"></div>
 				<div class="empty"></div>
@@ -233,9 +216,9 @@
 			</div>
 			<div>
 				Wie setzen sich die etwa 5 Milliarden Euro zusammen?
-				Anhand der vorläufigen Zahlen aus Lichtenberg wird dies deutlich.
+				Anhand der vorläufigen Zahlen aus Lichtenberg (<a href="#pageMap=1100000">auf der Karte ansehen</a>) wird dies deutlich.
 				In diesem Bezirk wird gut ein Drittel (117 Millionen Euro) zur Sanierung der Räume in den Schulgebäuden benötigt.
-				Etwa ein Viertel der Kosten (79 Millionen Euro) fallen für die Turnhallen an (<a href="#pageMap=1100000">auf der Karte ansehen</a>).
+				Etwa ein Viertel der Kosten (79 Millionen Euro) fallen für die Sporthallen an.
 			</div>
 			<div class="printerLabel">
 				<div class="leaflet-popup-content-wrapper rotate10"><a href="#pageMap=1161001"><div class="leaflet-popup-content"><div class="top blue">Manfred-von-Ardenne-Gymnasium</div><div class="middle">€10.037.000</div><div class="bottom blue">Schule</div></div></a></div>
@@ -275,7 +258,7 @@
 			<div class="embedTable">
 				<table>
 					<tr><td style="background:white;border:0;">
-						Bereits angefangen: Interaktive Grafik mit Aufklebern? Top 10? Schulen, Turnhallen, Barrierefreiheit, Sanitär, Räume, ... ?
+						Bereits angefangen: Interaktive Grafik mit Aufklebern? Top 10? Schulen, Sporthallen, Barrierefreiheit, Sanitär, Räume, ... ?
 					</td></tr>
 				</table>
 			</div>
@@ -322,11 +305,11 @@
 					Hier ergeben sich minimale Rundungsunterschiede.
 				</div>
 				<div>
-					Der Sanierungsbedarf der Turnhallen wurde nicht einzeln berechnet sondern pauschal nach deren Größe bestimmt.
+					Der Sanierungsbedarf der Sporthallen wurde nicht einzeln berechnet sondern pauschal nach deren Größe bestimmt.
 					Die Kosten für die Außenanlagen wurden nach Schulhof und Sportplatz getrennt erhoben.
-					In der vorliegenden Tabelle fehlen allerdings die Spalten für Schulhof, Sportplatz und Turnhallen.
+					In der vorliegenden Tabelle fehlen allerdings die Spalten für Schulhof, Sportplatz und Sporthallen.
 					Summiert man alle vorhandenen Spalten auf, so ergeben sich in einigen Zeilen Differenzen.
-					Diese Differenzen wurden den Turnhallen und Außenanlagen händisch zugeordnet.
+					Diese Differenzen wurden den Sporthallen und Außenanlagen händisch zugeordnet.
 				</div>
 				<div>
 					Zur Bestimmung der Kosten für die Räume wurde die Bruttogeschossfläche als Rechnungsgrundlage genommen (Fläche aller Etagen des Gebäudes).
