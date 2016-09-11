@@ -317,6 +317,8 @@ function updateMapSelectItem(data) {
 	}
 	setText('Now_', dateD + '.' + dateM + '.' + dateY + ' ' + dateH + ':' + dateMin);
 
+	setText('Bauwerk', data.Bauwerk.replace('MUR', 'Ergänzungsbau (MUR)').replace('MEB', 'Ergänzungsbau (MEB)').replace('MZG', 'Mehrzweckgebäude'));
+
 	switch (data.PrioritaetGesamt) {
 	case 1:
 		setText('PrioritaetGesamt', 'kurzfrist. Handlungsbedarf');
