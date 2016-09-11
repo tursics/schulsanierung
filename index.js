@@ -15,6 +15,7 @@ function mapAction() {
 
 	$('#headerBox').removeClass('big');
 	$('#searchBox').removeClass('big');
+	$('#scrollDownPane').css('display', 'none');
 	map.scrollWheelZoom.enable();
 }
 
@@ -627,15 +628,28 @@ $(function () {
 
 	$('a[href*="#"]:not([href="#"])').click(function () {
 		if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && (location.hostname === this.hostname)) {
-			var target = $(this.hash);
-			target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+			var hash = this.hash,
+				schoolId = hash.lastIndexOf('='),
+				target;
+
+			if (-1 === schoolId) {
+				schoolId = '';
+			} else {
+				hash = this.hash.substr(0, schoolId);
+				schoolId = this.hash.substr(schoolId + 1);
+			}
+
+			target = $(hash);
+			target = target.length ? target : $('[name=' + hash.slice(1) + ']');
 			if (target.length) {
-				if ('#pageStory' === this.hash) {
+				if ('#pageStory' === hash) {
 					$('#scrollDownPane').css('display', 'none');
 				}
 				$('#pageMap').animate({
 					scrollTop: parseInt(target.offset().top, 10)
-				}, 500);
+				}, 500, function () {
+					selectSuggestion(parseInt(schoolId, 10));
+				});
 				return false;
 			}
 		}

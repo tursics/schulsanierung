@@ -456,6 +456,10 @@
 	font-family: 'Montserrat', sans-serif;
 	font-size: 12px;
 }
+.printerLabel .leaflet-popup-content-wrapper a {
+	color: #000 !important;
+	text-decoration: none !important;
+}
 .printerLabel .leaflet-popup-content-wrapper .leaflet-popup-content {
 	overflow: hidden;
 	white-space: nowrap;
@@ -469,6 +473,32 @@
 }
 .printerLabel .middle {
 	font-size: 20px;
+}
+.printerLabel .leaflet-popup-content-wrapper.scale120 {
+	background-size: 182px 85px;
+	width: 180px;
+	height: 83px;
+	font-size: 15px;
+}
+.printerLabel .leaflet-popup-content-wrapper.scale120 .leaflet-popup-content {
+	margin: 5px 12px;
+	width: 156px !important;
+}
+.printerLabel .leaflet-popup-content-wrapper.scale120 .middle {
+	font-size: 24px;
+}
+.printerLabel .leaflet-popup-content-wrapper.scale150 {
+	background-size: 227px 105px;
+	width: 225px;
+	height: 103px;
+	font-size: 18px;
+}
+.printerLabel .leaflet-popup-content-wrapper.scale150 .leaflet-popup-content {
+	margin: 8px 15px;
+	width: 195px !important;
+}
+.printerLabel .leaflet-popup-content-wrapper.scale150 .middle {
+	font-size: 30px;
 }
 
 /* autocomplete list */
