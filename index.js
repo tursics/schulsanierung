@@ -515,7 +515,15 @@ function initSearchBox(data) {
 		return a.value > b.value ? 1 : -1;
 	});
 
-	$('#autocomplete').focus(mapAction);
+	$('#autocomplete').focus(function () {
+		mapAction();
+
+		window.scrollTo(0, 0);
+		document.body.scrollTop = 0;
+		$('#pageMap').animate({
+			scrollTop: parseInt(0, 10)
+		}, 500);
+	});
 	$('#autocomplete').autocomplete({
 		lookup: schools,
 		onSelect: function (suggestion) {
