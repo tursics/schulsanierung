@@ -10,6 +10,14 @@ var layerGroup = null;
 
 // -----------------------------------------------------------------------------
 
+String.prototype.startsWith = String.prototype.startsWith || function (prefix) {
+	'use strict';
+
+	return this.indexOf(prefix) === 0;
+};
+
+// -----------------------------------------------------------------------------
+
 function mapAction() {
 	'use strict';
 
