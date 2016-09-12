@@ -29,6 +29,23 @@ function mapAction() {
 
 // -----------------------------------------------------------------------------
 
+function fixEuro(item) {
+	'use strict';
+
+	if (item === '') {
+		return 0;
+	} else if (item === null) {
+		return 0;
+	} else if ('number' === typeof item) {
+		return item;
+	} else if ('T€' === item.substring(item.length - 2)) {
+		return parseInt(item.substring(0, item.length - 2).replace('.', '').replace(',', '.'), 10) * 1000;
+	}
+	return item;
+}
+
+// -----------------------------------------------------------------------------
+
 function fixData(val) {
 	'use strict';
 
@@ -39,19 +56,6 @@ function fixData(val) {
 			return 0;
 		}
 		return parseFloat(String(item).replace('.', '').replace(',', '.'));
-	}
-
-	function fixEuro(item) {
-		if (item === '') {
-			return 0;
-		} else if (item === null) {
-			return 0;
-		} else if ('number' === typeof item) {
-			return item;
-		} else if ('T€' === item.substring(item.length - 2)) {
-			return parseInt(item.substring(0, item.length - 2).replace('.', '').replace(',', '.'), 10) * 1000;
-		}
-		return item;
 	}
 
 	val.NGF = parseInt(val.NGF, 10);
@@ -564,8 +568,134 @@ function initSearchBox(data) {
 			str += '<div>' + suggestion.value.replace(new RegExp(currentValue.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&"), 'gi'), '<strong>' + currentValue + '</strong>') + '</div>';
 			str += '<div class="' + color + '">' + suggestion.desc + '</div>';
 			return str;
-		}
+		},
+		showNoSuggestionNotice: true,
+		noSuggestionNotice: '<i class="fa fa-info-circle" aria-hidden="true"></i> Sie können hier nur nach Schulen aus Lichtenberg suchen'
 	});
+}
+
+// -----------------------------------------------------------------------------
+
+function printerLabelClick() {
+	if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && (location.hostname === this.hostname)) {
+		var hash = this.hash,
+			schoolId = hash.lastIndexOf('='),
+			target;
+
+		if (-1 === schoolId) {
+			schoolId = '';
+		} else {
+			hash = this.hash.substr(0, schoolId);
+			schoolId = this.hash.substr(schoolId + 1);
+		}
+
+		target = $(hash);
+		target = target.length ? target : $('[name=' + hash.slice(1) + ']');
+		if (target.length) {
+			if ('#pageStory' === hash) {
+				$('#scrollDownPane').css('display', 'none');
+			}
+			$('#pageMap').animate({
+				scrollTop: parseInt(target.offset().top, 10)
+			}, 500, function () {
+				selectSuggestion(parseInt(schoolId, 10));
+			});
+			return false;
+		}
+	}
+}
+
+// -----------------------------------------------------------------------------
+
+function selectPrinterLabel(name) {
+	'use strict';
+
+	$('.embedPrinterLabel a').removeClass('selected');
+	$('.embedPrinterLabel a#' + name).addClass('selected');
+
+	var vec = [],
+		html = '',
+		degrees = ['rotate10', 'rotate5', '', 'rotateMin5', 'rotateMin10'],
+		isSchool,
+		isSport,
+		isExt,
+		isMulti,
+		isDistrict,
+		isTraffic,
+		color,
+		rotate,
+		i;
+
+	$.each(layerGroup._layers, function (key, val) {
+		var amount = 0;
+
+		if ('Bezirk' === val.options.data.Schulart) {
+			return true;
+		}
+		if ('school' === name) {
+			isSchool   = val.options.data.Bauwerk.startsWith('Schul') || val.options.data.Bauwerk.startsWith('Hauptgebäude') || val.options.data.Bauwerk.startsWith('Altbau');
+			isExt      = val.options.data.Bauwerk.startsWith('MUR') || val.options.data.Bauwerk.startsWith('MEB');
+			isTraffic  = val.options.data.Schulname.indexOf('verkehrsschule') !== -1;
+
+			if (isTraffic) {
+				return true;
+			}
+			if (isSchool || isExt) {
+				amount = fixEuro(val.options.data.GebaeudeGesamt);
+			}
+		} else if ('sport' === name) {
+			isSchool   = val.options.data.Bauwerk.startsWith('Schul') || val.options.data.Bauwerk.startsWith('Hauptgebäude') || val.options.data.Bauwerk.startsWith('Altbau');
+			isSport    = val.options.data.Bauwerk.startsWith('Sport');
+			isTraffic  = val.options.data.Schulname.indexOf('verkehrsschule') !== -1;
+
+			if (isTraffic || isSchool) {
+				return true;
+			}
+			if (isSport) {
+				amount = fixEuro(val.options.data.GebaeudeGesamt);
+			}
+		} else if ('room' === name) {
+			amount = fixEuro(val.options.data.RaeumeKosten);
+		} else if ('outdoor' === name) {
+			amount = fixEuro(val.options.data.Aussenanlagen);
+		} else if ('sanitary' === name) {
+			amount = fixEuro(val.options.data.SanitaerKosten);
+		}
+
+		vec.push({amount: amount, data: val.options.data});
+	});
+	vec.sort(function (a, b) {
+		return b.amount - a.amount;
+	});
+
+	for (i = 0; i < 9; ++i) {
+		isSchool   = vec[i].data.Bauwerk.startsWith('Schul') || vec[i].data.Bauwerk.startsWith('Hauptgebäude') || vec[i].data.Bauwerk.startsWith('Altbau');
+		isSport    = vec[i].data.Bauwerk.startsWith('Sport');
+		isExt      = vec[i].data.Bauwerk.startsWith('MUR') || vec[i].data.Bauwerk.startsWith('MEB');
+		isMulti    = vec[i].data.Bauwerk.startsWith('MZG');
+		isDistrict = vec[i].data.Bauwerk.startsWith('Bezirk');
+		isTraffic  = vec[i].data.Schulname.indexOf('verkehrsschule') !== -1;
+		color = isTraffic ? 'purple' :
+					isSchool ? 'blue' :
+						isSport ? 'orange' :
+								isExt ? 'blue' :
+										isMulti ? 'purple' :
+												isDistrict ? 'gray' :
+														'red';
+		rotate = degrees[Math.floor(Math.random() * degrees.length)];
+
+		html += '<a href="#pageMap=' + vec[i].data.Gebaeudenummer;
+		html += '"><div class="leaflet-popup-content-wrapper ' + rotate;
+		html += '" style="transform: rotate(' + (parseInt((Math.random() * 200) - 100, 10) / 10);
+		html += 'deg)"><div class="leaflet-popup-content"><div class="top ' + color;
+		html += '">' + vec[i].data.Schulname;
+		html += '</div><div class="middle">€' + formatNumber(vec[i].amount);
+		html += '</div><div class="bottom ' + color;
+		html += '">' + vec[i].data.Bauwerk;
+		html += '</div></div></div></a>';
+	}
+	$('.embedPrinterLabel .canvas').html(html);
+	$('.embedPrinterLabel a[href*="#"]:not([href="#"])').click(printerLabelClick);
 }
 
 // -----------------------------------------------------------------------------
@@ -592,6 +722,7 @@ function initMap(elementName, lat, lng, zoom) {
 			createStatistics(data);
 			createMarker(data);
 			initSearchBox(data);
+			selectPrinterLabel('school');
 
 //			var budgetUrl = 'data/gebaeudesanierungen.json';
 //			$.getJSON(budgetUrl, function (budgetData) {
@@ -633,6 +764,9 @@ $(document).on("pageshow", "#pageMap", function () {
 		$('#autocomplete').val('Lichtenberg');
 		selectSuggestion(1100000);
 	});
+	$('.embedPrinterLabel a').on('click', function (e) {
+		selectPrinterLabel($(this).prop('id'));
+	});
 	$('.embedInfo').addClass('shrink');
 	$('.embedInfo .showMore').on('click', function (e) {
 		e.preventDefault();
@@ -645,34 +779,7 @@ $(document).on("pageshow", "#pageMap", function () {
 $(function () {
 	'use strict';
 
-	$('a[href*="#"]:not([href="#"])').click(function () {
-		if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && (location.hostname === this.hostname)) {
-			var hash = this.hash,
-				schoolId = hash.lastIndexOf('='),
-				target;
-
-			if (-1 === schoolId) {
-				schoolId = '';
-			} else {
-				hash = this.hash.substr(0, schoolId);
-				schoolId = this.hash.substr(schoolId + 1);
-			}
-
-			target = $(hash);
-			target = target.length ? target : $('[name=' + hash.slice(1) + ']');
-			if (target.length) {
-				if ('#pageStory' === hash) {
-					$('#scrollDownPane').css('display', 'none');
-				}
-				$('#pageMap').animate({
-					scrollTop: parseInt(target.offset().top, 10)
-				}, 500, function () {
-					selectSuggestion(parseInt(schoolId, 10));
-				});
-				return false;
-			}
-		}
-	});
+	$('a[href*="#"]:not([href="#"])').click(printerLabelClick);
 });
 
 // -----------------------------------------------------------------------------

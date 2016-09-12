@@ -474,6 +474,19 @@
 .printerLabel .middle {
 	font-size: 20px;
 }
+.printerLabel .leaflet-popup-content-wrapper.scale80 {
+	background-size: 122px 57px;
+	width: 120px;
+	height: 55px;
+	font-size: 10px;
+}
+.printerLabel .leaflet-popup-content-wrapper.scale80 .leaflet-popup-content {
+	margin: 4px 8px;
+	width: 104px !important;
+}
+.printerLabel .leaflet-popup-content-wrapper.scale80 .middle {
+	font-size: 16px;
+}
 .printerLabel .leaflet-popup-content-wrapper.scale120 {
 	background-size: 182px 85px;
 	width: 180px;
@@ -562,6 +575,11 @@
 	width: 32px;
 	text-align: center;
 	line-height: 32px;
+}
+.autocomplete-no-suggestion {
+	background: #ffff99;
+	color: #555;
+	padding: .5em;
 }
 
 /* color theme for printer labels and autocomplete list */
@@ -742,6 +760,52 @@
 	line-height: 1.4em;
 }
 
+#pageStory div.embedPrinterLabel {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+#pageStory div.embedPrinterLabel h3 {
+	margin: 0;
+	text-align: center;
+}
+#pageStory div.embedPrinterLabel .buttons {
+	background: #fff;
+	border: 1px solid #ddd;
+	border-bottom: none;
+	border-radius: 4px;
+	text-align: center;
+	padding: 2px 0 1em 0;
+}
+#pageStory div.embedPrinterLabel .buttons a {
+	border: 1px solid #ddd;
+	border-top: none;
+	border-radius: 4px;
+	padding: .5em;
+	margin: 0 0 0 -1px;
+	text-decoration: none;
+	color: #000;
+}
+#pageStory div.embedPrinterLabel .buttons a.selected {
+	background: #f1f8fc;
+	color: #38aadd;
+	padding-bottom: .75em;
+	border-top: 1px solid #ddd;
+	border-bottom: 2px solid #38aadd;
+}
+#pageStory div.embedPrinterLabel .canvas {
+	background: #fff;
+	border: 1px solid #ddd;
+	border-top: none;
+	border-radius: 4px;
+	display: block;
+	text-align: center;
+}
+#pageStory div.embedPrinterLabel .canvas a {
+	display: inline-block;
+	margin: .5em;
+	color: black;
+}
+
 #pageStory div.embedInfo {
 	background: #f3f3f3;
 	border: 1px solid #ddd;
@@ -872,6 +936,31 @@
 	}
 	#pageStory div.embedImage div {
 		padding: .5em 1.5em 0 1.5em;
+	}
+
+	#pageStory div.embedPrinterLabel {
+		padding: 0;
+	}
+	#pageStory div.embedPrinterLabel .buttons {
+		border-left: none;
+		border-right: none;
+		border-radius: 0;
+		overflow-x: scroll;
+	}
+	#pageStory div.embedPrinterLabel .canvas {
+		padding: 0;
+		border-left: none;
+		border-right: none;
+		border-radius: 0;
+	}
+	#pageStory div.embedPrinterLabel .canvas a {
+		margin: .5em 0.2em;
+	}
+	#pageStory div.embedPrinterLabel .canvas a:nth-child(9) {
+		display: none;
+	}
+	#pageStory div.embedPrinterLabel .leaflet-popup-content-wrapper {
+		margin: 0;
 	}
 
 	#pageStory div.embedInfo {
