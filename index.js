@@ -356,6 +356,7 @@ function updateMapSelectItem(data) {
 	}
 
 	$('#receiptBox').css('display', 'block');
+	$('#receiptBox .finished').css('display', 1160202 === data.Gebaeudenummer ? 'block' : 'none');
 
 //	for (id in budget) {
 //		item = budget[id];
@@ -700,6 +701,27 @@ function selectPrinterLabel(name) {
 
 // -----------------------------------------------------------------------------
 
+function initSocialMedia() {
+	'use strict';
+
+	setTimeout(function () {
+		$.ajax('http://www.tursics.de/v5shariff.php?url=http://schulsanierung.tursics.de/')
+			.done(function (json) {
+				$('.social .facebook span').html(json.facebook);
+				if (json.facebook > 0) {
+					$('.social .facebook span').addClass('active');
+				}
+
+				$('.social .twitter span').html(json.twitter);
+				if (json.twitter > 0) {
+					$('.social .twitter span').addClass('active');
+				}
+			});
+	}, 1000);
+}
+
+// -----------------------------------------------------------------------------
+
 function initMap(elementName, lat, lng, zoom) {
 	'use strict';
 
@@ -723,6 +745,7 @@ function initMap(elementName, lat, lng, zoom) {
 			createMarker(data);
 			initSearchBox(data);
 			selectPrinterLabel('school');
+			initSocialMedia();
 
 //			var budgetUrl = 'data/gebaeudesanierungen.json';
 //			$.getJSON(budgetUrl, function (budgetData) {

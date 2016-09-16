@@ -184,6 +184,22 @@
 	font: normal normal normal 14px/1 FontAwesome;
 	padding: 0 10px 0 0;
 }
+#headerBox .social span {
+	display: none;
+	margin: 0 0 0 7px;
+	padding: 1px 3px;
+	border-radius: 4px;
+	background: #fff;
+}
+#headerBox .social span.active {
+	display: inline;
+}
+#headerBox .social .facebook span {
+	color: #3b5998;
+}
+#headerBox .social .twitter span {
+	color: #55acee;
+}
 @media (max-width: 40em) {
 	#headerBox {
 		line-height: 17px;
@@ -284,6 +300,23 @@
 #receipt .groupClosed {
 	height: 1em;
 	overflow-y: hidden;
+}
+#receipt .finished {
+	display: none;
+	position: absolute;
+	background: rgba(114, 176, 38, .9);
+	color: #fff;
+	border: 2px solid #fff;
+	border-radius: 4px;
+	transform: rotate(-10deg);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	padding: 1em;
+	margin: 2.5em 0 0 2em;
+}
+#receipt .finished i {
+	font-size: 2em;
+	vertical-align: middle;
 }
 #receiptClose {
 	background: #fff;
