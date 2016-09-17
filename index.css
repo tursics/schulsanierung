@@ -155,10 +155,13 @@
 #headerBox .social {
 	display: block;
 	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
 	position: absolute;
 	top: 7px;
 	right: 2px;
-	font-size: 12px;
+}
+#headerBox .social a {
+	font-weight: 400;
 }
 #headerBox .social .facebook, #headerBox .social .twitter {
 	color: #fff;
