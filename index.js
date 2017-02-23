@@ -356,7 +356,7 @@ function updateMapSelectItem(data) {
 	}
 
 	$('#receiptBox').css('display', 'block');
-	$('#receiptBox .finished').css('display', 1160202 === data.Gebaeudenummer ? 'block' : 'none');
+	$('#receiptBox .finished').css('display', [1160202, 1110701].indexOf(data.Gebaeudenummer) !== -1 ? 'block' : 'none');
 
 //	for (id in budget) {
 //		item = budget[id];
