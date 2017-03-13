@@ -39,15 +39,17 @@
 
 .normal {
 	font-size: 13px;
-	font-family: 'Inconsolata', monospace;
+	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: 400;
+	color: #999;
 }
 .bold {
 	font-size: 13px;
-	font-family: 'Inconsolata', monospace;
+	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
-	font-weight: 700;
+	font-weight: 400;
+	color: #333;
 }
 .center {
 	text-align: center;
@@ -82,32 +84,22 @@
 
 #receiptBox {
 	display:none;
-	position: absolute;
-	top: 55px;
-	left: 10px;
-	width: 20em;
-	max-width: 20em;
-	z-index: 1002;
 }
 #receipt {
-	background-color: #fff;
-	border: 1px solid #555;
-	color: #555;
+	color: #999;
 	margin: 0;
-	padding: 1.5em 1em !important;
-	line-height: 1em;
+	padding: 1em 0em !important;
+	line-height: 1.2em;
 }
 #receipt .full {
 	white-space: nowrap;
 	overflow-x: hidden;
 	text-overflow: ellipsis;
-	width: 22em;
 }
 #receipt .fullwrap {
 	white-space: normal;
 	overflow-x: hidden;
 	text-overflow: ellipsis;
-	width: 22em;
 }
 #receipt .sub {
 	padding-left: 1em;
@@ -133,7 +125,18 @@
 }
 #receipt .empty {
 	height: 1em;
-	width: 22em;
+}
+#receipt .priceBox {
+	margin: -.3em -.4em 0 -.5em;
+	text-align: center;
+	font-size: 1.5em;
+}
+#receipt .priceBox div {
+	background: #ffffffd0;
+	display: inline-block;
+	margin: .3em;
+	padding: .2em 1em;
+	border-radius: 1em;
 }
 #receipt .group {
 	cursor: pointer;
@@ -169,17 +172,12 @@
 	vertical-align: middle;
 }
 #receiptClose {
-	background: #fff;
 	color: #555;
-	border: 1px solid #555;
-	margin: 0;
-	padding: .3em .5em !important;
+	border-bottom: 1px solid #999;
+	margin: .5em 0 0 0;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 18px;
-	position: absolute;
-	top: -8px;
-	right: -8px;
-	border-radius: 50%;
+	font-size: 13px;
+	display: inline-block;
 	-webkit-transition: background-color 200ms linear;
 	-moz-transition: background-color 200ms linear;
 	-ms-transition: background-color 200ms linear;
@@ -188,6 +186,9 @@
 }
 #receiptClose:hover {
 	background: #ffff99;
+}
+#receiptClose i {
+	padding: 0 .5em 0 0;
 }
 #receiptInfo {
 	background: #ffff99;
@@ -199,13 +200,6 @@
 	font-size: 13px;
 }
 @media (max-width: 40em) {
-	#receiptBox {
-		top: 75px;
-		left: 50%;
-	}
-	#receipt {
-		margin: 0 12.3em 0 -12.3em;
-	}
 	#receipt .group {
 		cursor: auto;
 		pointer-events: none;
@@ -214,9 +208,7 @@
 		background: transparent;
 	}
 	#receiptClose {
-		font-size: 28px;
-		top: -10px;
-		right: 5.2em;
+		padding: 1em 0 0 0;
 	}
 	#receiptInfo {
 		display: none;
@@ -238,11 +230,6 @@
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	z-index: 1001;
-	-webkit-transition: top 200ms linear;
-	-moz-transition: top 200ms linear;
-	-ms-transition: top 200ms linear;
-	-o-transition: top 200ms linear;
-	transition: top 200ms linear;
 }
 #searchBox h3 {
 	margin: 0;
@@ -260,6 +247,9 @@
 }
 #searchBox .sample a:hover {
 	border-bottom-color: #38aadd;
+}
+#searchBox .searchInput {
+	height: 1.9em;
 }
 #searchBox .searchInput div {
 	background: #fff;
@@ -314,6 +304,32 @@
 	#searchBox .sample {
 		display: none;
 	}
+}
+
+/* price bar */
+
+.priceBar {
+	margin: 0 -.5em 0 -.6em;
+	height: 4px;
+}
+.priceBar2 {
+	margin: -.3em -.6em .2em -.7em;
+	color: #fff;
+}
+.priceBar div, .priceBar2 div {
+	height: 4px;
+	width: 25%;
+	display: inline-block;
+	overflow-x: hidden;
+	white-space: nowrap;
+	font-size: .75em;
+	line-height: 1em;
+}
+.priceBar2 div {
+	height: 1em;
+}
+.priceBar2 .priceGreen {
+	text-align: right;
 }
 
 /* printer label as tooltip */
@@ -459,13 +475,13 @@
 .printerLabel div.blue, .autocomplete-suggestion div.blue {
 	color: #38aadd;
 }
-.autocomplete-icon.backblue {
+.autocomplete-icon.backblue, .priceBlue {
 	background: #38aadd;
 }
 .printerLabel div.orange, .autocomplete-suggestion div.orange {
 	color: #f69730;
 }
-.autocomplete-icon.backorange {
+.autocomplete-icon.backorange, .priceOrange {
 	background: #f69730;
 }
 .printerLabel div.purple, .autocomplete-suggestion div.purple {
@@ -477,7 +493,7 @@
 .printerLabel div.red, .autocomplete-suggestion div.red {
 	color: #d63e2a;
 }
-.autocomplete-icon.backred {
+.autocomplete-icon.backred, .priceRed {
 	background: #d63e2a;
 }
 .printerLabel div.gray, .autocomplete-suggestion div.gray {
@@ -485,6 +501,9 @@
 }
 .autocomplete-icon.backgray {
 	background: #a3a3a3;
+}
+.priceGreen {
+	background: #72b026;
 }
 
 /* */

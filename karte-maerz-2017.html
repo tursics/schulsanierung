@@ -70,18 +70,20 @@
 				<input type="text" name="schools" id="autocomplete" placeholder="Geben Sie einen Schulnamen ein" />
 				<div><i class="fa fa-search" aria-hidden="true"></i></div>
 			</div>
-		</div>
-		<div id="receiptBox">
-			<div id="receiptClose"><i class="fa fa-close" aria-hidden="true"></i></div>
-			<div id="receipt" class="normal">
-				<div class="full center bold" id="recSchulname"></div>
-				<div class="empty"></div>
-				<div class="full center"><span id="recSchulart"></span> (<span id="recSchulnummer"></span>)</div>
-				<div class="full center" id="recStrasse"></div>
-				<div class="full center"><span id="recPLZ"></span> Berlin</div>
-				<div class="empty"></div>
-				<div class="full bold number">Kosten: <span id="recKosten"></span> Euro</div>
-				<div class="full">Priorität: <span id="recPrioritaetGesamt"></span></div>
+			<div class="priceBar"><div class="priceRed"></div><div class="priceOrange"></div><div class="priceBlue"></div><div class="priceGreen"></div></div>
+			<div id="receiptBox">
+				<div id="receipt" class="normal">
+					<div class="priceBar2"><div class="priceRed"></div><div class="priceOrange"></div><div class="priceBlue"></div><div class="priceGreen"></div></div>
+					<div class="full bold priceBox"><div class="number"><span id="recKosten"></span> Euro</div></div>
+					<div class="empty"></div>
+					<div class="full bold" id="recSchulname"></div>
+					<div class="full bold"><span id="recPrioritaetGesamt"></span></div>
+					<div class="empty"></div>
+					<div class="full"><span id="recSchulart"></span> (<span id="recSchulnummer"></span>)</div>
+					<div class="full" id="recStrasse"></div>
+					<div class="full"><span id="recPLZ"></span> Berlin</div>
+				</div>
+				<div id="receiptClose"><i class="fa fa-chevron-up" aria-hidden="true"></i>verkleinern</div>
 			</div>
 		</div>
 	</div>

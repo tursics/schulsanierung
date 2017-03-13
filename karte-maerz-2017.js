@@ -219,8 +219,13 @@ function updateMapSelectItem(data) {
 		setText(key, data[key]);
 	}
 
-	setText('PrioritaetGesamt', (data.Prio === 1 ? 'Höchste' : (data.Kosten >= 5000000 ? '2 oder 3' : 'unbekannt')));
+	setText('PrioritaetGesamt', (data.Prio === 1 ? 'Höchste Priorität' : (data.Kosten >= 5000000 ? 'Priorität 2 oder 3' : 'unbekannte Priorität')));
 
+	$('.priceBox').removeClass('priceRed').removeClass('priceOrange').removeClass('priceBlue').removeClass('priceGreen')
+		.addClass(data.Kosten >= 10000000 ? 'priceRed' :
+								data.Kosten >= 5000000 ? 'priceOrange' :
+										data.Kosten >= 1000 ? 'priceBlue' :
+												'priceGreen');
 	$('#receiptBox').css('display', 'block');
 //	$('#receiptBox .finished').css('display', [1160202, 1110701].indexOf(data.Gebaeudenummer) !== -1 ? 'block' : 'none');
 }
@@ -283,7 +288,9 @@ function createMarker(data) {
 				icon: 'fa-building-o',
 				prefix: 'fa',
 				markerColor: 'red'
-			});
+			}),
+			minVal = 100000000,
+			maxVal = 0;
 
 		layerGroup = L.featureGroup([]);
 		layerGroup.addTo(map);
@@ -310,8 +317,13 @@ function createMarker(data) {
 						clickable: /*isDistrict ? 0 :*/ 1
 					});
 				layerGroup.addLayer(marker);
+				minVal = Math.min(minVal, val.Kosten);
+				maxVal = Math.max(maxVal, val.Kosten);
 			}
 		});
+
+		$('.priceBar2 .priceGreen').text(0);
+		$('.priceBar2 .priceRed').text(maxVal);
 	} catch (e) {
 //		console.log(e);
 	}
