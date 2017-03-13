@@ -509,6 +509,7 @@ function createMarker(data) {
 				if (number !== val.Schulnummer) {
 					number = val.Schulnummer;
 					bg = !bg;
+					kosten = '---';
 					for (id in data2017) {
 						item = data2017[id];
 						if (item.Schulnummer === number) {
@@ -683,6 +684,25 @@ function initMap(elementName, lat, lng, zoom) {
 
 		$.getJSON(dataUrl, function (data) {
 			data = enrichMissingData(data);
+			data.sort(function (a, b) {
+				if ((a.Schulnummer.length === 5) && (b.Schulnummer.length !== 5)) {
+					return false;
+				}
+				if ((a.Schulnummer.length !== 5) && (b.Schulnummer.length === 5)) {
+					return true;
+				}
+				if ((a.Schulnummer.length !== 5) && (b.Schulnummer.length !== 5)) {
+					return a.Schulnummer > b.Schulnummer ? 1 : -1;
+				}
+				if (a.Schulnummer[2] === b.Schulnummer[2]) {
+					if (a.Schulnummer === b.Schulnummer) {
+						return a.Bauwerk > b.Bauwerk ? 1 : -1;
+					}
+					return a.Schulnummer > b.Schulnummer ? 1 : -1;
+				}
+
+				return a.Schulnummer[2] > b.Schulnummer[2] ? 1 : -1;
+			});
 //			createStatistics(data);
 //			createMarker(data);
 			initSearchBox(data);
