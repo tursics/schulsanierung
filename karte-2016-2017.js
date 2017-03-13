@@ -358,8 +358,8 @@ function updateMapSelectItem(data) {
 	strThisYear = '';
 	for (id in data2017) {
 		item = data2017[id];
-		if (item.bsn === data.Schulnummer) {
-			kosten = parseFloat(String(item.gesamtkosten).replace('.', '').replace('.', '').replace(',', '.'));
+		if (item.Schulnummer === data.Schulnummer) {
+			kosten = parseFloat(String(item.Kosten).replace('.', '').replace('.', '').replace(',', '.'));
 			if (isNaN(kosten)) {
 				kosten = 0;
 			}
@@ -465,7 +465,12 @@ function createMarker(data) {
 				icon: 'fa-building-o',
 				prefix: 'fa',
 				markerColor: 'red'
-			});
+			}),
+			bg = true,
+			number = '',
+			id,
+			item,
+			kosten;
 
 		layerGroup = L.featureGroup([]);
 		layerGroup.addTo(map);
@@ -500,6 +505,18 @@ function createMarker(data) {
 						clickable: isDistrict ? 0 : 1
 					});
 				layerGroup.addLayer(marker);
+				kosten = '';
+				if (number !== val.Schulnummer) {
+					number = val.Schulnummer;
+					bg = !bg;
+					for (id in data2017) {
+						item = data2017[id];
+						if (item.Schulnummer === number) {
+							kosten = formatNumber(item.Kosten);
+						}
+					}
+				}
+				$('#dataTable tr:last').after('<tr' + (bg ? ' style="background:#cdf;"' : '') + '><td>' + val.Schulnummer + '</td><td>' + val.Schulname + '</td><td>' + val.Bauwerk + '</td><td style="text-align:right;">' + formatNumber(val.GebaeudeGesamt) + '</td><td>' + val.PrioritaetGesamt + '</td><td style="text-align:right;">' + kosten + '</td></tr>');
 			}
 		});
 	} catch (e) {
@@ -666,8 +683,8 @@ function initMap(elementName, lat, lng, zoom) {
 
 		$.getJSON(dataUrl, function (data) {
 			data = enrichMissingData(data);
-			createStatistics(data);
-			createMarker(data);
+//			createStatistics(data);
+//			createMarker(data);
 			initSearchBox(data);
 			initSocialMedia();
 
@@ -675,9 +692,10 @@ function initMap(elementName, lat, lng, zoom) {
 			$.getJSON(budgetUrl, function (budgetData) {
 				budget = budgetData;
 
-				var data2017Url = 'data/gebaeudescan2017.json';
+				var data2017Url = 'data/gebaeudescan2017-03.json';
 				$.getJSON(data2017Url, function (data2017Data) {
 					data2017 = data2017Data;
+					createMarker(data);
 				});
 			});
 		});
@@ -723,7 +741,7 @@ $(document).on("pageshow", "#pageMap", function () {
 $(function () {
 	'use strict';
 
-	$('a[href*="#"]:not([href="#"])').click(printerLabelClick);
+//	$('a[href*="#"]:not([href="#"])').click(printerLabelClick);
 });
 
 // -----------------------------------------------------------------------------

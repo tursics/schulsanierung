@@ -487,4 +487,7 @@
 	background: #a3a3a3;
 }
 
+.ui-dialog-contain {
+	max-width: initial;
+}
 /* */

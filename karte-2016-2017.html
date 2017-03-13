@@ -61,6 +61,18 @@
 <body>
 	<div data-role="page" id="pageMap">
 		<div role="main" class="ui-content" id="mapContainer"></div>
+		<div id="headerBox" class="big">
+			<div class="author">
+				<a href="http://codefor.berlin/" target="_blank" title="Code for Berlin"><img src="/assets/logocfb.png"></a><span> +</span>
+				<a href="http://www.tursics.de/" target="_blank" title="Thomas Tursics"><img src="/assets/logotursics.png"><span> Thomas Tursics</span></a>
+			</div>
+			<div class="social">
+				<a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fschulsanierung.tursics.de%2F" rel="popup" title="Bei Facebook teilen">teilen<span></span></a>
+				<a class="twitter" href="https://twitter.com/intent/tweet?text=Wie%20kaputt%20ist%20deine%20Schule?%20Finde%20es%20hier%20heraus&amp;url=http://schulsanierung.tursics.de/" rel="popup" title="Bei Twitter teilen">tweeten<span></span></a>
+			</div>
+			<h1>Wo unsere Kinder lernen</h1>
+			<div>Viele Schulen in Berlin sind marode. Wie teuer die Sanierung<br>wirklich wird, können Sie auf dieser Karte erkunden.</div>
+		</div>
 		<div id="searchBox">
 			<h3>Wie kaputt ist Ihre Schule?</h3>
 			<div class="sample">
@@ -70,6 +82,7 @@
 				<input type="text" name="schools" id="autocomplete" placeholder="Geben Sie einen Schulnamen ein" />
 				<div><i class="fa fa-search" aria-hidden="true"></i></div>
 			</div>
+			<a href="#pageTable">Test-Tabelle</a>
 		</div>
 		<div id="receiptBox">
 			<div id="receiptClose"><i class="fa fa-close" aria-hidden="true"></i></div>
@@ -144,6 +157,26 @@
 				<div class="full center">Jahren 2016 und 2017</div>
 			</div>
 			<div id="receiptInfo"><i class="fa fa-info-circle" aria-hidden="true"></i> Noch mehr Informationen erscheinen, wenn sie auf die einzelnen Zeilen klicken.</div>
+		</div>
+	</div>
+	<div data-role="page" data-dialog="true" id="pageTable">
+		<div data-role="main" class="ui-content">
+			<table data-role="table" data-mode="columntoggle" class="ui-responsive" id="dataTable">
+				<thead>
+					<tr>
+						<th data-priority="5">Schulnummer</th>
+						<th>Schule</th>
+						<th data-priority="3">Gebäude</th>
+						<th>Preis 2016</th>
+						<th data-priority="3">Prio 2016</th>
+						<th>Preis 2017</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr></tr>
+				</tbody>
+			</table>
+			<a href="#pageMap" class="ui-btn ui-btn-inline ui-btn-b carat-l ui-btn-icon-left  ui-nodisc-icon" data-rel="back">Zurück zur Karte</a>
 		</div>
 	</div>
 </body>
