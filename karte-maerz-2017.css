@@ -84,6 +84,7 @@
 
 #receiptBox {
 	display:none;
+	width: 17em;
 }
 #receipt {
 	color: #999;
@@ -250,6 +251,7 @@
 }
 #searchBox .searchInput {
 	height: 1.9em;
+	width: 17em;
 }
 #searchBox .searchInput div {
 	background: #fff;
@@ -309,14 +311,19 @@
 /* price bar */
 
 .priceBar {
-	margin: 0 -.5em 0 -.6em;
+	margin: .2em -.5em -4px -.6em;
 	height: 4px;
+	line-height: 5px;
 }
 .priceBar2 {
-	margin: -.3em -.6em .2em -.7em;
+	margin: -.6em -.6em .2em -.7em;
 	color: #fff;
 }
-.priceBar div, .priceBar2 div {
+.priceBar3 {
+	margin: -2em -.6em .2em -.7em;
+	color: #fff;
+}
+.priceBar div, .priceBar2 div, .priceBar3 div {
 	height: 4px;
 	width: 25%;
 	display: inline-block;
@@ -326,10 +333,41 @@
 	line-height: 1em;
 }
 .priceBar2 div {
-	height: 1em;
+	height: 2em;
 }
-.priceBar2 .priceGreen {
+.priceBar3 div {
+	height: 2.1em;
+	line-height: 2.1em;
+	width: 50%;
+}
+.priceBar3 .right {
 	text-align: right;
+}
+.priceTriangle {
+	margin: -21px 3px .2em -1.4em;
+	white-space: nowrap;
+}
+.priceTriangle div {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 10px 17px 10px;
+	border-color: transparent transparent #38aadd transparent;
+	margin-left: 0%;
+	-webkit-transition: margin-left 200ms linear;
+	-moz-transition: margin-left 200ms linear;
+	-ms-transition: margin-left 200ms linear;
+	-o-transition: margin-left 200ms linear;
+	transition: margin-left 200ms linear;
+}
+.priceTriangle div:nth-child(1) {
+	border-color: transparent transparent #fff transparent;
+	border-radius: 4px;
+}
+.priceTriangle div:nth-child(2) {
+	margin-left: -18px;
+	border-width: 0 8px 14px 8px;
 }
 
 /* printer label as tooltip */
@@ -478,11 +516,19 @@
 .autocomplete-icon.backblue, .priceBlue {
 	background: #38aadd;
 }
+.priceTriangle div.priceBlue {
+	border-color: transparent transparent #38aadd transparent;
+	background: none;
+}
 .printerLabel div.orange, .autocomplete-suggestion div.orange {
 	color: #f69730;
 }
 .autocomplete-icon.backorange, .priceOrange {
 	background: #f69730;
+}
+.priceTriangle div.priceOrange {
+	border-color: transparent transparent #f69730 transparent;
+	background: none;
 }
 .printerLabel div.purple, .autocomplete-suggestion div.purple {
 	color: #d252b9;
@@ -496,14 +542,22 @@
 .autocomplete-icon.backred, .priceRed {
 	background: #d63e2a;
 }
+.priceTriangle div.priceRed {
+	border-color: transparent transparent #d63e2a transparent;
+	background: none;
+}
 .printerLabel div.gray, .autocomplete-suggestion div.gray {
 	color: #a3a3a3;
 }
-.autocomplete-icon.backgray {
+.autocomplete-icon.backgray, .priceGray {
 	background: #a3a3a3;
 }
 .priceGreen {
 	background: #72b026;
+}
+.priceTriangle div.priceGreen {
+	border-color: transparent transparent #72b026 transparent;
+	background: none;
 }
 
 /* */

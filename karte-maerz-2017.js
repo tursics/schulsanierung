@@ -6,7 +6,8 @@
 var map = null;
 var layerPopup = null;
 var layerGroup = null;
-//var budget = null;
+var budget = null;
+var maxVal = 0;
 
 // -----------------------------------------------------------------------------
 
@@ -74,12 +75,12 @@ function formatNumber(txt) {
 function enrichMissingData(data) {
 	'use strict';
 
-	try {
+/*	try {
 		$.each(data, function (key, value) {
 		});
 	} catch (e) {
 //		console.log(e);
-	}
+	}*/
 
 	return data;
 }
@@ -90,103 +91,24 @@ function createStatistics(data) {
 	'use strict';
 
 	var obj = {
-		Bauwerk: 'Bezirk',
-		Dachart: 'Diverse',
-		Schulart: 'Bezirk',
+		Schulnummer: '11',
 		Schulname: 'Lichtenberg',
-		Schulnummer: 'gesamt',
-		Strasse: '',
 		PLZ: '',
-		Gebaeudenummer: 1100000,
+		Strasse: '',
+		Kosten: 0,
 		lat: 52.515807,
 		lng: 13.479470,
-		GebaeudeHoeheInM: 0,
-		GebaeudeUmfangInMAusConject: 0,
-		FensterKostenpauschale: 0,
-		FassadenKostenpauschale: 0,
-		DachKostenpauschale: 0,
-		RaeumeKostenpauschale: 0,
-		Raeume2Kostenpauschale: 0,
-		SanierungDachNotwendig: 1,
-		SanierungFassadenNotwendig: 1,
-		SanierungFensterNotwendig: 1,
-		SanierungRaeume2Notwendig: 1,
-		SanierungRaeumeNotwendig: 1,
-		SanierungTuerbreitenNotwendig: 1,
-		SanitaerSanierungsjahr: '-'
-	},
-		sum = [
-			'AufzugKosten', 'BGF', 'BWCAnzahl', 'BWCKosten', 'DachKosten', 'EingangAnzahl', 'EingangKosten',
-			'FassadenKosten', 'FensterKosten', 'FlaecheNichtSaniert', 'GF', 'Kosten',
-			'Grundstuecksflaeche', 'NF', 'NGF', 'Raeume2Kosten', 'RaeumeKosten', 'RampeAnzahl',
-			'RampeKosten', 'SanitaerKosten', 'Sanitaerflaeche', 'ZwischensummeBarrierefreiheitKosten',
-			'zweiterRettungswegKosten', 'Baukosten', 'Aussenanlagen'
-		],
-		sumCond = [
-			{calc: 'FensterFlaeche', condition: 'FensterKosten' /*'SanierungFensterNotwendig'*/},
-			{calc: 'FassadenFlaeche', condition: 'FassadenKosten' /*'SanierungFassadenNotwendig'*/},
-			{calc: 'FassadenFlaecheOhneFenster', condition: 'FassadenKosten' /*'SanierungFassadenNotwendig'*/},
-			{calc: 'Dachflaeche', condition: 'DachKosten' /*'SanierungDachNotwendig'*/},
-			{calc: 'TuerenKosten', condition: 'SanierungTuerbreitenNotwendig'},
-			{calc: 'RaeumeNutzflaecheBGF', condition: 'RaeumeKosten' /*'SanierungRaeumeNotwendig'*/},
-			{calc: 'Raeume2Nutzflaeche', condition: 'Raeume2Kosten' /*'SanierungRaeume2Notwendig'*/}
-		],
-		average = [
-			'FassadenFaktorFlaechenanteil', 'FensterFaktorFlaechenanteil', 'BauPrioBauwerk', 'BauPrioTGA',
-			'BauprioSumme', 'PrioritaetGesamt', 'bereitsSanierteFlaecheInProzent'
-		],
-		id,
-		len = 0;
-
-	for (id in sum) {
-		obj[sum[id]] = 0;
-	}
-	obj.FensterFlaeche = 0;
-	obj.FassadenFlaeche = 0;
-	obj.FassadenFlaecheOhneFenster = 0;
-	obj.Dachflaeche = 0;
-	obj.TuerenKosten = 0;
-	obj.RaeumeNutzflaecheBGF = 0;
-	obj.Raeume2Nutzflaeche = 0;
-	for (id in average) {
-		obj[average[id]] = 0;
-	}
+		Schulart: 'Bezirk',
+		Prio: 0
+	};
 
 	try {
 		$.each(data, function (key, val) {
 			val = fixData(val);
 			if ((typeof val.lat !== 'undefined') && (typeof val.lng !== 'undefined')) {
-				var id,
-					cond;
-				for (id in val) {
-					if (-1 < $.inArray(id, sum)) {
-						obj[id] += parseInt(val[id], 10);
-					} else if (-1 < $.inArray(id, average)) {
-						obj[id] += parseInt(val[id], 10);
-					} else {
-						for (cond in sumCond) {
-							if ((sumCond[cond].calc === id) && (0 !== val[sumCond[cond].condition])) {
-								obj[id] += parseInt(val[id], 10);
-							}
-						}
-					}
-				}
+				obj.Kosten += parseInt(val.Kosten, 10);
 			}
 		});
-
-		len = data.length;
-		for (id in obj) {
-			if (-1 < $.inArray(id, average)) {
-				obj[id] = parseInt(obj[id] / len * 10, 10) / 10;
-			}
-		}
-
-		obj.FensterKostenpauschale = parseInt(obj.FensterKosten / obj.FensterFaktorFlaechenanteil / obj.FensterFlaeche * 100, 10) / 100;
-		obj.FassadenKostenpauschale = parseInt(obj.FassadenKosten / obj.FassadenFaktorFlaechenanteil / obj.FassadenFlaecheOhneFenster * 100, 10) / 100;
-		obj.DachKostenpauschale = parseInt(obj.DachKosten / obj.Dachflaeche * 100, 10) / 100;
-		obj.RaeumeKostenpauschale = parseInt(obj.RaeumeKosten / obj.RaeumeNutzflaecheBGF * 100, 10) / 100;
-		obj.Raeume2Kostenpauschale = parseInt(obj.Raeume2Kosten / obj.Raeume2Nutzflaeche * 100, 10) / 100;
-		obj.bereitsSanierteFlaecheInProzent = parseInt(obj.bereitsSanierteFlaecheInProzent, 10);
 
 		data.push(obj);
 	} catch (e) {
@@ -213,21 +135,55 @@ function updateMapSelectItem(data) {
 
 	mapAction();
 
-	var key;
+	var key, item, kosten, moneyPot = 0;
 
 	for (key in data) {
 		setText(key, data[key]);
 	}
 
-	setText('PrioritaetGesamt', (data.Prio === 1 ? 'Höchste Priorität' : (data.Kosten >= 5000000 ? 'Priorität 2 oder 3' : 'unbekannte Priorität')));
+	setText('PrioritaetGesamt', (data.Prio === 0 ? '' : (data.Prio === 1 ? 'Höchste Priorität' : (data.Kosten >= 5000000 ? 'Priorität 2 oder 3' : 'unbekannte Priorität'))));
 
-	$('.priceBox').removeClass('priceRed').removeClass('priceOrange').removeClass('priceBlue').removeClass('priceGreen')
-		.addClass(data.Kosten >= 10000000 ? 'priceRed' :
-								data.Kosten >= 5000000 ? 'priceOrange' :
-										data.Kosten >= 1000 ? 'priceBlue' :
-												'priceGreen');
+	for (key in budget) {
+		item = budget[key];
+		if ((item.Schulnummer === data.Schulnummer) || ((data.Schulart === 'Bezirk') && (0 === item.Schulnummer.indexOf(data.Schulnummer))) || (data.Schulart === 'Stadt')) {
+			kosten = parseFloat(String(item.Kostenansatz).replace('.', '').replace('.', '').replace(',', '.'));
+			if (isNaN(kosten)) {
+				kosten = 0;
+			}
+//			if ('iPlanung' === item.Programm) {
+			moneyPot += kosten;
+//			}
+		}
+	}
+	if (moneyPot > 0) {
+		$('#iPlanung').html('<br>In den Jahren 2015 bis 2019 werden über ' + formatNumber(moneyPot) + ' Euro ' + ((data.Schulart === 'Bezirk') || (data.Schulart === 'Stadt') ? 'in die Schulen' : 'in diese Schule') + ' investiert.' + (data.Kosten > 0 ? ' Trotz dieser Summe bleibt immer noch ein Sanierungsbedarf von ' + formatNumber(data.Kosten) + ' Euro.' : ' Danach ist sie vollständig saniert.'));
+	} else {
+		$('#iPlanung').html('');
+	}
+
+	$('.priceBox').removeClass('priceRed').removeClass('priceOrange').removeClass('priceBlue').removeClass('priceGreen').removeClass('priceGray')
+		.addClass((data.Schulart === 'Bezirk') || (data.Schulart === 'Stadt') ? 'priceGray' :
+								data.Kosten >= 10000000 ? 'priceRed' :
+										data.Kosten >= 5000000 ? 'priceOrange' :
+												data.Kosten >= 1000 ? 'priceBlue' :
+														'priceGreen');
 	$('#receiptBox').css('display', 'block');
-//	$('#receiptBox .finished').css('display', [1160202, 1110701].indexOf(data.Gebaeudenummer) !== -1 ? 'block' : 'none');
+
+	if ((data.Schulart === 'Bezirk') || (data.Schulart === 'Stadt')) {
+		$('.priceTriangle div:nth-child(1)').css('margin-left', parseInt(150, 10) + '%');
+	} else if (data.Kosten >= 10000000) {
+		$('.priceTriangle div:nth-child(1)').css('margin-left', parseInt(25 - (data.Kosten - 10000000) * 22 / (maxVal - 10000000), 10) + '%');
+		$('.priceTriangle div:nth-child(2)').addClass('priceRed').removeClass('priceOrange').removeClass('priceBlue').removeClass('priceGreen');
+	} else if (data.Kosten >= 5000000) {
+		$('.priceTriangle div:nth-child(1)').css('margin-left', parseInt(50 - (data.Kosten - 5000000) * 25 / 5000000, 10) + '%');
+		$('.priceTriangle div:nth-child(2)').removeClass('priceRed').addClass('priceOrange').removeClass('priceBlue').removeClass('priceGreen');
+	} else if (data.Kosten >= 1000) {
+		$('.priceTriangle div:nth-child(1)').css('margin-left', parseInt(75 - (data.Kosten - 1000) * 25 / 5000000, 10) + '%');
+		$('.priceTriangle div:nth-child(2)').removeClass('priceRed').removeClass('priceOrange').addClass('priceBlue').removeClass('priceGreen');
+	} else {
+		$('.priceTriangle div:nth-child(1)').css('margin-left', parseInt(87.5, 10) + '%');
+		$('.priceTriangle div:nth-child(2)').removeClass('priceRed').removeClass('priceOrange').removeClass('priceBlue').addClass('priceGreen');
+	}
 }
 
 // -----------------------------------------------------------------------------
@@ -290,7 +246,7 @@ function createMarker(data) {
 				markerColor: 'red'
 			}),
 			minVal = 100000000,
-			maxVal = 0;
+			isDistrict;
 
 		layerGroup = L.featureGroup([]);
 		layerGroup.addTo(map);
@@ -306,6 +262,10 @@ function createMarker(data) {
 		});
 
 		$.each(data, function (key, val) {
+			isDistrict = false;
+			if ((val.Schulart === 'Bezirk') || (val.Schulart === 'Stadt')) {
+				isDistrict = true;
+			}
 			if ((typeof val.lat !== 'undefined') && (typeof val.lng !== 'undefined')) {
 				var marker = L.marker([parseFloat(val.lat), parseFloat(val.lng)], {
 						data: fixData(val),
@@ -313,17 +273,19 @@ function createMarker(data) {
 								val.Kosten >= 5000000 ? markerOrange :
 										val.Kosten >= 1000 ? markerBlue :
 												markerGreen,
-						opacity: /*isDistrict ? 0 :*/ 1,
-						clickable: /*isDistrict ? 0 :*/ 1
+						opacity: isDistrict ? 0 : 1,
+						clickable: isDistrict ? 0 : 1
 					});
 				layerGroup.addLayer(marker);
-				minVal = Math.min(minVal, val.Kosten);
-				maxVal = Math.max(maxVal, val.Kosten);
+				if (!isDistrict) {
+					minVal = Math.min(minVal, val.Kosten);
+					maxVal = Math.max(maxVal, val.Kosten);
+				}
 			}
 		});
 
-		$('.priceBar2 .priceGreen').text(0);
-		$('.priceBar2 .priceRed').text(maxVal);
+		$('.priceBar3 .right').html('0 €&nbsp;&nbsp;');
+		$('.priceBar3 .left').html('&nbsp;' + formatNumber(maxVal) + ' €');
 	} catch (e) {
 //		console.log(e);
 	}
@@ -401,35 +363,7 @@ function initSearchBox(data) {
 }
 
 // -----------------------------------------------------------------------------
-
-function printerLabelClick() {
-	if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && (location.hostname === this.hostname)) {
-		var hash = this.hash,
-			schoolId = hash.lastIndexOf('='),
-			target;
-
-		if (-1 === schoolId) {
-			schoolId = '';
-		} else {
-			hash = this.hash.substr(0, schoolId);
-			schoolId = this.hash.substr(schoolId + 1);
-		}
-
-		target = $(hash);
-		target = target.length ? target : $('[name=' + hash.slice(1) + ']');
-		if (target.length) {
-			$('#pageMap').animate({
-				scrollTop: parseInt(target.offset().top, 10)
-			}, 500, function () {
-				selectSuggestion(parseInt(schoolId, 10));
-			});
-			return false;
-		}
-	}
-}
-
-// -----------------------------------------------------------------------------
-
+/*
 function initSocialMedia() {
 	'use strict';
 
@@ -448,7 +382,7 @@ function initSocialMedia() {
 			});
 	}, 1000);
 }
-
+*/
 // -----------------------------------------------------------------------------
 
 function initMap(elementName, lat, lng, zoom) {
@@ -470,27 +404,18 @@ function initMap(elementName, lat, lng, zoom) {
 
 		$.getJSON(dataUrl, function (data) {
 			data = enrichMissingData(data);
-//			createStatistics(data);
+			createStatistics(data);
 			createMarker(data);
 			initSearchBox(data);
-			initSocialMedia();
+//			initSocialMedia();
 
-//			var budgetUrl = 'data/gebaeudesanierungen.json';
-//			$.getJSON(budgetUrl, function (budgetData) {
-//				budget = budgetData;
-//			});
+			var budgetUrl = 'data/gebaeudesanierungen.json';
+			$.getJSON(budgetUrl, function (budgetData) {
+				budget = budgetData;
+			});
 		});
 	}
 }
-
-// -----------------------------------------------------------------------------
-
-$(document).on("pagecreate", "#pageMap", function () {
-	'use strict';
-
-	// center the city hall
-//	initMap( 'mapContainer', 52.515807, 13.479470, 16);
-});
 
 // -----------------------------------------------------------------------------
 
@@ -498,7 +423,7 @@ $(document).on("pageshow", "#pageMap", function () {
 	'use strict';
 
 	// center the city hall
-	initMap('mapContainer', 52.515807, 13.479470, 16);
+	initMap('mapContainer', 52.518413, 13.408368, 13);
 
 	$('#autocomplete').val('');
 	$('#receipt .group').on('click', function (e) {
@@ -509,20 +434,12 @@ $(document).on("pageshow", "#pageMap", function () {
 	});
 	$('#searchBox .sample a:nth-child(1)').on('click', function (e) {
 		$('#autocomplete').val('Clay-Schule (08K05)');
-		selectSuggestion(1111901);
+		selectSuggestion('08K05');
 	});
 	$('#searchBox .sample a:nth-child(2)').on('click', function (e) {
 		$('#autocomplete').val('Lichtenberg');
-		selectSuggestion(1100000);
+		selectSuggestion('11');
 	});
-});
-
-// -----------------------------------------------------------------------------
-
-$(function () {
-	'use strict';
-
-	$('a[href*="#"]:not([href="#"])').click(printerLabelClick);
 });
 
 // -----------------------------------------------------------------------------
