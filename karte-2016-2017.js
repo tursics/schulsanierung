@@ -517,7 +517,18 @@ function createMarker(data) {
 						}
 					}
 				}
-				$('#dataTable tr:last').after('<tr' + (bg ? ' style="background:#cdf;"' : '') + '><td>' + val.Schulnummer + '</td><td>' + val.Schulname + '</td><td>' + val.Bauwerk + '</td><td style="text-align:right;">' + formatNumber(val.GebaeudeGesamt) + '</td><td>' + val.PrioritaetGesamt + '</td><td style="text-align:right;">' + kosten + '</td></tr>');
+				$('#dataTable tr:last').after('<tr' + (bg ? ' style="background:#cdf;"' : '') + '><td>' + val.Schulnummer + '</td><td>' + val.Schulname + '</td><td>' + val.Bauwerk + '</td><td style="text-align:right;">' + formatNumber(val.GebaeudeGesamt) + '</td><td>' + val.PrioritaetGesamt + '</td><td style="text-align:right;">' + kosten + '</td><td></td><td></td></tr>');
+
+				for (id in budget) {
+					item = budget[id];
+					if (item.Gebaeudenummer === val.Gebaeudenummer) {
+						kosten = parseFloat(String(item.Kostenansatz).replace('.', '').replace('.', '').replace(',', '.'));
+						if (isNaN(kosten)) {
+							kosten = 0;
+						}
+						$('#dataTable tr:last').after('<tr' + (bg ? ' style="background:#cdf;"' : '') + '><td>' + val.Schulnummer + '</td><td><i class="fa fa-sign-out" aria-hidden="true"></i> ' + item.Beschreibung + '</td><td>' + val.Bauwerk + '</td><td></td><td></td><td></td><td>' + item.Programm + '</td><td style="text-align:right;">' + formatNumber(kosten) + '</td></tr>');
+					}
+				}
 			}
 		});
 	} catch (e) {
@@ -686,10 +697,10 @@ function initMap(elementName, lat, lng, zoom) {
 			data = enrichMissingData(data);
 			data.sort(function (a, b) {
 				if ((a.Schulnummer.length === 5) && (b.Schulnummer.length !== 5)) {
-					return false;
+					return -1;
 				}
 				if ((a.Schulnummer.length !== 5) && (b.Schulnummer.length === 5)) {
-					return true;
+					return 1;
 				}
 				if ((a.Schulnummer.length !== 5) && (b.Schulnummer.length !== 5)) {
 					return a.Schulnummer > b.Schulnummer ? 1 : -1;
@@ -754,6 +765,15 @@ $(document).on("pageshow", "#pageMap", function () {
 		$('#autocomplete').val('Lichtenberg');
 		selectSuggestion(1100000);
 	});
+});
+
+// -----------------------------------------------------------------------------
+
+$(document).on("pageshow", "#pageTable", function () {
+	'use strict';
+
+	// center the city hall
+	initMap('mapContainer', 52.515807, 13.479470, 16);
 });
 
 // -----------------------------------------------------------------------------
