@@ -90,27 +90,66 @@ function enrichMissingData(data) {
 function createStatistics(data) {
 	'use strict';
 
-	var obj = {
-		Schulnummer: '11',
-		Schulname: 'Lichtenberg',
-		PLZ: '',
-		Strasse: '',
-		Kosten: 0,
-		lat: 52.515807,
-		lng: 13.479470,
-		Schulart: 'Bezirk',
-		Prio: 0
-	};
+	var objBln = { Schulnummer: '', Schulname: 'Berlin', Schulart: 'Stadt', lat: 52.518413, lng: 13.408368, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
+		obj01  = { Schulnummer: '01', Schulname: 'Mitte', Schulart: 'Bezirk', lat: 52.521168, lng: 13.423244, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
+		obj02  = { Schulnummer: '02', Schulname: 'Friedrichshain-Kreuzberg', Schulart: 'Bezirk', lat: 52.515235, lng: 13.461909, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
+		obj03  = { Schulnummer: '03', Schulname: 'Pankow', Schulart: 'Bezirk', lat: 52.541561, lng: 13.427734, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
+		obj04  = { Schulnummer: '04', Schulname: 'Charlottenburg-Wilmersdorf', Schulart: 'Bezirk', lat: 52.489209, lng: 13.311817, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
+		obj05  = { Schulnummer: '05', Schulname: 'Spandau', Schulart: 'Bezirk', lat: 52.534998, lng: 13.200768, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
+		obj06  = { Schulnummer: '06', Schulname: 'Steglitz-Zehlendorf', Schulart: 'Bezirk', lat: 52.433044, lng: 13.258876, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
+		obj07  = { Schulnummer: '07', Schulname: 'Tempelhof-Schöneberg', Schulart: 'Bezirk', lat: 52.484935, lng: 13.344267, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
+		obj08  = { Schulnummer: '08', Schulname: 'Neukölln', Schulart: 'Bezirk', lat: 52.481347, lng: 13.434969, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
+		obj09  = { Schulnummer: '09', Schulname: 'Treptow-Köpenick', Schulart: 'Bezirk', lat: 52.445412, lng: 13.575023, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
+		obj10  = { Schulnummer: '10', Schulname: 'Marzahn-Hellersdorf', Schulart: 'Bezirk', lat: 52.537172, lng: 13.603757, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
+		obj11  = { Schulnummer: '11', Schulname: 'Lichtenberg', Schulart: 'Bezirk', lat: 52.515807, lng: 13.479470, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
+		obj12  = { Schulnummer: '12', Schulname: 'Reinickendorf', Schulart: 'Bezirk', lat: 52.5890247, lng: 13.324019, PLZ: '', Strasse: '', Kosten: 0, Prio: 0};
 
 	try {
 		$.each(data, function (key, val) {
 			val = fixData(val);
 			if ((typeof val.lat !== 'undefined') && (typeof val.lng !== 'undefined')) {
-				obj.Kosten += parseInt(val.Kosten, 10);
+				if (0 === val.Schulnummer.indexOf(obj01.Schulnummer)) {
+					obj01.Kosten += parseInt(val.Kosten, 10);
+				} else if (0 === val.Schulnummer.indexOf(obj02.Schulnummer)) {
+					obj02.Kosten += parseInt(val.Kosten, 10);
+				} else if (0 === val.Schulnummer.indexOf(obj03.Schulnummer)) {
+					obj03.Kosten += parseInt(val.Kosten, 10);
+				} else if (0 === val.Schulnummer.indexOf(obj04.Schulnummer)) {
+					obj04.Kosten += parseInt(val.Kosten, 10);
+				} else if (0 === val.Schulnummer.indexOf(obj05.Schulnummer)) {
+					obj05.Kosten += parseInt(val.Kosten, 10);
+				} else if (0 === val.Schulnummer.indexOf(obj06.Schulnummer)) {
+					obj06.Kosten += parseInt(val.Kosten, 10);
+				} else if (0 === val.Schulnummer.indexOf(obj07.Schulnummer)) {
+					obj07.Kosten += parseInt(val.Kosten, 10);
+				} else if (0 === val.Schulnummer.indexOf(obj08.Schulnummer)) {
+					obj08.Kosten += parseInt(val.Kosten, 10);
+				} else if (0 === val.Schulnummer.indexOf(obj09.Schulnummer)) {
+					obj09.Kosten += parseInt(val.Kosten, 10);
+				} else if (0 === val.Schulnummer.indexOf(obj10.Schulnummer)) {
+					obj10.Kosten += parseInt(val.Kosten, 10);
+				} else if (0 === val.Schulnummer.indexOf(obj11.Schulnummer)) {
+					obj11.Kosten += parseInt(val.Kosten, 10);
+				} else if (0 === val.Schulnummer.indexOf(obj12.Schulnummer)) {
+					obj12.Kosten += parseInt(val.Kosten, 10);
+				}
+				objBln.Kosten += parseInt(val.Kosten, 10);
 			}
 		});
 
-		data.push(obj);
+		data.push(obj01);
+		data.push(obj02);
+		data.push(obj03);
+		data.push(obj04);
+		data.push(obj05);
+		data.push(obj06);
+		data.push(obj07);
+		data.push(obj08);
+		data.push(obj09);
+		data.push(obj10);
+		data.push(obj11);
+		data.push(obj12);
+		data.push(objBln);
 	} catch (e) {
 //		console.log(e);
 	}
@@ -199,7 +238,7 @@ function updateMapHoverItem(coordinates, data, icon) {
 		str = '';
 
 	str += '<div class="top ' + icon.options.markerColor + '">' + data.Schulname + '</div>';
-	str += '<div class="middle">' + (data.Kosten === 0 ? '-' : '€' + formatNumber(data.Kosten)) + '</div>';
+	str += '<div class="middle">€' + formatNumber(data.Kosten) + '</div>';
 	str += '<div class="bottom ' + icon.options.markerColor + '">' + (data.Prio === 1 ? 'Höchste Priorität' : (data.Kosten >= 5000000 ? 'Prio 2 oder 3' : 'unbekannte Prio')) + '</div>';
 
 	layerPopup = L.popup(options)
@@ -314,11 +353,16 @@ function initSearchBox(data) {
 	try {
 		$.each(data, function (key, val) {
 			if ((typeof val.lat !== 'undefined') && (typeof val.lng !== 'undefined')) {
-				var name = val.Schulname;
+				var name = val.Schulname, color = 'gray';
 				if ('' !== val.Schulnummer) {
 					name += ' (' + val.Schulnummer + ')';
 				}
-				schools.push({ value: name, data: val.Schulnummer, color: '', desc: val.Schulart });
+				color = ((val.Schulart === 'Bezirk') || (val.Schulart === 'Stadt') ? 'gray' :
+								val.Kosten >= 10000000 ? 'red' :
+										val.Kosten >= 5000000 ? 'orange' :
+												val.Kosten >= 1000 ? 'blue' :
+														'green');
+				schools.push({ value: name, data: val.Schulnummer, color: color, desc: val.Schulart });
 			}
 		});
 	} catch (e) {
@@ -348,7 +392,7 @@ function initSearchBox(data) {
 			selectSuggestion(suggestion.data);
 		},
 		formatResult: function (suggestion, currentValue) {
-			var color = 'gray',
+			var color = suggestion.color,
 				icon  = 'fa-building-o',
 				str = '';
 
@@ -437,8 +481,8 @@ $(document).on("pageshow", "#pageMap", function () {
 		selectSuggestion('08K05');
 	});
 	$('#searchBox .sample a:nth-child(2)').on('click', function (e) {
-		$('#autocomplete').val('Lichtenberg');
-		selectSuggestion('11');
+		$('#autocomplete').val('Pankow');
+		selectSuggestion('03');
 	});
 });
 

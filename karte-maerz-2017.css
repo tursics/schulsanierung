@@ -552,7 +552,10 @@
 .autocomplete-icon.backgray, .priceGray {
 	background: #a3a3a3;
 }
-.priceGreen {
+.printerLabel div.green, .autocomplete-suggestion div.green {
+	color: #72b026;
+}
+.autocomplete-icon.backgreen, .priceGreen {
 	background: #72b026;
 }
 .priceTriangle div.priceGreen {
