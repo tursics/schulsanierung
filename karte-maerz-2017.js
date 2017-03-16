@@ -197,7 +197,7 @@ function updateMapSelectItem(data) {
 	if (moneyPot > 0) {
 		$('#iPlanung').html('<br>In den Jahren 2015 bis 2019 werden über ' + formatNumber(moneyPot) + ' Euro ' + ((data.Schulart === 'Bezirk') || (data.Schulart === 'Stadt') ? 'in die Schulen' : 'in diese Schule') + ' investiert.' + (data.Kosten > 0 ? ' Trotz dieser Summe bleibt immer noch ein Sanierungsbedarf von ' + formatNumber(data.Kosten) + ' Euro.' : ' Danach ist sie vollständig saniert.'));
 	} else {
-		$('#iPlanung').html('');
+		$('#iPlanung').html('<br>Diese Schule hat einen Sanierungsbedarf von ' + formatNumber(data.Kosten) + ' Euro.');
 	}
 
 	$('.priceBox').removeClass('priceRed').removeClass('priceOrange').removeClass('priceBlue').removeClass('priceGreen').removeClass('priceGray')
