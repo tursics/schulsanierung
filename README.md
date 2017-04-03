@@ -1,4 +1,4 @@
-#Wo unsere Kinder lernen
+# Wo unsere Kinder lernen
 
 Viele Schulen in Berlin sind marode.
 Wie teuer die Sanierung wirklich wird, können sie auf dieser Karte erkunden.
@@ -13,6 +13,6 @@ Die erste Auswertung vor vier Jahren bezifferte den Sanierungsstau für alle öf
 Lese hier weiter:
 http://schulsanierung.tursics.de/
 
-##Lizenz
+## Lizenz
 
 Der HTML- und JavaScript-Code zur Webseite ist kostenlos und in die Public Domain freigegeben. Weitere Informationen findest du in der Datei LICENSE.md
