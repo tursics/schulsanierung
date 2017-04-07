@@ -486,5 +486,11 @@
 .autocomplete-icon.backgray {
 	background: #a3a3a3;
 }
+.printerLabel div.green, .autocomplete-suggestion div.green {
+	color: #72b026;
+}
+.autocomplete-icon.backgreen {
+	background: #72b026;
+}
 
 /* */
