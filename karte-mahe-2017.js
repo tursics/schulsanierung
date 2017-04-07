@@ -569,8 +569,8 @@ $(document).on("pageshow", "#pageMap", function () {
 		$('#receiptBox').css('display', 'none');
 	});
 	$('#searchBox .sample a:nth-child(1)').on('click', function (e) {
-		$('#autocomplete').val('Obersee-Schule (11G19)');
-		selectSuggestion(1111901);
+		$('#autocomplete').val('Sartre-Gymnasium');
+		selectSuggestion('10Y08-01-HOF');
 	});
 	$('#searchBox .sample a:nth-child(2)').on('click', function (e) {
 		$('#autocomplete').val('Marzahn-Hellersdorf');
