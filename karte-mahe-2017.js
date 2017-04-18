@@ -8,6 +8,7 @@ var layerPopup = null;
 var layerGroup = null;
 var schools = null;
 //var budget = null;
+var data2017 = null;
 
 // -----------------------------------------------------------------------------
 
@@ -91,11 +92,11 @@ function enrichMissingData(data) {
 	'use strict';
 
 	try {
-		$.each(data, function (key, value) {
+/*		$.each(data, function (key, value) {
 			if ((value.lat === '') || (value.lng === '')) {
 				console.log('missing geocoordinate in ' + value.Gebaeudenummer);
 			}
-		});
+		});*/
 	} catch (e) {
 //		console.log(e);
 	}
@@ -127,7 +128,7 @@ function createStatistics(data) {
 		BemerkungSenBJW: '',
 		UnterpriorisierungDurchFMBauBAMarzHell: '',
 		lat: 52.536686,
-		lng: 13.604863,
+		lng: 13.604863
 	},
 		sum = [
 			'GebaeudeGesamt'
@@ -190,10 +191,16 @@ function updateMapSelectItem(data) {
 		dateSec = date.getSeconds(),
 		id,
 		building,
+		buildingSummary = [],
+		bs,
 		str,
+		strDiff,
 		item,
 		menge,
-		sum = 0;
+		kosten,
+		sum = 0,
+		sum2 = 0,
+		isDistrict = (data.Gebaeudenummer === '10');
 
 	for (key in data) {
 		setText(key, data[key]);
@@ -202,6 +209,26 @@ function updateMapSelectItem(data) {
 	id = 0;
 	for (building in schools) {
 		item = schools[building];
+		if (((item.Schulnummer === data.Schulnummer) || isDistrict) && (item.Gebaeudenummer !== '10')) {
+			for (bs = 0; bs < buildingSummary.length; ++bs) {
+				if (buildingSummary[bs].Gebaeudenummer === item.Gebaeudenummer) {
+					buildingSummary[bs].title = 'Gebäude';
+					buildingSummary[bs].sum += item.GebaeudeGesamt;
+
+					break;
+				}
+			}
+			if (bs === buildingSummary.length) {
+				key = item.Leistungsart.toLowerCase();
+				buildingSummary.push({
+					Gebaeudenummer: item.Gebaeudenummer,
+					title: (-1 !== key.indexOf('schulhof') ? 'Schulhof' :
+							(-1 !== key.indexOf('sportplatz') ? 'Sportplatz' :
+									(-1 !== key.indexOf('sporthalle') ? 'Sporthalle' : 'Gebäude'))),
+					sum: item.GebaeudeGesamt
+				});
+			}
+		}
 		if (item.Gebaeudenummer === data.Gebaeudenummer) {
 			str = '';
 
@@ -237,7 +264,7 @@ function updateMapSelectItem(data) {
 			sum += item.GebaeudeGesamt;
 		}
 	}
-	for (; id < 20; ++id) {
+	for (id; id < 20; ++id) {
 		$('#item' + id).hide();
 	}
 
@@ -256,6 +283,125 @@ function updateMapSelectItem(data) {
 		dateMin = '0' + dateMin;
 	}
 	setText('Now_', dateD + '.' + dateM + '.' + dateY + ' ' + dateH + ':' + dateMin);
+
+	strDiff = '';
+	sum = 0;
+	for (bs = 0; bs < buildingSummary.length; ++bs) {
+		buildingSummary[bs].sum = Math.round(buildingSummary[bs].sum / 10000) * 10000;
+
+		item = buildingSummary[bs];
+		if (item.title === 'Gebäude') {
+			sum += item.sum;
+			if (!isDistrict) {
+				strDiff += '<div class="sub"><span class="half">' + item.title + '</span><span class="number">' + formatNumber(item.sum) + ' EUR</span></div>';
+			}
+		}
+	}
+	if (isDistrict) {
+		strDiff += '<div class="sub"><span class="half">Gebäude</span><span class="number">' + formatNumber(sum) + ' EUR</span></div>';
+		sum2 += sum;
+		sum = 0;
+	}
+	for (bs = 0; bs < buildingSummary.length; ++bs) {
+		item = buildingSummary[bs];
+		if (item.title === 'Sporthalle') {
+			sum += item.sum;
+			if (!isDistrict) {
+				strDiff += '<div class="sub"><span class="half">' + item.title + '</span><span class="number">' + formatNumber(item.sum) + ' EUR</span></div>';
+			}
+		}
+	}
+	if (isDistrict) {
+		strDiff += '<div class="sub"><span class="half">Sporthallen</span><span class="number">' + formatNumber(sum) + ' EUR</span></div>';
+		sum2 += sum;
+		sum = 0;
+	}
+	for (bs = 0; bs < buildingSummary.length; ++bs) {
+		item = buildingSummary[bs];
+		if (item.title === 'Schulhof') {
+			sum += item.sum;
+			if (!isDistrict) {
+				strDiff += '<div class="sub" style="color:#f69730;"><span class="half">' + item.title + '</span><span class="number">' + formatNumber(item.sum) + ' EUR</span></div>';
+			}
+		}
+	}
+	if (isDistrict) {
+		strDiff += '<div class="sub" style="color:#f69730;"><span class="half">Schulhöfe</span><span class="number">' + formatNumber(sum) + ' EUR</span></div>';
+		sum2 += sum;
+		sum = 0;
+	}
+	for (bs = 0; bs < buildingSummary.length; ++bs) {
+		item = buildingSummary[bs];
+		if ((item.title !== 'Gebäude') && (item.title !== 'Sporthalle') && (item.title !== 'Schulhof')) {
+			sum += item.sum;
+			if (!isDistrict) {
+				strDiff += '<div class="sub" style="color:#f69730;"><span class="half">' + item.title + '</span><span class="number">' + formatNumber(item.sum) + ' EUR</span></div>';
+			}
+		}
+	}
+	if (isDistrict) {
+		strDiff += '<div class="sub" style="color:#f69730;"><span class="half">Sportplätze</span><span class="number">' + formatNumber(sum) + ' EUR</span></div>';
+		sum2 += sum;
+		sum = sum2;
+	}
+	strDiff = '<div><span class="half">' + (isDistrict ? 'Schulen' : 'Schule') + ' (insgesamt)</span><span class="number">' + formatNumber(sum) + ' EUR</span></div>' + strDiff;
+	$('#schoolSum').html(strDiff);
+
+	strDiff = '';
+	for (bs = 0; bs < buildingSummary.length; ++bs) {
+		if (buildingSummary[bs].Gebaeudenummer === data.Gebaeudenummer) {
+			if ('Gebäude' === buildingSummary[bs].title) {
+				strDiff = 'Kosten für dieses ' + buildingSummary[bs].title;
+			} else if (('Schulhof' === buildingSummary[bs].title) || ('Sportplatz' === buildingSummary[bs].title)) {
+				strDiff = 'Kosten für diesen ' + buildingSummary[bs].title;
+			} else {
+				strDiff = 'Kosten für diese ' + buildingSummary[bs].title;
+			}
+		}
+	}
+	if (isDistrict) {
+		strDiff = 'Kosten für diesen Bezirk';
+	}
+	$('#buildingPart').html(strDiff);
+
+	strDiff = '';
+	sum2 = 0;
+	$('#schoolSenat').html(strDiff);
+	for (id in data2017) {
+		item = data2017[id];
+		if ((item.Schulnummer === data.Schulnummer) || (isDistrict && (item.Schulnummer.indexOf(data.Gebaeudenummer) === 0))) {
+			kosten = parseFloat(String(item.Kosten).replace('.', '').replace('.', '').replace(',', '.'));
+			if (isNaN(kosten)) {
+				kosten = 0;
+			}
+			sum2 += kosten;
+			if (!isDistrict) {
+				strDiff += '<div><span class="half">Schule (laut Senat)</span><span class="number">' + formatNumber(kosten) + ' EUR</span></div>';
+				strDiff += '<div class="sub" style="color:#f69730;"><span class="full" style="white-space:normal;">Die Kosten für Schulhöfe und Sportplätze wurden heraus gerechnet.</span></div>';
+				$('#schoolSenat').html(strDiff);
+				strDiff = '';
+				strDiff += '<div><span class="half"></span><span class="number">---------------</span></div>';
+				strDiff += '<div><span class="half"></span><span class="number">' + (kosten > sum ? '+' : '') + formatNumber(kosten - sum) + ' EUR</span></div>';
+
+				setText('Schulart', item.Schulart);
+				setText('Strasse', item.Strasse);
+				setText('PLZ', item.PLZ);
+			}
+		}
+	}
+	if (isDistrict) {
+		strDiff += '<div><span class="half">Schulen (laut Senat)</span><span class="number">' + formatNumber(sum2) + ' EUR</span></div>';
+		strDiff += '<div class="sub" style="color:#f69730;"><span class="full" style="white-space:normal;">Die Kosten für Schulhöfe und Sportplätze wurden heraus gerechnet.</span></div>';
+		$('#schoolSenat').html(strDiff);
+		strDiff = '';
+		strDiff += '<div><span class="half"></span><span class="number">---------------</span></div>';
+		strDiff += '<div><span class="half"></span><span class="number">' + (sum2 > sum ? '+' : '') + formatNumber(sum2 - sum) + ' EUR</span></div>';
+
+		setText('Schulart', 'Bezirk');
+		setText('Strasse', '');
+		setText('PLZ', '');
+	}
+	$('#rec2017_').html(strDiff);
 
 	$('#receiptBox').css('display', 'block');
 	$('#receiptBox .finished').css('display', [1160202, 1110701].indexOf(data.Gebaeudenummer) !== -1 ? 'block' : 'none');
@@ -532,7 +678,7 @@ function initMap(elementName, lat, lng, zoom) {
 		$.getJSON(dataUrl, function (data) {
 			schools = enrichMissingData(data);
 			createStatistics(schools);
-			createMarker(schools);
+//			createMarker(schools);
 			initSearchBox(schools);
 			initSocialMedia();
 
@@ -540,6 +686,12 @@ function initMap(elementName, lat, lng, zoom) {
 //			$.getJSON(budgetUrl, function (budgetData) {
 //				budget = budgetData;
 //			});
+
+			var data2017Url = 'data/gebaeudescan2017-03.json';
+			$.getJSON(data2017Url, function (data2017Data) {
+				data2017 = data2017Data;
+				createMarker(schools);
+			});
 		});
 	}
 }
