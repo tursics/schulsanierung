@@ -188,7 +188,7 @@ BezNr;Schulnummer;Schulname;StNr;Gebaeudenummer;MassnahmeNr;Leistungsart;Standar
 10;10G31;Franz-Carl-Achard-Grundschule;10G31-01;10G31-01-A;10G31-01-A-010;Raumsanierung;Grundschulraum;1;4243,56;m²;1;1;0,00 €;F;WAHR;I-Maßnahme;_;;
 10;10G31;Franz-Carl-Achard-Grundschule;10G31-01;10G31-01-A;10G31-01-A-012;Sanitärsanierung;Sanitärbereich;1;131,39;m²;1;1;0,00 €;F;WAHR;I-Maßnahme;_;;
 10;10G31;Franz-Carl-Achard-Grundschule;10G31-01;10G31-01-A;10G31-01-A-014;Komplettsanierung Sporthalle(n);Sporthalle 15mx27m;1;1;Stk;1;1;0,00 €;F;WAHR;I-Maßnahme;_;;
-10;10G31;Franz-Carl-Achard-Grundschule;10G31-01;10G31-01-HOF;10G31-01-HOF-015;Schulhofsanierung;Schulhof 90% verschlissen;1;9727;m²;1;1;1.459.050,00 €;;FALSCH;"./. MEB erfolgt; ./. SH neu";C;;
+10;10G31;Franz-Carl-Achard-Grundschule;10G31-01;10G31-01-HOF;10G31-01-HOF-015;Schulhofsanierung;Schulhof 90% verschlissen;1;9727;m²;1;1;1.459.050,00 €;;FALSCH;./. MEB erfolgt, ./. SH neu;C;;
 10;10G33;Ulmen-Grundschule;10G33-01;10G33-01-B;10G33-01-B-002;Fenster ersetzen;Fenster (alle außer Kastenfenster);1;196,41;m²;1;1;137.487,00 €;;FALSCH;Wirtschaftlichkeitsuntersuchung erforderlich;A;;
 10;10G33;Ulmen-Grundschule;10G33-01;10G33-01-B;10G33-01-B-005;Dach sanieren;Flachdach;1;560;m²;1;1;84.000,00 €;;FALSCH;Wirtschaftlichkeitsuntersuchung erforderlich;A;;
 10;10G33;Ulmen-Grundschule;10G33-01;10G33-01-B;10G33-01-B-011;Zweiter Rettungsweg;Zweiter Rettungsweg errichten klein;1;1;Stk;1;1;150.000,00 €;;FALSCH;Wirtschaftlichkeitsuntersuchung erforderlich;A;;
@@ -335,7 +335,7 @@ BezNr;Schulnummer;Schulname;StNr;Gebaeudenummer;MassnahmeNr;Leistungsart;Standar
 10;10G07;Karl-Friedrich-Friesen-Grundschule;10G07-01;10G07-01-SPORT;10G07-01-SPORT-001;Sportplatzsanierung;Sportplatz 90% verschlissen;2;2970;m²;1;1;504.900,00 €;;FALSCH;;;;
 10;10G08;Wilhelm-Busch-Grundschule;10G08-02;10G08-02-SPORT;10G08-02-SPORT-001;Sportplatzsanierung;Sportplatz 75% verschlissen;2;844;m²;1;1;143.480,00 €;;FALSCH;;;;
 10;10G09;Grundschule am Bürgerpark;10G09-01;10G09-01-B;10G09-01-B-012;Komplettsanierung Sporthalle(n);Sporthalle 27mx45m;2;1;Stk;1;1;2.100.000,00 €;;FALSCH;;;;
-10;10G09;Grundschule am Bürgerpark;10G09-01;10G09-01-HOF;10G09-01-HOF-014;Schulhofsanierung;Schulhof 90% verschlissen;2;11339;m²;1;1;0,00 €;;WAHR;"./. MEB erfolgt; geändert, muss in die I-Planung mit aufgenommen werden";;;
+10;10G09;Grundschule am Bürgerpark;10G09-01;10G09-01-HOF;10G09-01-HOF-014;Schulhofsanierung;Schulhof 90% verschlissen;2;11339;m²;1;1;0,00 €;;WAHR;./. MEB erfolgt, geändert, muss in die I-Planung mit aufgenommen werden;;;
 10;10G09;Grundschule am Bürgerpark;10G09-01;10G09-01-SPORT;10G09-01-SPORT-013;Sportplatzsanierung;Sportplatz 90% verschlissen;2;1929;m²;1;1;327.930,00 €;;FALSCH;;;;
 10;10G10;Peter-Pan-Grundschule;10G10-01;10G10-01-C;10G10-01-C-016;Sanitärsanierung;Sanitärbereich;2;58,5;m²;1;1;128.700,00 €;;FALSCH;Wirtschaftlichkeitsuntersuchung erforderlich;;;
 10;10G10;Peter-Pan-Grundschule;10G10-01;10G10-01-HOF;10G10-01-HOF-018;Schulhofsanierung;Schulhof 50% verschlissen;2;7545;m²;1;1;1.131.750,00 €;;FALSCH;;;;
@@ -365,7 +365,7 @@ BezNr;Schulnummer;Schulname;StNr;Gebaeudenummer;MassnahmeNr;Leistungsart;Standar
 10;10G29;Grundschule an der Wuhle;10G29-01;10G29-01-A;10G29-01-A-007;Barrierefreiheit schaffen;Eingangsbereiche umbauen;2;1;Stk;1;1;50.000,00 €;;FALSCH;;;;
 10;10G29;Grundschule an der Wuhle;10G29-01;10G29-01-A;10G29-01-A-008;Barrierefreiheit schaffen;Tür behindertengerecht umbauen (20/Gebäude);2;115;Stk;0,173913043478261;1;200.000,00 €;;FALSCH;;;;
 10;10G29;Grundschule an der Wuhle;10G29-01;10G29-01-A;10G29-01-A-009;Barrierefreiheit schaffen;WC behindertengerecht umbauen (4/Gebäude);2;4;Stk;1;1;100.000,00 €;;FALSCH;;;;
-10;10G29;Grundschule an der Wuhle;10G29-01;10G29-01-HOF;10G29-01-HOF-013;Schulhofsanierung;Schulhof 75% verschlissen;2;14787;m²;1;0,99998422;2.218.015,00 €;;FALSCH;"./. MEB erfolgt; ./. SH neu";;;
+10;10G29;Grundschule an der Wuhle;10G29-01;10G29-01-HOF;10G29-01-HOF-013;Schulhofsanierung;Schulhof 75% verschlissen;2;14787;m²;1;0,99998422;2.218.015,00 €;;FALSCH;./. MEB erfolgt, ./. SH neu;;;
 10;10G30;Mahlsdorfer Grundschule;10G30-01;10G30-01-A;10G30-01-A-007;Barrierefreiheit schaffen;Aufzugsanlage einbauen;2;2;Stk;1;1,14285714285714;400.000,00 €;;FALSCH;;;;
 10;10G30;Mahlsdorfer Grundschule;10G30-01;10G30-01-A;10G30-01-A-009;Barrierefreiheit schaffen;WC behindertengerecht umbauen (4/Gebäude);2;4;Stk;1;1;100.000,00 €;;FALSCH;;;;
 10;10G30;Mahlsdorfer Grundschule;10G30-01;10G30-01-A;10G30-01-A-014;Sanitärsanierung;Sanitärbereich;2;144,64;m²;1;1;318.208,00 €;;FALSCH;;;;
