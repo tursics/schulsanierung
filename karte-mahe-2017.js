@@ -92,11 +92,14 @@ function enrichMissingData(data) {
 	'use strict';
 
 	try {
-/*		$.each(data, function (key, value) {
-			if ((value.lat === '') || (value.lng === '')) {
-				console.log('missing geocoordinate in ' + value.Gebaeudenummer);
-			}
-		});*/
+		$.each(data, function (key, value) {
+//			if ((value.lat === '') || (value.lng === '')) {
+//				console.log('missing geocoordinate in ' + value.Gebaeudenummer);
+//			}
+//			if ((value.Ignorieren === 'WAHR') && (value.BemerkungSenBJW === '') && (value.GebaeudeGesamt === '0,00 €')) {
+//				console.log(value.Schulname + ': ' + value.BemerkungSenBJW + value.GebaeudeGesamt);
+//			}
+		});
 	} catch (e) {
 //		console.log(e);
 	}
@@ -193,6 +196,8 @@ function updateMapSelectItem(data) {
 		building,
 		buildingSummary = [],
 		bs,
+		districtSummary = [],
+		ds,
 		str,
 		strDiff,
 		item,
@@ -210,6 +215,9 @@ function updateMapSelectItem(data) {
 	for (building in schools) {
 		item = schools[building];
 		if (((item.Schulnummer === data.Schulnummer) || isDistrict) && (item.Gebaeudenummer !== '10')) {
+			if ((item.Ignorieren === 'WAHR') && (item.BemerkungSenBJW === '') && (item.GebaeudeGesamt === 0)) {
+				continue;
+			}
 			for (bs = 0; bs < buildingSummary.length; ++bs) {
 				if (buildingSummary[bs].Gebaeudenummer === item.Gebaeudenummer) {
 					buildingSummary[bs].title = 'Gebäude';
@@ -229,7 +237,63 @@ function updateMapSelectItem(data) {
 				});
 			}
 		}
-		if (item.Gebaeudenummer === data.Gebaeudenummer) {
+
+		if (isDistrict) {
+			if (item.Gebaeudenummer !== '10') {
+				str = item.Standardleistung;
+				menge = parseInt(item.Menge, 10);
+				if (0 === item.Standardleistung.indexOf('Fenster (')) {
+					str = 'Fenster';
+				} else if (0 === item.Standardleistung.indexOf('Fassade (')) {
+					str = 'Fassaden';
+				} else if (('Flachdach' === item.Standardleistung) || ('Steildach' === item.Standardleistung)) {
+					str = 'Dächer';
+				} else if ('Aufzugsanlage einbauen' === item.Standardleistung) {
+					str = 'Aufzugsanlagen';
+				} else if ('Rampe errichten' === item.Standardleistung) {
+					str = 'Rampen';
+				} else if (0 === item.Standardleistung.indexOf('Zweiter Rettungsweg errichten')) {
+					str = 'Zweite Rettungswege';
+				} else if ('Tür behindertengerecht umbauen (20/Gebäude)' === item.Standardleistung) {
+					str = 'Barrierefreie Türen';
+				} else if ('WC behindertengerecht umbauen (4/Gebäude)' === item.Standardleistung) {
+					str = 'Barrierefreie Toiletten';
+				} else if ('Eingangsbereiche umbauen' === item.Standardleistung) {
+					str = 'Barrierefreie Eingänge';
+				} else if ('Sanitärbereich' === item.Standardleistung) {
+					str = 'Sanitärbereiche';
+				} else if (('Grundschulraum' === item.Standardleistung) || ('Oberschulraum' === item.Standardleistung)) {
+					str = 'Räume';
+				} else if (0 === item.Standardleistung.indexOf('Schulhof ')) {
+					str = 'Schulhöfe';
+				} else if (0 === item.Standardleistung.indexOf('Sportplatz ')) {
+					str = 'Sportplätze';
+				} else if (0 === item.Standardleistung.indexOf('Sporthalle ')) {
+					str = 'Sporthallen';
+				}
+
+				for (ds = 0; ds < districtSummary.length; ++ds) {
+					if (districtSummary[ds].Standardleistung === str) {
+						districtSummary[ds].Menge += menge;
+						districtSummary[ds].GebaeudeGesamt += item.GebaeudeGesamt;
+
+						break;
+					}
+				}
+				if (ds === districtSummary.length) {
+					key = item.Leistungsart.toLowerCase();
+					districtSummary.push({
+						Standardleistung: str,
+						Menge: menge,
+						Einheit: item.Einheit,
+						GebaeudeGesamt: item.GebaeudeGesamt
+					});
+				}
+			}
+		} else if (item.Gebaeudenummer === data.Gebaeudenummer) {
+			if ((item.Ignorieren === 'WAHR') && (item.BemerkungSenBJW === '') && (item.GebaeudeGesamt === 0)) {
+				continue;
+			}
 			str = '';
 
 			menge = item.Menge;
@@ -264,6 +328,23 @@ function updateMapSelectItem(data) {
 			sum += item.GebaeudeGesamt;
 		}
 	}
+	districtSummary.sort(function (a, b) {
+		if (a.GebaeudeGesamt === b.GebaeudeGesamt) {
+			return a.Standardleistung > b.Standardleistung ? 1 : -1;
+		}
+
+		return a.GebaeudeGesamt < b.GebaeudeGesamt ? 1 : -1;
+	});
+	for (ds = 0; ds < districtSummary.length; ++ds) {
+		item = districtSummary[ds];
+		str = '';
+		str += '<div><span class="half">' + item.Standardleistung + '</span><span class="number">' + formatNumber(item.GebaeudeGesamt) + ' EUR</span></div>';
+		str += '<div class="sub"><span class="full">' + formatNumber(item.Menge) + ' ' + item.Einheit + '</span></div>';
+
+		$('#item' + id).html(str).show();
+		++id;
+		sum += item.GebaeudeGesamt;
+	}
 	for (id; id < 20; ++id) {
 		$('#item' + id).hide();
 	}
@@ -287,7 +368,11 @@ function updateMapSelectItem(data) {
 	strDiff = '';
 	sum = 0;
 	for (bs = 0; bs < buildingSummary.length; ++bs) {
-		buildingSummary[bs].sum = Math.round(buildingSummary[bs].sum / 10000) * 10000;
+		if (isDistrict) {
+			buildingSummary[bs].sum = buildingSummary[bs].sum;
+		} else {
+			buildingSummary[bs].sum = Math.round(buildingSummary[bs].sum / 10000) * 10000;
+		}
 
 		item = buildingSummary[bs];
 		if (item.title === 'Gebäude') {
@@ -298,6 +383,7 @@ function updateMapSelectItem(data) {
 		}
 	}
 	if (isDistrict) {
+		sum = Math.round(sum / 10000) * 10000;
 		strDiff += '<div class="sub"><span class="half">Gebäude</span><span class="number">' + formatNumber(sum) + ' EUR</span></div>';
 		sum2 += sum;
 		sum = 0;
@@ -312,6 +398,7 @@ function updateMapSelectItem(data) {
 		}
 	}
 	if (isDistrict) {
+		sum = Math.round(sum / 10000) * 10000;
 		strDiff += '<div class="sub"><span class="half">Sporthallen</span><span class="number">' + formatNumber(sum) + ' EUR</span></div>';
 		sum2 += sum;
 		sum = 0;
@@ -326,6 +413,7 @@ function updateMapSelectItem(data) {
 		}
 	}
 	if (isDistrict) {
+		sum = Math.round(sum / 10000) * 10000;
 		strDiff += '<div class="sub" style="color:#f69730;"><span class="half">Schulhöfe</span><span class="number">' + formatNumber(sum) + ' EUR</span></div>';
 		sum2 += sum;
 		sum = 0;
@@ -340,6 +428,7 @@ function updateMapSelectItem(data) {
 		}
 	}
 	if (isDistrict) {
+		sum = Math.round(sum / 10000) * 10000;
 		strDiff += '<div class="sub" style="color:#f69730;"><span class="half">Sportplätze</span><span class="number">' + formatNumber(sum) + ' EUR</span></div>';
 		sum2 += sum;
 		sum = sum2;
@@ -499,6 +588,9 @@ function createMarker(data) {
 		$.each(data, function (key, val) {
 			if ((typeof val.lat !== 'undefined') && (typeof val.lng !== 'undefined') && (val.lat !== '') && (val.lng !== '')) {
 				if (-1 === buildings.indexOf(val.Gebaeudenummer)) {
+					if ((val.Ignorieren === 'WAHR') && (val.BemerkungSenBJW === '') && (val.GebaeudeGesamt === 0)) {
+						return;
+					}
 					buildings.push(val.Gebaeudenummer);
 
 					prio = 4;
@@ -553,6 +645,9 @@ function initSearchBox(data) {
 		$.each(data, function (key, val) {
 			if ((typeof val.lat !== 'undefined') && (typeof val.lng !== 'undefined')) {
 				if (-1 === buildings.indexOf(val.Gebaeudenummer)) {
+					if ((val.Ignorieren === 'WAHR') && (val.BemerkungSenBJW === '') && (val.GebaeudeGesamt === 0)) {
+						return;
+					}
 					buildings.push(val.Gebaeudenummer);
 
 					var name = val.Schulname,
@@ -658,6 +753,25 @@ function initSocialMedia() {
 
 // -----------------------------------------------------------------------------
 
+var ControlInfo = L.Control.extend({
+	options: {
+		position: 'bottomright'
+	},
+
+	onAdd: function (map) {
+		'use strict';
+
+		var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-custom');
+
+		container.innerHTML = '<a style="font-size:1.2em" href="#popupShare" title="Teilen" data-rel="popup" data-position-to="window" data-transition="pop"><i class="fa fa-share-alt" aria-hidden="true"></i></a>';
+		container.innerHTML += '<a style="font-size:1.2em" href="#popupInfo" title="Info" data-rel="popup" data-position-to="window" data-transition="pop"><i class="fa fa-info" aria-hidden="true"></i></a>';
+
+		return container;
+	}
+});
+
+// -----------------------------------------------------------------------------
+
 function initMap(elementName, lat, lng, zoom) {
 	'use strict';
 
@@ -673,6 +787,7 @@ function initMap(elementName, lat, lng, zoom) {
 			.setView([lat, lng], zoom);
 
 		map.addControl(L.control.zoom({ position: 'bottomright'}));
+		map.addControl(new ControlInfo());
 		map.once('focus', mapAction);
 
 		$.getJSON(dataUrl, function (data) {

@@ -7,7 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=7; IE=EmulateIE9; IE=10" />
 
 	<meta name="author" content="Thomas Tursics" />
-	<meta name="keywords" content="Berlin,Lichtenberg,Gebäudescan,kaputt,Schule" />
+	<meta name="keywords" content="Berlin,Marzahn,Hellersdorf,Gebäudescan,kaputt,Schule" />
 	<meta name="robots" content="index,follow" />
 
  	<title>Wo unsere Kinder lernen - Gebäudescan der Berliner Schulen</title>
@@ -18,12 +18,12 @@
 	<meta property="og:description" content="Viele Schulen in Berlin sind marode. Wie teuer die Sanierung wirklich wird, können Sie auf dieser Karte erkunden." />
 	<meta name="twitter:description" content="Viele Schulen in Berlin sind marode. Wie teuer die Sanierung wirklich wird, können Sie auf dieser Karte erkunden.">
 
-	<link rel="image_src" type="image/png" href="http://schulsanierung.tursics.de/assets/social.gif" />
-	<meta property="og:image" content="http://schulsanierung.tursics.de/assets/social.gif" />
-	<meta name="twitter:image:src" content="http://schulsanierung.tursics.de/assets/social.gif">
+	<link rel="image_src" type="image/png" href="http://schulsanierung.tursics.de/assets/social-mahe-2017.gif" />
+	<meta property="og:image" content="http://schulsanierung.tursics.de/assets/social-mahe-2017.gif" />
+	<meta name="twitter:image:src" content="http://schulsanierung.tursics.de/assets/social-mahe-2017.gif">
 
-	<meta property="og:url" content="http://schulsanierung.tursics.de/">
-	<meta name="twitter:domain" content="http://schulsanierung.tursics.de/">
+	<meta property="og:url" content="http://schulsanierung.tursics.de/karte-mahe-2017.html">
+	<meta name="twitter:domain" content="http://schulsanierung.tursics.de/karte-mahe-2017.html">
 
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:creator" content="@tursics">
@@ -79,7 +79,7 @@
 				<div class="full center" id="recStrasse"></div>
 				<div class="full center"><span id="recPLZ"></span> Berlin</div>
 				<div class="empty"></div>
-				<div class="group groupClosed" id="schoolSum"></div>
+				<div class="group groupClosed groupMobileOpen" id="schoolSum"></div>
 				<div class="group groupClosed" id="schoolSenat"></div>
 				<div class="full" id="rec2017_"></div>
 				<div class="empty"></div>
@@ -116,6 +116,50 @@
 				<div class="full center">Sanieren Sie bald wieder</div>
 			</div>
 			<div id="receiptInfo"><i class="fa fa-info-circle" aria-hidden="true"></i> Noch mehr Informationen erscheinen, wenn sie auf die einzelnen Zeilen klicken.</div>
+		</div>
+		<div data-role="popup" id="popupShare" data-theme="a" class="ui-corner-all">
+			<div style="padding:0;margin:-1px 0 0 -1px;overflow-x:hidden;">
+				<div data-role="tabs" id="tabs" style="padding:0;">
+					<div data-role="navbar">
+						<ul>
+							<li><a href="#one" data-ajax="false">Link teilen</a></li>
+							<li><a href="#two" data-ajax="false">Karte einbetten</a></li>
+						</ul>
+					</div>
+					<div id="one" class="ui-body-d ui-content">
+						<div>
+							In den sozialen Netzen teilen
+							<div class="social">
+								<a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fschulsanierung.tursics.de%2Fkarte-mahe-2017.html" rel="popup" title="Bei Facebook teilen">teilen<span></span></a>
+								<a class="twitter" href="https://twitter.com/intent/tweet?text=Wie%20kaputt%20ist%20deine%20Schule?%20Finde%20es%20hier%20heraus&amp;url=http://schulsanierung.tursics.de/karte-mahe-2017.html" rel="popup" title="Bei Twitter teilen">tweeten<span></span></a>
+							</div>
+						</div>
+						<div>
+							oder den Link kopieren:<br>
+							<input value="http://schulsanierung.tursics.de/karte-mahe-2017.html">
+						</div>
+					</div>
+					<div id="two">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-role="popup" id="popupInfo" data-theme="a" class="ui-corner-all">
+			<div style="padding:10px 20px;">
+				<h3>Wie kaputt ist Ihre Schule?</h3>
+				<div>Diese Karte zeigt das Ergebnis des Gebäudescans, also den aktuellen Sanierungsbedarf der Berliner Schulen.
+					Die <a href="https://github.com/tursics/schulsanierung/blob/master/data/rowdata2017-02-21mahe.csv" target="_blank">Daten stammen vom Bezirk Marzahn-Hellersdorf</a> und wurden von der Senatsverwaltung kommentiert und korrigiert.
+				</div>
+				<div>Bereits beantragte und bewilligte Gelder für Schulgebäude und -flächen sind nicht aufgeführt.
+					Der Bezirk beziffert den Sanierungsstau mit 235 Millionen Euro, die Senatsverwaltung mit 160 Millionen Euro.
+					Der Unterschied liegt hauptsächlich darin, dass die Senatsverwaltung die Kosten für Schulhöfe und Sportplätze nicht mehr mitgerechnet hat.
+				</div>
+				<div>(Stand: April 2017)</div>
+				<hr>
+				<div>Diese Karte entstand durch die Zusammenarbeit von <a href="http://www.tursics.de/" target="_blank">Thomas Tursics</a> mit dem <a href="https://beas-mh.de/" target="_blank">Bezirkselternausschuss Schule Marzahn-Hellersdorf</a>.
+					Haben Sie eine Anmerkung oder einen Fehler entdeckt, dann freue ich mich über <a href="mailto:thomas@tursics.de">Ihre Mail</a>.
+				</div>
+			</div>
 		</div>
 	</div>
 </body>

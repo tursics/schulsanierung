@@ -213,6 +213,10 @@
 	#receipt .group:hover {
 		background: transparent;
 	}
+	#receipt .groupClosed.groupMobileOpen {
+		height: inherit;
+		overflow-y: inherit;
+	}
 	#receiptClose {
 		font-size: 28px;
 		top: -10px;
@@ -384,6 +388,95 @@
 }
 .printerLabel .leaflet-popup-content-wrapper.scale150 .middle {
 	font-size: 30px;
+}
+
+/* dialogs */
+
+#popupInfo, #popupShare, #popupShare .ui-btn {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+}
+#popupInfo div div, #popupShare .ui-content div {
+	margin: 0 0 .8em 0;
+}
+#popupInfo hr {
+	border: 1px solid #38aadd;
+	margin: 0 0 .8em 0;
+}
+#popupInfo a {
+	font-weight: 400;
+	color: #38aadd;
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
+}
+#popupInfo a:hover {
+	border-bottom-color: #38aadd;
+}
+#popupShare .ui-input-text {
+	background: #fff;
+	border: 1px solid #555;
+	text-shadow: none;
+	border-radius: 2em;
+	box-shadow: none;
+	margin: 0;
+	padding: 0 .5em;
+	font-size:13px;
+}
+#popupShare input {
+	font-size: 13px;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+#popupShare .social {
+	display: inline;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	margin: 0 0 0 5px;
+	text-shadow: none;
+}
+#popupShare .social a {
+	font-weight: 400;
+}
+#popupShare .social .facebook, #popupShare .social .twitter {
+	color: #fff;
+	text-decoration: none;
+	line-height: 2em;
+	padding: .25em;
+	margin: 0 5px 0 0;
+	border-radius: 4px;
+}
+#popupShare .social .facebook {
+	background: #3b5998;
+}
+#popupShare .social .facebook:before {
+	content: "\f09a";
+	font: normal normal normal 14px/1 FontAwesome;
+	padding: 0 10px 0 0;
+}
+#popupShare .social .twitter {
+	background: #55acee;
+}
+#popupShare .social .twitter:before {
+	content: "\f099";
+	font: normal normal normal 14px/1 FontAwesome;
+	padding: 0 10px 0 0;
+}
+#popupShare .social span {
+	display: none;
+	margin: 0 0 0 7px;
+	padding: 1px 3px;
+	border-radius: 4px;
+	background: #fff;
+}
+#popupShare .social span.active {
+	display: inline;
+}
+#popupShare .social .facebook span {
+	color: #3b5998;
+}
+#popupShare .social .twitter span {
+	color: #55acee;
 }
 
 /* autocomplete list */
