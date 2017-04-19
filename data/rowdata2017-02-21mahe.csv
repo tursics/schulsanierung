@@ -42,10 +42,10 @@ BezNr;Schulnummer;Schulname;StNr;Gebaeudenummer;MassnahmeNr;Leistungsart;Standar
 10;10G09;Grundschule am Bürgerpark;10G09-01;10G09-01-A;10G09-01-A-009;Zweiter Rettungsweg;Zweiter Rettungsweg errichten mittel;1;2;Stk;1;1;0,00 €;F;WAHR;I-Maßnahme;_;;
 10;10G09;Grundschule am Bürgerpark;10G09-01;10G09-01-A;10G09-01-A-010;Raumsanierung;Grundschulraum;1;3851,86;m²;1;1;0,00 €;F;WAHR;SIWA Berücksichtung;_;;
 10;10G09;Grundschule am Bürgerpark;10G09-01;10G09-01-A;10G09-01-A-011;Sanitärsanierung;Sanitärbereich;1;265,2;m²;1;1;0,00 €;F;WAHR;I-Maßnahme;_;;
-10;10G10;Peter-Pan-Grundschule;10G10-01;10G10-01-C;10G10-01-C-002;Fenster ersetzen;Fenster (alle außer Kastenfenster);1;131,35;m²;1;1;91.945,00 €;;FALSCH;"Wirtschaftlichkeitsuntersuchung erforderlich;";B;;
-10;10G10;Peter-Pan-Grundschule;10G10-01;10G10-01-C;10G10-01-C-005;Dach sanieren;Flachdach;1;560;m²;1;1;84.000,00 €;;FALSCH;"Wirtschaftlichkeitsuntersuchung erforderlich;";B;;
-10;10G10;Peter-Pan-Grundschule;10G10-01;10G10-01-C;10G10-01-C-012;Zweiter Rettungsweg;Zweiter Rettungsweg errichten klein;1;1;Stk;1;1;150.000,00 €;;FALSCH;"Wirtschaftlichkeitsuntersuchung erforderlich;";B;;
-10;10G10;Peter-Pan-Grundschule;10G10-01;10G10-01-C;10G10-01-C-014;Raumsanierung;Grundschulraum;1;1123,8;m²;1;1;393.330,00 €;;FALSCH;"Wirtschaftlichkeitsuntersuchung erforderlich;";B;;
+10;10G10;Peter-Pan-Grundschule;10G10-01;10G10-01-C;10G10-01-C-002;Fenster ersetzen;Fenster (alle außer Kastenfenster);1;131,35;m²;1;1;91.945,00 €;;FALSCH;Wirtschaftlichkeitsuntersuchung erforderlich;B;;
+10;10G10;Peter-Pan-Grundschule;10G10-01;10G10-01-C;10G10-01-C-005;Dach sanieren;Flachdach;1;560;m²;1;1;84.000,00 €;;FALSCH;Wirtschaftlichkeitsuntersuchung erforderlich;B;;
+10;10G10;Peter-Pan-Grundschule;10G10-01;10G10-01-C;10G10-01-C-012;Zweiter Rettungsweg;Zweiter Rettungsweg errichten klein;1;1;Stk;1;1;150.000,00 €;;FALSCH;Wirtschaftlichkeitsuntersuchung erforderlich;B;;
+10;10G10;Peter-Pan-Grundschule;10G10-01;10G10-01-C;10G10-01-C-014;Raumsanierung;Grundschulraum;1;1123,8;m²;1;1;393.330,00 €;;FALSCH;Wirtschaftlichkeitsuntersuchung erforderlich;B;;
 10;10G10;Peter-Pan-Grundschule;10G10-02;10G10-02-A;10G10-02-A-001;Fenster ersetzen;Fenster (alle außer Kastenfenster);1;1039,9;m²;1;1;0,00 €;F;WAHR;I-Maßnahme;_;;
 10;10G10;Peter-Pan-Grundschule;10G10-02;10G10-02-A;10G10-02-A-003;Fassade sanieren;Fassade (einfach);1;1782,43;m²;1;1;0,00 €;F;WAHR;I-Maßnahme;_;;
 10;10G10;Peter-Pan-Grundschule;10G10-02;10G10-02-A;10G10-02-A-004;Dach sanieren;Flachdach;1;774,3;m²;1;1;0,00 €;F;WAHR;I-Maßnahme;_;;
@@ -337,7 +337,7 @@ BezNr;Schulnummer;Schulname;StNr;Gebaeudenummer;MassnahmeNr;Leistungsart;Standar
 10;10G09;Grundschule am Bürgerpark;10G09-01;10G09-01-B;10G09-01-B-012;Komplettsanierung Sporthalle(n);Sporthalle 27mx45m;2;1;Stk;1;1;2.100.000,00 €;;FALSCH;;;;
 10;10G09;Grundschule am Bürgerpark;10G09-01;10G09-01-HOF;10G09-01-HOF-014;Schulhofsanierung;Schulhof 90% verschlissen;2;11339;m²;1;1;0,00 €;;WAHR;"./. MEB erfolgt; geändert, muss in die I-Planung mit aufgenommen werden";;;
 10;10G09;Grundschule am Bürgerpark;10G09-01;10G09-01-SPORT;10G09-01-SPORT-013;Sportplatzsanierung;Sportplatz 90% verschlissen;2;1929;m²;1;1;327.930,00 €;;FALSCH;;;;
-10;10G10;Peter-Pan-Grundschule;10G10-01;10G10-01-C;10G10-01-C-016;Sanitärsanierung;Sanitärbereich;2;58,5;m²;1;1;128.700,00 €;;FALSCH;"Wirtschaftlichkeitsuntersuchung erforderlich;";;;
+10;10G10;Peter-Pan-Grundschule;10G10-01;10G10-01-C;10G10-01-C-016;Sanitärsanierung;Sanitärbereich;2;58,5;m²;1;1;128.700,00 €;;FALSCH;Wirtschaftlichkeitsuntersuchung erforderlich;;;
 10;10G10;Peter-Pan-Grundschule;10G10-01;10G10-01-HOF;10G10-01-HOF-018;Schulhofsanierung;Schulhof 50% verschlissen;2;7545;m²;1;1;1.131.750,00 €;;FALSCH;;;;
 10;10G12;Grundschule an der Geißenweide;10G12-01;10G12-01-A;10G12-01-A-001;Barrierefreiheit schaffen;Aufzugsanlage einbauen;2;1;Stk;1;1,14285714285714;200.000,00 €;;FALSCH;;;;
 10;10G12;Grundschule an der Geißenweide;10G12-01;10G12-01-A;10G12-01-A-002;Barrierefreiheit schaffen;Rampe errichten;2;1;Stk;1;1;20.000,00 €;;FALSCH;;;;
