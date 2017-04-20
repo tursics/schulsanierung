@@ -825,6 +825,19 @@ $(document).on("pagecreate", "#pageMap", function () {
 $(document).on("pageshow", "#pageMap", function () {
 	'use strict';
 
+	function updateEmbedURI() {
+		var size = $('#selectEmbedSize').val().split('x'),
+			x = size[0],
+			y = size[1],
+			html = '<iframe src="http://schulsanierung.tursics.de/karte-mahe-2017.html" width="' + x + '" height="' + y + '" frameborder="0" style="border:0" allowfullscreen></iframe>';
+
+		$('#inputEmbedURI').val(html);
+		if (-1 === $('#embedMap iframe')[0].outerHTML.indexOf('width="' + x + '"')) {
+			$('#embedMap iframe')[0].outerHTML = html;
+			$('#embedMap input').focus().select();
+		}
+	}
+
 	// center the city hall
 	initMap('mapContainer', 52.536686, 13.604863, 16);
 
@@ -843,6 +856,25 @@ $(document).on("pageshow", "#pageMap", function () {
 		$('#autocomplete').val('Marzahn-Hellersdorf');
 		selectSuggestion('10');
 	});
+
+	$("#popupShare").on('popupafteropen', function(e, ui) {
+		$('#shareLink input').focus().select();
+	});
+	$('#tabShareLink').on('click', function (e) {
+		$('#popupShare').popup('reposition', 'positionTo: window');
+		$('#shareLink input').focus().select();
+	});
+	$('#tabEmbedMap').on('click', function (e) {
+		updateEmbedURI();
+		$('#popupShare').popup('reposition', 'positionTo: window');
+		$('#embedMap input').focus().select();
+	});
+
+	$('#selectEmbedSize').val('400x300').selectmenu('refresh');
+	$('#selectEmbedSize').on('click', function (e) {
+		updateEmbedURI();
+		$('#popupShare').popup('reposition', 'positionTo: window');
+	});
 });
 
 // -----------------------------------------------------------------------------
@@ -851,6 +883,13 @@ $(function () {
 	'use strict';
 
 	$('a[href*="#"]:not([href="#"])').click(printerLabelClick);
+
+	var isIFrame = true;
+	try {
+		isIFrame = window.self !== window.top;
+	} catch (e) {
+		isIFrame = true;
+	}
 });
 
 // -----------------------------------------------------------------------------

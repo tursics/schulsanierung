@@ -11,8 +11,8 @@
 	<meta name="robots" content="index,follow" />
 
  	<title>Wo unsere Kinder lernen - Gebäudescan der Berliner Schulen</title>
-	<meta property="og:title" content="Wo unsere Kinder lernen - Gebäudescan der Berliner Schulen" />
-	<meta name="twitter:title" content="Wo unsere Kinder lernen - Gebäudescan der Berliner Schulen">
+	<meta property="og:title" content="Wo unsere Kinder lernen - Gebäudescan der Schulen in Marzahn-Hellersdorf" />
+	<meta name="twitter:title" content="Wo unsere Kinder lernen - Gebäudescan der Schulen in Marzahn-Hellersdorf">
 
 	<meta name="description" content="Viele Schulen in Berlin sind marode. Wie teuer die Sanierung wirklich wird, können Sie auf dieser Karte erkunden." />
 	<meta property="og:description" content="Viele Schulen in Berlin sind marode. Wie teuer die Sanierung wirklich wird, können Sie auf dieser Karte erkunden." />
@@ -122,24 +122,43 @@
 				<div data-role="tabs" id="tabs" style="padding:0;">
 					<div data-role="navbar">
 						<ul>
-							<li><a href="#one" data-ajax="false">Link teilen</a></li>
-							<li><a href="#two" data-ajax="false">Karte einbetten</a></li>
+							<li><a href="#shareLink" id="tabShareLink" data-ajax="false">Link teilen</a></li>
+							<li><a href="#embedMap" id="tabEmbedMap" data-ajax="false">Karte einbetten</a></li>
 						</ul>
 					</div>
-					<div id="one" class="ui-body-d ui-content">
+					<div id="shareLink" class="ui-body-d ui-content">
 						<div>
-							In den sozialen Netzen teilen
+							In sozialen Netzwerken teilen:
 							<div class="social">
-								<a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fschulsanierung.tursics.de%2Fkarte-mahe-2017.html" rel="popup" title="Bei Facebook teilen">teilen<span></span></a>
-								<a class="twitter" href="https://twitter.com/intent/tweet?text=Wie%20kaputt%20ist%20deine%20Schule?%20Finde%20es%20hier%20heraus&amp;url=http://schulsanierung.tursics.de/karte-mahe-2017.html" rel="popup" title="Bei Twitter teilen">tweeten<span></span></a>
+								<a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fschulsanierung.tursics.de%2Fkarte-mahe-2017.html" rel="popup" title="Bei Facebook teilen">Facebook<span></span></a>
+								<a class="twitter"  href="https://twitter.com/intent/tweet?text=Wie%20kaputt%20ist%20deine%20Schule?%20Finde%20es%20hier%20heraus&amp;url=http://schulsanierung.tursics.de/karte-mahe-2017.html" rel="popup" title="Bei Twitter teilen">Twitter<span></span></a>
+								<a class="whatsapp" href="whatsapp://send?text=Wie%20kaputt%20ist%20deine%20Schule?%20Finde%20es%20hier%20heraus%3A%20http%3A%2F%2Fschulsanierung.tursics.de%2Fkarte-mahe-2017.html" rel="popup" title="Bei WhatsApp teilen">WhatsApp<span></span></a>
 							</div>
 						</div>
 						<div>
 							oder den Link kopieren:<br>
 							<input value="http://schulsanierung.tursics.de/karte-mahe-2017.html">
 						</div>
+						<div style="text-align:center;margin:0;"><a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-a" data-rel="back">Schließen</a></div>
 					</div>
-					<div id="two">
+					<div id="embedMap" class="ui-body-d ui-content">
+						<div style="width:400px">
+							Den Codeschnipsel können Sie direkt in Ihre Webseite oder in Ihren Wordpress-Blog einbauen.<br>
+						</div>
+						<div class="ui-field-contain ui-grid-b">
+							<div class="ui-block-a" style="padding:0 1em 0 0;margin:0;">
+								<select id="selectEmbedSize" data-native-menu="false" data-inline="false">
+									<option value="400x300">Klein</option>
+									<option value="650x450">Mittel</option>
+									<option value="800x600">Groß</option>
+								</select>
+							</div>
+							<div class="ui-block-b" style="width:66.666%;padding:.25em 0 0 0;margin:0;">
+								<input id="inputEmbedURI" value="" data-inline="true">
+							</div>
+						</div>
+						<iframe></iframe>
+						<div style="text-align:center;margin:0;"><a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-a" data-rel="back">Schließen</a></div>
 					</div>
 				</div>
 			</div>
@@ -152,13 +171,14 @@
 				</div>
 				<div>Bereits beantragte und bewilligte Gelder für Schulgebäude und -flächen sind nicht aufgeführt.
 					Der Bezirk beziffert den Sanierungsstau mit 235 Millionen Euro, die Senatsverwaltung mit 160 Millionen Euro.
-					Der Unterschied liegt hauptsächlich darin, dass die Senatsverwaltung die Kosten für Schulhöfe und Sportplätze nicht mehr mitgerechnet hat.
+					Der Unterschied liegt hauptsächlich darin, dass die Senatsverwaltung die Kosten für Schulhöfe und Sportplätze nicht mit einberechnet hat.
 				</div>
-				<div>(Stand: April 2017)</div>
 				<hr>
-				<div>Diese Karte entstand durch die Zusammenarbeit von <a href="http://www.tursics.de/" target="_blank">Thomas Tursics</a> mit dem <a href="https://beas-mh.de/" target="_blank">Bezirkselternausschuss Schule Marzahn-Hellersdorf</a>.
+				<div>Diese Karte entstand in Zusammenarbeit mit dem <a href="https://beas-mh.de/" target="_blank">Bezirkselternausschuss Schule Marzahn-Hellersdorf</a>.
 					Haben Sie eine Anmerkung oder einen Fehler entdeckt, dann freue ich mich über <a href="mailto:thomas@tursics.de">Ihre Mail</a>.
 				</div>
+				<div style="text-align:center;"><a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-a" data-rel="back">Schließen</a></div>
+				<div style="text-align:center;">Stand: April 2017 | erstellt von <a href="http://www.tursics.de/" target="_blank">Thomas Tursics</a> | Code auf <a href="https://github.com/tursics/schulsanierung" target="_blank">github</a></div>
 			</div>
 		</div>
 	</div>

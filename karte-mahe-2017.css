@@ -412,6 +412,23 @@
 #popupInfo a:hover {
 	border-bottom-color: #38aadd;
 }
+#popupShare-popup {
+	-webkit-transition: top 200ms linear, left 200ms linear;
+	-moz-transition: top 200ms linear, left 200ms linear;
+	-ms-transition: top 200ms linear, left 200ms linear;
+	-o-transition: top 200ms linear, left 200ms linear;
+	transition: top 200ms linear, left 200ms linear;
+}
+#popupShare li.ui-block-a {
+}
+#popupShare li.ui-tabs-active {
+	border-bottom: 4px solid #38aadd;
+	border-radius: 20%;
+}
+#popupShare iframe {
+	border: 1px solid #555 !important;
+	border-radius: 1.2em;
+}
 #popupShare .ui-input-text {
 	background: #fff;
 	border: 1px solid #555;
@@ -434,11 +451,12 @@
 	font-size: 12px;
 	margin: 0 0 0 5px;
 	text-shadow: none;
+	white-space: nowrap;
 }
 #popupShare .social a {
 	font-weight: 400;
 }
-#popupShare .social .facebook, #popupShare .social .twitter {
+#popupShare .social .facebook, #popupShare .social .twitter, #popupShare .social .whatsapp {
 	color: #fff;
 	text-decoration: none;
 	line-height: 2em;
@@ -449,18 +467,38 @@
 #popupShare .social .facebook {
 	background: #3b5998;
 }
+#popupShare .social .facebook span {
+	color: #3b5998;
+}
 #popupShare .social .facebook:before {
 	content: "\f09a";
 	font: normal normal normal 14px/1 FontAwesome;
-	padding: 0 10px 0 0;
+	padding: 0 6px 0 2px;
+	vertical-align: middle;
 }
 #popupShare .social .twitter {
 	background: #55acee;
 }
+#popupShare .social .twitter span {
+	color: #55acee;
+}
 #popupShare .social .twitter:before {
 	content: "\f099";
 	font: normal normal normal 14px/1 FontAwesome;
-	padding: 0 10px 0 0;
+	padding: 0 6px 0 2px;
+	vertical-align: middle;
+}
+#popupShare .social .whatsapp {
+	background: #128c7e;
+}
+#popupShare .social .whatsapp span {
+	color: #128c7e;
+}
+#popupShare .social .whatsapp:before {
+	content: "\f232";
+	font: normal normal normal 16px/1 FontAwesome;
+	padding: 0 6px 0 2px;
+	vertical-align: text-top;
 }
 #popupShare .social span {
 	display: none;
@@ -471,12 +509,6 @@
 }
 #popupShare .social span.active {
 	display: inline;
-}
-#popupShare .social .facebook span {
-	color: #3b5998;
-}
-#popupShare .social .twitter span {
-	color: #55acee;
 }
 
 /* autocomplete list */
@@ -545,6 +577,28 @@
 	background: #ffff99;
 	color: #555;
 	padding: .5em;
+}
+
+/* style button */
+
+.ui-btn {
+	box-shadow: none;
+	font-size: 13px;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 400 !important;
+	text-shadow: none !important;
+}
+.ui-btn.ui-btn-a {
+	background: #fff !important;
+	border: 2px solid #38aadd !important;
+	border-radius: 2em;
+	color: #38aadd !important;
+	padding: .4em .6em;
+}
+.ui-btn.ui-btn-a:hover {
+	background: #38aadd !important;
+	color: #fff !important;
 }
 
 /* color theme for printer labels and autocomplete list */
