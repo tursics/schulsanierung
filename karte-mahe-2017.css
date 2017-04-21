@@ -421,13 +421,18 @@
 }
 #popupShare li.ui-block-a {
 }
-#popupShare li.ui-tabs-active {
-	border-bottom: 4px solid #38aadd;
-	border-radius: 20%;
+#popupShare ul.ui-tabs-nav .ui-btn {
+	background: #fff;
+	border-color: #ddd;
+}
+#popupShare li.ui-tabs-active .ui-btn.ui-btn-active {
+	background: #f1f8fc;
+	color: #38aadd;
+	padding-bottom: .9em;
+	border-bottom: 2px solid #38aadd;
 }
 #popupShare iframe {
 	border: 1px solid #555 !important;
-	border-radius: 1.2em;
 }
 #popupShare .ui-input-text {
 	background: #fff;

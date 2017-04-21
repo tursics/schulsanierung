@@ -625,12 +625,14 @@ function createMarker(data) {
 function selectSuggestion(selection) {
 	'use strict';
 
-	$.each(layerGroup._layers, function (key, val) {
-		if (val.options.data.Gebaeudenummer === selection) {
-			map.panTo(new L.LatLng(val.options.data.lat, val.options.data.lng));
-			updateMapSelectItem(val.options.data);
-		}
-	});
+	if (null !== layerGroup._layers) {
+		$.each(layerGroup._layers, function (key, val) {
+			if (val.options.data.Gebaeudenummer === selection) {
+				map.panTo(new L.LatLng(val.options.data.lat, val.options.data.lng));
+				updateMapSelectItem(val.options.data);
+			}
+		});
+	}
 }
 
 //-----------------------------------------------------------------------------
@@ -703,7 +705,7 @@ function initSearchBox(data) {
 }
 
 // -----------------------------------------------------------------------------
-
+/*
 function printerLabelClick() {
 	if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && (location.hostname === this.hostname)) {
 		var hash = this.hash,
@@ -729,7 +731,7 @@ function printerLabelClick() {
 		}
 	}
 }
-
+*/
 // -----------------------------------------------------------------------------
 
 function initSocialMedia() {
@@ -833,7 +835,7 @@ $(document).on("pageshow", "#pageMap", function () {
 
 		$('#inputEmbedURI').val(html);
 		if (-1 === $('#embedMap iframe')[0].outerHTML.indexOf('width="' + x + '"')) {
-			$('#embedMap iframe')[0].outerHTML = html;
+			$('#embedMap iframe')[0].outerHTML = html.replace('.html"', '.html?foo=' + (new Date().getTime()) + '"');
 			$('#embedMap input').focus().select();
 		}
 	}
@@ -871,7 +873,7 @@ $(document).on("pageshow", "#pageMap", function () {
 	});
 
 	$('#selectEmbedSize').val('400x300').selectmenu('refresh');
-	$('#selectEmbedSize').on('click', function (e) {
+	$('#selectEmbedSize').on('change', function (e) {
 		updateEmbedURI();
 		$('#popupShare').popup('reposition', 'positionTo: window');
 	});
@@ -882,7 +884,7 @@ $(document).on("pageshow", "#pageMap", function () {
 $(function () {
 	'use strict';
 
-	$('a[href*="#"]:not([href="#"])').click(printerLabelClick);
+//	$('a[href*="#"]:not([href="#"])').click(printerLabelClick);
 
 	var isIFrame = true;
 	try {
