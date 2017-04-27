@@ -31,10 +31,16 @@ function fixEuro(item) {
 		return 0;
 	} else if (item === null) {
 		return 0;
+	} else if ('undefined' === typeof item) {
+		return 0;
 	} else if ('number' === typeof item) {
 		return item;
 	} else if ('T€' === item.substring(item.length - 2)) {
 		return parseInt(item.substring(0, item.length - 2).replace('.', '').replace(',', '.'), 10) * 1000;
+	} else if ('€' === item.substring(item.length - 1)) {
+		return parseInt(item.substring(0, item.length - 1).replace('.', '').replace('.', '').replace(',', '.'), 10);
+	} else if ('string' === typeof item) {
+		return parseInt(item.replace('.', '').replace('.', '').replace(',', '.'), 10);
 	}
 	return item;
 }
@@ -66,20 +72,10 @@ function fixData(val) {
 	val.Sanitaerflaeche = fixComma(val.Sanitaerflaeche);
 	val.bereitsSanierteFlaecheInProzent = fixComma(val.bereitsSanierteFlaecheInProzent);
 
-	val.FensterKosten = fixEuro(val.FensterKosten);
-	val.FassadenKosten = fixEuro(val.FassadenKosten);
-	val.DachKosten = fixEuro(val.DachKosten);
-	val.AufzugKosten = fixEuro(val.AufzugKosten);
-	val.RampeKosten = fixEuro(val.RampeKosten);
-	val.EingangKosten = fixEuro(val.EingangKosten);
-	val.TuerenKosten = fixEuro(val.TuerenKosten);
-	val.BWCKosten = fixEuro(val.BWCKosten);
-	val.ZwischensummeBarrierefreiheitKosten = fixEuro(val.ZwischensummeBarrierefreiheitKosten);
-	val.zweiterRettungswegKosten = fixEuro(val.zweiterRettungswegKosten);
-	val.RaeumeKosten = fixEuro(val.RaeumeKosten);
-	val.Raeume2Kosten = fixEuro(val.Raeume2Kosten);
-	val.SanitaerKosten = fixEuro(val.SanitaerKosten);
-	val.GebaeudeGesamt = fixEuro(val.GebaeudeGesamt);
+	val.FensterFaktorFlaechenanteil = fixComma(val.FensterFaktorFlaechenanteil);
+	val.FensterFlaeche = fixComma(val.FensterFlaeche);
+	val.FensterKostenpauschale = fixComma(val.FensterKostenpauschale);
+	val.SanierungFensterNotwendig = fixComma(val.SanierungFensterNotwendig);
 
 	if (val.SanitaerSanierungsjahr === 0) {
 		val.SanitaerSanierungsjahr = '-';
@@ -126,6 +122,25 @@ function enrichMissingData(data) {
 				isSport = false,
 				isSchool = false;
 			if ((typeof val.lat !== 'undefined') && (typeof val.lng !== 'undefined')) {
+				val.FensterKosten = fixEuro(val.FensterKosten) * 1000;
+				val.FassadenKosten = fixEuro(val.FassadenKosten) * 1000;
+				val.DachKosten = fixEuro(val.DachKosten) * 1000;
+				val.AufzugKosten = fixEuro(val.AufzugKosten) * 1000;
+				val.RampeKosten = fixEuro(val.RampeKosten) * 1000;
+				val.EingangKosten = fixEuro(val.EingangKosten) * 1000;
+				val.TuerenKosten = fixEuro(val.TuerenKosten) * 1000;
+				val.BWCKosten = fixEuro(val.BWCKosten) * 1000;
+				val.ZwischensummeBarrierefreiheitKosten = fixEuro(val.ZwischensummeBarrierefreiheitKosten) * 1000;
+				val.zweiterRettungswegKosten = fixEuro(val.zweiterRettungswegKosten) * 1000;
+				val.RaeumeKosten = fixEuro(val.RaeumeKosten) * 1000;
+				val.Raeume2Kosten = fixEuro(val.Raeume2Kosten) * 1000;
+				val.SanitaerKosten = fixEuro(val.SanitaerKosten) * 1000;
+				val.Zwischensumme = fixEuro(val.Zwischensumme) * 1000;
+				val.GebaeudeGesamt = fixEuro(val.GebaeudeGesamt) * 1000;
+				val.SporthallenKosten = fixEuro(val.SporthallenKosten) * 1000;
+				val.SportplatzKosten = fixEuro(val.SportplatzKosten) * 1000;
+				val.SchulhofKosten = fixEuro(val.SchulhofKosten) * 1000;
+
 				sum1 = val.GebaeudeGesamt;
 				sum2 = val.FensterKosten + val.FassadenKosten + val.DachKosten + val.ZwischensummeBarrierefreiheitKosten + val.zweiterRettungswegKosten + val.RaeumeKosten + val.SanitaerKosten;
 				diff = sum1 - sum2;
@@ -163,8 +178,8 @@ function createStatistics(data) {
 		Strasse: '',
 		PLZ: '',
 		Gebaeudenummer: 1100000,
-		lat: 52.515807,
-		lng: 13.479470,
+		lat: 52.534982,
+		lng: 13.200651,
 		GebaeudeHoeheInM: 0,
 		GebaeudeUmfangInMAusConject: 0,
 		FensterKostenpauschale: 0,
@@ -659,7 +674,7 @@ $(document).on("pagecreate", "#pageMap", function () {
 	'use strict';
 
 	// center the city hall
-//	initMap( 'mapContainer', 52.515807, 13.479470, 16);
+//	initMap( 'mapContainer', 52.534982, 13.200651, 16);
 });
 
 // -----------------------------------------------------------------------------
@@ -668,7 +683,7 @@ $(document).on("pageshow", "#pageMap", function () {
 	'use strict';
 
 	// center the city hall
-	initMap('mapContainer', 52.515807, 13.479470, 16);
+	initMap('mapContainer', 52.534982, 13.200651, 16);
 
 	$('#autocomplete').val('');
 	$('#receipt .group').on('click', function (e) {
