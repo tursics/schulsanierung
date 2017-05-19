@@ -66,12 +66,13 @@ function fixData(val) {
 	val.NF = fixComma(val.NF);
 	val.GF = fixComma(val.GF);
 	val.Grundstuecksflaeche = fixComma(val.Grundstuecksflaeche);
-	val.GebaeudeHoeheInM = fixComma(val.GebaeudeHoeheInM);
-	val.GebaeudeUmfangInMAusConject = fixComma(val.GebaeudeUmfangInMAusConject);
+//	val.GebaeudeHoeheInM = fixComma(val.GebaeudeHoeheInM);
+//	val.GebaeudeUmfangInMAusConject = fixComma(val.GebaeudeUmfangInMAusConject);
 	val.FassadenFlaeche = fixComma(val.FassadenFlaeche);
+	val.FassadenFlaecheOhneFenster = fixComma(val.FassadenFlaecheOhneFenster);
 	val.Dachflaeche = fixComma(val.Dachflaeche);
 	val.BWCAnzahl = fixComma(val.BWCAnzahl);
-	val.RaeumeNutzflaecheBGF = parseInt(val.RaeumeNutzflaecheBGF, 10);
+	val.RaeumeNutzflaecheBGF = fixComma(val.RaeumeNutzflaecheBGF);
 	val.Sanitaerflaeche = fixComma(val.Sanitaerflaeche);
 	val.bereitsSanierteFlaecheInProzent = fixComma(val.bereitsSanierteFlaecheInProzent);
 
@@ -79,6 +80,9 @@ function fixData(val) {
 	val.FensterFlaeche = fixComma(val.FensterFlaeche);
 	val.FensterKostenpauschale = fixComma(val.FensterKostenpauschale);
 	val.SanierungFensterNotwendig = fixComma(val.SanierungFensterNotwendig);
+
+	val.FassadenFaktorFlaechenanteil = parseFloat(val.FassadenFaktorFlaechenanteil);
+	val.RaeumeKostenpauschale = parseFloat(val.RaeumeKostenpauschale);
 
 	if (val.SanitaerSanierungsjahr === 0) {
 		val.SanitaerSanierungsjahr = '-';
@@ -282,7 +286,6 @@ function createStatistics(data) {
 function updateMapSelectItem(data) {
 	'use strict';
 
-console.log(data);
 	function setText(key, txt) {
 		var item = $('#rec' + key);
 

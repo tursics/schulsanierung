@@ -98,9 +98,9 @@
 				</div>
 				<div class="group groupClosed">
 					<div><span class="half">Fassade</span><span class="number"><span id="recFassadenKosten"></span> EUR</span></div>
-					<div class="sub"><span class="full"><span id="recGebaeudeHoeheInM"></span> m hoch x <span id="recGebaeudeUmfangInMAusConject"></span> m Umfang</span></div>
-					<div class="sub"><span class="full">&nbsp;&nbsp;(<span id="recFassadenFlaeche"></span> m² mit Fenster</span>)</div>
-					<div class="sub"><span class="full">&nbsp;&nbsp;(<span id="recFassadenFlaecheOhneFenster_"></span> m² ohne Fenster</span>)</div>
+<!--				<div class="sub"><span class="full"><span id="recGebaeudeHoeheInM"></span> m hoch x <span id="recGebaeudeUmfangInMAusConject"></span> m Umfang</span></div>-->
+					<div class="sub"><span class="full">(<span id="recFassadenFlaeche"></span> m² mit Fenster</span>)</div>
+					<div class="sub"><span class="full">(<span id="recFassadenFlaecheOhneFenster_"></span> m² ohne Fenster</span>)</div>
 					<div class="sub"><span class="half"><span id="recFassadenFlaecheOhneFenster"></span> m² á <span id="recFassadenKostenpauschale"></span> €/m²</span><span class="number"><span id="recFassadenKosten_"></span> EUR</span></div>
 					<div class="sub"><span class="half">Sanierung notwendig</span><span class="boolean"><span id="recSanierungFassadenNotwendig"></span></span></div>
 				</div>
@@ -130,8 +130,24 @@
 					<div class="sub"><span class="half"><span id="recbereitsSanierteFlaecheInProzent"></span>% im Jahr <span id="recSanitaerSanierungsjahr"></span> saniert</div>
 					<div class="sub"><span class="half">noch zu sanieren: <span id="recFlaecheNichtSaniert"></span> m²</div>
 				</div>
-				<div><span class="half">Sporthalle</span><span class="number"><span id="recBaukosten"></span> EUR</span></div>
-				<div><span class="half">Außenanlagen</span><span class="number"><span id="recAussenanlagen">-</span> EUR</span></div>
+				<div class="group groupClosed">
+					<div><span class="half">Sporthalle</span><span class="number"><span id="recBaukosten"></span> EUR</span></div>
+					<div class="sub"><span class="half"><span id="recSporthallenFlaeche"></span> m² Sporthallenfläche</div>
+					<div class="sub"><span class="half"><span id="recSporthallenKosten"></span> € Sporthallenkosten</div>
+					<div class="sub"><span class="half"><span id="recSporthallenKostenpauschale"></span> € Sporthallenkostenpauschale</div>
+					<div class="sub"><span class="half">Sanierung notwendig</span><span class="boolean"><span id="recSanierungSporthallenNotwendig"></span></span></div>
+				</div>
+				<div class="group groupClosed">
+					<div><span class="half">Außenanlagen</span><span class="number"><span id="recAussenanlagen">-</span> EUR</span></div>
+					<div class="sub"><span class="half"><span id="recSchulhofFlaeche"></span> m² Schulhoffläche</div>
+					<div class="sub"><span class="half"><span id="recSchulhofKosten"></span> € Schulhofkosten</div>
+					<div class="sub"><span class="half"><span id="recSchulhofKostenpauschale"></span> € Schulhofkostenpauschale</div>
+					<div class="sub"><span class="half"><span id="recSchulhofWertung"></span> Schulhofwertung</div>
+					<div class="sub"><span class="half"><span id="recSportplatzFlaeche"></span> m² Sportplatzfläche</div>
+					<div class="sub"><span class="half"><span id="recSportplatzKosten"></span> € Sportplatzkosten</div>
+					<div class="sub"><span class="half"><span id="recSportplatzKostenpauschale"></span> € Sportplatzkostenpauschale</div>
+					<div class="sub"><span class="half"><span id="recSportplatzWertung"></span> Sportplatzwertung</div>
+				</div>
 				<div class="full">--------------------------------------------</div>
 				<div><span class="half">SUMME</span><span class="number"><span id="recGebaeudeGesamt"></span> EUR</span></div>
 				<div class="full">============================================</div>
