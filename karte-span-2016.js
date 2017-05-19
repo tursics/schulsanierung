@@ -55,6 +55,8 @@ function fixData(val) {
 			return 0;
 		} else if (item === null) {
 			return 0;
+		} else if ('string' === typeof item) {
+			return parseInt(item.replace('.', '').replace('.', '').replace(',', '.'), 10);
 		}
 		return parseFloat(String(item).replace('.', '').replace(',', '.'));
 	}
@@ -62,6 +64,7 @@ function fixData(val) {
 	val.NGF = parseInt(val.NGF, 10);
 	val.BGF = fixComma(val.BGF);
 	val.NF = fixComma(val.NF);
+	val.GF = fixComma(val.GF);
 	val.Grundstuecksflaeche = fixComma(val.Grundstuecksflaeche);
 	val.GebaeudeHoeheInM = fixComma(val.GebaeudeHoeheInM);
 	val.GebaeudeUmfangInMAusConject = fixComma(val.GebaeudeUmfangInMAusConject);
@@ -279,6 +282,7 @@ function createStatistics(data) {
 function updateMapSelectItem(data) {
 	'use strict';
 
+console.log(data);
 	function setText(key, txt) {
 		var item = $('#rec' + key);
 
