@@ -477,25 +477,29 @@ function createMarker(data) {
 		});
 
 		$.each(data, function (key, val) {
-			if ((typeof val.lat !== 'undefined') && (typeof val.lng !== 'undefined')) {
-				var isSchool   = val.Bauwerk.startsWith('Schul') || val.Bauwerk.startsWith('Hauptgebäude') || val.Bauwerk.startsWith('Altbau'),
-					isSport    = val.Bauwerk.startsWith('Sport'),
-					isExt      = val.Bauwerk.startsWith('MUR') || val.Bauwerk.startsWith('MEB'),
-					isMulti    = val.Bauwerk.startsWith('MZG'),
-					isDistrict = val.Bauwerk.startsWith('Bezirk'),
-					isTraffic  = val.Schulname.indexOf('verkehrsschule') !== -1,
-					marker = L.marker([parseFloat(val.lat), parseFloat(val.lng)], {
-						data: fixData(val),
-						icon: isTraffic ? markerTraffic :
-								isSchool ? markerSchool :
-										isSport ? markerSport :
-												isExt ? markerExtension :
-														isMulti ? markerMulti :
-																markerOthers,
-						opacity: isDistrict ? 0 : 1,
-						clickable: isDistrict ? 0 : 1
-					});
-				layerGroup.addLayer(marker);
+			try {
+				if ((typeof val.lat !== 'undefined') && (typeof val.lng !== 'undefined') && (val.lat !== '') && (val.lng !== '')) {
+					var isSchool   = val.Bauwerk.startsWith('Schul') || val.Bauwerk.startsWith('Hauptgebäude') || val.Bauwerk.startsWith('Altbau'),
+						isSport    = val.Bauwerk.startsWith('Sport'),
+						isExt      = val.Bauwerk.startsWith('MUR') || val.Bauwerk.startsWith('MEB'),
+						isMulti    = val.Bauwerk.startsWith('MZG'),
+						isDistrict = val.Bauwerk.startsWith('Bezirk'),
+						isTraffic  = val.Schulname.indexOf('verkehrsschule') !== -1,
+						marker = L.marker([parseFloat(val.lat), parseFloat(val.lng)], {
+							data: fixData(val),
+							icon: isTraffic ? markerTraffic :
+									isSchool ? markerSchool :
+											isSport ? markerSport :
+													isExt ? markerExtension :
+															isMulti ? markerMulti :
+																	markerOthers,
+							opacity: isDistrict ? 0 : 1,
+							clickable: isDistrict ? 0 : 1
+						});
+					layerGroup.addLayer(marker);
+				}
+			} catch (e) {
+//				console.log(e);
 			}
 		});
 	} catch (e) {
