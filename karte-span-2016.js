@@ -84,6 +84,9 @@ function fixData(val) {
 	val.FassadenFaktorFlaechenanteil = parseFloat(val.FassadenFaktorFlaechenanteil);
 	val.RaeumeKostenpauschale = parseFloat(val.RaeumeKostenpauschale);
 
+	val.SporthallenFlaeche = fixComma(val.SporthallenFlaeche);
+	val.SporthallenKostenpauschale = fixComma(val.SporthallenKostenpauschale);
+
 	if (val.SanitaerSanierungsjahr === 0) {
 		val.SanitaerSanierungsjahr = '-';
 	} else if (val.SanitaerSanierungsjahr === null) {
@@ -322,6 +325,7 @@ function updateMapSelectItem(data) {
 	setText('DachKosten_', data.Dachflaeche * data.DachKostenpauschale);
 	setText('FassadenKosten_', data.FassadenFaktorFlaechenanteil * (data.FassadenFlaecheOhneFenster < 0 ? 0 : data.FassadenFlaecheOhneFenster) * data.FassadenKostenpauschale);
 	setText('RaeumeKosten_', data.RaeumeNutzflaecheBGF * data.RaeumeKostenpauschale);
+	setText('SporthallenKosten_', data.SporthallenFlaeche * data.SporthallenKostenpauschale);
 	setText('Raeume2NF_', data.NF - data.Sanitaerflaeche);
 	setText('Raeume2Kosten_', data.Raeume2Nutzflaeche * data.Raeume2Kostenpauschale);
 	setText('GebaeudeGesamt_', data.FensterKosten + data.FassadenKosten + data.DachKosten + data.ZwischensummeBarrierefreiheitKosten + data.zweiterRettungswegKosten + data.RaeumeKosten + data.SanitaerKosten + data.Baukosten + data.Aussenanlagen);
