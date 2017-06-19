@@ -50,10 +50,10 @@
 	<link rel="apple-touch-icon" sizes="144x144" href="/assets/apple-icon-144x144.png">
 	<link rel="apple-touch-icon" sizes="152x152" href="/assets/apple-icon-152x152.png">
 	<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="/assets/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="./assets/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon-96x96.png">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="/assets/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
@@ -87,6 +87,56 @@
 					<div class="bold"><span id="iPlanung"></span></div>
 				</div>
 				<div id="receiptClose"><i class="fa fa-chevron-up" aria-hidden="true"></i>verkleinern</div>
+			</div>
+		</div>
+		<div data-role="popup" id="popupShare" data-theme="a" class="ui-corner-all">
+			<div style="padding:0;margin:-1px 0 0 -1px;overflow-x:hidden;">
+				<div data-role="tabs" id="tabs" style="padding:0;">
+					<div data-role="navbar">
+						<ul>
+							<li><a href="#shareLink" id="tabShareLink" data-ajax="false" class="ui-btn-active">Link teilen</a></li>
+							<li><a href="#embedMap" id="tabEmbedMap" data-ajax="false">Karte einbetten</a></li>
+						</ul>
+					</div>
+					<div id="shareLink" class="ui-body-d ui-content">
+						<div>
+							In sozialen Netzwerken teilen:
+							<div class="social">
+								<a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fschulsanierung.tursics.de%2Fkarte-maerz-2017.html" rel="popup" title="Bei Facebook teilen">Facebook<span></span></a>
+								<a class="twitter"  href="https://twitter.com/intent/tweet?text=Wie%20kaputt%20ist%20deine%20Schule?%20Finde%20es%20hier%20heraus&amp;url=http://schulsanierung.tursics.de/karte-maerz-2017.html" rel="popup" title="Bei Twitter teilen">Twitter<span></span></a>
+								<a class="whatsapp" href="whatsapp://send?text=Wie%20kaputt%20ist%20deine%20Schule?%20Finde%20es%20hier%20heraus%3A%20http%3A%2F%2Fschulsanierung.tursics.de%2Fkarte-maerz-2017.html" rel="popup" title="Bei WhatsApp teilen">WhatsApp<span></span></a>
+							</div>
+						</div>
+						<div>
+							oder den Link kopieren:<br>
+							<input value="http://schulsanierung.tursics.de/karte-maerz-2017.html">
+						</div>
+						<div style="text-align:center;margin:0;"><a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-a" data-rel="back">Schließen</a></div>
+					</div>
+					<div id="embedMap" class="ui-body-d ui-content">
+						<div style="width:400px">
+							Den Codeschnipsel können Sie direkt in Ihre Webseite oder in Ihren Wordpress-Blog einbauen.<br>
+						</div>
+						<div class="ui-field-contain ui-grid-b">
+							<div class="ui-block-a" style="padding:0 1em 0 0;margin:0;">
+								<select id="selectEmbedSize" data-native-menu="false" data-inline="false">
+									<option value="400x300">Klein</option>
+									<option value="650x450">Mittel</option>
+									<option value="800x600">Groß</option>
+								</select>
+							</div>
+							<div class="ui-block-b" style="width:66.666%;padding:.25em 0 0 0;margin:0;">
+								<input id="inputEmbedURI" value="" data-inline="true">
+							</div>
+						</div>
+						<iframe></iframe>
+						<div style="text-align:center;margin:.8em 0 0 0;"><a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-a" data-rel="back">Schließen</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-role="popup" id="popupInfo" data-theme="a" class="ui-corner-all">
+			<div style="padding:10px 20px;">
 			</div>
 		</div>
 	</div>

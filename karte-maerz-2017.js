@@ -32,6 +32,8 @@ function fixEuro(item) {
 		return 0;
 	} else if (item === null) {
 		return 0;
+	} else if ('undefined' === typeof item) {
+		return 0;
 	} else if ('number' === typeof item) {
 		return item;
 	} else if ('T€' === item.substring(item.length - 2)) {
@@ -429,6 +431,25 @@ function initSocialMedia() {
 */
 // -----------------------------------------------------------------------------
 
+var ControlInfo = L.Control.extend({
+	options: {
+		position: 'bottomright'
+	},
+
+	onAdd: function (map) {
+		'use strict';
+
+		var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-custom');
+
+		container.innerHTML = '<a style="font-size:1.2em" href="#popupShare" title="Teilen" data-rel="popup" data-position-to="window" data-transition="pop"><i class="fa fa-share-alt" aria-hidden="true"></i></a>';
+//		container.innerHTML += '<a style="font-size:1.2em" href="#popupInfo" title="Info" data-rel="popup" data-position-to="window" data-transition="pop"><i class="fa fa-info" aria-hidden="true"></i></a>';
+
+		return container;
+	}
+});
+
+// -----------------------------------------------------------------------------
+
 function initMap(elementName, lat, lng, zoom) {
 	'use strict';
 
@@ -444,6 +465,7 @@ function initMap(elementName, lat, lng, zoom) {
 			.setView([lat, lng], zoom);
 
 		map.addControl(L.control.zoom({ position: 'bottomright'}));
+		map.addControl(new ControlInfo());
 		map.once('focus', mapAction);
 
 		$.getJSON(dataUrl, function (data) {
@@ -466,6 +488,19 @@ function initMap(elementName, lat, lng, zoom) {
 $(document).on("pageshow", "#pageMap", function () {
 	'use strict';
 
+	function updateEmbedURI() {
+		var size = $('#selectEmbedSize').val().split('x'),
+			x = size[0],
+			y = size[1],
+			html = '<iframe src="https://tursics.github.io/schulsanierung/karte-maerz-2017.html" width="' + x + '" height="' + y + '" frameborder="0" style="border:0" allowfullscreen></iframe>';
+
+		$('#inputEmbedURI').val(html);
+		if (-1 === $('#embedMap iframe')[0].outerHTML.indexOf('width="' + x + '"')) {
+			$('#embedMap iframe')[0].outerHTML = html.replace('.html"', '.html?foo=' + (new Date().getTime()) + '"');
+			$('#embedMap input').focus().select();
+		}
+	}
+
 	// center the city hall
 	initMap('mapContainer', 52.518413, 13.408368, 13);
 
@@ -483,6 +518,25 @@ $(document).on("pageshow", "#pageMap", function () {
 	$('#searchBox .sample a:nth-child(2)').on('click', function (e) {
 		$('#autocomplete').val('Pankow');
 		selectSuggestion('03');
+	});
+
+	$("#popupShare").on('popupafteropen', function(e, ui) {
+		$('#shareLink input').focus().select();
+	});
+	$('#tabShareLink').on('click', function (e) {
+		$('#popupShare').popup('reposition', 'positionTo: window');
+		$('#shareLink input').focus().select();
+	});
+	$('#tabEmbedMap').on('click', function (e) {
+		updateEmbedURI();
+		$('#popupShare').popup('reposition', 'positionTo: window');
+		$('#embedMap input').focus().select();
+	});
+
+	$('#selectEmbedSize').val('400x300').selectmenu('refresh');
+	$('#selectEmbedSize').on('change', function (e) {
+		updateEmbedURI();
+		$('#popupShare').popup('reposition', 'positionTo: window');
 	});
 });
 

@@ -440,6 +440,132 @@
 	font-size: 30px;
 }
 
+/* dialogs */
+
+#popupInfo, #popupShare, #popupShare .ui-btn {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+}
+#popupInfo div div, #popupShare .ui-content div {
+	margin: 0 0 .8em 0;
+}
+#popupInfo hr {
+	border: 1px solid #38aadd;
+	margin: 0 0 .8em 0;
+}
+#popupInfo a {
+	font-weight: 400;
+	color: #38aadd;
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
+}
+#popupInfo a:hover {
+	border-bottom-color: #38aadd;
+}
+#popupShare-popup {
+	-webkit-transition: top 200ms linear, left 200ms linear;
+	-moz-transition: top 200ms linear, left 200ms linear;
+	-ms-transition: top 200ms linear, left 200ms linear;
+	-o-transition: top 200ms linear, left 200ms linear;
+	transition: top 200ms linear, left 200ms linear;
+}
+#popupShare li.ui-block-a {
+}
+#popupShare ul.ui-tabs-nav .ui-btn {
+	background: #fff;
+	border-color: #ddd;
+}
+#popupShare li.ui-tabs-active .ui-btn.ui-btn-active {
+	background: #f1f8fc;
+	color: #38aadd;
+	padding-bottom: .9em;
+	border-bottom: 2px solid #38aadd;
+}
+#popupShare iframe {
+	border: 1px solid #555 !important;
+}
+#popupShare .ui-input-text {
+	background: #fff;
+	border: 1px solid #555;
+	text-shadow: none;
+	border-radius: 2em;
+	box-shadow: none;
+	margin: 0;
+	padding: 0 .5em;
+	font-size:13px;
+}
+#popupShare input {
+	font-size: 13px;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+#popupShare .social {
+	display: inline;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	margin: 0 0 0 5px;
+	text-shadow: none;
+	white-space: nowrap;
+}
+#popupShare .social a {
+	font-weight: 400;
+}
+#popupShare .social .facebook, #popupShare .social .twitter, #popupShare .social .whatsapp {
+	color: #fff;
+	text-decoration: none;
+	line-height: 2em;
+	padding: .25em;
+	margin: 0 5px 0 0;
+	border-radius: 4px;
+}
+#popupShare .social .facebook {
+	background: #3b5998;
+}
+#popupShare .social .facebook span {
+	color: #3b5998;
+}
+#popupShare .social .facebook:before {
+	content: "\f09a";
+	font: normal normal normal 14px/1 FontAwesome;
+	padding: 0 6px 0 2px;
+	vertical-align: middle;
+}
+#popupShare .social .twitter {
+	background: #55acee;
+}
+#popupShare .social .twitter span {
+	color: #55acee;
+}
+#popupShare .social .twitter:before {
+	content: "\f099";
+	font: normal normal normal 14px/1 FontAwesome;
+	padding: 0 6px 0 2px;
+	vertical-align: middle;
+}
+#popupShare .social .whatsapp {
+	background: #128c7e;
+}
+#popupShare .social .whatsapp span {
+	color: #128c7e;
+}
+#popupShare .social .whatsapp:before {
+	content: "\f232";
+	font: normal normal normal 16px/1 FontAwesome;
+	padding: 0 6px 0 2px;
+	vertical-align: text-top;
+}
+#popupShare .social span {
+	display: none;
+	margin: 0 0 0 7px;
+	padding: 1px 3px;
+	border-radius: 4px;
+	background: #fff;
+}
+#popupShare .social span.active {
+	display: inline;
+}
+
 /* autocomplete list */
 
 .autocomplete-suggestions {
@@ -506,6 +632,28 @@
 	background: #ffff99;
 	color: #555;
 	padding: .5em;
+}
+
+/* style button */
+
+.ui-btn {
+	box-shadow: none;
+	font-size: 13px;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 400 !important;
+	text-shadow: none !important;
+}
+.ui-btn.ui-btn-a {
+	background: #fff !important;
+	border: 2px solid #38aadd !important;
+	border-radius: 2em;
+	color: #38aadd !important;
+	padding: .4em .6em;
+}
+.ui-btn.ui-btn-a:hover {
+	background: #38aadd !important;
+	color: #fff !important;
 }
 
 /* color theme for printer labels and autocomplete list */
