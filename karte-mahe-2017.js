@@ -831,7 +831,7 @@ $(document).on("pageshow", "#pageMap", function () {
 		var size = $('#selectEmbedSize').val().split('x'),
 			x = size[0],
 			y = size[1],
-			html = '<iframe src="http://schulsanierung.tursics.de/karte-mahe-2017.html" width="' + x + '" height="' + y + '" frameborder="0" style="border:0" allowfullscreen></iframe>';
+			html = '<iframe src="https://tursics.github.io/schulsanierung/karte-mahe-2017.html" width="' + x + '" height="' + y + '" frameborder="0" style="border:0" allowfullscreen></iframe>';
 
 		$('#inputEmbedURI').val(html);
 		if (-1 === $('#embedMap iframe')[0].outerHTML.indexOf('width="' + x + '"')) {
