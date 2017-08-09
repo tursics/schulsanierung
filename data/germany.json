@@ -1,0 +1,26 @@
+[
+	{
+		"title": "Berlin",
+		"lat": 52.518413,
+		"lng": 13.408368,
+		"zoom": 13
+	},
+	{
+		"title": "Berlin-Lichtenberg",
+		"lat": 52.518413,
+		"lng": 13.408368,
+		"zoom": 13
+	},
+	{
+		"title": "Berlin-Marzahn",
+		"lat": 52.518413,
+		"lng": 13.408368,
+		"zoom": 13
+	},
+	{
+		"title": "Hamburg",
+		"lat": 52.518413,
+		"lng": 13.408368,
+		"zoom": 13
+	}
+]

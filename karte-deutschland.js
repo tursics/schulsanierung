@@ -347,6 +347,26 @@ function selectSuggestion(selection) {
 
 //-----------------------------------------------------------------------------
 
+function initCity(data) {
+	'use strict';
+
+	try {
+		var str = '';
+
+		str += '<option selected disabled value="-">Wählen Sie eine Stadt</option>';
+
+		$.each(data, function (key, val) {
+			str += '<option value="' + key + '">' + val.title + '</option>';
+		});
+
+		$('#searchBox .module select').html(str).val('-').change();
+	} catch (e) {
+//		console.log(e);
+	}
+}
+
+//-----------------------------------------------------------------------------
+
 function initSearchBox(data) {
 	'use strict';
 
@@ -458,7 +478,7 @@ function initMap(elementName, lat, lng, zoom) {
 			mapboxTiles = L.tileLayer('https://{s}.tiles.mapbox.com/v4/tursics.l7ad5ee8/{z}/{x}/{y}.png?access_token=' + mapboxToken, {
 				attribution: '<a href="http://www.openstreetmap.org" target="_blank">OpenStreetMap-Mitwirkende</a>, <a href="https://www.mapbox.com" target="_blank">Mapbox</a>'
 			}),
-			dataUrl = 'data/gebaeudescan2017-03.json';
+			dataUrl = 'data/germany.json';
 
 		map = L.map(elementName, {zoomControl: false, scrollWheelZoom: true})
 			.addLayer(mapboxTiles)
@@ -468,7 +488,15 @@ function initMap(elementName, lat, lng, zoom) {
 		map.addControl(new ControlInfo());
 		map.once('focus', mapAction);
 
-		$.getJSON(dataUrl, function (data) {
+		$.ajax({
+			url: dataUrl,
+			dataType: 'json',
+			mimeType: 'application/json',
+			success: function (data) {
+				initCity(data);
+			}
+		});
+/*		$.getJSON(dataUrl, function (data) {
 			data = enrichMissingData(data);
 			createStatistics(data);
 			createMarker(data);
@@ -479,7 +507,7 @@ function initMap(elementName, lat, lng, zoom) {
 			$.getJSON(budgetUrl, function (budgetData) {
 				budget = budgetData;
 			});
-		});
+		});*/
 	}
 }
 
@@ -501,8 +529,8 @@ $(document).on("pageshow", "#pageMap", function () {
 		}
 	}
 
-	// center the city hall
-	initMap('mapContainer', 52.518413, 13.408368, 13);
+	// center Germany
+	initMap('mapContainer', 51.220915, 9.357579, 6);
 
 	$('#autocomplete').val('');
 	$('#receipt .group').on('click', function (e) {
@@ -520,7 +548,7 @@ $(document).on("pageshow", "#pageMap", function () {
 		selectSuggestion('03');
 	});
 
-	$("#popupShare").on('popupafteropen', function(e, ui) {
+	$("#popupShare").on('popupafteropen', function (e, ui) {
 		$('#shareLink input').focus().select();
 	});
 	$('#tabShareLink').on('click', function (e) {
