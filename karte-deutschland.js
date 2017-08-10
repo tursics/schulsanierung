@@ -6,7 +6,6 @@
 var map = null;
 var layerPopup = null;
 var layerGroup = null;
-var budget = null;
 var maxVal = 0;
 var dataGermany = null;
 
@@ -41,14 +40,6 @@ function fixEuro(item) {
 		return parseInt(item.substring(0, item.length - 2).replace('.', '').replace(',', '.'), 10) * 1000;
 	}
 	return item;
-}
-
-// -----------------------------------------------------------------------------
-
-function fixData(val) {
-	'use strict';
-
-	return val;
 }
 
 // -----------------------------------------------------------------------------
@@ -92,50 +83,38 @@ function updateMapSelectItem(data) {
 
 	mapAction();
 
-	var key, item, kosten, moneyPot = 0;
+	var key, item, costs, moneyPot = 0;
 
 	for (key in data) {
 		setText(key, data[key]);
 	}
 
-	setText('PrioritaetGesamt', (data.Prio === 0 ? '' : (data.Prio === 1 ? 'Höchste Priorität' : (data.Kosten >= 5000000 ? 'Priorität 2 oder 3' : 'unbekannte Priorität'))));
+	setText('PrioritaetGesamt', (data.Prio === 0 ? '' : (data.Prio === 1 ? 'Höchste Priorität' : (data.costs >= 5000000 ? 'Priorität 2 oder 3' : 'unbekannte Priorität'))));
 
-	for (key in budget) {
-		item = budget[key];
-		if ((item.Schulnummer === data.Schulnummer) || ((data.Schulart === 'Bezirk') && (0 === item.Schulnummer.indexOf(data.Schulnummer))) || (data.Schulart === 'Stadt')) {
-			kosten = parseFloat(String(item.Kostenansatz).replace('.', '').replace('.', '').replace(',', '.'));
-			if (isNaN(kosten)) {
-				kosten = 0;
-			}
-//			if ('iPlanung' === item.Programm) {
-			moneyPot += kosten;
-//			}
-		}
-	}
 	if (moneyPot > 0) {
-		$('#iPlanung').html('<br>In den Jahren 2015 bis 2019 werden über ' + formatNumber(moneyPot) + ' Euro ' + ((data.Schulart === 'Bezirk') || (data.Schulart === 'Stadt') ? 'in die Schulen' : 'in diese Schule') + ' investiert.' + (data.Kosten > 0 ? ' Trotz dieser Summe bleibt immer noch ein Sanierungsbedarf von ' + formatNumber(data.Kosten) + ' Euro.' : ' Danach ist sie vollständig saniert.'));
+		$('#iPlanung').html('<br>In den Jahren 2015 bis 2019 werden über ' + formatNumber(moneyPot) + ' Euro ' + ((data.Schulart === 'Bezirk') || (data.Schulart === 'Stadt') ? 'in die Schulen' : 'in diese Schule') + ' investiert.' + (data.costs > 0 ? ' Trotz dieser Summe bleibt immer noch ein Sanierungsbedarf von ' + formatNumber(data.costs) + ' Euro.' : ' Danach ist sie vollständig saniert.'));
 	} else {
-		$('#iPlanung').html('<br>Diese Schule hat einen Sanierungsbedarf von ' + formatNumber(data.Kosten) + ' Euro.');
+		$('#iPlanung').html('<br>Diese Schule hat einen Sanierungsbedarf von ' + formatNumber(data.costs) + ' Euro.');
 	}
 
 	$('.priceBox').removeClass('priceRed').removeClass('priceOrange').removeClass('priceBlue').removeClass('priceGreen').removeClass('priceGray')
 		.addClass((data.Schulart === 'Bezirk') || (data.Schulart === 'Stadt') ? 'priceGray' :
-								data.Kosten >= 10000000 ? 'priceRed' :
-										data.Kosten >= 5000000 ? 'priceOrange' :
-												data.Kosten >= 1000 ? 'priceBlue' :
+								data.costs >= 10000000 ? 'priceRed' :
+										data.costs >= 5000000 ? 'priceOrange' :
+												data.costs >= 1000 ? 'priceBlue' :
 														'priceGreen');
 	$('#receiptBox').css('display', 'block');
 
 	if ((data.Schulart === 'Bezirk') || (data.Schulart === 'Stadt')) {
 		$('.priceTriangle div:nth-child(1)').css('margin-left', parseInt(150, 10) + '%');
-	} else if (data.Kosten >= 10000000) {
-		$('.priceTriangle div:nth-child(1)').css('margin-left', parseInt(25 - (data.Kosten - 10000000) * 22 / (maxVal - 10000000), 10) + '%');
+	} else if (data.costs >= 10000000) {
+		$('.priceTriangle div:nth-child(1)').css('margin-left', parseInt(25 - (data.costs - 10000000) * 22 / (maxVal - 10000000), 10) + '%');
 		$('.priceTriangle div:nth-child(2)').addClass('priceRed').removeClass('priceOrange').removeClass('priceBlue').removeClass('priceGreen');
-	} else if (data.Kosten >= 5000000) {
-		$('.priceTriangle div:nth-child(1)').css('margin-left', parseInt(50 - (data.Kosten - 5000000) * 25 / 5000000, 10) + '%');
+	} else if (data.costs >= 5000000) {
+		$('.priceTriangle div:nth-child(1)').css('margin-left', parseInt(50 - (data.costs - 5000000) * 25 / 5000000, 10) + '%');
 		$('.priceTriangle div:nth-child(2)').removeClass('priceRed').addClass('priceOrange').removeClass('priceBlue').removeClass('priceGreen');
-	} else if (data.Kosten >= 1000) {
-		$('.priceTriangle div:nth-child(1)').css('margin-left', parseInt(75 - (data.Kosten - 1000) * 25 / 5000000, 10) + '%');
+	} else if (data.costs >= 1000) {
+		$('.priceTriangle div:nth-child(1)').css('margin-left', parseInt(75 - (data.costs - 1000) * 25 / 5000000, 10) + '%');
 		$('.priceTriangle div:nth-child(2)').removeClass('priceRed').removeClass('priceOrange').addClass('priceBlue').removeClass('priceGreen');
 	} else {
 		$('.priceTriangle div:nth-child(1)').css('margin-left', parseInt(87.5, 10) + '%');
@@ -156,8 +135,8 @@ function updateMapHoverItem(coordinates, data, icon) {
 		str = '';
 
 	str += '<div class="top ' + icon.options.markerColor + '">' + data.Schulname + '</div>';
-	str += '<div class="middle">€' + formatNumber(data.Kosten) + '</div>';
-	str += '<div class="bottom ' + icon.options.markerColor + '">' + (data.Prio === 1 ? 'Höchste Priorität' : (data.Kosten >= 5000000 ? 'Prio 2 oder 3' : 'unbekannte Prio')) + '</div>';
+	str += '<div class="middle">€' + formatNumber(data.costs) + '</div>';
+	str += '<div class="bottom ' + icon.options.markerColor + '">' + (data.Prio === 1 ? 'Höchste Priorität' : (data.costs >= 5000000 ? 'Prio 2 oder 3' : 'unbekannte Prio')) + '</div>';
 
 	layerPopup = L.popup(options)
 		.setLatLng(coordinates)
@@ -202,8 +181,7 @@ function createMarkers(data) {
 				prefix: 'fa',
 				markerColor: 'red'
 			}),
-			minVal = 100000000,
-			isDistrict;
+			minVal = 100000000;
 
 		layerGroup = L.featureGroup([]);
 		layerGroup.addTo(map);
@@ -219,25 +197,17 @@ function createMarkers(data) {
 		});
 
 		$.each(data, function (key, val) {
-			isDistrict = false;
-			if ((val.Schulart === 'Bezirk') || (val.Schulart === 'Stadt')) {
-				isDistrict = true;
-			}
 			if ((typeof val.lat !== 'undefined') && (typeof val.lng !== 'undefined')) {
 				var marker = L.marker([parseFloat(val.lat), parseFloat(val.lng)], {
-						data: fixData(val),
-						icon: val.Kosten >= 10000000 ? markerRed :
-								val.Kosten >= 5000000 ? markerOrange :
-										val.Kosten >= 1000 ? markerBlue :
-												markerGreen,
-						opacity: isDistrict ? 0 : 1,
-						clickable: isDistrict ? 0 : 1
+						data: val,
+						icon: val.color === 'red' ? markerRed :
+								val.color === 'orange' ? markerOrange :
+										val.color === 'blue' ? markerBlue :
+												markerGreen
 					});
 				layerGroup.addLayer(marker);
-				if (!isDistrict) {
-					minVal = Math.min(minVal, val.Kosten);
-					maxVal = Math.max(maxVal, val.Kosten);
-				}
+				minVal = Math.min(minVal, val.costs);
+				maxVal = Math.max(maxVal, val.costs);
 			}
 		});
 
@@ -314,6 +284,7 @@ function initCity(cityKey) {
 
 		if (city) {
 			removeMarkers();
+//			removeSearchBox();
 			map.setView(new L.LatLng(city.lat, city.lng), city.zoom, {animation: true});
 
 			$.ajax({
@@ -322,17 +293,9 @@ function initCity(cityKey) {
 				mimeType: 'application/json',
 				success: function (data) {
 					createMarkers(data);
+//					initSearchBox(data);
 				}
 			});
-	/*		$.getJSON(dataUrl, function (data) {
-				initSearchBox(data);
-	//			initSocialMedia();
-
-				var budgetUrl = 'data/gebaeudesanierungen.json';
-				$.getJSON(budgetUrl, function (budgetData) {
-					budget = budgetData;
-				});
-			});*/
 		}
 	} catch (e) {
 //		console.log(e);
@@ -354,9 +317,9 @@ function initSearchBox(data) {
 					name += ' (' + val.Schulnummer + ')';
 				}
 				color = ((val.Schulart === 'Bezirk') || (val.Schulart === 'Stadt') ? 'gray' :
-								val.Kosten >= 10000000 ? 'red' :
-										val.Kosten >= 5000000 ? 'orange' :
-												val.Kosten >= 1000 ? 'blue' :
+								val.costs >= 10000000 ? 'red' :
+										val.costs >= 5000000 ? 'orange' :
+												val.costs >= 1000 ? 'blue' :
 														'green');
 				schools.push({ value: name, data: val.Schulnummer, color: color, desc: val.Schulart });
 			}
@@ -402,27 +365,6 @@ function initSearchBox(data) {
 	});
 }
 
-// -----------------------------------------------------------------------------
-/*
-function initSocialMedia() {
-	'use strict';
-
-	setTimeout(function () {
-		$.ajax('http://www.tursics.de/v5shariff.php?url=http://schulsanierung.tursics.de/')
-			.done(function (json) {
-				$('.social .facebook span').html(json.facebook);
-				if (json.facebook > 0) {
-					$('.social .facebook span').addClass('active');
-				}
-
-				$('.social .twitter span').html(json.twitter);
-				if (json.twitter > 0) {
-					$('.social .twitter span').addClass('active');
-				}
-			});
-	}, 1000);
-}
-*/
 // -----------------------------------------------------------------------------
 
 var ControlInfo = L.Control.extend({

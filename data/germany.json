@@ -2,7 +2,7 @@
 	{
 		"key": "berlin",
 		"title": "Berlin",
-		"data": "gebaeudescan2017-03.json",
+		"data": "data-berlin.json",
 		"lat": 52.518413,
 		"lng": 13.408368,
 		"zoom": 11
