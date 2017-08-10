@@ -1,26 +1,34 @@
 [
 	{
+		"key": "berlin",
 		"title": "Berlin",
+		"data": "gebaeudescan2017-03.json",
 		"lat": 52.518413,
 		"lng": 13.408368,
-		"zoom": 13
+		"zoom": 11
 	},
 	{
+		"key": "berlinlichtenberg",
 		"title": "Berlin-Lichtenberg",
-		"lat": 52.518413,
-		"lng": 13.408368,
+		"data": "gebaeudescan.json",
+		"lat": 52.515807,
+		"lng": 13.479470,
 		"zoom": 13
 	},
 	{
+		"key": "berlinmarzahn",
 		"title": "Berlin-Marzahn",
-		"lat": 52.518413,
-		"lng": 13.408368,
+		"data": "gebaeudescan2017-mahe.json",
+		"lat": 52.536686,
+		"lng": 13.604863,
 		"zoom": 13
 	},
 	{
+		"key": "hamburg",
 		"title": "Hamburg",
-		"lat": 52.518413,
-		"lng": 13.408368,
-		"zoom": 13
+		"data": "data-hamburg.json",
+		"lat": 53.551989,
+		"lng": 10.007282,
+		"zoom": 11
 	}
 ]

@@ -8,6 +8,7 @@ var layerPopup = null;
 var layerGroup = null;
 var budget = null;
 var maxVal = 0;
+var dataGermany = null;
 
 // -----------------------------------------------------------------------------
 
@@ -70,91 +71,6 @@ function formatNumber(txt) {
 	}
 
 	return sign + txt;
-}
-
-// -----------------------------------------------------------------------------
-
-function enrichMissingData(data) {
-	'use strict';
-
-/*	try {
-		$.each(data, function (key, value) {
-		});
-	} catch (e) {
-//		console.log(e);
-	}*/
-
-	return data;
-}
-
-// -----------------------------------------------------------------------------
-
-function createStatistics(data) {
-	'use strict';
-
-	var objBln = { Schulnummer: '', Schulname: 'Berlin', Schulart: 'Stadt', lat: 52.518413, lng: 13.408368, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
-		obj01  = { Schulnummer: '01', Schulname: 'Mitte', Schulart: 'Bezirk', lat: 52.521168, lng: 13.423244, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
-		obj02  = { Schulnummer: '02', Schulname: 'Friedrichshain-Kreuzberg', Schulart: 'Bezirk', lat: 52.515235, lng: 13.461909, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
-		obj03  = { Schulnummer: '03', Schulname: 'Pankow', Schulart: 'Bezirk', lat: 52.541561, lng: 13.427734, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
-		obj04  = { Schulnummer: '04', Schulname: 'Charlottenburg-Wilmersdorf', Schulart: 'Bezirk', lat: 52.489209, lng: 13.311817, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
-		obj05  = { Schulnummer: '05', Schulname: 'Spandau', Schulart: 'Bezirk', lat: 52.534998, lng: 13.200768, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
-		obj06  = { Schulnummer: '06', Schulname: 'Steglitz-Zehlendorf', Schulart: 'Bezirk', lat: 52.433044, lng: 13.258876, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
-		obj07  = { Schulnummer: '07', Schulname: 'Tempelhof-Schöneberg', Schulart: 'Bezirk', lat: 52.484935, lng: 13.344267, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
-		obj08  = { Schulnummer: '08', Schulname: 'Neukölln', Schulart: 'Bezirk', lat: 52.481347, lng: 13.434969, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
-		obj09  = { Schulnummer: '09', Schulname: 'Treptow-Köpenick', Schulart: 'Bezirk', lat: 52.445412, lng: 13.575023, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
-		obj10  = { Schulnummer: '10', Schulname: 'Marzahn-Hellersdorf', Schulart: 'Bezirk', lat: 52.537172, lng: 13.603757, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
-		obj11  = { Schulnummer: '11', Schulname: 'Lichtenberg', Schulart: 'Bezirk', lat: 52.515807, lng: 13.479470, PLZ: '', Strasse: '', Kosten: 0, Prio: 0},
-		obj12  = { Schulnummer: '12', Schulname: 'Reinickendorf', Schulart: 'Bezirk', lat: 52.5890247, lng: 13.324019, PLZ: '', Strasse: '', Kosten: 0, Prio: 0};
-
-	try {
-		$.each(data, function (key, val) {
-			val = fixData(val);
-			if ((typeof val.lat !== 'undefined') && (typeof val.lng !== 'undefined')) {
-				if (0 === val.Schulnummer.indexOf(obj01.Schulnummer)) {
-					obj01.Kosten += parseInt(val.Kosten, 10);
-				} else if (0 === val.Schulnummer.indexOf(obj02.Schulnummer)) {
-					obj02.Kosten += parseInt(val.Kosten, 10);
-				} else if (0 === val.Schulnummer.indexOf(obj03.Schulnummer)) {
-					obj03.Kosten += parseInt(val.Kosten, 10);
-				} else if (0 === val.Schulnummer.indexOf(obj04.Schulnummer)) {
-					obj04.Kosten += parseInt(val.Kosten, 10);
-				} else if (0 === val.Schulnummer.indexOf(obj05.Schulnummer)) {
-					obj05.Kosten += parseInt(val.Kosten, 10);
-				} else if (0 === val.Schulnummer.indexOf(obj06.Schulnummer)) {
-					obj06.Kosten += parseInt(val.Kosten, 10);
-				} else if (0 === val.Schulnummer.indexOf(obj07.Schulnummer)) {
-					obj07.Kosten += parseInt(val.Kosten, 10);
-				} else if (0 === val.Schulnummer.indexOf(obj08.Schulnummer)) {
-					obj08.Kosten += parseInt(val.Kosten, 10);
-				} else if (0 === val.Schulnummer.indexOf(obj09.Schulnummer)) {
-					obj09.Kosten += parseInt(val.Kosten, 10);
-				} else if (0 === val.Schulnummer.indexOf(obj10.Schulnummer)) {
-					obj10.Kosten += parseInt(val.Kosten, 10);
-				} else if (0 === val.Schulnummer.indexOf(obj11.Schulnummer)) {
-					obj11.Kosten += parseInt(val.Kosten, 10);
-				} else if (0 === val.Schulnummer.indexOf(obj12.Schulnummer)) {
-					obj12.Kosten += parseInt(val.Kosten, 10);
-				}
-				objBln.Kosten += parseInt(val.Kosten, 10);
-			}
-		});
-
-		data.push(obj01);
-		data.push(obj02);
-		data.push(obj03);
-		data.push(obj04);
-		data.push(obj05);
-		data.push(obj06);
-		data.push(obj07);
-		data.push(obj08);
-		data.push(obj09);
-		data.push(obj10);
-		data.push(obj11);
-		data.push(obj12);
-		data.push(objBln);
-	} catch (e) {
-//		console.log(e);
-	}
 }
 
 // -----------------------------------------------------------------------------
@@ -262,7 +178,7 @@ function updateMapVoidItem(data) {
 
 // -----------------------------------------------------------------------------
 
-function createMarker(data) {
+function createMarkers(data) {
 	'use strict';
 
 	try {
@@ -334,6 +250,21 @@ function createMarker(data) {
 
 // -----------------------------------------------------------------------------
 
+function removeMarkers() {
+	'use strict';
+
+	try {
+		if (layerGroup) {
+			map.removeLayer(layerGroup);
+			layerGroup = null;
+		}
+	} catch (e) {
+//		console.log(e);
+	}
+}
+
+// -----------------------------------------------------------------------------
+
 function selectSuggestion(selection) {
 	'use strict';
 
@@ -347,20 +278,62 @@ function selectSuggestion(selection) {
 
 //-----------------------------------------------------------------------------
 
-function initCity(data) {
+function initGermany(data) {
 	'use strict';
+
+	dataGermany = data;
 
 	try {
 		var str = '';
 
 		str += '<option selected disabled value="-">Wählen Sie eine Stadt</option>';
 
-		$.each(data, function (key, val) {
-			str += '<option value="' + key + '">' + val.title + '</option>';
+		$.each(dataGermany, function (key, val) {
+			str += '<option value="' + val.key + '">' + val.title + '</option>';
 		});
 
 		$('#searchBox .module select').html(str).val('-').change();
 		$('#searchBox .module').css('opacity', 1);
+	} catch (e) {
+//		console.log(e);
+	}
+}
+
+//-----------------------------------------------------------------------------
+
+function initCity(cityKey) {
+	'use strict';
+
+	try {
+		var city = null;
+		$.each(dataGermany, function (key, val) {
+			if (val.key === cityKey) {
+				city = val;
+			}
+		});
+
+		if (city) {
+			removeMarkers();
+			map.setView(new L.LatLng(city.lat, city.lng), city.zoom, {animation: true});
+
+			$.ajax({
+				url: 'data/' + city.data,
+				dataType: 'json',
+				mimeType: 'application/json',
+				success: function (data) {
+					createMarkers(data);
+				}
+			});
+	/*		$.getJSON(dataUrl, function (data) {
+				initSearchBox(data);
+	//			initSocialMedia();
+
+				var budgetUrl = 'data/gebaeudesanierungen.json';
+				$.getJSON(budgetUrl, function (budgetData) {
+					budget = budgetData;
+				});
+			});*/
+		}
 	} catch (e) {
 //		console.log(e);
 	}
@@ -494,21 +467,9 @@ function initMap(elementName, lat, lng, zoom) {
 			dataType: 'json',
 			mimeType: 'application/json',
 			success: function (data) {
-				initCity(data);
+				initGermany(data);
 			}
 		});
-/*		$.getJSON(dataUrl, function (data) {
-			data = enrichMissingData(data);
-			createStatistics(data);
-			createMarker(data);
-			initSearchBox(data);
-//			initSocialMedia();
-
-			var budgetUrl = 'data/gebaeudesanierungen.json';
-			$.getJSON(budgetUrl, function (budgetData) {
-				budget = budgetData;
-			});
-		});*/
 	}
 }
 
@@ -530,7 +491,7 @@ $(document).on("pageshow", "#pageMap", function () {
 		}
 	}
 
-	// center Germany
+	// center of Germany
 	initMap('mapContainer', 51.220915, 9.357579, 6);
 
 	$('#autocomplete').val('');
@@ -540,13 +501,9 @@ $(document).on("pageshow", "#pageMap", function () {
 	$('#receiptClose').on('click', function (e) {
 		$('#receiptBox').css('display', 'none');
 	});
-	$('#searchBox .sample a:nth-child(1)').on('click', function (e) {
-		$('#autocomplete').val('Clay-Schule (08K05)');
-		selectSuggestion('08K05');
-	});
-	$('#searchBox .sample a:nth-child(2)').on('click', function (e) {
-		$('#autocomplete').val('Pankow');
-		selectSuggestion('03');
+	$('#searchBox .module select').on('change', function (e) {
+		var val = $('#searchBox .module select').val();
+		initCity(val);
 	});
 
 	$("#popupShare").on('popupafteropen', function (e, ui) {
