@@ -360,6 +360,7 @@ function initCity(data) {
 		});
 
 		$('#searchBox .module select').html(str).val('-').change();
+		$('#searchBox .module').css('opacity', 1);
 	} catch (e) {
 //		console.log(e);
 	}

@@ -238,6 +238,7 @@
 #searchBox .module {
 	font-size: 13px;
 	color: #333;
+	opacity: 0;
 }
 #searchBox .ui-select {
 	margin: 0 0 .5em .5em;
@@ -281,6 +282,7 @@
 #searchBox .searchInput {
 	height: 1.9em;
 	width: 17em;
+	opacity: 0;
 }
 #searchBox .searchInput div {
 	background: #fff;
