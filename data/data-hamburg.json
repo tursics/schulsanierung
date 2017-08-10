@@ -1,0 +1,4072 @@
+[
+ {
+   "official_id": 5818,
+   "name": "Abendschule St. Georg",
+   "address": "Rostocker Straße 41, 20099 Hamburg",
+   "lat": 53.557215,
+   "lng": 10.015731,
+   "school_type": "Abendgymnasiuym",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5819,
+   "name": "Abendschule Vor dem Holstentor",
+   "address": "Holstenglacis 6, 20355 Hamburg",
+   "lat": 53.558032,
+   "lng": 9.977063,
+   "school_type": "Abendgymnasiuym",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5616,
+   "name": "Adolph-Diesterweg-Schule",
+   "address": "Felix-Jud-Ring 29, 21035 Hamburg",
+   "lat": 53.48722,
+   "lng": 10.147817,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5430,
+   "name": "Adolph-Schönfelder-Schule",
+   "address": "Zeisigstraße 3, 22081 Hamburg",
+   "lat": 53.577639,
+   "lng": 10.047449,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5810,
+   "name": "Albert-Schweitzer-Gymnasium",
+   "address": "Struckholt 27, 22337 Hamburg",
+   "lat": 53.628066,
+   "lng": 10.031383,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5053,
+   "name": "Albert-Schweitzer-Schule",
+   "address": "Schluchtweg 1, 22337 Hamburg",
+   "lat": 53.632579,
+   "lng": 10.047345,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5860,
+   "name": "Albrecht-Thaer-Gymnasium",
+   "address": "Wegenkamp 3, 22527 Hamburg",
+   "lat": 53.600474,
+   "lng": 9.925237,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5840,
+   "name": "Alexander-von-Humboldt-Gymnasium",
+   "address": "Rönneburger Straße 50, 21079 Hamburg",
+   "lat": 53.438785,
+   "lng": 9.993343,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 7915,
+   "name": "Alsterring Gymnasium",
+   "address": "Wittenkamp 15, 22307 Hamburg",
+   "lat": 53.597049,
+   "lng": 10.048367,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5603,
+   "name": "Anton-Rée-Schule Allermöhe",
+   "address": "Von-Haeften-Straße 1, 21035 Hamburg",
+   "lat": 53.487769,
+   "lng": 10.16727,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5100,
+   "name": "Aueschule Finkenwerder",
+   "address": "Ostfrieslandstraße 91, 21129 Hamburg",
+   "lat": 53.526983,
+   "lng": 9.884702,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 8014,
+   "name": "August-Hermann-Francke-Schule Bahrenfeld",
+   "address": "Händelstraße 11, 22761 Hamburg",
+   "lat": 53.561996,
+   "lng": 9.907671,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 8016,
+   "name": "August-Hermann-Francke-Schule Bergedorf",
+   "address": "Glasbläserhöfe 2, 21035 Hamburg",
+   "lat": 53.4829374,
+   "lng": 10.202108,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 8015,
+   "name": "August-Hermann-Francke-Schule Berne",
+   "address": "Berner Allee 20, 22159 Hamburg",
+   "lat": 53.628827,
+   "lng": 10.133725,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 8008,
+   "name": "August-Hermann-Francke-Schule Farmsen",
+   "address": "August-Krogmann-Straße 115, 22159 Hamburg",
+   "lat": 53.61493,
+   "lng": 10.114133,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 8012,
+   "name": "August-Hermann-Francke-Schule Uhlenhorst",
+   "address": "Bachstraße 13, 22083 Hamburg",
+   "lat": 53.573279,
+   "lng": 10.028938,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5418,
+   "name": "Bildungszentrum für Blinde und Sehbehinderte",
+   "address": "Carl-Cohn-Straße 2, 22303 Hamburg",
+   "lat": 53.601392,
+   "lng": 10.01186,
+   "school_type": "Sonderschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 7918,
+   "name": "Bilinguale Grundschule PHORMS Hamburg",
+   "address": "Wendenstraße 35, 20097 Hamburg",
+   "lat": 53.547458,
+   "lng": 10.02699,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 8302,
+   "name": "Bilinguales Gymnasium Phorms Hamburg",
+   "address": "Wendenstraße 35, 20097 Hamburg",
+   "lat": 53.547458,
+   "lng": 10.02699,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5097,
+   "name": "Brüder-Grimm-Schule",
+   "address": "Steinadlerweg 26, 22119 Hamburg",
+   "lat": 53.551606,
+   "lng": 10.106824,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 3229,
+   "name": "Bugenhagen-Schule Alsterdorf (Grundschule)",
+   "address": "Alsterdorfer Straße 506, 22337 Hamburg",
+   "lat": 53.616453,
+   "lng": 10.027866,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 3223,
+   "name": "Bugenhagen-Schule Alsterdorf (Stadtteilschule)",
+   "address": "Alsterdorfer Straße 506, 22337 Hamburg",
+   "lat": 53.616453,
+   "lng": 10.027866,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 3218,
+   "name": "Bugenhagen-Schule Alsterdorf, Schule für Kinder mit besonderem Förderbedarf",
+   "address": "Alsterdorfer Straße 506, 22337 Hamburg",
+   "lat": 53.616453,
+   "lng": 10.027866,
+   "school_type": "Sonderschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 3231,
+   "name": "Bugenhagen-Schule Groß Flottbek",
+   "address": "Bei der Flottbeker Mühle 28, 22607 Hamburg",
+   "lat": 53.573012,
+   "lng": 9.869074,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 3232,
+   "name": "Bugenhagen-Schule Hamm, Evangelische Grundschule Paulus",
+   "address": "Quellenweg 10, 20535 Hamburg",
+   "lat": 53.561475,
+   "lng": 10.059502,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 3225,
+   "name": "Bugenhagen-Schule im Hessepark (Grundschule)",
+   "address": "Oesterleystraße 22, 22587 Hamburg",
+   "lat": 53.562148,
+   "lng": 9.807543,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 3233,
+   "name": "Bugenhagen-Schule im Hessepark (Stadtteilschule)",
+   "address": "Oesterleystraße 22, 22587 Hamburg",
+   "lat": 53.562148,
+   "lng": 9.807543,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 7911,
+   "name": "Bugenhagen-Schule Ottensen, Evangelische Grundschule an der Osterkirche",
+   "address": "Bei der Osterkirche 17, 22765 Hamburg",
+   "lat": 53.555101,
+   "lng": 9.932323,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5462,
+   "name": "Carl-Cohn-Schule",
+   "address": "Carl-Cohn-Straße 2, 22297 Hamburg",
+   "lat": 53.601392,
+   "lng": 10.01186,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5463,
+   "name": "Carl-Götze-Schule",
+   "address": "Brödermannsweg 2, 22453 Hamburg",
+   "lat": 53.606962,
+   "lng": 9.977931,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5849,
+   "name": "Carl-von-Ossietzky-Gymnasium",
+   "address": "Müssenredder 59, 22399 Hamburg",
+   "lat": 53.655215,
+   "lng": 10.068211,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5862,
+   "name": "Charlotte-Paulsen-Gymnasium",
+   "address": "Neumann-Reichardt-Straße 20, 22041 Hamburg",
+   "lat": 53.57252,
+   "lng": 10.078481,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 8501,
+   "name": "Christian- Morgenstern- Schule (Stadtteilschule)",
+   "address": "Heinrichstraße 14, 22769 Hamburg",
+   "lat": 53.566061,
+   "lng": 9.957599,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 7909,
+   "name": "Christian-Morgenstern-Schule (Grundschule)",
+   "address": "Heinrichstraße 14, 22769 Hamburg",
+   "lat": 53.566061,
+   "lng": 9.957599,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5813,
+   "name": "Christianeum",
+   "address": "Otto-Ernst-Straße 34, 22605 Hamburg",
+   "lat": 53.55805,
+   "lng": 9.874134,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 7706,
+   "name": "Christophorus-Schule",
+   "address": "Bergstedter Chaussee 205, 22395 Hamburg",
+   "lat": 53.675663,
+   "lng": 10.13557,
+   "school_type": "Sonderschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5615,
+   "name": "Clara-Grunwald-Schule",
+   "address": "Walter-Rothenburg-Weg 37, 21035 Hamburg",
+   "lat": 53.485665,
+   "lng": 10.152028,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 3230,
+   "name": "Domschule St. Marien (Grundschule)",
+   "address": "Schmilinskystraße 70, 20099 Hamburg",
+   "lat": 53.557881,
+   "lng": 10.014614,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 3202,
+   "name": "Domschule St. Marien (Stadtteilschule)",
+   "address": "Schmilinskystraße 70, 20099 Hamburg",
+   "lat": 53.557881,
+   "lng": 10.014614,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5742,
+   "name": "Elbinselschule",
+   "address": "Rahmwerder Straße 3, 21109 Hamburg",
+   "lat": 53.512144,
+   "lng": 10.019359,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5158,
+   "name": "Elbkinder Grundschule",
+   "address": "Grotefendweg 20, 22589 Hamburg",
+   "lat": 53.56673,
+   "lng": 9.829594,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5145,
+   "name": "Elbschule Bildungszentrum Hören und Kommunikation",
+   "address": "Holmbrook 20, 22605 Hamburg",
+   "lat": 53.552854,
+   "lng": 9.899005,
+   "school_type": "Sonderschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5863,
+   "name": "Emilie-Wüstenfeld-Gymnasium",
+   "address": "Bundesstraße 78, 20144 Hamburg",
+   "lat": 53.570918,
+   "lng": 9.972009,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5064,
+   "name": "Erich Kästner Schule",
+   "address": "An der Berner Au 12, 22159 Hamburg",
+   "lat": 53.619607,
+   "lng": 10.120114,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 3210,
+   "name": "Franz-von-Assisi-Schule",
+   "address": "Lämmersieth 38, 22305 Hamburg",
+   "lat": 53.585269,
+   "lng": 10.054826,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5264,
+   "name": "Fridtjof-Nansen-Schule",
+   "address": "Swatten Weg 10, 22547 Hamburg",
+   "lat": 53.59945,
+   "lng": 9.858029,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5801,
+   "name": "Friedrich-Ebert-Gymnasium",
+   "address": "Alter Postweg 30, 21075 Hamburg",
+   "lat": 53.464992,
+   "lng": 9.965082,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 8106,
+   "name": "Friedrich-Robbe-Institut",
+   "address": "Bärenallee 15, 22041 Hamburg",
+   "lat": 53.569672,
+   "lng": 10.063457,
+   "school_type": "Sonderschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5134,
+   "name": "Fritz-Köhne-Schule",
+   "address": "Marckmannstraße 61, 20539 Hamburg",
+   "lat": 53.535801,
+   "lng": 10.039874,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5065,
+   "name": "Fritz-Schumacher-Schule",
+   "address": "Foorthkamp 42, 22417 Hamburg",
+   "lat": 53.660023,
+   "lng": 10.012487,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5747,
+   "name": "Ganztagsgrundschule Am Johannisland",
+   "address": "Am Johannisland 4, 21147 Hamburg",
+   "lat": 53.475995,
+   "lng": 9.854173,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5167,
+   "name": "Ganztagsgrundschule Sternschanze",
+   "address": "Ludwigstraße 7, 20357 Hamburg",
+   "lat": 53.559763,
+   "lng": 9.966051,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5212,
+   "name": "Ganztagsschule an der Elbe",
+   "address": "Struenseestraße 32, 22767 Hamburg",
+   "lat": 53.547502,
+   "lng": 9.945191,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5744,
+   "name": "Ganztagsschule Fährstraße",
+   "address": "Fährstraße 90, 21107 Hamburg",
+   "lat": 53.517166,
+   "lng": 9.98147,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5886,
+   "name": "Gelehrtenschule des Johanneums",
+   "address": "Maria-Louisen-Straße 114, 22301 Hamburg",
+   "lat": 53.589963,
+   "lng": 10.006038,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5066,
+   "name": "Geschwister-Scholl-Stadtteilschule",
+   "address": "Böttcherkamp 181, 22549 Hamburg",
+   "lat": 53.591429,
+   "lng": 9.855568,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5824,
+   "name": "Goethe-Gymnasium",
+   "address": "Rispenweg 28, 22547 Hamburg",
+   "lat": 53.598487,
+   "lng": 9.892536,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5070,
+   "name": "Goethe-Schule-Harburg",
+   "address": "Bunatwiete 20, 21073 Hamburg",
+   "lat": 53.45631,
+   "lng": 9.982271,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5127,
+   "name": "Goldbek-Schule",
+   "address": "Imstedt 18, 22083 Hamburg",
+   "lat": 53.579475,
+   "lng": 10.02837,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5232,
+   "name": "Gorch-Fock-Schule",
+   "address": "Karstenstraße 22, 22587 Hamburg",
+   "lat": 53.564438,
+   "lng": 9.801212,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5084,
+   "name": "Gretel-Bergmann-Schule",
+   "address": "Von-Moltke-Bogen 40, 21035 Hamburg",
+   "lat": 53.486129,
+   "lng": 10.160935,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5501,
+   "name": "Grundschule Altrahlstedt",
+   "address": "Brockdorffstraße 64, 22149 Hamburg",
+   "lat": 53.595968,
+   "lng": 10.163651,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5111,
+   "name": "Grundschule Am Heidberg",
+   "address": "Tangstedter Landstraße 300, 22417 Hamburg",
+   "lat": 53.670945,
+   "lng": 10.028731,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5719,
+   "name": "Grundschule am Kiefernberg",
+   "address": "Weusthoffstraße 95, 21075 Hamburg",
+   "lat": 53.461274,
+   "lng": 9.957321,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5749,
+   "name": "Grundschule An der Haake",
+   "address": "Lange Striepen 51, 21147 Hamburg",
+   "lat": 53.476962,
+   "lng": 9.886229,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5118,
+   "name": "Grundschule Archenholzstraße",
+   "address": "Archenholzstraße 55, 22117 Hamburg",
+   "lat": 53.54374,
+   "lng": 10.119649,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5137,
+   "name": "Grundschule Arnkielstraße",
+   "address": "Arnkielstraße 2, 22769 Hamburg",
+   "lat": 53.564073,
+   "lng": 9.952837,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5331,
+   "name": "Grundschule Bindfeldweg",
+   "address": "Bindfeldweg 37, 22459 Hamburg",
+   "lat": 53.622937,
+   "lng": 9.946712,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5205,
+   "name": "Grundschule Bramfeld",
+   "address": "Bramfelder Dorfplatz 5, 22179 Hamburg",
+   "lat": 53.614126,
+   "lng": 10.077605,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5102,
+   "name": "Grundschule Eckerkoppel",
+   "address": "Berner Heerweg 99, 22159 Hamburg",
+   "lat": 53.598866,
+   "lng": 10.115957,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5074,
+   "name": "Grundschule Edwin-Scharff-Ring",
+   "address": "Edwin-Scharff-Ring 56, 22309 Hamburg",
+   "lat": 53.615419,
+   "lng": 10.047782,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5263,
+   "name": "Grundschule Franzosenkoppel",
+   "address": "Franzosenkoppel 118, 22547 Hamburg",
+   "lat": 53.608217,
+   "lng": 9.871529,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5231,
+   "name": "Grundschule Goosacker",
+   "address": "Goosacker 41, 22549 Hamburg",
+   "lat": 53.570968,
+   "lng": 9.849501,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5239,
+   "name": "Grundschule Groß Flottbek",
+   "address": "Osdorfer Weg 24, 22607 Hamburg",
+   "lat": 53.567321,
+   "lng": 9.894137,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5506,
+   "name": "Grundschule Großlohering",
+   "address": "Großlohering 11, 22143 Hamburg",
+   "lat": 53.600624,
+   "lng": 10.178152,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5136,
+   "name": "Grundschule Hasenweg",
+   "address": "Hasenweg 40, 22393 Hamburg",
+   "lat": 53.638285,
+   "lng": 10.118698,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5612,
+   "name": "Grundschule Heidhorst",
+   "address": "Heidhorst 16, 21031 Hamburg",
+   "lat": 53.516513,
+   "lng": 10.168694,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5304,
+   "name": "Grundschule Hoheluft",
+   "address": "Wrangelstraße 80, 20253 Hamburg",
+   "lat": 53.581466,
+   "lng": 9.967513,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5250,
+   "name": "Grundschule Horn",
+   "address": "Rhiemsweg 61, 22111 Hamburg",
+   "lat": 53.558812,
+   "lng": 10.075143,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5538,
+   "name": "Grundschule Islandstraße",
+   "address": "Islandstraße 25, 22145 Hamburg",
+   "lat": 53.629043,
+   "lng": 10.159966,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5208,
+   "name": "Grundschule Karlshöhe mit Zweigstellen",
+   "address": "Lienaustraße 32, 22175 Hamburg",
+   "lat": 53.629151,
+   "lng": 10.125543,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5117,
+   "name": "Grundschule Kirchdorf",
+   "address": "Prassekstraße 5, 21109 Hamburg",
+   "lat": 53.492697,
+   "lng": 10.009719,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5104,
+   "name": "Grundschule Lohkampstraße",
+   "address": "Lohkampstraße 145, 22523 Hamburg",
+   "lat": 53.613058,
+   "lng": 9.888585,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5270,
+   "name": "Grundschule Luruper Hauptstraße",
+   "address": "Luruper Hauptstraße 131, 22547 Hamburg",
+   "lat": 53.5983057,
+   "lng": 9.8542541,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5611,
+   "name": "Grundschule Mendelstraße",
+   "address": "Mendelstraße 6, 21031 Hamburg",
+   "lat": 53.506356,
+   "lng": 10.192654,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5058,
+   "name": "Grundschule Mümmelmannsberg",
+   "address": "Mümmelmannsberg 54, 22115 Hamburg",
+   "lat": 53.529506,
+   "lng": 10.140067,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5755,
+   "name": "Grundschule Neugraben - Offene Ganztagsgrundschule (GBS)",
+   "address": "Francoper Straße 32, 21147 Hamburg",
+   "lat": 53.474585,
+   "lng": 9.864352,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5508,
+   "name": "Grundschule Neurahlstedt",
+   "address": "Stapelfelder Straße 7, 22143 Hamburg",
+   "lat": 53.605883,
+   "lng": 10.168621,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5252,
+   "name": "Grundschule Nydamer Weg",
+   "address": "Nydamer Weg 44, 22145 Hamburg",
+   "lat": 53.617305,
+   "lng": 10.154537,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5139,
+   "name": "Grundschule Osterbrook",
+   "address": "Osterbrook 17, 20537 Hamburg",
+   "lat": 53.549008,
+   "lng": 10.056307,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5143,
+   "name": "Grundschule Poppenbüttel",
+   "address": "Schulbergredder 21, 22399 Hamburg",
+   "lat": 53.658997,
+   "lng": 10.080423,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5059,
+   "name": "Grundschule Rahewinkel",
+   "address": "Rahewinkel 9, 22115 Hamburg",
+   "lat": 53.526622,
+   "lng": 10.154793,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5348,
+   "name": "Grundschule Sachsenweg",
+   "address": "Sachsenweg 74, 22455 Hamburg",
+   "lat": 53.641946,
+   "lng": 9.96027,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5220,
+   "name": "Grundschule Schimmelmannstraße",
+   "address": "Schimmelmannstraße 70, 22043 Hamburg",
+   "lat": 53.571551,
+   "lng": 10.102693,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5124,
+   "name": "Grundschule St. Nikolai",
+   "address": "Robert-Koch-Straße 15, 20249 Hamburg",
+   "lat": 53.588932,
+   "lng": 9.983726,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5103,
+   "name": "Grundschule St.Pauli",
+   "address": "Friedrichstraße 55, 20359 Hamburg",
+   "lat": 53.547707,
+   "lng": 9.958599,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5763,
+   "name": "Grundschule Stübenhofer Weg",
+   "address": "Stübenhofer Weg 20, 21109 Hamburg",
+   "lat": 53.483074,
+   "lng": 10.014632,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5214,
+   "name": "Grundschule Thadenstraße",
+   "address": "Thadenstraße 147, 22767 Hamburg",
+   "lat": 53.557082,
+   "lng": 9.954912,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5514,
+   "name": "Grundschule Tonndorf",
+   "address": "Rahlaukamp 1, 22045 Hamburg",
+   "lat": 53.58588,
+   "lng": 10.128393,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5881,
+   "name": "Gymnasium Allee",
+   "address": "Max-Brauer-Allee 83, 22765 Hamburg",
+   "lat": 53.554851,
+   "lng": 9.940882,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5832,
+   "name": "Gymnasium Allermöhe",
+   "address": "Walter-Rothenburg-Weg 41, 21035 Hamburg",
+   "lat": 53.485845,
+   "lng": 10.153092,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5811,
+   "name": "Gymnasium Alstertal",
+   "address": "Erdkampsweg 89, 22335 Hamburg",
+   "lat": 53.632737,
+   "lng": 10.018569,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5830,
+   "name": "Gymnasium Altona",
+   "address": "Bleickenallee 5, 22763 Hamburg",
+   "lat": 53.550615,
+   "lng": 9.921174,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5831,
+   "name": "Gymnasium Blankenese",
+   "address": "Oesterleystraße 27, 22587 Hamburg",
+   "lat": 53.562704,
+   "lng": 9.807773,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5882,
+   "name": "Gymnasium Bondenwald",
+   "address": "Bondenwald 14, 22453 Hamburg",
+   "lat": 53.622366,
+   "lng": 9.938782,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5838,
+   "name": "Gymnasium Bornbrook",
+   "address": "Schulenburgring 4, 21031 Hamburg",
+   "lat": 53.50786,
+   "lng": 10.194434,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5812,
+   "name": "Gymnasium Buckhorn",
+   "address": "Im Regestall 25, 22359 Hamburg",
+   "lat": 53.66452,
+   "lng": 10.151184,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5823,
+   "name": "Gymnasium Corveystraße",
+   "address": "Corveystraße 6, 22529 Hamburg",
+   "lat": 53.596781,
+   "lng": 9.969265,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5859,
+   "name": "Gymnasium Dörpsweg",
+   "address": "Dörpsweg 10, 22527 Hamburg",
+   "lat": 53.607876,
+   "lng": 9.911962,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5844,
+   "name": "Gymnasium Eppendorf",
+   "address": "Hegestraße 35, 20249 Hamburg",
+   "lat": 53.584888,
+   "lng": 9.9844,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5885,
+   "name": "Gymnasium Farmsen",
+   "address": "Swebenhöhe 50, 22159 Hamburg",
+   "lat": 53.612011,
+   "lng": 10.109818,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5856,
+   "name": "Gymnasium Finkenwerder",
+   "address": "Norderschulweg 18, 21129 Hamburg",
+   "lat": 53.531603,
+   "lng": 9.874973,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5895,
+   "name": "Gymnasium Grootmoor",
+   "address": "Am Damm 47, 22175 Hamburg",
+   "lat": 53.630031,
+   "lng": 10.097457,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5853,
+   "name": "Gymnasium Hamm",
+   "address": "Ebelingplatz 8, 20537 Hamburg",
+   "lat": 53.554569,
+   "lng": 10.046999,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5835,
+   "name": "Gymnasium Heidberg",
+   "address": "Fritz-Schumacher-Allee 200, 22417 Hamburg",
+   "lat": 53.669934,
+   "lng": 10.030969,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5887,
+   "name": "Gymnasium Hochrad",
+   "address": "Hochrad 2, 22605 Hamburg",
+   "lat": 53.554025,
+   "lng": 9.876215,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5842,
+   "name": "Gymnasium Hoheluft",
+   "address": "Christian-Förster-Straße 19, 20253 Hamburg",
+   "lat": 53.582732,
+   "lng": 9.963209,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5899,
+   "name": "Gymnasium Hummelsbüttel",
+   "address": "Hummelsbüttler Hauptstraße 107, 22339 Hamburg",
+   "lat": 53.647333,
+   "lng": 10.040988,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5846,
+   "name": "Gymnasium Kaiser-Friedrich-Ufer",
+   "address": "Kaiser-Friedrich-Ufer 6, 20259 Hamburg",
+   "lat": 53.573406,
+   "lng": 9.966373,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5866,
+   "name": "Gymnasium Klosterschule",
+   "address": "Westphalensweg 7, 20099 Hamburg",
+   "lat": 53.555768,
+   "lng": 10.025142,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5868,
+   "name": "Gymnasium Lerchenfeld",
+   "address": "Finkenau 42, 22081 Hamburg",
+   "lat": 53.5684,
+   "lng": 10.032816,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5847,
+   "name": "Gymnasium Lohbrügge",
+   "address": "An der Twiete 23, 21031 Hamburg",
+   "lat": 53.502654,
+   "lng": 10.203271,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5898,
+   "name": "Gymnasium Marienthal",
+   "address": "Holstenhofweg 86, 22043 Hamburg",
+   "lat": 53.566721,
+   "lng": 10.1066,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5890,
+   "name": "Gymnasium Meiendorf",
+   "address": "Schierenberg 60, 22145 Hamburg",
+   "lat": 53.624881,
+   "lng": 10.150905,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5850,
+   "name": "Gymnasium Oberalster",
+   "address": "Alsterredder 26, 22395 Hamburg",
+   "lat": 53.658849,
+   "lng": 10.101151,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5896,
+   "name": "Gymnasium Ohlstedt",
+   "address": "Sthamerstraße 55, 22397 Hamburg",
+   "lat": 53.693403,
+   "lng": 10.140887,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5829,
+   "name": "Gymnasium Ohmoor",
+   "address": "Sachsenweg 76, 22455 Hamburg",
+   "lat": 53.642079,
+   "lng": 9.960346,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5837,
+   "name": "Gymnasium Oldenfelde",
+   "address": "Birrenkovenallee 12, 22143 Hamburg",
+   "lat": 53.610609,
+   "lng": 10.159506,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5897,
+   "name": "Gymnasium Osterbek",
+   "address": "Turnierstieg 24, 22179 Hamburg",
+   "lat": 53.600184,
+   "lng": 10.093516,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5891,
+   "name": "Gymnasium Othmarschen",
+   "address": "Walderseestraße 99, 22605 Hamburg",
+   "lat": 53.554719,
+   "lng": 9.883955,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5869,
+   "name": "Gymnasium Rahlstedt",
+   "address": "Scharbeutzer Straße 36, 22147 Hamburg",
+   "lat": 53.600743,
+   "lng": 10.145879,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5809,
+   "name": "Gymnasium Rissen",
+   "address": "Voßhagen 15, 22559 Hamburg",
+   "lat": 53.580404,
+   "lng": 9.752433,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5803,
+   "name": "Gymnasium Süderelbe",
+   "address": "Falkenbergsweg 5, 21149 Hamburg",
+   "lat": 53.470083,
+   "lng": 9.863995,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5046,
+   "name": "Gyula Trebitsch Schule Tonndorf",
+   "address": "Barenkrug 16, 22159 Hamburg",
+   "lat": 53.59469,
+   "lng": 10.124487,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5845,
+   "name": "Hansa-Gymnasium Bergedorf",
+   "address": "Hermann-Distel-Straße 25, 21029 Hamburg",
+   "lat": 53.49337,
+   "lng": 10.220179,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 8118,
+   "name": "Haus des Lernens",
+   "address": "Lienaustraße 14, 22159 Hamburg",
+   "lat": 53.627908,
+   "lng": 10.124184,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5888,
+   "name": "Heilwig-Gymnasium",
+   "address": "Wilhelm-Metzger-Straße 4, 22297 Hamburg",
+   "lat": 53.604958,
+   "lng": 9.998888,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5894,
+   "name": "Heinrich-Heine-Gymnasium",
+   "address": "Harksheider Straße 70, 22399 Hamburg",
+   "lat": 53.665243,
+   "lng": 10.073511,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5062,
+   "name": "Heinrich-Hertz-Schule",
+   "address": "Grasweg 72, 22303 Hamburg",
+   "lat": 53.592979,
+   "lng": 10.010512,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5105,
+   "name": "Heinrich-Wolgast-Schule",
+   "address": "Greifswalder Straße 40, 20099 Hamburg",
+   "lat": 53.556448,
+   "lng": 10.010887,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5814,
+   "name": "Heisenberg-Gymnasium",
+   "address": "Triftstraße 43, 21075 Hamburg",
+   "lat": 53.457194,
+   "lng": 9.944168,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5864,
+   "name": "Helene Lange Gymnasium",
+   "address": "Bogenstraße 32, 20144 Hamburg",
+   "lat": 53.57365,
+   "lng": 9.974617,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5807,
+   "name": "Helmut-Schmidt-Gymnasium",
+   "address": "Krieterstraße 5, 21109 Hamburg",
+   "lat": 53.499773,
+   "lng": 10.01352,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5071,
+   "name": "Ida Ehre Schule",
+   "address": "Lehmweg 14, 20144 Hamburg",
+   "lat": 53.574695,
+   "lng": 9.979121,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5052,
+   "name": "Ilse-Löwenstein-Schule",
+   "address": "Humboldtstraße 89, 22083 Hamburg",
+   "lat": 53.576682,
+   "lng": 10.022011,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5839,
+   "name": "Immanuel-Kant-Gymnasium",
+   "address": "Am Pavillon 15, 21077 Hamburg",
+   "lat": 53.431565,
+   "lng": 9.967041,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5069,
+   "name": "Irena-Sendler-Schule",
+   "address": "Am Pfeilshof 20, 22393 Hamburg",
+   "lat": 53.639928,
+   "lng": 10.103514,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 8301,
+   "name": "Jenisch-Gymnasium",
+   "address": "Jenischstraße 48, 22609 Hamburg",
+   "lat": 53.562519,
+   "lng": 9.854583,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5822,
+   "name": "Johannes-Brahms-Gymnasium",
+   "address": "Höhnkoppelort 24, 22179 Hamburg",
+   "lat": 53.612768,
+   "lng": 10.082888,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 8004,
+   "name": "Joseph-Carlebach-Schule (Grundschule)",
+   "address": "Grindelhof 30, 20146 Hamburg",
+   "lat": 53.568649,
+   "lng": 9.983728,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 8007,
+   "name": "Joseph-Carlebach-Schule (Stadtteilschule)",
+   "address": "Grindelhof 30, 20146 Hamburg",
+   "lat": 53.568649,
+   "lng": 9.983728,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5067,
+   "name": "Julius-Leber-Schule",
+   "address": "Halstenbeker Straße 41, 22457 Hamburg",
+   "lat": 53.625006,
+   "lng": 9.903745,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 3212,
+   "name": "Katharina-von-Siena-Schule",
+   "address": "Eberhofweg 75, 22415 Hamburg",
+   "lat": 53.651919,
+   "lng": 10.014873,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5101,
+   "name": "Katharinenschule in der Hafencity",
+   "address": "Am Dalmannkai 18, 20457 Hamburg",
+   "lat": 53.542065,
+   "lng": 9.994563,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 3217,
+   "name": "Katholische Bonifatiusschule",
+   "address": "Bonifatiusstraße 2, 21107 Hamburg",
+   "lat": 53.504744,
+   "lng": 9.98662,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 3204,
+   "name": "Katholische Schule Altona",
+   "address": "Dohrnweg 6, 22767 Hamburg",
+   "lat": 53.559409,
+   "lng": 9.956165,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 3207,
+   "name": "Katholische Schule Am Weiher - St. Bonifatius",
+   "address": "Am Weiher 29, 20255 Hamburg",
+   "lat": 53.577956,
+   "lng": 9.957578,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 3215,
+   "name": "Katholische Schule Bergedorf",
+   "address": "Chrysanderstraße 40, 21029 Hamburg",
+   "lat": 53.49182,
+   "lng": 10.215631,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 3206,
+   "name": "Katholische Schule Blankenese",
+   "address": "Mörikestraße 16, 22587 Hamburg",
+   "lat": 53.561828,
+   "lng": 9.822509,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 3213,
+   "name": "Katholische Schule Farmsen",
+   "address": "Rahlstedter Weg 15, 22159 Hamburg",
+   "lat": 53.606716,
+   "lng": 10.12183,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 3201,
+   "name": "Katholische Schule Hammer Kirche",
+   "address": "Bei der Hammer Kirche 10, 20535 Hamburg",
+   "lat": 53.556728,
+   "lng": 10.054931,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 3216,
+   "name": "Katholische Schule Harburg",
+   "address": "Reeseberg 8, 21073 Hamburg",
+   "lat": 53.449812,
+   "lng": 9.988358,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 3208,
+   "name": "Katholische Schule Hochallee",
+   "address": "Hochallee 9, 20149 Hamburg",
+   "lat": 53.573465,
+   "lng": 9.985793,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 3222,
+   "name": "Katholische Schule Neugraben",
+   "address": "Cuxhavener Straße 379, 21149 Hamburg",
+   "lat": 53.472025,
+   "lng": 9.8446,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 3211,
+   "name": "Katholische Schule St. Antonius",
+   "address": "Alsterdorfer Straße 71, 22299 Hamburg",
+   "lat": 53.59872,
+   "lng": 9.996569,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 3214,
+   "name": "Katholische Schule St. Joseph - Wandsbek",
+   "address": "Böhmestraße 3, 22041 Hamburg",
+   "lat": 53.573872,
+   "lng": 10.076326,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 3205,
+   "name": "Katholische Schule St. Marien - Eulenstraße",
+   "address": "Eulenstraße 68, 22763 Hamburg",
+   "lat": 53.551142,
+   "lng": 9.924064,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 3203,
+   "name": "Katholische Schule St. Paulus",
+   "address": "Öjendorfer Weg 14, 22111 Hamburg",
+   "lat": 53.540571,
+   "lng": 10.107749,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 3209,
+   "name": "Katholische Sophienschule",
+   "address": "Elsastraße 46, 22083 Hamburg",
+   "lat": 53.579224,
+   "lng": 10.034378,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5417,
+   "name": "Kurt-Juster-Schule",
+   "address": "Alsterdorfer Straße 420, 22297 Hamburg",
+   "lat": 53.613954,
+   "lng": 10.020571,
+   "school_type": "Sonderschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5800,
+   "name": "Kurt-Körber-Gymnasium",
+   "address": "Pergamentweg 1, 22117 Hamburg",
+   "lat": 53.541154,
+   "lng": 10.12098,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5654,
+   "name": "Kurt-Tucholsky-Schule",
+   "address": "Eckernförder Straße 70, 22769 Hamburg",
+   "lat": 53.566655,
+   "lng": 9.946527,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5664,
+   "name": "Lessing-Stadtteilschule",
+   "address": "Am Soldatenfriedhof 21, 21073 Hamburg",
+   "lat": 53.462811,
+   "lng": 9.976362,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5825,
+   "name": "Lise-Meitner-Gymnasium",
+   "address": "Knabeweg 3, 22549 Hamburg",
+   "lat": 53.573042,
+   "lng": 9.856687,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5210,
+   "name": "Loki-Schmidt-Schule",
+   "address": "Othmarscher Kirchenweg 145, 22763 Hamburg",
+   "lat": 53.553462,
+   "lng": 9.900346,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5206,
+   "name": "Louise Schroeder Schule",
+   "address": "Thedestraße 100, 22767 Hamburg",
+   "lat": 53.553685,
+   "lng": 9.949814,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5848,
+   "name": "Luisen-Gymnasium Bergedorf",
+   "address": "Reinbeker Weg 76, 21029 Hamburg",
+   "lat": 53.49231,
+   "lng": 10.228069,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 8013,
+   "name": "Lycée Français de Hambourg 'Antoine de St. Exupéry' (Grundschule)",
+   "address": "Hartsprung 23, 22529 Hamburg",
+   "lat": 53.604141,
+   "lng": 9.958474,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 8003,
+   "name": "Lycée Français de Hambourg 'Antoine de St. Exupéry' (Gymnasium)",
+   "address": "Hartsprung 23, 22529 Hamburg",
+   "lat": 53.604141,
+   "lng": 9.958474,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5834,
+   "name": "Margaretha-Rothe-Gymnasium",
+   "address": "Langenfort 5, 22307 Hamburg",
+   "lat": 53.599295,
+   "lng": 10.042722,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5413,
+   "name": "Marie-Beschütz-Schule",
+   "address": "Schottmüllerstraße 23, 20251 Hamburg",
+   "lat": 53.591812,
+   "lng": 9.98564,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5841,
+   "name": "Marion Dönhoff Gymnasium",
+   "address": "Willhöden 74, 22587 Hamburg",
+   "lat": 53.57141,
+   "lng": 9.806883,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5802,
+   "name": "Matthias-Claudius-Gymnasium",
+   "address": "Witthöfftstraße 8, 22041 Hamburg",
+   "lat": 53.57298,
+   "lng": 10.072872,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5076,
+   "name": "Max-Brauer-Schule",
+   "address": "Daimlerstraße 40, 22761 Hamburg",
+   "lat": 53.570314,
+   "lng": 9.912774,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5054,
+   "name": "Max-Schmeling-Stadtteilschule",
+   "address": "Oktaviostraße 143, 22043 Hamburg",
+   "lat": 53.567124,
+   "lng": 10.1038,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5271,
+   "name": "Max-Traeger-Schule",
+   "address": "Baumacker 10, 22523 Hamburg",
+   "lat": 53.616075,
+   "lng": 9.898091,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 8117,
+   "name": "Michael Schule",
+   "address": "Woellmerstraße 1, 21075 Hamburg",
+   "lat": 53.46531,
+   "lng": 9.959604,
+   "school_type": "Sonderschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 7920,
+   "name": "Moderne Schule Hamburg (Grundschule)",
+   "address": "Brödermannsweg 17, 22453 Hamburg",
+   "lat": 53.605886,
+   "lng": 9.978596,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 7921,
+   "name": "Moderne Schule Hamburg (Gymnasium)",
+   "address": "Brödermannsweg 17, 22453 Hamburg",
+   "lat": 53.605886,
+   "lng": 9.978596,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 7916,
+   "name": "Monaddrei-Schule Hamburg",
+   "address": "Schäferkampsallee 27, 20357 Hamburg",
+   "lat": 53.568261,
+   "lng": 9.967796,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 7708,
+   "name": "Montessorischule Hamburg-Bergedorf",
+   "address": "August-Bebel-Straße 196, 21029 Hamburg",
+   "lat": 53.480937,
+   "lng": 10.241404,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5072,
+   "name": "Nelson-Mandela-Schule im Stadtteil Kirchdorf",
+   "address": "Neuenfelder Straße 106, 21109 Hamburg",
+   "lat": 53.493162,
+   "lng": 10.013895,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 7910,
+   "name": "Neue Schule Hamburg",
+   "address": "Schimmelreiterweg 11, 22149 Hamburg",
+   "lat": 53.591862,
+   "lng": 10.181015,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 3224,
+   "name": "Niels-Stensen-Gymnasium",
+   "address": "Barlachstraße 16, 21073 Hamburg",
+   "lat": 53.45789,
+   "lng": 9.971421,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 7924,
+   "name": "OKO Private School Talent-Schule Hamburg",
+   "address": "Saarlandstraße 30, 22303 Hamburg",
+   "lat": 53.587594,
+   "lng": 10.033718,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5670,
+   "name": "Otto-Hahn-Schule",
+   "address": "Jenfelder Allee 53, 22043 Hamburg",
+   "lat": 53.580364,
+   "lng": 10.126154,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 7715,
+   "name": "Private Grundschule Brecht",
+   "address": "Norderstraße 163, 20097 Hamburg",
+   "lat": 53.551065,
+   "lng": 10.018207,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 7714,
+   "name": "Private Stadtteilschule Brecht",
+   "address": "Norderstraße 163, 20097 Hamburg",
+   "lat": 53.551065,
+   "lng": 10.018207,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 7703,
+   "name": "Privates Gymnasium Brecht",
+   "address": "Norderstraße 163, 20097 Hamburg",
+   "lat": 53.551065,
+   "lng": 10.018207,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 7707,
+   "name": "Raphael-Schule",
+   "address": "Quellental 25, 22609 Hamburg",
+   "lat": 53.552359,
+   "lng": 9.861204,
+   "school_type": "Sonderschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5350,
+   "name": "ReBBZ Altona",
+   "address": "Sommerhuder Straße 18, 22767 Hamburg",
+   "lat": 53.562862,
+   "lng": 9.954003,
+   "school_type": "Sonderschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5351,
+   "name": "ReBBZ Altona-West",
+   "address": "Böttcherkamp 144, 22549 Hamburg",
+   "lat": 53.592406,
+   "lng": 9.861976,
+   "school_type": "Sonderschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5352,
+   "name": "ReBBZ Bergedorf",
+   "address": "Billwerder Billdeich 648 a, 21031 Hamburg",
+   "lat": 53.492724,
+   "lng": 10.185275,
+   "school_type": "Sonderschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5356,
+   "name": "ReBBZ Billstedt",
+   "address": "Steinfeldtstraße 1, 22119 Hamburg",
+   "lat": 53.546881,
+   "lng": 10.101296,
+   "school_type": "Sonderschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5353,
+   "name": "ReBBZ Eimsbüttel",
+   "address": "Bindfeldweg 37, 22459 Hamburg",
+   "lat": 53.622937,
+   "lng": 9.946712,
+   "school_type": "Sonderschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5355,
+   "name": "ReBBZ Harburg",
+   "address": "Kapellenweg 63, 21073 Hamburg",
+   "lat": 53.45816,
+   "lng": 9.972548,
+   "school_type": "Sonderschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5358,
+   "name": "ReBBZ Mitte",
+   "address": "Laeiszstraße 12, 20537 Hamburg",
+   "lat": 53.547164,
+   "lng": 10.04937,
+   "school_type": "Sonderschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5360,
+   "name": "ReBBZ Nord",
+   "address": "Sengelmannstraße 50, 22297 Hamburg",
+   "lat": 53.614531,
+   "lng": 10.020026,
+   "school_type": "Sonderschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5354,
+   "name": "ReBBZ Süderelbe",
+   "address": "Neumoorstück 2, 21147 Hamburg",
+   "lat": 53.478904,
+   "lng": 9.868113,
+   "school_type": "Sonderschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5361,
+   "name": "ReBBZ Wandsbek-Nord",
+   "address": "Wildschwanbrook 9, 22175 Hamburg",
+   "lat": 53.627634,
+   "lng": 10.17108,
+   "school_type": "Sonderschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5362,
+   "name": "ReBBZ Wandsbek-Süd",
+   "address": "Hammer Straße 124, 22043 Hamburg",
+   "lat": 53.563018,
+   "lng": 10.066009,
+   "school_type": "Sonderschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5357,
+   "name": "ReBBZ Wilhelmsburg",
+   "address": "Krieterstraße 2 a, 21109 Hamburg",
+   "lat": 53.500272,
+   "lng": 10.013108,
+   "school_type": "Sonderschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5359,
+   "name": "ReBBZ Winterhude",
+   "address": "Winterhuder Weg 11, 22335 Hamburg",
+   "lat": 53.631369,
+   "lng": 10.004938,
+   "school_type": "Sonderschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5248,
+   "name": "Rudolf-Roß-Grundschule",
+   "address": "Kurze Straße 30, 20355 Hamburg",
+   "lat": 53.553031,
+   "lng": 9.978766,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 8113,
+   "name": "Rudolf-Steiner-Schule Altona",
+   "address": "Bleickenallee 1, 22763 Hamburg",
+   "lat": 53.55055,
+   "lng": 9.922053,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 8115,
+   "name": "Rudolf-Steiner-Schule Bergedorf",
+   "address": "Am Brink 7, 21029 Hamburg",
+   "lat": 53.485116,
+   "lng": 10.216802,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 8112,
+   "name": "Rudolf-Steiner-Schule Bergstedt",
+   "address": "Bergstedter Chaussee 207, 22395 Hamburg",
+   "lat": 53.676324,
+   "lng": 10.135846,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 8114,
+   "name": "Rudolf-Steiner-Schule Harburg",
+   "address": "Ehestorfer Heuweg 82, 21149 Hamburg",
+   "lat": 53.461212,
+   "lng": 9.891795,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 8102,
+   "name": "Rudolf-Steiner-Schule Nienstedten",
+   "address": "Elbchaussee 366, 22609 Hamburg",
+   "lat": 53.549041,
+   "lng": 9.855735,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 8101,
+   "name": "Rudolf-Steiner-Schule Wandsbek",
+   "address": "Rahlstedter Weg 60, 22159 Hamburg",
+   "lat": 53.602838,
+   "lng": 10.127174,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 3219,
+   "name": "Sankt-Ansgar-Schule",
+   "address": "Bürgerweide 33, 20535 Hamburg",
+   "lat": 53.557509,
+   "lng": 10.031605,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5532,
+   "name": "Schule Ahrensburger Weg",
+   "address": "Ahrensburger Weg 12, 22359 Hamburg",
+   "lat": 53.652032,
+   "lng": 10.170362,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5400,
+   "name": "Schule Alsterdorfer Straße",
+   "address": "Alsterdorfer Straße 39, 22299 Hamburg",
+   "lat": 53.596324,
+   "lng": 9.995858,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5520,
+   "name": "Schule Alsterredder",
+   "address": "Alsterredder 28, 22395 Hamburg",
+   "lat": 53.658655,
+   "lng": 10.099555,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5631,
+   "name": "Schule Altengamme-Deich",
+   "address": "Kirchenstegel 12, 21039 Hamburg",
+   "lat": 53.428618,
+   "lng": 10.27047,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5587,
+   "name": "Schule am Eichtalpark",
+   "address": "Walddörferstraße 243, 22047 Hamburg",
+   "lat": 53.58216,
+   "lng": 10.095787,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5172,
+   "name": "Schule am Schleemer Park",
+   "address": "Oberschleems 9, 22117 Hamburg",
+   "lat": 53.537435,
+   "lng": 10.119312,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5075,
+   "name": "Schule am See",
+   "address": "Gropiusring 43, 22309 Hamburg",
+   "lat": 53.61435,
+   "lng": 10.057353,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5502,
+   "name": "Schule Am Sooren",
+   "address": "Brunskamp 17, 22149 Hamburg",
+   "lat": 53.592678,
+   "lng": 10.181092,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5522,
+   "name": "Schule Am Walde",
+   "address": "Kupferredder 12, 22397 Hamburg",
+   "lat": 53.697582,
+   "lng": 10.136258,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5525,
+   "name": "Schule An den Teichwiesen",
+   "address": "Saseler Weg 30, 22359 Hamburg",
+   "lat": 53.649383,
+   "lng": 10.148515,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5773,
+   "name": "Schule an der Burgweide",
+   "address": "Karl-Arnold-Ring 13, 21109 Hamburg",
+   "lat": 53.486789,
+   "lng": 10.023942,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5575,
+   "name": "Schule An der Gartenstadt",
+   "address": "Stephanstraße 103, 22047 Hamburg",
+   "lat": 53.589398,
+   "lng": 10.085903,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5160,
+   "name": "Schule An der Glinder Au",
+   "address": "Sonnenland 27, 22115 Hamburg",
+   "lat": 53.534304,
+   "lng": 10.131631,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5301,
+   "name": "Schule An der Isebek",
+   "address": "Bismarckstraße 83, 20253 Hamburg",
+   "lat": 53.575539,
+   "lng": 9.967867,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5557,
+   "name": "Schule An der Seebek",
+   "address": "Fabriciusstraße 150, 22177 Hamburg",
+   "lat": 53.605009,
+   "lng": 10.067146,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5330,
+   "name": "Schule Anna-Susanna-Stieg",
+   "address": "Anna-Susanna-Stieg 3, 22457 Hamburg",
+   "lat": 53.642336,
+   "lng": 9.918993,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5564,
+   "name": "Schule Appelhoff",
+   "address": "Appelhoff 2, 22309 Hamburg",
+   "lat": 53.607404,
+   "lng": 10.05896,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5753,
+   "name": "Schule Arp-Schnitger-Stieg",
+   "address": "Arp-Schnitger-Stieg 19, 21129 Hamburg",
+   "lat": 53.516199,
+   "lng": 9.810992,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5416,
+   "name": "Schule auf der Uhlenhorst",
+   "address": "Winterhuder Weg 126, 22085 Hamburg",
+   "lat": 53.577806,
+   "lng": 10.017883,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5099,
+   "name": "Schule auf der Veddel",
+   "address": "Slomanstieg 1, 20539 Hamburg",
+   "lat": 53.526857,
+   "lng": 10.019837,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5202,
+   "name": "Schule Bahrenfelder Straße",
+   "address": "Gaußstraße 171, 22765 Hamburg",
+   "lat": 53.558542,
+   "lng": 9.926885,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5577,
+   "name": "Schule Bandwirkerstraße",
+   "address": "Bandwirkerstraße 56, 22041 Hamburg",
+   "lat": 53.576671,
+   "lng": 10.067148,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5280,
+   "name": "Schule Barlsheide",
+   "address": "Bornheide 2, 22549 Hamburg",
+   "lat": 53.583164,
+   "lng": 9.856698,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5130,
+   "name": "Schule Beim Pachthof",
+   "address": "Beim Pachthof 15, 22111 Hamburg",
+   "lat": 53.551564,
+   "lng": 10.082137,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5503,
+   "name": "Schule Bekassinenau",
+   "address": "Bekassinenau 32, 22147 Hamburg",
+   "lat": 53.611906,
+   "lng": 10.13694,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5515,
+   "name": "Schule Bekkamp",
+   "address": "Bekkamp 52, 22045 Hamburg",
+   "lat": 53.575188,
+   "lng": 10.142655,
+   "school_type": "Sonderschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5526,
+   "name": "Schule Bergstedt",
+   "address": "Bergstedter Alte Landstraße 12, 22395 Hamburg",
+   "lat": 53.671962,
+   "lng": 10.132439,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5174,
+   "name": "Schule Bonhoefferstraße",
+   "address": "Bonhoefferstraße 13, 22117 Hamburg",
+   "lat": 53.54497,
+   "lng": 10.136732,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5578,
+   "name": "Schule Bovestraße",
+   "address": "Bovestraße 10, 22041 Hamburg",
+   "lat": 53.571996,
+   "lng": 10.080291,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5309,
+   "name": "Schule Brehmweg",
+   "address": "Brehmweg 62, 22527 Hamburg",
+   "lat": 53.584798,
+   "lng": 9.941182,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5504,
+   "name": "Schule Brockdorffstraße",
+   "address": "Brockdorffstraße 64, 22149 Hamburg",
+   "lat": 53.595968,
+   "lng": 10.163651,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5529,
+   "name": "Schule Buckhorn",
+   "address": "Volksdorfer Damm 74, 22359 Hamburg",
+   "lat": 53.664645,
+   "lng": 10.148661,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5332,
+   "name": "Schule Burgunderweg",
+   "address": "Burgunderweg 2, 22453 Hamburg",
+   "lat": 53.628338,
+   "lng": 9.96395,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5505,
+   "name": "Schule Charlottenburger Straße",
+   "address": "Charlottenburger Straße 84, 22045 Hamburg",
+   "lat": 53.586844,
+   "lng": 10.141767,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5743,
+   "name": "Schule Cranz",
+   "address": "Estebogen 3, 21129 Hamburg",
+   "lat": 53.529856,
+   "lng": 9.773472,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5634,
+   "name": "Schule Curslack-Neuengamme",
+   "address": "Gramkowweg 5, 21039 Hamburg",
+   "lat": 53.448569,
+   "lng": 10.219731,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5701,
+   "name": "Schule Dempwolffstraße",
+   "address": "Dempwolffstraße 7, 21073 Hamburg",
+   "lat": 53.458836,
+   "lng": 9.965013,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5334,
+   "name": "Schule Döhrnstraße",
+   "address": "Döhrnstraße 42, 22529 Hamburg",
+   "lat": 53.595995,
+   "lng": 9.956046,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5523,
+   "name": "Schule Duvenstedter Markt",
+   "address": "Duvenstedter Markt 12, 22397 Hamburg",
+   "lat": 53.703318,
+   "lng": 10.108214,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5464,
+   "name": "Schule Eberhofweg",
+   "address": "Eberhofweg 63, 22415 Hamburg",
+   "lat": 53.650781,
+   "lng": 10.013936,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5305,
+   "name": "Schule Eduardstraße",
+   "address": "Eduardstraße 28, 20257 Hamburg",
+   "lat": 53.571975,
+   "lng": 9.947138,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5551,
+   "name": "Schule Eenstock",
+   "address": "Eenstock 15, 22179 Hamburg",
+   "lat": 53.605332,
+   "lng": 10.094531,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5722,
+   "name": "Schule Elfenwiese",
+   "address": "Elfenwiese 3, 21077 Hamburg",
+   "lat": 53.439854,
+   "lng": 9.970486,
+   "school_type": "Sonderschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5604,
+   "name": "Schule Ernst-Henning-Straße",
+   "address": "Ernst-Henning-Straße 20, 21029 Hamburg",
+   "lat": 53.484161,
+   "lng": 10.226782,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5533,
+   "name": "Schule Eulenkrugstraße",
+   "address": "Eulenkrugstraße 166, 22359 Hamburg",
+   "lat": 53.64436,
+   "lng": 10.183688,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5558,
+   "name": "Schule Fahrenkrön",
+   "address": "Fahrenkrön 115, 22179 Hamburg",
+   "lat": 53.616266,
+   "lng": 10.097775,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5404,
+   "name": "Schule Forsmannstraße",
+   "address": "Forsmannstraße 32, 22303 Hamburg",
+   "lat": 53.584468,
+   "lng": 10.013911,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5614,
+   "name": "Schule Friedrich-Frank-Bogen",
+   "address": "Friedrich-Frank-Bogen 25, 21033 Hamburg",
+   "lat": 53.492058,
+   "lng": 10.178256,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5335,
+   "name": "Schule Frohmestraße",
+   "address": "Frohmestraße 42, 22457 Hamburg",
+   "lat": 53.632555,
+   "lng": 9.920325,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5175,
+   "name": "Schule Fuchsbergredder",
+   "address": "Dringsheide 10, 22119 Hamburg",
+   "lat": 53.561538,
+   "lng": 10.121536,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5635,
+   "name": "Schule Fünfhausen-Warwisch",
+   "address": "Durchdeich 108, 21037 Hamburg",
+   "lat": 53.448519,
+   "lng": 10.133582,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5265,
+   "name": "Schule Furtweg",
+   "address": "Furtweg 56, 22523 Hamburg",
+   "lat": 53.605139,
+   "lng": 9.899997,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5437,
+   "name": "Schule Genslerstraße",
+   "address": "Ballerstaedtweg 1, 22307 Hamburg",
+   "lat": 53.611667,
+   "lng": 10.034489,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5704,
+   "name": "Schule Grumbrechtstraße",
+   "address": "Grumbrechtstraße 63, 21075 Hamburg",
+   "lat": 53.468524,
+   "lng": 9.955276,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5540,
+   "name": "Schule Grützmühlenweg",
+   "address": "Grützmühlenweg 38, 22339 Hamburg",
+   "lat": 53.64583,
+   "lng": 10.040549,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5581,
+   "name": "Schule Hasselbrook",
+   "address": "Ritterstraße 44, 22089 Hamburg",
+   "lat": 53.564476,
+   "lng": 10.045177,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5333,
+   "name": "Schule Heidacker",
+   "address": "Heidacker 13, 22523 Hamburg",
+   "lat": 53.619831,
+   "lng": 9.890048,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5530,
+   "name": "Schule Hinsbleek",
+   "address": "Hinsbleek 14, 22391 Hamburg",
+   "lat": 53.650404,
+   "lng": 10.07398,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5336,
+   "name": "Schule Hinter der Lieth",
+   "address": "Hinter der Lieth 61, 22529 Hamburg",
+   "lat": 53.60323,
+   "lng": 9.945369,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5219,
+   "name": "Schule Hirtenweg",
+   "address": "Holmbrook 10, 22605 Hamburg",
+   "lat": 53.55188,
+   "lng": 9.900276,
+   "school_type": "Sonderschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5106,
+   "name": "Schule Hohe Landwehr",
+   "address": "Hohe Landwehr 19, 20535 Hamburg",
+   "lat": 53.557559,
+   "lng": 10.041138,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5405,
+   "name": "Schule Humboldtstraße",
+   "address": "Humboldtstraße 30, 22083 Hamburg",
+   "lat": 53.57346,
+   "lng": 10.027026,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5706,
+   "name": "Schule In der Alten Forst",
+   "address": "In der Alten Forst 1, 21077 Hamburg",
+   "lat": 53.449069,
+   "lng": 9.93533,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5234,
+   "name": "Schule Iserbarg",
+   "address": "Iserbarg 2, 22559 Hamburg",
+   "lat": 53.57503,
+   "lng": 9.760988,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5238,
+   "name": "Schule Iserbrook",
+   "address": "Musäusstraße 29, 22589 Hamburg",
+   "lat": 53.580445,
+   "lng": 9.812345,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5594,
+   "name": "Schule Jenfelder Straße",
+   "address": "Jenfelder Straße 252, 22045 Hamburg",
+   "lat": 53.576143,
+   "lng": 10.132927,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5507,
+   "name": "Schule Kamminer Straße",
+   "address": "Kamminer Straße 4, 22147 Hamburg",
+   "lat": 53.61829,
+   "lng": 10.141331,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5708,
+   "name": "Schule Kapellenweg",
+   "address": "Kapellenweg 63, 21077 Hamburg",
+   "lat": 53.445538,
+   "lng": 9.988124,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5710,
+   "name": "Schule Kerschensteinerstraße",
+   "address": "Kerschensteinerstraße 16, 21073 Hamburg",
+   "lat": 53.461707,
+   "lng": 9.973429,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5245,
+   "name": "Schule Kielkamp",
+   "address": "Kielkamp 16, 22761 Hamburg",
+   "lat": 53.573351,
+   "lng": 9.899402,
+   "school_type": "Sonderschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5308,
+   "name": "Schule Kielortallee",
+   "address": "Bundesstraße 94, 20144 Hamburg",
+   "lat": 53.574695,
+   "lng": 9.979121,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5209,
+   "name": "Schule Klein Flottbeker Weg",
+   "address": "Klein Flottbeker Weg 64, 22605 Hamburg",
+   "lat": 53.553344,
+   "lng": 9.883931,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5409,
+   "name": "Schule Knauerstraße",
+   "address": "Knauerstraße 22, 20249 Hamburg",
+   "lat": 53.590139,
+   "lng": 9.990382,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5469,
+   "name": "Schule Krohnstieg",
+   "address": "Krohnstieg 107, 22415 Hamburg",
+   "lat": 53.647912,
+   "lng": 10.000299,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5278,
+   "name": "Schule Kroonhorst",
+   "address": "Kroonhorst 25, 22549 Hamburg",
+   "lat": 53.588594,
+   "lng": 9.846499,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5439,
+   "name": "Schule Lämmersieth",
+   "address": "Lämmersieth 72, 22305 Hamburg",
+   "lat": 53.588096,
+   "lng": 10.060373,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5267,
+   "name": "Schule Langbargheide",
+   "address": "Langbargheide 40, 22547 Hamburg",
+   "lat": 53.59633,
+   "lng": 9.88961,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5235,
+   "name": "Schule Lehmkuhlenweg",
+   "address": "Lehmkuhlenweg 19, 22589 Hamburg",
+   "lat": 53.584986,
+   "lng": 9.790668,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5535,
+   "name": "Schule Lemsahl-Mellingstedt",
+   "address": "Redderbarg 46, 22397 Hamburg",
+   "lat": 53.681422,
+   "lng": 10.103497,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5605,
+   "name": "Schule Leuschnerstraße",
+   "address": "Leuschnerstraße 13, 21031 Hamburg",
+   "lat": 53.49608,
+   "lng": 10.20698,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5346,
+   "name": "Schule Lokstedter Damm",
+   "address": "Lokstedter Damm 38, 22453 Hamburg",
+   "lat": 53.607202,
+   "lng": 9.971772,
+   "school_type": "Sonderschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5310,
+   "name": "Schule Lutterothstraße",
+   "address": "Lutterothstraße 34, 20255 Hamburg",
+   "lat": 53.580956,
+   "lng": 9.953304,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5121,
+   "name": "Schule Marckmannstraße",
+   "address": "Marckmannstraße 60, 20539 Hamburg",
+   "lat": 53.535523,
+   "lng": 10.039775,
+   "school_type": "Sonderschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5703,
+   "name": "Schule Maretstraße",
+   "address": "Maretstraße 50, 21073 Hamburg",
+   "lat": 53.453706,
+   "lng": 9.982173,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5713,
+   "name": "Schule Marmstorf",
+   "address": "Ernst-Bergeest-Weg 54, 21077 Hamburg",
+   "lat": 53.438472,
+   "lng": 9.963522,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5236,
+   "name": "Schule Marschweg",
+   "address": "Marschweg 10, 22559 Hamburg",
+   "lat": 53.584595,
+   "lng": 9.761606,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5607,
+   "name": "Schule Max-Eichholz-Ring",
+   "address": "Max-Eichholz-Ring 25, 21031 Hamburg",
+   "lat": 53.506608,
+   "lng": 10.216842,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5237,
+   "name": "Schule Mendelssohnstraße",
+   "address": "Mendelssohnstraße 86, 22761 Hamburg",
+   "lat": 53.563704,
+   "lng": 9.905849,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5630,
+   "name": "Schule Mittlerer Landweg",
+   "address": "Mittlerer Landweg 48, 21033 Hamburg",
+   "lat": 53.498522,
+   "lng": 10.132803,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5339,
+   "name": "Schule Molkenbuhrstraße",
+   "address": "Molkenbuhrstraße 2, 22525 Hamburg",
+   "lat": 53.589222,
+   "lng": 9.925685,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5347,
+   "name": "Schule Moorflagen",
+   "address": "Wagrierweg 18, 22455 Hamburg",
+   "lat": 53.641941,
+   "lng": 9.944246,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5537,
+   "name": "Schule Müssenredder",
+   "address": "Müssenredder 61, 22399 Hamburg",
+   "lat": 53.654962,
+   "lng": 10.066364,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5610,
+   "name": "Schule Nettelnburg",
+   "address": "Fiddigshagen 11, 21035 Hamburg",
+   "lat": 53.480334,
+   "lng": 10.195053,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5472,
+   "name": "Schule Neubergerweg",
+   "address": "Neubergerweg 2, 22419 Hamburg",
+   "lat": 53.667588,
+   "lng": 10.002786,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5714,
+   "name": "Schule Neuland",
+   "address": "Neuländer Elbdeich 241, 21079 Hamburg",
+   "lat": 53.468637,
+   "lng": 10.03751,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5723,
+   "name": "Schule Nymphenweg",
+   "address": "Hausbrucher Bahnhofstraße 19, 21077 Hamburg",
+   "lat": 53.474398,
+   "lng": 9.893733,
+   "school_type": "Sonderschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5644,
+   "name": "Schule Ochsenwerder",
+   "address": "Elversweg 44, 21037 Hamburg",
+   "lat": 53.471909,
+   "lng": 10.073588,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5473,
+   "name": "Schule Ohkamp",
+   "address": "Ohkampring 13, 22339 Hamburg",
+   "lat": 53.637005,
+   "lng": 10.022017,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5768,
+   "name": "Schule Ohrnsweg",
+   "address": "Ohrnsweg 52, 21149 Hamburg",
+   "lat": 53.471494,
+   "lng": 9.817175,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5586,
+   "name": "Schule Öjendorfer Damm",
+   "address": "Öjendorfer Damm 8, 22043 Hamburg",
+   "lat": 53.568011,
+   "lng": 10.135676,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5592,
+   "name": "Schule Oppelner Straße",
+   "address": "Oppelner Straße 45, 22045 Hamburg",
+   "lat": 53.573179,
+   "lng": 10.14442,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5447,
+   "name": "Schule Paracelsusstraße",
+   "address": "Paracelsusstraße 30, 22147 Hamburg",
+   "lat": 53.597654,
+   "lng": 10.136442,
+   "school_type": "Sonderschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5510,
+   "name": "Schule Potsdamer Straße",
+   "address": "Potsdamer Straße 6, 22149 Hamburg",
+   "lat": 53.58408,
+   "lng": 10.150715,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5544,
+   "name": "Schule Rahlstedter Höhe",
+   "address": "Ahrenshooper Straße 1, 22147 Hamburg",
+   "lat": 53.600364,
+   "lng": 10.132015,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5480,
+   "name": "Schule Ratsmühlendamm",
+   "address": "Ratsmühlendamm 39, 22335 Hamburg",
+   "lat": 53.626234,
+   "lng": 10.020957,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5534,
+   "name": "Schule Redder",
+   "address": "Redder 4, 22393 Hamburg",
+   "lat": 53.651331,
+   "lng": 10.109241,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5312,
+   "name": "Schule Rellinger Straße",
+   "address": "Rellinger Straße 13, 20257 Hamburg",
+   "lat": 53.57414,
+   "lng": 9.942389,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5588,
+   "name": "Schule Richardstraße",
+   "address": "Richardstraße 85, 22089 Hamburg",
+   "lat": 53.568004,
+   "lng": 10.039956,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5707,
+   "name": "Schule Rönneburg",
+   "address": "Kanzlerstraße 25, 21079 Hamburg",
+   "lat": 53.439055,
+   "lng": 10.00758,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5328,
+   "name": "Schule Rönnkamp",
+   "address": "Rönnkamp 3, 22457 Hamburg",
+   "lat": 53.646856,
+   "lng": 9.920023,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5761,
+   "name": "Schule Rotenhäuser Damm",
+   "address": "Rotenhäuser Damm 45, 21107 Hamburg",
+   "lat": 53.511335,
+   "lng": 9.991511,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5211,
+   "name": "Schule Rothestraße",
+   "address": "Rothestraße 22, 22765 Hamburg",
+   "lat": 53.548568,
+   "lng": 9.928908,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5349,
+   "name": "Schule Röthmoorweg",
+   "address": "Röthmoorweg 9, 22459 Hamburg",
+   "lat": 53.627136,
+   "lng": 9.924784,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5274,
+   "name": "Schule Rungwisch",
+   "address": "Rungwisch 23, 22523 Hamburg",
+   "lat": 53.61131,
+   "lng": 9.911209,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5602,
+   "name": "Schule Sander Straße",
+   "address": "Sander Straße 11, 21029 Hamburg",
+   "lat": 53.49532,
+   "lng": 10.217435,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5718,
+   "name": "Schule Scheeßeler Kehre",
+   "address": "Scheeßeler Kehre 2, 21079 Hamburg",
+   "lat": 53.426707,
+   "lng": 9.987142,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5240,
+   "name": "Schule Schenefelder Landstraße",
+   "address": "Schenefelder Landstraße 206, 22589 Hamburg",
+   "lat": 53.577725,
+   "lng": 9.824234,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5762,
+   "name": "Schule Schnuckendrift",
+   "address": "Schnuckendrift 21, 21149 Hamburg",
+   "lat": 53.467194,
+   "lng": 9.838566,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5243,
+   "name": "Schule Schulkamp",
+   "address": "Schulkamp 1, 22609 Hamburg",
+   "lat": 53.553106,
+   "lng": 9.847219,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5342,
+   "name": "Schule Sethweg",
+   "address": "Sethweg 56, 22455 Hamburg",
+   "lat": 53.633267,
+   "lng": 9.943231,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5169,
+   "name": "Schule Speckenreye",
+   "address": "Speckenreye 11, 22119 Hamburg",
+   "lat": 53.554455,
+   "lng": 10.095461,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5171,
+   "name": "Schule Stengelestraße",
+   "address": "Hermannstal 82, 22111 Hamburg",
+   "lat": 53.550884,
+   "lng": 10.094971,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5173,
+   "name": "Schule Sterntalerstraße",
+   "address": "Sterntalerstraße 42, 22119 Hamburg",
+   "lat": 53.560032,
+   "lng": 10.112743,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5476,
+   "name": "Schule Stockflethweg",
+   "address": "Stockflethweg 160, 22417 Hamburg",
+   "lat": 53.679417,
+   "lng": 10.018655,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5541,
+   "name": "Schule Strenge",
+   "address": "Strenge 5, 22391 Hamburg",
+   "lat": 53.637098,
+   "lng": 10.078586,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5565,
+   "name": "Schule Surenland",
+   "address": "Bramfelder Weg 121, 22159 Hamburg",
+   "lat": 53.614164,
+   "lng": 10.106627,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5419,
+   "name": "Schule Tegelweg",
+   "address": "Turnierstieg 16, 22159 Hamburg",
+   "lat": 53.600861,
+   "lng": 10.095317,
+   "school_type": "Sonderschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5315,
+   "name": "Schule Tornquiststraße",
+   "address": "Tornquiststraße 60, 20259 Hamburg",
+   "lat": 53.573549,
+   "lng": 9.95349,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5550,
+   "name": "Schule Traberweg",
+   "address": "Eckerkoppel 125, 22159 Hamburg",
+   "lat": 53.597263,
+   "lng": 10.101421,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5217,
+   "name": "Schule Trenknerweg",
+   "address": "Trenknerweg 136, 22605 Hamburg",
+   "lat": 53.548381,
+   "lng": 9.910484,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5316,
+   "name": "Schule Turmweg",
+   "address": "Turmweg 33, 20148 Hamburg",
+   "lat": 53.571372,
+   "lng": 9.991885,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5344,
+   "name": "Schule Vizelinstraße",
+   "address": "Vizelinstraße 50, 22529 Hamburg",
+   "lat": 53.588628,
+   "lng": 9.950638,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5345,
+   "name": "Schule Wegenkamp",
+   "address": "Wegenkamp 9, 22527 Hamburg",
+   "lat": 53.602844,
+   "lng": 9.924162,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5613,
+   "name": "Schule Weidemoor",
+   "address": "Weidemoor 1, 21033 Hamburg",
+   "lat": 53.512588,
+   "lng": 10.160052,
+   "school_type": "Sonderschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5277,
+   "name": "Schule Wesperloh",
+   "address": "Wesperloh 19, 22549 Hamburg",
+   "lat": 53.575808,
+   "lng": 9.862337,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5591,
+   "name": "Schule Wielandstraße",
+   "address": "Wielandstraße 9, 22089 Hamburg",
+   "lat": 53.569992,
+   "lng": 10.054226,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5542,
+   "name": "Schule Wildschwanbrook",
+   "address": "Wildschwanbrook 9, 22145 Hamburg",
+   "lat": 53.627634,
+   "lng": 10.17108,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5244,
+   "name": "Schule Windmühlenweg",
+   "address": "Windmühlenweg 17, 22607 Hamburg",
+   "lat": 53.566878,
+   "lng": 9.870938,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5648,
+   "name": "Schule Zollenspieker",
+   "address": "Kirchenheerweg 223, 21037 Hamburg",
+   "lat": 53.400947,
+   "lng": 10.183876,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 3220,
+   "name": "Sophie-Barat-Schule",
+   "address": "Warburgstraße 39, 20354 Hamburg",
+   "lat": 53.561991,
+   "lng": 9.995477,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5056,
+   "name": "Stadtteilschule Alter Teichweg",
+   "address": "Alter Teichweg 200, 22049 Hamburg",
+   "lat": 53.587514,
+   "lng": 10.069987,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5650,
+   "name": "Stadtteilschule Altrahlstedt",
+   "address": "Kielkoppelstraße 16 d, 22149 Hamburg",
+   "lat": 53.587823,
+   "lng": 10.16932,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5667,
+   "name": "Stadtteilschule Am Hafen",
+   "address": "Struenseestraße 20, 20355 Hamburg",
+   "lat": 53.54791,
+   "lng": 9.947586,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5049,
+   "name": "Stadtteilschule Am Heidberg",
+   "address": "Tangstedter Landstraße 300, 22417 Hamburg",
+   "lat": 53.670945,
+   "lng": 10.028731,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5081,
+   "name": "Stadtteilschule Bahrenfeld",
+   "address": "Regerstraße 21, 22761 Hamburg",
+   "lat": 53.568163,
+   "lng": 9.908377,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5662,
+   "name": "Stadtteilschule Barmbek",
+   "address": "Tieloh 28, 22049 Hamburg",
+   "lat": 53.592879,
+   "lng": 10.051575,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5061,
+   "name": "Stadtteilschule Bergedorf",
+   "address": "Ladenbeker Weg 13, 21033 Hamburg",
+   "lat": 53.492832,
+   "lng": 10.187098,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5048,
+   "name": "Stadtteilschule Bergstedt",
+   "address": "Volksdorfer Damm 218, 22395 Hamburg",
+   "lat": 53.671707,
+   "lng": 10.137188,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5077,
+   "name": "Stadtteilschule Blankenese",
+   "address": "Frahmstraße 15, 22587 Hamburg",
+   "lat": 53.563791,
+   "lng": 9.822318,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5656,
+   "name": "Stadtteilschule Bramfeld",
+   "address": "Hegholt 44, 22179 Hamburg",
+   "lat": 53.605936,
+   "lng": 10.081316,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5651,
+   "name": "Stadtteilschule Ehestorfer Weg",
+   "address": "Ehestorfer Weg 14, 21075 Hamburg",
+   "lat": 53.455744,
+   "lng": 9.951632,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5083,
+   "name": "Stadtteilschule Eidelstedt",
+   "address": "Niekampsweg 25, 22523 Hamburg",
+   "lat": 53.608656,
+   "lng": 9.896823,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5090,
+   "name": "Stadtteilschule Eppendorf",
+   "address": "Löwenstraße 58, 20251 Hamburg",
+   "lat": 53.587233,
+   "lng": 9.973802,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5080,
+   "name": "Stadtteilschule Finkenwerder",
+   "address": "Norderschulweg 14, 21129 Hamburg",
+   "lat": 53.532133,
+   "lng": 9.875982,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5669,
+   "name": "Stadtteilschule Fischbek/Falkenberg",
+   "address": "Heidrand 5, 21149 Hamburg",
+   "lat": 53.46497,
+   "lng": 9.862042,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5659,
+   "name": "Stadtteilschule Flottbek",
+   "address": "Goosacker 41, 22549 Hamburg",
+   "lat": 53.570968,
+   "lng": 9.849501,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5663,
+   "name": "Stadtteilschule Hamburg-Mitte",
+   "address": "Griesstraße 101, 20099 Hamburg",
+   "lat": 53.564459,
+   "lng": 10.061234,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5043,
+   "name": "Stadtteilschule Helmuth Hübener",
+   "address": "Langenfort 68, 22307 Hamburg",
+   "lat": 53.599413,
+   "lng": 10.048417,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5063,
+   "name": "Stadtteilschule Horn",
+   "address": "Horner Weg 89, 22111 Hamburg",
+   "lat": 53.555403,
+   "lng": 10.069951,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5087,
+   "name": "Stadtteilschule Kirchwerder",
+   "address": "Kirchwerder Hausdeich 341, 21037 Hamburg",
+   "lat": 53.419911,
+   "lng": 10.202118,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5094,
+   "name": "Stadtteilschule Lohbrügge",
+   "address": "Binnenfeldredder 7, 21031 Hamburg",
+   "lat": 53.503794,
+   "lng": 10.207916,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5661,
+   "name": "Stadtteilschule Lurup",
+   "address": "Veermoor 4, 22547 Hamburg",
+   "lat": 53.606741,
+   "lng": 9.874372,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5098,
+   "name": "Stadtteilschule Meiendorf",
+   "address": "Deepenhorn 1, 22145 Hamburg",
+   "lat": 53.629096,
+   "lng": 10.164427,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5057,
+   "name": "Stadtteilschule Mümmelmannsberg",
+   "address": "Mümmelmannsberg 75, 22115 Hamburg",
+   "lat": 53.52989,
+   "lng": 10.148621,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5665,
+   "name": "Stadtteilschule Niendorf",
+   "address": "Sachsenweg 74, 22455 Hamburg",
+   "lat": 53.641946,
+   "lng": 9.96027,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5089,
+   "name": "Stadtteilschule Öjendorf",
+   "address": "Pergamentweg 1, 22117 Hamburg",
+   "lat": 53.541154,
+   "lng": 10.12098,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5660,
+   "name": "Stadtteilschule Oldenfelde",
+   "address": "Delingsdorfer Weg 6, 22143 Hamburg",
+   "lat": 53.612642,
+   "lng": 10.15806,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5079,
+   "name": "Stadtteilschule Poppenbüttel",
+   "address": "Poppenbüttler Stieg 7, 22399 Hamburg",
+   "lat": 53.64515,
+   "lng": 10.05067,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5657,
+   "name": "Stadtteilschule Richard-Linde-Weg",
+   "address": "Richard-Linde-Weg 49, 21033 Hamburg",
+   "lat": 53.500786,
+   "lng": 10.188463,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5649,
+   "name": "Stadtteilschule Rissen",
+   "address": "Voßhagen 15, 22559 Hamburg",
+   "lat": 53.580404,
+   "lng": 9.752433,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 7801,
+   "name": "Stadtteilschule St. Georg",
+   "address": "Rostocker Straße 62, 20099 Hamburg",
+   "lat": 53.5577,
+   "lng": 10.016922,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5655,
+   "name": "Stadtteilschule Stellingen",
+   "address": "Sportplatzring 73, 22527 Hamburg",
+   "lat": 53.594201,
+   "lng": 9.930022,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5658,
+   "name": "Stadtteilschule Stübenhofer Weg",
+   "address": "Stübenhofer Weg 20, 21109 Hamburg",
+   "lat": 53.483074,
+   "lng": 10.014632,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5093,
+   "name": "Stadtteilschule Süderelbe",
+   "address": "Neumoorstück 1, 21147 Hamburg",
+   "lat": 53.477901,
+   "lng": 9.867307,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5085,
+   "name": "Stadtteilschule Walddörfer",
+   "address": "Vörn Barkholt 6, 22359 Hamburg",
+   "lat": 53.652119,
+   "lng": 10.166554,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5095,
+   "name": "Stadtteilschule Wilhelmsburg",
+   "address": "Perlstieg 1, 21107 Hamburg",
+   "lat": 53.50428,
+   "lng": 9.993633,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5088,
+   "name": "Stadtteilschule Winterhude",
+   "address": "Meerweinstraße 26, 22303 Hamburg",
+   "lat": 53.586985,
+   "lng": 10.026975,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5216,
+   "name": "Theodor-Haubach-Schule",
+   "address": "Haubachstraße 55, 22765 Hamburg",
+   "lat": 53.559364,
+   "lng": 9.941483,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5816,
+   "name": "Walddörfer-Gymnasium",
+   "address": "Im Allhorn 45, 22359 Hamburg",
+   "lat": 53.65189,
+   "lng": 10.175431,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5119,
+   "name": "Westerschule Finkenwerder",
+   "address": "Finkenwerder Landscheideweg 180, 21129 Hamburg",
+   "lat": 53.527914,
+   "lng": 9.863057,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 8204,
+   "name": "Wichern-Schule (Grundschule)",
+   "address": "Horner Weg 164, 22111 Hamburg",
+   "lat": 53.555078,
+   "lng": 10.069796,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 8202,
+   "name": "Wichern-Schule (Gymnasium)",
+   "address": "Horner Weg 164, 22111 Hamburg",
+   "lat": 53.555078,
+   "lng": 10.069796,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 8201,
+   "name": "Wichern-Schule (Stadtteilschule)",
+   "address": "Horner Weg 164, 22111 Hamburg",
+   "lat": 53.555078,
+   "lng": 10.069796,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 5872,
+   "name": "Wilhelm-Gymnasium",
+   "address": "Klosterstieg 17, 20149 Hamburg",
+   "lat": 53.573991,
+   "lng": 9.99661,
+   "school_type": "Gymnasium",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 7917,
+   "name": "Zukunftsschule Alsterpalais (Grundschule)",
+   "address": "Alsterdorfer Straße 523, 22337 Hamburg",
+   "lat": 53.618202,
+   "lng": 10.027869,
+   "school_type": "Grundschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ },
+ {
+   "official_id": 8502,
+   "name": "Zukunftsschule Alsterpalais (Stadtteilschule)",
+   "address": "Alsterdorfer Straße 523, 22337 Hamburg",
+   "lat": 53.618202,
+   "lng": 10.027869,
+   "school_type": "Stadtteilschule",
+   "icon": "fa-building-o",
+   "color": "green"
+ }
+]
