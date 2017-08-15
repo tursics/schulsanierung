@@ -256,7 +256,7 @@ function initGermany(data) {
 	try {
 		var str = '';
 
-		str += '<option selected disabled value="-">Wählen Sie eine Stadt</option>';
+		str += '<option selected disabled value="-">Wähle eine Stadt aus</option>';
 
 		$.each(dataGermany, function (key, val) {
 			str += '<option value="' + val.key + '">' + val.title + '</option>';
@@ -361,7 +361,7 @@ function initSearchBox(data) {
 			return str;
 		},
 		showNoSuggestionNotice: true,
-		noSuggestionNotice: '<i class="fa fa-info-circle" aria-hidden="true"></i> Geben sie den Namen einer Schule ein'
+		noSuggestionNotice: '<i class="fa fa-info-circle" aria-hidden="true"></i> Gebe den Namen einer Schule ein'
 	});
 }
 
