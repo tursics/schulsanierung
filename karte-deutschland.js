@@ -83,19 +83,13 @@ function updateMapSelectItem(data) {
 
 	mapAction();
 
-	var key, item, costs, moneyPot = 0;
+	var key;
 
 	for (key in data) {
 		setText(key, data[key]);
 	}
 
 	setText('PrioritaetGesamt', (data.Prio === 0 ? '' : (data.Prio === 1 ? 'Höchste Priorität' : (data.costs >= 5000000 ? 'Priorität 2 oder 3' : 'unbekannte Priorität'))));
-
-	if (moneyPot > 0) {
-		$('#iPlanung').html('<br>In den Jahren 2015 bis 2019 werden über ' + formatNumber(moneyPot) + ' Euro ' + ((data.Schulart === 'Bezirk') || (data.Schulart === 'Stadt') ? 'in die Schulen' : 'in diese Schule') + ' investiert.' + (data.costs > 0 ? ' Trotz dieser Summe bleibt immer noch ein Sanierungsbedarf von ' + formatNumber(data.costs) + ' Euro.' : ' Danach ist sie vollständig saniert.'));
-	} else {
-		$('#iPlanung').html('<br>Diese Schule hat einen Sanierungsbedarf von ' + formatNumber(data.costs) + ' Euro.');
-	}
 
 	$('#receiptBox').css('display', 'block');
 }
