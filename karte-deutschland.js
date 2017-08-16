@@ -86,7 +86,9 @@ function updateMapSelectItem(data) {
 	var key;
 
 	for (key in data) {
-		setText(key, data[key]);
+		if (data.hasOwnProperty(key)) {
+			setText(key, data[key]);
+		}
 	}
 
 	setText('PrioritaetGesamt', (data.Prio === 0 ? '' : (data.Prio === 1 ? 'Höchste Priorität' : (data.costs >= 5000000 ? 'Priorität 2 oder 3' : 'unbekannte Priorität'))));
