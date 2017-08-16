@@ -97,29 +97,7 @@ function updateMapSelectItem(data) {
 		$('#iPlanung').html('<br>Diese Schule hat einen Sanierungsbedarf von ' + formatNumber(data.costs) + ' Euro.');
 	}
 
-	$('.priceBox').removeClass('priceRed').removeClass('priceOrange').removeClass('priceBlue').removeClass('priceGreen').removeClass('priceGray')
-		.addClass((data.Schulart === 'Bezirk') || (data.Schulart === 'Stadt') ? 'priceGray' :
-								data.costs >= 10000000 ? 'priceRed' :
-										data.costs >= 5000000 ? 'priceOrange' :
-												data.costs >= 1000 ? 'priceBlue' :
-														'priceGreen');
 	$('#receiptBox').css('display', 'block');
-
-	if ((data.Schulart === 'Bezirk') || (data.Schulart === 'Stadt')) {
-		$('.priceTriangle div:nth-child(1)').css('margin-left', parseInt(150, 10) + '%');
-	} else if (data.costs >= 10000000) {
-		$('.priceTriangle div:nth-child(1)').css('margin-left', parseInt(25 - (data.costs - 10000000) * 22 / (maxVal - 10000000), 10) + '%');
-		$('.priceTriangle div:nth-child(2)').addClass('priceRed').removeClass('priceOrange').removeClass('priceBlue').removeClass('priceGreen');
-	} else if (data.costs >= 5000000) {
-		$('.priceTriangle div:nth-child(1)').css('margin-left', parseInt(50 - (data.costs - 5000000) * 25 / 5000000, 10) + '%');
-		$('.priceTriangle div:nth-child(2)').removeClass('priceRed').addClass('priceOrange').removeClass('priceBlue').removeClass('priceGreen');
-	} else if (data.costs >= 1000) {
-		$('.priceTriangle div:nth-child(1)').css('margin-left', parseInt(75 - (data.costs - 1000) * 25 / 5000000, 10) + '%');
-		$('.priceTriangle div:nth-child(2)').removeClass('priceRed').removeClass('priceOrange').addClass('priceBlue').removeClass('priceGreen');
-	} else {
-		$('.priceTriangle div:nth-child(1)').css('margin-left', parseInt(87.5, 10) + '%');
-		$('.priceTriangle div:nth-child(2)').removeClass('priceRed').removeClass('priceOrange').removeClass('priceBlue').addClass('priceGreen');
-	}
 }
 
 // -----------------------------------------------------------------------------
@@ -210,9 +188,6 @@ function createMarkers(data) {
 				maxVal = Math.max(maxVal, val.costs);
 			}
 		});
-
-		$('.priceBar3 .right').html('0 €&nbsp;&nbsp;');
-		$('.priceBar3 .left').html('&nbsp;' + formatNumber(maxVal) + ' €');
 	} catch (e) {
 //		console.log(e);
 	}
@@ -283,6 +258,7 @@ function initCity(cityKey) {
 		});
 
 		if (city) {
+			$('#receiptBox').css('display', 'none');
 			removeMarkers();
 //			removeSearchBox();
 			map.setView(new L.LatLng(city.lat, city.lng), city.zoom, {animation: true});
