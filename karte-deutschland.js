@@ -206,6 +206,15 @@ function removeMarkers() {
 
 // -----------------------------------------------------------------------------
 
+function initReceipt(data) {
+	'use strict';
+
+	$('#receiptBox #receipt').html(data.receipt.body.join("\n"));
+	$('#receiptInfo').css('display', data.receipt.info ? 'block' : 'none');
+}
+
+// -----------------------------------------------------------------------------
+
 function selectSuggestion(selection) {
 	'use strict';
 
@@ -260,12 +269,21 @@ function initCity(cityKey) {
 			map.setView(new L.LatLng(city.lat, city.lng), city.zoom, {animation: true});
 
 			$.ajax({
-				url: 'data/' + city.data,
+				url: 'data/' + city.data + '-config.json',
 				dataType: 'json',
 				mimeType: 'application/json',
-				success: function (data) {
-					createMarkers(data);
-//					initSearchBox(data);
+				success: function (cityData) {
+					initReceipt(cityData);
+
+					$.ajax({
+						url: 'data/' + city.data + '.json',
+						dataType: 'json',
+						mimeType: 'application/json',
+						success: function (data) {
+							createMarkers(data);
+		//					initSearchBox(data);
+						}
+					});
 				}
 			});
 		}
