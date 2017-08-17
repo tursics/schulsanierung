@@ -1,0 +1,21 @@
+{
+	"receipt": {
+		"body": [
+			"<div class='full center bold' id='recname'></div>",
+			"<div class='full center'><span id='recSchulart'></span> (<span id='recSchulnummer'></span>)</div>",
+			"<div class='full center' id='recaddress'></div>",
+			"<div class='full center'><span id='recPLZ'></span> Berlin</div>",
+			"<div class='empty'></div>",
+			"<div class='full bold'><span id='recPrioritaetGesamt'></span></div>",
+			"<div class='empty'></div>",
+			"<div class='full'>--------------------------------------------</div>",
+			"<div class='full'>Diese Schule hat einen</div>",
+			"<div><span class='half'>Sanierungsbedarf von</span><span class='number'><span id='reccosts'></span> EUR</span></div>",
+			"<div class='full'>--------------------------------------------</div>",
+			"<div class='empty'></div>",
+			"<div class='full center'>Diese Zahlen stammen</div>",
+			"<div class='full center'>aus dem März 2017</div>"
+		],
+		"info": false
+	}
+}

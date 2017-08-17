@@ -8,22 +8,6 @@
 		"zoom": 11
 	},
 	{
-		"key": "berlinlichtenberg",
-		"title": "Berlin-Lichtenberg",
-		"data": "gebaeudescan",
-		"lat": 52.515807,
-		"lng": 13.479470,
-		"zoom": 13
-	},
-	{
-		"key": "berlinmarzahn",
-		"title": "Berlin-Marzahn",
-		"data": "gebaeudescan2017-mahe",
-		"lat": 52.536686,
-		"lng": 13.604863,
-		"zoom": 13
-	},
-	{
 		"key": "hamburg",
 		"title": "Hamburg",
 		"data": "data-hamburg",
