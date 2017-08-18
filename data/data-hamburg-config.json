@@ -14,8 +14,17 @@
 			"<div class='full'>--------------------------------------------</div>",
 			"<div class='empty'></div>",
 			"<div class='full center'>Diese Zahlen stammen</div>",
-			"<div class='full center'>aus dem März 2017</div>"
+			"<div class='full center'>aus ...</div>"
 		],
 		"info": false
+	},
+	"marker": {
+		"color": "color",
+		"icon": "icon"
+	},
+	"printerlabel": {
+		"top": "name",
+		"middle": "costs",
+		"bottom": "school_type"
 	}
 }
