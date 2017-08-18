@@ -1,12 +1,12 @@
 {
 	"receipt": {
 		"body": [
-			"<div class='full center bold' id='recSchulname'></div>",
-			"<div class='full center'><span id='recSchulart'></span> (<span id='recSchulnummer'></span>)</div>",
-			"<div class='full center' id='recStrasse'></div>",
-			"<div class='full center'><span id='recPLZ'></span> Berlin</div>",
+			"<div class='full center bold' id='rectitle'></div>",
+			"<div class='full center'><span id='rectype'></span> (<span id='recid'></span>)</div>",
+			"<div class='full center' id='recaddress'></div>",
+			"<div class='full center'><span id='reczip'></span> Berlin</div>",
 			"<div class='empty'></div>",
-			"<div class='full bold'><span id='recPrioritaetGesamt'></span></div>",
+			"<div class='full bold'><span id='recpriority'></span></div>",
 			"<div class='empty'></div>",
 			"<div class='full'>--------------------------------------------</div>",
 			"<div class='full'>Diese Schule hat einen</div>",
