@@ -775,7 +775,7 @@
    "icon": "fa-building-o",
    "color": "green",
    "costs": 0,
-   "lat": 52521,
+   "lat": 52.521,
    "lng": 13.19029,
    "priority": "unbekannte Priorität"
  },
@@ -788,7 +788,7 @@
    "icon": "fa-building-o",
    "color": "blue",
    "costs": 3890000,
-   "lat": 52521,
+   "lat": 52.521,
    "lng": 13.19029,
    "priority": "unbekannte Priorität"
  },
@@ -2348,7 +2348,7 @@
    "icon": "fa-building-o",
    "color": "blue",
    "costs": 3770000,
-   "lat": 52422,
+   "lat": 52.422,
    "lng": 13.48315,
    "priority": "unbekannte Priorität"
  },
@@ -2453,7 +2453,7 @@
    "color": "blue",
    "costs": 3850000,
    "lat": 52.50259,
-   "lng": 13259,
+   "lng": 13.259,
    "priority": "unbekannte Priorität"
  },
  {
@@ -3219,7 +3219,7 @@
    "icon": "fa-building-o",
    "color": "blue",
    "costs": 3320000,
-   "lat": 52503,
+   "lat": 52.503,
    "lng": 13.50355,
    "priority": "unbekannte Priorität"
  },
@@ -4025,7 +4025,7 @@
    "icon": "fa-building-o",
    "color": "orange",
    "costs": 6200000,
-   "lat": 52574,
+   "lat": 52.574,
    "lng": 13.30985,
    "priority": "Priorität 2 oder 3"
  },
@@ -4714,7 +4714,7 @@
    "icon": "fa-building-o",
    "color": "orange",
    "costs": 8720000,
-   "lat": 52494,
+   "lat": 52.494,
    "lng": 13.30619,
    "priority": "Priorität 2 oder 3"
  },
@@ -4845,7 +4845,7 @@
    "color": "blue",
    "costs": 3240000,
    "lat": 52.45809,
-   "lng": 13449,
+   "lng": 13.449,
    "priority": "unbekannte Priorität"
  },
  {
@@ -4909,7 +4909,7 @@
    "icon": "fa-building-o",
    "color": "blue",
    "costs": 2190000,
-   "lat": 52448,
+   "lat": 52.448,
    "lng": 13.43469,
    "priority": "unbekannte Priorität"
  },
@@ -4975,7 +4975,7 @@
    "color": "orange",
    "costs": 5070000,
    "lat": 52.518656,
-   "lng": 13471,
+   "lng": 13.471,
    "priority": "Priorität 2 oder 3"
  },
  {
@@ -5962,7 +5962,7 @@
    "icon": "fa-building-o",
    "color": "orange",
    "costs": 8260000,
-   "lat": 52454,
+   "lat": 52.454,
    "lng": 13.37538,
    "priority": "Höchste Priorität"
  },
