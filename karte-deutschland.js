@@ -66,38 +66,6 @@ function formatNumber(txt) {
 
 // -----------------------------------------------------------------------------
 
-function updateMapSelectItem(data) {
-	'use strict';
-
-	function setText(key, txt) {
-		var item = $('#rec' + key);
-
-		if (item.parent().hasClass('number')) {
-			txt = formatNumber(txt);
-		} else if (item.parent().hasClass('boolean')) {
-			txt = (txt === 1 ? 'ja' : 'nein');
-		}
-
-		item.text(txt);
-	}
-
-	mapAction();
-
-	var key;
-
-	for (key in data) {
-		if (data.hasOwnProperty(key)) {
-			setText(key, data[key]);
-		}
-	}
-
-	setText('PrioritaetGesamt', (data.Prio === 0 ? '' : (data.Prio === 1 ? 'Höchste Priorität' : (data.costs >= 5000000 ? 'Priorität 2 oder 3' : 'unbekannte Priorität'))));
-
-	$('#receiptBox').css('display', 'block');
-}
-
-// -----------------------------------------------------------------------------
-
 function updateMapHoverItem(coordinates, data, icon) {
 	'use strict';
 
@@ -127,6 +95,61 @@ function updateMapVoidItem(data) {
 		map.closePopup(layerPopup);
 		layerPopup = null;
     }
+}
+
+// -----------------------------------------------------------------------------
+
+function initReceipt(data) {
+	'use strict';
+
+	$('#receiptBox #receipt').html(data.receipt.body.join("\n"));
+	$('#receiptInfo').css('display', data.receipt.info ? 'block' : 'none');
+}
+
+// -----------------------------------------------------------------------------
+
+function showReceipt() {
+	'use strict';
+
+	$('#receiptBox').css('display', 'block');
+}
+
+// -----------------------------------------------------------------------------
+
+function hideReceipt() {
+	'use strict';
+
+	$('#receiptBox').css('display', 'none');
+}
+
+// -----------------------------------------------------------------------------
+
+function updateReceipt(data) {
+	'use strict';
+
+	function setText(key, txt) {
+		var item = $('#rec' + key);
+
+		if (item.parent().hasClass('number')) {
+			txt = formatNumber(txt);
+		} else if (item.parent().hasClass('boolean')) {
+			txt = (txt === 1 ? 'ja' : 'nein');
+		}
+
+		item.text(txt);
+	}
+
+	mapAction();
+
+	var key;
+
+	for (key in data) {
+		if (data.hasOwnProperty(key)) {
+			setText(key, data[key]);
+		}
+	}
+
+	showReceipt();
 }
 
 // -----------------------------------------------------------------------------
@@ -161,7 +184,7 @@ function createMarkers(data) {
 		layerGroup.addTo(map);
 
 		layerGroup.addEventListener('click', function (evt) {
-			updateMapSelectItem(evt.layer.options.data);
+			updateReceipt(evt.layer.options.data);
 		});
 		layerGroup.addEventListener('mouseover', function (evt) {
 			updateMapHoverItem([evt.latlng.lat, evt.latlng.lng], evt.layer.options.data, evt.layer.options.icon);
@@ -206,22 +229,13 @@ function removeMarkers() {
 
 // -----------------------------------------------------------------------------
 
-function initReceipt(data) {
-	'use strict';
-
-	$('#receiptBox #receipt').html(data.receipt.body.join("\n"));
-	$('#receiptInfo').css('display', data.receipt.info ? 'block' : 'none');
-}
-
-// -----------------------------------------------------------------------------
-
 function selectSuggestion(selection) {
 	'use strict';
 
 	$.each(layerGroup._layers, function (key, val) {
 		if (val.options.data.Schulnummer === selection) {
 			map.panTo(new L.LatLng(val.options.data.lat, val.options.data.lng));
-			updateMapSelectItem(val.options.data);
+			updateReceipt(val.options.data);
 		}
 	});
 }
@@ -263,7 +277,7 @@ function initCity(cityKey) {
 		});
 
 		if (city) {
-			$('#receiptBox').css('display', 'none');
+			hideReceipt();
 			removeMarkers();
 //			removeSearchBox();
 			map.setView(new L.LatLng(city.lat, city.lng), city.zoom, {animation: true});
@@ -430,9 +444,7 @@ $(document).on("pageshow", "#pageMap", function () {
 	$('#receipt .group').on('click', function (e) {
 		$(this).toggleClass('groupClosed');
 	});
-	$('#receiptClose').on('click', function (e) {
-		$('#receiptBox').css('display', 'none');
-	});
+	$('#receiptClose').on('click', hideReceipt);
 	$('#searchBox .module select').on('change', function (e) {
 		var val = $('#searchBox .module select').val();
 		initCity(val);
