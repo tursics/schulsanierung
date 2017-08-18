@@ -6,7 +6,6 @@
 var map = null;
 var layerPopup = null;
 var layerGroup = null;
-var maxVal = 0;
 var dataGermany = null;
 
 // -----------------------------------------------------------------------------
@@ -66,7 +65,7 @@ function formatNumber(txt) {
 
 // -----------------------------------------------------------------------------
 
-function updateMapHoverItem(coordinates, data, icon) {
+function updateMapHoverItem(coordinates, data, format, icon) {
 	'use strict';
 
 	var options = {
@@ -76,9 +75,9 @@ function updateMapHoverItem(coordinates, data, icon) {
 	},
 		str = '';
 
-	str += '<div class="top ' + icon.options.markerColor + '">' + data.Schulname + '</div>';
-	str += '<div class="middle">€' + formatNumber(data.costs) + '</div>';
-	str += '<div class="bottom ' + icon.options.markerColor + '">' + (data.Prio === 1 ? 'Höchste Priorität' : (data.costs >= 5000000 ? 'Prio 2 oder 3' : 'unbekannte Prio')) + '</div>';
+	str += '<div class="top ' + icon.options.markerColor + '">' + data[format.top] + '</div>';
+	str += '<div class="middle">€' + formatNumber(data[format.middle]) + '</div>';
+	str += '<div class="bottom ' + icon.options.markerColor + '">' + data[format.bottom] + '</div>';
 
 	layerPopup = L.popup(options)
 		.setLatLng(coordinates)
@@ -154,32 +153,10 @@ function updateReceipt(data) {
 
 // -----------------------------------------------------------------------------
 
-function createMarkers(data) {
+function createMarkers(data, cityData) {
 	'use strict';
 
 	try {
-		var markerBlue = L.AwesomeMarkers.icon({
-			icon: 'fa-building-o',
-			prefix: 'fa',
-			markerColor: 'blue'
-		}),
-			markerOrange = L.AwesomeMarkers.icon({
-				icon: 'fa-building-o',
-				prefix: 'fa',
-				markerColor: 'orange'
-			}),
-			markerGreen = L.AwesomeMarkers.icon({
-				icon: 'fa-building-o',
-				prefix: 'fa',
-				markerColor: 'green'
-			}),
-			markerRed = L.AwesomeMarkers.icon({
-				icon: 'fa-building-o',
-				prefix: 'fa',
-				markerColor: 'red'
-			}),
-			minVal = 100000000;
-
 		layerGroup = L.featureGroup([]);
 		layerGroup.addTo(map);
 
@@ -187,7 +164,7 @@ function createMarkers(data) {
 			updateReceipt(evt.layer.options.data);
 		});
 		layerGroup.addEventListener('mouseover', function (evt) {
-			updateMapHoverItem([evt.latlng.lat, evt.latlng.lng], evt.layer.options.data, evt.layer.options.icon);
+			updateMapHoverItem([evt.latlng.lat, evt.latlng.lng], evt.layer.options.data, evt.layer.options.format, evt.layer.options.icon);
 		});
 		layerGroup.addEventListener('mouseout', function (evt) {
 			updateMapVoidItem(evt.layer.options.data);
@@ -197,14 +174,14 @@ function createMarkers(data) {
 			if ((typeof val.lat !== 'undefined') && (typeof val.lng !== 'undefined')) {
 				var marker = L.marker([parseFloat(val.lat), parseFloat(val.lng)], {
 						data: val,
-						icon: val.color === 'red' ? markerRed :
-								val.color === 'orange' ? markerOrange :
-										val.color === 'blue' ? markerBlue :
-												markerGreen
+						format: cityData.printerlabel,
+						icon: L.AwesomeMarkers.icon({
+							icon: val[cityData.marker.icon],
+							prefix: 'fa',
+							markerColor: val[cityData.marker.color]
+						})
 					});
 				layerGroup.addLayer(marker);
-				minVal = Math.min(minVal, val.costs);
-				maxVal = Math.max(maxVal, val.costs);
 			}
 		});
 	} catch (e) {
@@ -294,7 +271,7 @@ function initCity(cityKey) {
 						dataType: 'json',
 						mimeType: 'application/json',
 						success: function (data) {
-							createMarkers(data);
+							createMarkers(data, cityData);
 		//					initSearchBox(data);
 						}
 					});

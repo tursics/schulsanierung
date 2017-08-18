@@ -17,5 +17,14 @@
 			"<div class='full center'>aus dem März 2017</div>"
 		],
 		"info": false
+	},
+	"marker": {
+		"color": "color",
+		"icon": "icon"
+	},
+	"printerlabel": {
+		"top": "title",
+		"middle": "costs",
+		"bottom": "priority"
 	}
 }
