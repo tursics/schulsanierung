@@ -4,7 +4,6 @@
 /*global $,L*/
 
 var map = null;
-var layerGroup = null;
 var dataGermany = null;
 
 // -----------------------------------------------------------------------------
@@ -115,69 +114,70 @@ var receipt = {
 
 // -----------------------------------------------------------------------------
 
-function createMarkers(data, cityData) {
-	'use strict';
+var marker = {
+	layerGroup: null,
 
-	try {
-		layerGroup = L.featureGroup([]);
-		layerGroup.addTo(map);
+	show: function (data, cityData) {
+		'use strict';
 
-		layerGroup.addEventListener('click', function (evt) {
-			receipt.update(evt.layer.options.data);
-		});
-		layerGroup.addEventListener('mouseover', function (evt) {
-			printerLabel.show([evt.latlng.lat, evt.latlng.lng], evt.layer.options.data, evt.layer.options.format, evt.layer.options.icon);
-		});
-		layerGroup.addEventListener('mouseout', function (evt) {
-			printerLabel.hide(evt.layer.options.data);
-		});
+		try {
+			this.layerGroup = L.featureGroup([]);
+			this.layerGroup.addTo(map);
 
-		$.each(data, function (key, val) {
-			if ((typeof val.lat !== 'undefined') && (typeof val.lng !== 'undefined')) {
-				var marker = L.marker([parseFloat(val.lat), parseFloat(val.lng)], {
-						data: val,
-						format: cityData.printerlabel,
-						icon: L.AwesomeMarkers.icon({
-							icon: val[cityData.marker.icon],
-							prefix: 'fa',
-							markerColor: val[cityData.marker.color]
-						})
-					});
-				layerGroup.addLayer(marker);
+			this.layerGroup.addEventListener('click', function (evt) {
+				receipt.update(evt.layer.options.data);
+			});
+			this.layerGroup.addEventListener('mouseover', function (evt) {
+				printerLabel.show([evt.latlng.lat, evt.latlng.lng], evt.layer.options.data, evt.layer.options.format, evt.layer.options.icon);
+			});
+			this.layerGroup.addEventListener('mouseout', function (evt) {
+				printerLabel.hide(evt.layer.options.data);
+			});
+
+			var that = this;
+			$.each(data, function (key, val) {
+				if ((typeof val.lat !== 'undefined') && (typeof val.lng !== 'undefined')) {
+					var marker = L.marker([parseFloat(val.lat), parseFloat(val.lng)], {
+							data: val,
+							format: cityData.printerlabel,
+							icon: L.AwesomeMarkers.icon({
+								icon: val[cityData.marker.icon],
+								prefix: 'fa',
+								markerColor: val[cityData.marker.color]
+							})
+						});
+					that.layerGroup.addLayer(marker);
+				}
+			});
+		} catch (e) {
+//			console.log(e);
+		}
+	},
+
+	hide: function () {
+		'use strict';
+
+		try {
+			if (this.layerGroup) {
+				map.removeLayer(this.layerGroup);
+				this.layerGroup = null;
+			}
+		} catch (e) {
+//			console.log(e);
+		}
+	},
+
+	select: function (selection) {
+		'use strict';
+
+		$.each(this.layerGroup._layers, function (key, val) {
+			if (val.options.data.Schulnummer === selection) {
+				map.panTo(new L.LatLng(val.options.data.lat, val.options.data.lng));
+				receipt.update(val.options.data);
 			}
 		});
-	} catch (e) {
-//		console.log(e);
 	}
-}
-
-// -----------------------------------------------------------------------------
-
-function removeMarkers() {
-	'use strict';
-
-	try {
-		if (layerGroup) {
-			map.removeLayer(layerGroup);
-			layerGroup = null;
-		}
-	} catch (e) {
-//		console.log(e);
-	}
-}
-
-// -----------------------------------------------------------------------------
-
-function selectSuggestion(selection) {
-	'use strict';
-
-	$.each(layerGroup._layers, function (key, val) {
-		if (val.options.data.Schulnummer === selection) {
-			map.panTo(new L.LatLng(val.options.data.lat, val.options.data.lng));
-			receipt.update(val.options.data);
-		}
-	});
-}
+};
 
 //-----------------------------------------------------------------------------
 
@@ -217,7 +217,7 @@ function initCity(cityKey) {
 
 		if (city) {
 			receipt.hide();
-			removeMarkers();
+			marker.hide();
 //			removeSearchBox();
 			map.setView(new L.LatLng(city.lat, city.lng), city.zoom, {animation: true});
 
@@ -233,7 +233,7 @@ function initCity(cityKey) {
 						dataType: 'json',
 						mimeType: 'application/json',
 						success: function (data) {
-							createMarkers(data, cityData);
+							marker.show(data, cityData);
 		//					initSearchBox(data);
 						}
 					});
@@ -289,7 +289,7 @@ function initSearchBox(data) {
 	$('#autocomplete').autocomplete({
 		lookup: schools,
 		onSelect: function (suggestion) {
-			selectSuggestion(suggestion.data);
+			marker.select(suggestion.data);
 		},
 		formatResult: function (suggestion, currentValue) {
 			var color = suggestion.color,
