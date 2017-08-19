@@ -4,36 +4,8 @@
 /*global $,L*/
 
 var map = null;
-var layerPopup = null;
 var layerGroup = null;
 var dataGermany = null;
-
-// -----------------------------------------------------------------------------
-
-String.prototype.startsWith = String.prototype.startsWith || function (prefix) {
-	'use strict';
-
-	return this.indexOf(prefix) === 0;
-};
-
-// -----------------------------------------------------------------------------
-
-function fixEuro(item) {
-	'use strict';
-
-	if (item === '') {
-		return 0;
-	} else if (item === null) {
-		return 0;
-	} else if ('undefined' === typeof item) {
-		return 0;
-	} else if ('number' === typeof item) {
-		return item;
-	} else if ('T€' === item.substring(item.length - 2)) {
-		return parseInt(item.substring(0, item.length - 2).replace('.', '').replace(',', '.'), 10) * 1000;
-	}
-	return item;
-}
 
 // -----------------------------------------------------------------------------
 
@@ -59,36 +31,38 @@ function formatNumber(txt) {
 
 // -----------------------------------------------------------------------------
 
-function updateMapHoverItem(coordinates, data, format, icon) {
-	'use strict';
+var printerLabel = {
+	layerPopup: null,
 
-	var options = {
-		closeButton: false,
-		offset: L.point(0, -32),
-		className: 'printerLabel'
+	show: function (coordinates, data, format, icon) {
+		'use strict';
+
+		var options = {
+			closeButton: false,
+			offset: L.point(0, -32),
+			className: 'printerLabel'
+		},
+			str = '';
+
+		str += '<div class="top ' + icon.options.markerColor + '">' + data[format.top] + '</div>';
+		str += '<div class="middle">€' + formatNumber(data[format.middle]) + '</div>';
+		str += '<div class="bottom ' + icon.options.markerColor + '">' + data[format.bottom] + '</div>';
+
+		this.layerPopup = L.popup(options)
+			.setLatLng(coordinates)
+			.setContent(str)
+			.openOn(map);
 	},
-		str = '';
 
-	str += '<div class="top ' + icon.options.markerColor + '">' + data[format.top] + '</div>';
-	str += '<div class="middle">€' + formatNumber(data[format.middle]) + '</div>';
-	str += '<div class="bottom ' + icon.options.markerColor + '">' + data[format.bottom] + '</div>';
+	hide: function (data) {
+		'use strict';
 
-	layerPopup = L.popup(options)
-		.setLatLng(coordinates)
-		.setContent(str)
-		.openOn(map);
-}
-
-// -----------------------------------------------------------------------------
-
-function updateMapVoidItem(data) {
-	'use strict';
-
-	if (layerPopup && map) {
-		map.closePopup(layerPopup);
-		layerPopup = null;
-    }
-}
+		if (this.layerPopup && map) {
+			map.closePopup(this.layerPopup);
+			this.layerPopup = null;
+		}
+	}
+};
 
 // -----------------------------------------------------------------------------
 
@@ -152,10 +126,10 @@ function createMarkers(data, cityData) {
 			receipt.update(evt.layer.options.data);
 		});
 		layerGroup.addEventListener('mouseover', function (evt) {
-			updateMapHoverItem([evt.latlng.lat, evt.latlng.lng], evt.layer.options.data, evt.layer.options.format, evt.layer.options.icon);
+			printerLabel.show([evt.latlng.lat, evt.latlng.lng], evt.layer.options.data, evt.layer.options.format, evt.layer.options.icon);
 		});
 		layerGroup.addEventListener('mouseout', function (evt) {
-			updateMapVoidItem(evt.layer.options.data);
+			printerLabel.hide(evt.layer.options.data);
 		});
 
 		$.each(data, function (key, val) {
