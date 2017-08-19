@@ -18,12 +18,6 @@ String.prototype.startsWith = String.prototype.startsWith || function (prefix) {
 
 // -----------------------------------------------------------------------------
 
-function mapAction() {
-	'use strict';
-}
-
-// -----------------------------------------------------------------------------
-
 function fixEuro(item) {
 	'use strict';
 
@@ -98,58 +92,52 @@ function updateMapVoidItem(data) {
 
 // -----------------------------------------------------------------------------
 
-function initReceipt(data) {
-	'use strict';
+var receipt = {
+	init: function (data) {
+		'use strict';
 
-	$('#receiptBox #receipt').html(data.receipt.body.join("\n"));
-	$('#receiptInfo').css('display', data.receipt.info ? 'block' : 'none');
-}
+		$('#receiptBox #receipt').html(data.receipt.body.join("\n"));
+		$('#receiptInfo').css('display', data.receipt.info ? 'block' : 'none');
+	},
 
-// -----------------------------------------------------------------------------
+	show: function () {
+		'use strict';
 
-function showReceipt() {
-	'use strict';
+		$('#receiptBox').css('display', 'block');
+	},
 
-	$('#receiptBox').css('display', 'block');
-}
+	hide: function () {
+		'use strict';
 
-// -----------------------------------------------------------------------------
+		$('#receiptBox').css('display', 'none');
+	},
 
-function hideReceipt() {
-	'use strict';
+	update: function (data) {
+		'use strict';
 
-	$('#receiptBox').css('display', 'none');
-}
+		function setText(key, txt) {
+			var item = $('#rec' + key);
 
-// -----------------------------------------------------------------------------
+			if (item.parent().hasClass('number')) {
+				txt = formatNumber(txt);
+			} else if (item.parent().hasClass('boolean')) {
+				txt = (txt === 1 ? 'ja' : 'nein');
+			}
 
-function updateReceipt(data) {
-	'use strict';
-
-	function setText(key, txt) {
-		var item = $('#rec' + key);
-
-		if (item.parent().hasClass('number')) {
-			txt = formatNumber(txt);
-		} else if (item.parent().hasClass('boolean')) {
-			txt = (txt === 1 ? 'ja' : 'nein');
+			item.text(txt);
 		}
 
-		item.text(txt);
-	}
+		var key;
 
-	mapAction();
-
-	var key;
-
-	for (key in data) {
-		if (data.hasOwnProperty(key)) {
-			setText(key, data[key]);
+		for (key in data) {
+			if (data.hasOwnProperty(key)) {
+				setText(key, data[key]);
+			}
 		}
-	}
 
-	showReceipt();
-}
+		this.show();
+	}
+};
 
 // -----------------------------------------------------------------------------
 
@@ -161,7 +149,7 @@ function createMarkers(data, cityData) {
 		layerGroup.addTo(map);
 
 		layerGroup.addEventListener('click', function (evt) {
-			updateReceipt(evt.layer.options.data);
+			receipt.update(evt.layer.options.data);
 		});
 		layerGroup.addEventListener('mouseover', function (evt) {
 			updateMapHoverItem([evt.latlng.lat, evt.latlng.lng], evt.layer.options.data, evt.layer.options.format, evt.layer.options.icon);
@@ -212,7 +200,7 @@ function selectSuggestion(selection) {
 	$.each(layerGroup._layers, function (key, val) {
 		if (val.options.data.Schulnummer === selection) {
 			map.panTo(new L.LatLng(val.options.data.lat, val.options.data.lng));
-			updateReceipt(val.options.data);
+			receipt.update(val.options.data);
 		}
 	});
 }
@@ -254,7 +242,7 @@ function initCity(cityKey) {
 		});
 
 		if (city) {
-			hideReceipt();
+			receipt.hide();
 			removeMarkers();
 //			removeSearchBox();
 			map.setView(new L.LatLng(city.lat, city.lng), city.zoom, {animation: true});
@@ -264,7 +252,7 @@ function initCity(cityKey) {
 				dataType: 'json',
 				mimeType: 'application/json',
 				success: function (cityData) {
-					initReceipt(cityData);
+					receipt.init(cityData);
 
 					$.ajax({
 						url: 'data/' + city.data + '.json',
@@ -318,8 +306,6 @@ function initSearchBox(data) {
 	});
 
 	$('#autocomplete').focus(function () {
-		mapAction();
-
 		window.scrollTo(0, 0);
 		document.body.scrollTop = 0;
 		$('#pageMap').animate({
@@ -383,7 +369,6 @@ function initMap(elementName, lat, lng, zoom) {
 
 		map.addControl(L.control.zoom({ position: 'bottomright'}));
 		map.addControl(new ControlInfo());
-		map.once('focus', mapAction);
 
 		$.ajax({
 			url: dataUrl,
@@ -421,7 +406,7 @@ $(document).on("pageshow", "#pageMap", function () {
 	$('#receipt .group').on('click', function (e) {
 		$(this).toggleClass('groupClosed');
 	});
-	$('#receiptClose').on('click', hideReceipt);
+	$('#receiptClose').on('click', receipt.hide);
 	$('#searchBox .module select').on('change', function (e) {
 		var val = $('#searchBox .module select').val();
 		initCity(val);
