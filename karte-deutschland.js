@@ -66,6 +66,15 @@ var printerLabel = {
 // -----------------------------------------------------------------------------
 
 var receipt = {
+	initUI: function () {
+		'use strict';
+
+		$('#receipt .group').on('click', function (e) {
+			$(this).toggleClass('groupClosed');
+		});
+		$('#receiptClose').on('click', this.hide);
+	},
+
 	init: function (data) {
 		'use strict';
 
@@ -181,69 +190,101 @@ var marker = {
 
 //-----------------------------------------------------------------------------
 
-function initGermany(data) {
-	'use strict';
+var data = {
+	initUI: function () {
+		'use strict';
 
-	dataGermany = data;
-
-	try {
-		var str = '';
-
-		str += '<option selected disabled value="-">Wähle eine Stadt aus</option>';
-
-		$.each(dataGermany, function (key, val) {
-			str += '<option value="' + val.key + '">' + val.title + '</option>';
+		var that = this;
+		$('#searchBox .module select').on('change', function (e) {
+			that.loadCity($('#searchBox .module select').val());
 		});
+	},
 
-		$('#searchBox .module select').html(str).val('-').change();
-		$('#searchBox .module').css('opacity', 1);
-	} catch (e) {
-//		console.log(e);
-	}
-}
+	loadGermany: function () {
+		'use strict';
 
-//-----------------------------------------------------------------------------
+		var that = this;
 
-function initCity(cityKey) {
-	'use strict';
-
-	try {
-		var city = null;
-		$.each(dataGermany, function (key, val) {
-			if (val.key === cityKey) {
-				city = val;
+		$.ajax({
+			url: 'data/germany.json',
+			dataType: 'json',
+			mimeType: 'application/json',
+			success: function (data) {
+				that.initGermany(data);
 			}
 		});
+	},
 
-		if (city) {
-			receipt.hide();
-			marker.hide();
-//			removeSearchBox();
-			map.setView(new L.LatLng(city.lat, city.lng), city.zoom, {animation: true});
+	initGermany: function (data) {
+		'use strict';
 
-			$.ajax({
-				url: 'data/' + city.data + '-config.json',
-				dataType: 'json',
-				mimeType: 'application/json',
-				success: function (cityData) {
-					receipt.init(cityData);
+		dataGermany = data;
 
-					$.ajax({
-						url: 'data/' + city.data + '.json',
-						dataType: 'json',
-						mimeType: 'application/json',
-						success: function (data) {
-							marker.show(data, cityData);
-		//					initSearchBox(data);
-						}
-					});
+		try {
+			var str = '';
+
+			str += '<option selected disabled value="-">Wähle eine Stadt aus</option>';
+
+			$.each(dataGermany, function (key, val) {
+				str += '<option value="' + val.key + '">' + val.title + '</option>';
+			});
+
+			$('#searchBox .module select').html(str).val('-').change();
+			$('#searchBox .module').css('opacity', 1);
+		} catch (e) {
+//			console.log(e);
+		}
+	},
+
+	loadCity: function (cityKey) {
+		'use strict';
+
+		try {
+			var city = null,
+				that = this;
+
+			$.each(dataGermany, function (key, val) {
+				if (val.key === cityKey) {
+					city = val;
 				}
 			});
+
+			if (city) {
+				receipt.hide();
+				marker.hide();
+//				removeSearchBox();
+				map.setView(new L.LatLng(city.lat, city.lng), city.zoom, {animation: true});
+
+				$.ajax({
+					url: 'data/' + city.data + '-config.json',
+					dataType: 'json',
+					mimeType: 'application/json',
+					success: function (data) {
+						that.initCity(city, data);
+					}
+				});
+			}
+		} catch (e) {
+//			console.log(e);
 		}
-	} catch (e) {
-//		console.log(e);
+	},
+
+	initCity: function (city, cityData) {
+		'use strict';
+
+		receipt.init(cityData);
+
+		$.ajax({
+			url: 'data/' + city.data + '.json',
+			dataType: 'json',
+			mimeType: 'application/json',
+			success: function (data) {
+				marker.show(data, cityData);
+//				initSearchBox(data);
+			}
+		});
 	}
-}
+};
 
 //-----------------------------------------------------------------------------
 
@@ -334,8 +375,7 @@ function initMap(elementName, lat, lng, zoom) {
 		var mapboxToken = 'pk.eyJ1IjoidHVyc2ljcyIsImEiOiI1UWlEY3RNIn0.U9sg8F_23xWXLn4QdfZeqg',
 			mapboxTiles = L.tileLayer('https://{s}.tiles.mapbox.com/v4/tursics.l7ad5ee8/{z}/{x}/{y}.png?access_token=' + mapboxToken, {
 				attribution: '<a href="http://www.openstreetmap.org" target="_blank">OpenStreetMap-Mitwirkende</a>, <a href="https://www.mapbox.com" target="_blank">Mapbox</a>'
-			}),
-			dataUrl = 'data/germany.json';
+			});
 
 		map = L.map(elementName, {zoomControl: false, scrollWheelZoom: true})
 			.addLayer(mapboxTiles)
@@ -344,14 +384,7 @@ function initMap(elementName, lat, lng, zoom) {
 		map.addControl(L.control.zoom({ position: 'bottomright'}));
 		map.addControl(new ControlInfo());
 
-		$.ajax({
-			url: dataUrl,
-			dataType: 'json',
-			mimeType: 'application/json',
-			success: function (data) {
-				initGermany(data);
-			}
-		});
+		data.loadGermany();
 	}
 }
 
@@ -376,15 +409,10 @@ $(document).on("pageshow", "#pageMap", function () {
 	// center of Germany
 	initMap('mapContainer', 51.220915, 9.357579, 6);
 
+	receipt.initUI();
+	data.initUI();
+
 	$('#autocomplete').val('');
-	$('#receipt .group').on('click', function (e) {
-		$(this).toggleClass('groupClosed');
-	});
-	$('#receiptClose').on('click', receipt.hide);
-	$('#searchBox .module select').on('change', function (e) {
-		var val = $('#searchBox .module select').val();
-		initCity(val);
-	});
 
 	$("#popupShare").on('popupafteropen', function (e, ui) {
 		$('#shareLink input').focus().select();
