@@ -93,7 +93,7 @@
 }
 #receipt {
 	background-color: #fff;
-	border: 1px solid #555;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.65);
 	color: #555;
 	margin: 0;
 	padding: 1.5em 1em !important;
@@ -173,7 +173,7 @@
 #receiptClose {
 	background: #fff;
 	color: #555;
-	border: 1px solid #555;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.65);
 	margin: 0;
 	padding: .3em .5em !important;
 	font-family: 'Montserrat', sans-serif;
@@ -181,6 +181,7 @@
 	position: absolute;
 	top: -8px;
 	right: -8px;
+	z-index: 1;
 	border-radius: 50%;
 	-webkit-transition: background-color 200ms linear;
 	-moz-transition: background-color 200ms linear;
@@ -194,15 +195,15 @@
 #receiptInfo {
 	background: #ffff99;
 	color: #555;
-	border: 1px solid #555;
-	margin: -1px 1em;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.65);
+	margin: -10px 1em 0 1em;
 	padding: .5em .7em !important;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 13px;
 }
 @media (max-width: 40em) {
 	#receiptBox {
-		top: 75px;
+		top: 105px;
 		left: 50%;
 	}
 	#receipt {
@@ -253,6 +254,7 @@
 	font-size: 13px;
 	color: #333;
 	opacity: 0;
+	width: 21em;
 }
 #searchBox .ui-select {
 	margin: 0 0 .5em .5em;
@@ -342,6 +344,9 @@
 }
 @media (max-width: 40em) {
 	#searchBox {
+		border-left: none;
+		left: 0;
+		max-width: 100%;
 		padding-top: .5em;
 	}
 	#searchBox h3 {
@@ -350,6 +355,9 @@
 	}
 	#searchBox .sample {
 		display: none;
+	}
+	#searchBox .searchInput, #searchBox .module {
+		margin: 0 auto;
 	}
 }
 
