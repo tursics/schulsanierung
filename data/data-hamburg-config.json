@@ -2,19 +2,26 @@
 	"receipt": {
 		"body": [
 			"<div class='full center bold' id='recname'></div>",
-			"<div class='full center'><span id='recSchulart'></span> (<span id='recSchulnummer'></span>)</div>",
+			"<div class='full center'><span id='recschool_type'></span></div>",
 			"<div class='full center' id='recaddress'></div>",
-			"<div class='full center'><span id='recPLZ'></span> Berlin</div>",
 			"<div class='empty'></div>",
-			"<div class='full bold'><span id='recPrioritaetGesamt'></span></div>",
+			"<div class='full'><span id='recSCHULE'></span></div>",
+			"<div class='full'><span id='recSchulform'></span></div>",
+			"<div class='full'><span id='recGebaeudeklasse'></span></div>",
+			"<div class='full'><span id='recKESSFaktor'></span></div>",
 			"<div class='empty'></div>",
 			"<div class='full'>--------------------------------------------</div>",
-			"<div class='full'>Diese Schule hat einen</div>",
-			"<div><span class='half'>Sanierungsbedarf von</span><span class='number'><span id='reccosts'></span> EUR</span></div>",
+			"<div><span class='half'>2011</span><span class='number'><span id='recSumme2011'></span> EUR</span></div>",
+			"<div><span class='half'>2012</span><span class='number'><span id='recSumme2012'></span> EUR</span></div>",
+			"<div><span class='half'>2013</span><span class='number'><span id='recSumme2013'></span> EUR</span></div>",
+			"<div><span class='half'>2014</span><span class='number'><span id='recSumme2014'></span> EUR</span></div>",
+			"<div><span class='half'>2015</span><span class='number'><span id='recSumme2015'></span> EUR</span></div>",
 			"<div class='full'>--------------------------------------------</div>",
 			"<div class='empty'></div>",
-			"<div class='full center'>Diese Zahlen stammen</div>",
-			"<div class='full center'>aus ...</div>"
+			"<div><span class='half' id='recNow'></span><span class='number'>Daten: 01/2016</span></div>",
+			"<div class='empty'></div>",
+			"<div class='full center'>Vielen Dank für Ihren Einkauf!</div>",
+			"<div class='full center'>Sanieren Sie bald wieder</div>"
 		],
 		"info": false
 	},
@@ -24,13 +31,13 @@
 	},
 	"printerlabel": {
 		"top": "name",
-		"middle": "costs",
+		"middle": "Summe2015",
 		"bottom": "school_type"
 	},
 	"search": {
-		"pattern": "title",
+		"pattern": "name",
 		"description": "school_type",
-		"data": "id",
+		"data": "offical_id",
 		"color": "color",
 		"icon": "icon"
 	}
