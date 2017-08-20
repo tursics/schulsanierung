@@ -239,6 +239,7 @@ var search = {
 			return a.value > b.value ? 1 : -1;
 		});
 
+		$('#autocomplete').val('');
 		$('#autocomplete').autocomplete({
 			lookup: that.schools,
 			onSelect: that.callbackOnSelect,
@@ -444,8 +445,6 @@ $(document).on("pageshow", "#pageMap", function () {
 	receipt.initUI();
 	data.initUI();
 	search.initUI();
-
-	$('#autocomplete').val('');
 
 	$("#popupShare").on('popupafteropen', function (e, ui) {
 		$('#shareLink input').focus().select();
