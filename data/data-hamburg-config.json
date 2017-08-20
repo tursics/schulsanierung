@@ -26,5 +26,12 @@
 		"top": "name",
 		"middle": "costs",
 		"bottom": "school_type"
+	},
+	"search": {
+		"pattern": "title",
+		"description": "school_type",
+		"data": "id",
+		"color": "color",
+		"icon": "icon"
 	}
 }

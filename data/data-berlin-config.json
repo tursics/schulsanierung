@@ -26,5 +26,12 @@
 		"top": "title",
 		"middle": "costs",
 		"bottom": "priority"
+	},
+	"search": {
+		"pattern": "title",
+		"description": "type",
+		"data": "id",
+		"color": "color",
+		"icon": "icon"
 	}
 }

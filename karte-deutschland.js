@@ -4,7 +4,6 @@
 /*global $,L*/
 
 var map = null;
-var dataGermany = null;
 
 // -----------------------------------------------------------------------------
 
@@ -125,11 +124,14 @@ var receipt = {
 
 var marker = {
 	layerGroup: null,
+	cityData: null,
 
 	show: function (data, cityData) {
 		'use strict';
 
 		try {
+			this.cityData = cityData;
+
 			this.layerGroup = L.featureGroup([]);
 			this.layerGroup.addTo(map);
 
@@ -179,8 +181,10 @@ var marker = {
 	select: function (selection) {
 		'use strict';
 
+		var that = this;
+
 		$.each(this.layerGroup._layers, function (key, val) {
-			if (val.options.data.Schulnummer === selection) {
+			if (val.options.data[that.cityData.search.data] === selection) {
 				map.panTo(new L.LatLng(val.options.data.lat, val.options.data.lng));
 				receipt.update(val.options.data);
 			}
@@ -190,7 +194,96 @@ var marker = {
 
 //-----------------------------------------------------------------------------
 
+var search = {
+	schools: [],
+
+	initUI: function () {
+		'use strict';
+
+		var that = this;
+
+		$('#autocomplete').focus(function () {
+			window.scrollTo(0, 0);
+			document.body.scrollTop = 0;
+			$('#pageMap').animate({
+				scrollTop: parseInt(0, 10)
+			}, 500);
+		});
+	},
+
+	init: function (data, cityData) {
+		'use strict';
+
+		var that = this;
+		this.schools = [];
+
+		try {
+			$.each(data, function (key, val) {
+				that.schools.push({
+					value: val[cityData.search.pattern],
+					data: val[cityData.search.data],
+					color: val[cityData.search.color],
+					icon: val[cityData.search.icon],
+					desc: val[cityData.search.description]
+				});
+			});
+		} catch (e) {
+//			console.log(e);
+		}
+
+		this.schools.sort(function (a, b) {
+			if (a.value === b.value) {
+				return a.data > b.data ? 1 : -1;
+			}
+
+			return a.value > b.value ? 1 : -1;
+		});
+
+		$('#autocomplete').autocomplete({
+			lookup: that.schools,
+			onSelect: that.callbackOnSelect,
+			formatResult: that.callbackFormatResult,
+			showNoSuggestionNotice: true,
+			noSuggestionNotice: '<i class="fa fa-info-circle" aria-hidden="true"></i> Gebe den Namen einer Schule ein'
+		});
+
+		this.show();
+	},
+
+	callbackOnSelect: function (suggestion) {
+		'use strict';
+
+		marker.select(suggestion.data);
+	},
+
+	callbackFormatResult: function (suggestion, currentValue) {
+		'use strict';
+
+		var str = '';
+		str += '<div class="autocomplete-icon back' + suggestion.color + '"><i class="fa ' + suggestion.icon + '" aria-hidden="true"></i></div>';
+		str += '<div>' + suggestion.value.replace(new RegExp(currentValue.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&"), 'gi'), '<strong>' + currentValue + '</strong>') + '</div>';
+		str += '<div class="' + suggestion.color + '">' + suggestion.desc + '</div>';
+		return str;
+	},
+
+	show: function () {
+		'use strict';
+
+		$('.searchInput').css('opacity', 1);
+	},
+
+	hide: function () {
+		'use strict';
+
+		$('.searchInput').css('opacity', 0);
+	}
+};
+
+//-----------------------------------------------------------------------------
+
 var data = {
+	dataGermany: null,
+
 	initUI: function () {
 		'use strict';
 
@@ -218,14 +311,14 @@ var data = {
 	initGermany: function (data) {
 		'use strict';
 
-		dataGermany = data;
+		this.dataGermany = data;
 
 		try {
 			var str = '';
 
 			str += '<option selected disabled value="-">Wähle eine Stadt aus</option>';
 
-			$.each(dataGermany, function (key, val) {
+			$.each(this.dataGermany, function (key, val) {
 				str += '<option value="' + val.key + '">' + val.title + '</option>';
 			});
 
@@ -243,7 +336,7 @@ var data = {
 			var city = null,
 				that = this;
 
-			$.each(dataGermany, function (key, val) {
+			$.each(this.dataGermany, function (key, val) {
 				if (val.key === cityKey) {
 					city = val;
 				}
@@ -252,7 +345,7 @@ var data = {
 			if (city) {
 				receipt.hide();
 				marker.hide();
-//				removeSearchBox();
+				search.hide();
 				map.setView(new L.LatLng(city.lat, city.lng), city.zoom, {animation: true});
 
 				$.ajax({
@@ -280,72 +373,11 @@ var data = {
 			mimeType: 'application/json',
 			success: function (data) {
 				marker.show(data, cityData);
-//				initSearchBox(data);
+				search.init(data, cityData);
 			}
 		});
 	}
 };
-
-//-----------------------------------------------------------------------------
-
-function initSearchBox(data) {
-	'use strict';
-
-	var schools = [];
-
-	try {
-		$.each(data, function (key, val) {
-			if ((typeof val.lat !== 'undefined') && (typeof val.lng !== 'undefined')) {
-				var name = val.Schulname, color = 'gray';
-				if ('' !== val.Schulnummer) {
-					name += ' (' + val.Schulnummer + ')';
-				}
-				color = ((val.Schulart === 'Bezirk') || (val.Schulart === 'Stadt') ? 'gray' :
-								val.costs >= 10000000 ? 'red' :
-										val.costs >= 5000000 ? 'orange' :
-												val.costs >= 1000 ? 'blue' :
-														'green');
-				schools.push({ value: name, data: val.Schulnummer, color: color, desc: val.Schulart });
-			}
-		});
-	} catch (e) {
-//		console.log(e);
-	}
-
-	schools.sort(function (a, b) {
-		if (a.value === b.value) {
-			return a.data > b.data ? 1 : -1;
-		}
-
-		return a.value > b.value ? 1 : -1;
-	});
-
-	$('#autocomplete').focus(function () {
-		window.scrollTo(0, 0);
-		document.body.scrollTop = 0;
-		$('#pageMap').animate({
-			scrollTop: parseInt(0, 10)
-		}, 500);
-	});
-	$('#autocomplete').autocomplete({
-		lookup: schools,
-		onSelect: function (suggestion) {
-			marker.select(suggestion.data);
-		},
-		formatResult: function (suggestion, currentValue) {
-			var color = suggestion.color,
-				icon  = 'fa-building-o',
-				str = '';
-
-			str += '<div class="autocomplete-icon back' + color + '"><i class="fa ' + icon + '" aria-hidden="true"></i></div>';
-			str += '<div>' + suggestion.value.replace(new RegExp(currentValue.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&"), 'gi'), '<strong>' + currentValue + '</strong>') + '</div>';
-			str += '<div class="' + color + '">' + suggestion.desc + '</div>';
-			return str;
-		},
-		showNoSuggestionNotice: true,
-		noSuggestionNotice: '<i class="fa fa-info-circle" aria-hidden="true"></i> Gebe den Namen einer Schule ein'
-	});
-}
 
 // -----------------------------------------------------------------------------
 
@@ -411,6 +443,7 @@ $(document).on("pageshow", "#pageMap", function () {
 
 	receipt.initUI();
 	data.initUI();
+	search.initUI();
 
 	$('#autocomplete').val('');
 
