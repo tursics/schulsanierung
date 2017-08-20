@@ -108,7 +108,27 @@ var receipt = {
 			item.text(txt);
 		}
 
-		var key;
+		var key,
+			date = new Date(),
+			dateD = date.getDate(),
+			dateM = date.getMonth() + 1,
+			dateY = date.getFullYear(),
+			dateH = date.getHours(),
+			dateMin = date.getMinutes();
+
+		if (dateD < 10) {
+			dateD = '0' + dateD;
+		}
+		if (dateM < 10) {
+			dateM = '0' + dateM;
+		}
+		if (dateH < 10) {
+			dateH = '0' + dateH;
+		}
+		if (dateMin < 10) {
+			dateMin = '0' + dateMin;
+		}
+		setText('Now', dateD + '.' + dateM + '.' + dateY + ' ' + dateH + ':' + dateMin);
 
 		for (key in data) {
 			if (data.hasOwnProperty(key)) {

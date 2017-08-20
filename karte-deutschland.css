@@ -39,16 +39,16 @@
 
 .normal {
 	font-size: 13px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Inconsolata', monospace;
 	font-style: normal;
 	font-weight: 400;
 	color: #999;
 }
 .bold {
 	font-size: 13px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Inconsolata', monospace;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 700;
 	color: #333;
 }
 .center {
@@ -117,21 +117,21 @@
 }
 #receipt span.half {
 	display: inline-block;
-	width: 14.5em;
+	width: 14.4em;
 	white-space: nowrap;
 	overflow-x: hidden;
 	text-overflow: ellipsis;
 }
 #receipt span.number, #receipt span.string, #receipt span.boolean {
 	display: inline-block;
-	width: 7.5em;
+	width: 7.6em;
 	white-space: nowrap;
 	overflow-x: hidden;
 	text-overflow: ellipsis;
 	text-align: right;
 }
 #receipt .sub span.half {
-	width: 13.5em;
+	width: 13.4em;
 }
 #receipt .empty {
 	height: 1em;

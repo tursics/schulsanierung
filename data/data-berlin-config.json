@@ -13,8 +13,10 @@
 			"<div><span class='half'>Sanierungsbedarf von</span><span class='number'><span id='reccosts'></span> EUR</span></div>",
 			"<div class='full'>--------------------------------------------</div>",
 			"<div class='empty'></div>",
-			"<div class='full center'>Diese Zahlen stammen</div>",
-			"<div class='full center'>aus dem März 2017</div>"
+			"<div><span class='half' id='recNow'></span><span class='number'>Daten: 03/2017</span></div>",
+			"<div class='empty'></div>",
+			"<div class='full center'>Vielen Dank für Ihren Einkauf!</div>",
+			"<div class='full center'>Sanieren Sie bald wieder</div>"
 		],
 		"info": false
 	},
