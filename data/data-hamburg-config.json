@@ -1,14 +1,19 @@
 {
 	"receipt": {
 		"body": [
-			"<div class='full center bold' id='recname'></div>",
-			"<div class='full center'><span id='recschool_type'></span></div>",
+			"<div class='full center bold' id='rectitle'></div>",
+			"<div class='full center'><span id='rectype'></span></div>",
 			"<div class='full center' id='recaddress'></div>",
 			"<div class='empty'></div>",
-			"<div class='full'><span id='recSCHULE'></span></div>",
-			"<div class='full'><span id='recSchulform'></span></div>",
+			"<div class='full'>Test:</div>",
+			"<div class='full'><span id='recSCHULE1'></span></div>",
+			"<div class='full'><span id='recSCHULE2'></span></div>",
+			"<div class='full'><span id='recREGION2'></span></div>",
+			"<div class='full'><span id='recSCHULFORM1'></span></div>",
+			"<div class='full'><span id='recSCHULFORM2'></span></div>",
 			"<div class='full'><span id='recGebaeudeklasse'></span></div>",
 			"<div class='full'><span id='recKESSFaktor'></span></div>",
+			"<div class='full'><span id='recKessfaktor2'></span></div>",
 			"<div class='empty'></div>",
 			"<div class='full'>--------------------------------------------</div>",
 			"<div><span class='half'>2011</span><span class='number'><span id='recSumme2011'></span> EUR</span></div>",
@@ -16,6 +21,7 @@
 			"<div><span class='half'>2013</span><span class='number'><span id='recSumme2013'></span> EUR</span></div>",
 			"<div><span class='half'>2014</span><span class='number'><span id='recSumme2014'></span> EUR</span></div>",
 			"<div><span class='half'>2015</span><span class='number'><span id='recSumme2015'></span> EUR</span></div>",
+			"<div><span class='half'>2016 (Plankosten)</span><span class='number'><span id='recPlankosten2016'></span> EUR</span></div>",
 			"<div class='full'>--------------------------------------------</div>",
 			"<div class='empty'></div>",
 			"<div><span class='half' id='recNow'></span><span class='number'>Daten: 01/2016</span></div>",
@@ -30,14 +36,14 @@
 		"icon": "icon"
 	},
 	"printerlabel": {
-		"top": "name",
+		"top": "title",
 		"middle": "Summe2015",
-		"bottom": "school_type"
+		"bottom": "type"
 	},
 	"search": {
-		"pattern": "name",
-		"description": "school_type",
-		"data": "offical_id",
+		"pattern": "title",
+		"description": "type",
+		"data": "id",
 		"color": "color",
 		"icon": "icon"
 	}
