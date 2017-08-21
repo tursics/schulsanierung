@@ -167,7 +167,7 @@ var marker = {
 
 			var that = this;
 			$.each(data, function (key, val) {
-				if ((typeof val.lat !== 'undefined') && (typeof val.lng !== 'undefined')) {
+				if ((typeof val.lat !== 'undefined') && (typeof val.lng !== 'undefined') && val.lat && val.lng) {
 					var marker = L.marker([parseFloat(val.lat), parseFloat(val.lng)], {
 							data: val,
 							format: cityData.printerlabel,
