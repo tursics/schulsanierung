@@ -1,631 +1,631 @@
-id;title;address;zip;type;icon;color;costs;lat;lng;priority
-09G26;Schule an den Püttbergen (Grundschule);Fürstenwalder Allee 182;12589;Grundschule;fa-building-o;orange;5660000;52.43385;13.70158;Priorität 2 oder 3
-09G20;Müggelheimer Schule (Grundschule);Odernheimer Str. 28;12559;Grundschule;fa-building-o;blue;4080000;52.41469;13.66739;unbekannte Priorität
-09G29;Schmöckwitzer Insel-Schule (Grundschule);Adlergestell 776;12527;Grundschule;fa-building-o;blue;4640000;52.376769;13.647546;unbekannte Priorität
-05G29;Mary-Poppins-Grundschule;Am Flugplatz Gatow 20;14089;Grundschule;fa-building-o;blue;340000;52.472209;13.127426;unbekannte Priorität
-06G05;Conrad-Schule (Grundschule);Schulstr. 4;14109;Grundschule;fa-building-o;orange;6180000;52.415181;13.146695;Priorität 2 oder 3
-05Y03;Hans-Carossa-Gymnasium;Am Landschaftspark Gatow 40;14089;Gymnasium;fa-building-o;blue;3100000;52.47244;13.13028;unbekannte Priorität
-05G19;Grundschule am Ritterfeld;Schallweg 31;14089;Grundschule;fa-building-o;blue;2560000;52.455239;13.138357;unbekannte Priorität
-05K09;Schule am Staakener Kleeblatt (Integrierte Sekundarschule);Brunsbütteler Damm 431-437;13591;Integrierte Sekundarschule;fa-building-o;blue;4840000;52.5349;13.13491;unbekannte Priorität
-09Y06;Gerhart-Hauptmann-Gymnasium;Bruno-Wille-Str. 37-45;12587;Gymnasium;fa-building-o;orange;6340000;52.45227;13.63269;Priorität 2 oder 3
-05G14;Linden-Grundschule;Staakener Feldstr. 6-8;13591;Grundschule;fa-building-o;blue;4040000;52.53517;13.14081;unbekannte Priorität
-09G24;Müggelsee-Schule (Grundschule);Aßmannstr. 63;12587;Grundschule;fa-building-o;blue;2870000;52.45072;13.62746;unbekannte Priorität
-05G16;Zeppelin-Grundschule;Heidebergplan 3-4;13591;Grundschule;fa-building-o;blue;3840000;52.5409;13.14635;unbekannte Priorität
-10S08;Schule am Mummelsoll;Eilenburger Str. 4;12627;"Förderschwerp.""Geistige Entwicklung""";fa-building-o;green;0;52.540282;13.629414;unbekannte Priorität
-10G19;Bücherwurm-Schule am Weiher (Grundschule);Eilenburger Str. 1;12627;Grundschule;fa-building-o;orange;5930000;52.54068;13.62913;Priorität 2 oder 3
-09S04;Ahorn-Schule;Peter-Hille-Str. 118;12587;Übrige Förderschwerpunkte;fa-building-o;blue;4020000;52.44782;13.61966;unbekannte Priorität
-09G27;Friedrichshagener Schule (Grundschule);Peter-Hille-Str. 7;12587;Grundschule;fa-building-o;orange;5030000;52.454606;13.621399;Priorität 2 oder 3
-10G30;Mahlsdorfer Grundschule;Feldrain 47;12623;Grundschule;fa-building-o;blue;3970000;52.522102;13.628787;unbekannte Priorität
-09K05;Wilhelm-Bölsche-Schule (Integrierte Sekundarschule);Aßmannstr. 11;12587;Integrierte Sekundarschule;fa-building-o;orange;6300000;52.45109;13.61894;Priorität 2 oder 3
-05G23;Grundschule am Brandwerder;Spandauer Str. 86;13591;Grundschule;fa-building-o;blue;4010000;52.53595;13.15293;unbekannte Priorität
-05G18;Grundschule im Beerwinkel;Im Spektefeld 31;13589;Grundschule;fa-building-o;orange;7500000;52.549023;13.154969;Höchste Priorität
-05K01;Martin-Buber-Oberschule (Integrierte Sekundarschule);Im Spektefeld 33;13589;Integrierte Sekundarschule;fa-building-o;red;12140000;52.54895;13.1565;Höchste Priorität
-05G17;Astrid-Lindgren-Grundschule;Südekumzeile 5;13591;Grundschule;fa-building-o;orange;5090000;52.5311;13.15652;Priorität 2 oder 3
-10K09;Konrad-Wachsmann-Schule;Geithainer Str. 12;12627;Integrierte Sekundarschule;fa-building-o;blue;3320000;52.529047;13.622082;unbekannte Priorität
-09G25;Müggelschlößchen-Schule (Grundschule);Alfred-Randt-Str. 56;12559;Grundschule;fa-building-o;orange;6960000;52.43884;13.6059;Höchste Priorität
-10Y11;Melanchthon-Gymnasium;Adele-Sandrock-Str. 73-75;12627;Gymnasium;fa-building-o;orange;8090000;52.534367;13.618584;Priorität 2 oder 3
-10G22;Kolibri-Grundschule;Schönewalder Str. 9;12627;Grundschule;fa-building-o;green;0;52.532527;13.618558;unbekannte Priorität
-05G25;Grundschule am Wasserwerk;Pionierstr. 197;13589;Grundschule;fa-building-o;blue;3240000;52.55625;13.16467;unbekannte Priorität
-05S04;Schule am Stadtrand;Pionierstr. 197;13589;Übrige Förderschwerpunkte;fa-building-o;green;0;52.55625;13.16467;unbekannte Priorität
-06G09;Dreilinden-Grundschule;Dreilindenstr. 65;14109;Grundschule;fa-building-o;blue;400000;52.4205;13.18369;unbekannte Priorität
-10G26;Friedrich-Schiller-Grundschule;An der Schule 13-17;12623;Grundschule;fa-building-o;blue;3690000;52.5115;13.614782;unbekannte Priorität
-06Y04;Dreilinden-Gymnasium;Dreilindenstr. 49;14109;Gymnasium;fa-building-o;orange;9320000;52.42057;13.18778;Höchste Priorität
-09G16;Wendenschloß-Schule (Grundschule);Köpenzeile 123;12557;Grundschule;fa-building-o;blue;4470000;52.42845;13.5953;unbekannte Priorität
-05G26;Grundschule am Amalienhof;Weinmeisterhornweg 122;13593;Grundschule;fa-building-o;blue;3650000;52.51289;13.1667;unbekannte Priorität
-05G22;Christian-Morgenstern-Grundschule;Räcknitzer Steig 12;13593;Grundschule;fa-building-o;blue;1800000;52.5227;13.16816;unbekannte Priorität
-10G32;Kiekemal-Schule (Grundschule);Hultschiner Damm 219;12623;Grundschule;fa-building-o;blue;330000;52.49407;13.60915;unbekannte Priorität
-10G25;Grundschule am Schleipfuhl;Nossener Str. 85;12627;Grundschule;fa-building-o;blue;4130000;52.52913;13.6081;unbekannte Priorität
-05K05;B.-Traven-Gemeinschaftsschule;Recklinghauser Weg 26-32;13583;Integrierte Sekundarschule;fa-building-o;red;10320000;52.5469;13.17403;Höchste Priorität
-05G24;Grundschule am Windmühlenberg;Am Kinderdorf 23-37;14089;Grundschule;fa-building-o;blue;3300000;52.48547;13.17431;unbekannte Priorität
-05G06;Siegerland-Grundschule;Hermann-Schmidt-Weg 4;13589;Grundschule;fa-building-o;orange;5410000;52.55125;13.175203;Priorität 2 oder 3
-05G12;Grundschule am Weinmeisterhorn;Daberkowstr. 27;13593;Grundschule;fa-building-o;blue;4240000;52.50825;13.1742;unbekannte Priorität
-05K02;Carlo-Schmid-Oberschule (Integrierte Sekundarschule);Lutoner Str. 15-19;13581;Integrierte Sekundarschule;fa-building-o;red;12710000;52.5259;13.17464;Höchste Priorität
-09G14;Schule am Buntzelberg (Grundschule);Schulzendorfer Str. 112;12526;Grundschule;fa-building-o;blue;4500000;52.40671;13.57427;unbekannte Priorität
-10S07;Schule am Rosenhain;Klingenthaler Str. 32;12627;Integrierte Sekundarschule;fa-building-o;blue;2630000;52.53;13.60199;unbekannte Priorität
-09G19;Amtsfeld-Schule (Grundschule);Pablo-Neruda-Str. 8;12559;Grundschule;fa-building-o;blue;2980000;52.44262;13.58891;unbekannte Priorität
-09Y11;Emmy-Noether-Gymnasium;Pablo-Neruda-Str. 6-7;12559;Gymnasium;fa-building-o;orange;6250000;52.44275;13.588735;Priorität 2 oder 3
-10G18;Pusteblume-Grundschule;Kastanienallee 118;12627;Grundschule;fa-building-o;green;0;52.54256;13.6001;unbekannte Priorität
-05G04;Klosterfeld-Grundschule;Seegefelder Str. 125;13583;Grundschule;fa-building-o;blue;2480000;52.53861;13.17968;unbekannte Priorität
-09K09;Grünauer Schule (Gemeinschaftsschule);Walchenseestr. 40;12527;Integrierte Sekundarschule;fa-building-o;orange;6330000;52.419368;13.576124;Priorität 2 oder 3
-05G10;Grundschule am Birkenhain;Seeburger Str. 59;13581;Grundschule;fa-building-o;blue;2580000;52.52596;13.180519;unbekannte Priorität
-09K03;Fritz-Kühn-Schule (Integrierte Sekundarschule);Dahmestr. 45;12526;Integrierte Sekundarschule;fa-building-o;blue;3380000;52.40141;13.5647;unbekannte Priorität
-10K05;Jean-Piaget-Schule;Mittenwalder Str. 5;12629;Integrierte Sekundarschule;fa-building-o;orange;7390000;52.54542;13.59615;Priorität 2 oder 3
-10K10;Wolfgang-Amadeus-Mozart-Schule (Gemeinschaftsschule);Cottbusser Str. 23;12627;Integrierte Sekundarschule;fa-building-o;orange;6290000;52.53699;13.59663;Priorität 2 oder 3
-10G28;Grundschule am Hollerbusch;Erich-Kästner-Str. 64;12619;Grundschule;fa-building-o;orange;7280000;52.52593;13.59512;Priorität 2 oder 3
-05K08;Schule an der Haveldüne (Integrierte Sekundarschule);Jaczostr. 53-67;13595;Integrierte Sekundarschule;fa-building-o;red;14500000;52.51098;13.18567;Höchste Priorität
-09A01;1. Schulpraktisches Seminar Treptow-Köpenick;Luisenstr. 16;12557;Schulpraktisches Seminar;fa-building-o;green;0;52.44107;13.57814;unbekannte Priorität
-10Y08;Sartre-Gymnasium;Kyritzer Str. 103;12629;Gymnasium;fa-building-o;blue;540000;52.54332;13.59106;unbekannte Priorität
-10K07;Caspar-David-Friedrich-Schule;Alte Hellersdorfer Str. 7;12629;Integrierte Sekundarschule;fa-building-o;blue;1130000;52.535223;13.591017;unbekannte Priorität
-10G17;Beatrix-Potter-Grundschule;Ludwigsfelder Str. 7;12629;Grundschule;fa-building-o;orange;5630000;52.54682;13.58926;Priorität 2 oder 3
-09G23;Hauptmann-von-Köpenick-Schule (Grundschule);Borgmannstr. 2;12555;Grundschule;fa-building-o;blue;1490000;52.45624;13.58095;unbekannte Priorität
-05G21;Paul Moor Schule;Adamstr. 24-25;13595;Grundschule;fa-building-o;green;0;52.521;13.19029;unbekannte Priorität
-05S02;Paul-Moor-Schule;Adamstr. 24-25;13595;"Förderschwerp.""Lernen""";fa-building-o;blue;3890000;52.521;13.19029;unbekannte Priorität
-05G09;Schule am Grüngürtel;Askanierring 42;13585;Grundschule;fa-building-o;green;0;52.549099;13.1934;unbekannte Priorität
-05S01;Schule am Grüngürtel;Askanierring 42;13585;"Förderschwerp.""Lernen""";fa-building-o;blue;2780000;52.549099;13.1934;unbekannte Priorität
-05G15;Askanier-Grundschule;Borkzeile 34;13583;Grundschule;fa-building-o;orange;6390000;52.54049;13.19242;Höchste Priorität
-05G08;Konkordia-Grundschule;Elsflether Weg 26;13581;Grundschule;fa-building-o;blue;4880000;52.53018;13.19202;unbekannte Priorität
-06Y05;Werner-von-Siemens-Oberschule;Beskidenstr. 3;14129;Gymnasium;fa-building-o;orange;9310000;52.43194;13.21159;Höchste Priorität
-05G20;Carl-Schurz-Grundschule;Hakenfelder Str. 32;13587;Grundschule;fa-building-o;blue;4310000;52.56751;13.199061;unbekannte Priorität
-10K02;Ernst-Haeckel-Schule;Luckenwalder Str. 53;12629;Integrierte Sekundarschule;fa-building-o;red;10250000;52.54322;13.58574;Priorität 2 oder 3
-05K03;Bertolt-Brecht-Oberschule (Integrierte Sekundarschule);Wilhelmstr. 10;13595;Integrierte Sekundarschule;fa-building-o;red;10580000;52.525308;13.192692;Höchste Priorität
-05K04;Heinrich-Böll-Oberschule (Integrierte Sekundarschule);Am Forstacker 9-11;13587;Integrierte Sekundarschule;fa-building-o;blue;1600000;52.565166;13.199033;unbekannte Priorität
-06G03;Johannes-Tews-Grundschule;Wasgenstr. 50;14129;Grundschule;fa-building-o;orange;9540000;52.43162;13.21262;Höchste Priorität
-05G05;Christoph-Földerich-Grundschule;Földerichplatz 5;13595;Grundschule;fa-building-o;orange;7860000;52.51986;13.193276;Priorität 2 oder 3
-10K08;Johann-Julius-Hecker-Schule;Hohenwalder Str. 2;12689;Integrierte Sekundarschule;fa-building-o;blue;360000;52.56993;13.57866;unbekannte Priorität
-10K03;Kerschensteiner-Schule;Golliner Str. 2;12689;Integrierte Sekundarschule;fa-building-o;orange;5130000;52.56681;13.579505;Priorität 2 oder 3
-09G17;Uhlenhorst-Grundschule;Wongrowitzer Steig 37;12555;Grundschule;fa-building-o;blue;1360000;52.467512;13.579352;unbekannte Priorität
-09G13;Schule am Altglienicker Wasserturm (Grundschule);Sachsenstr. 22;12524;Grundschule;fa-building-o;blue;4440000;52.41079;13.55406;unbekannte Priorität
-09S05;Schule am Altglienicker Wasserturm (Förderzentrum);Sachsenstr. 22;12524;"Förderschwerp.""Lernen""";fa-building-o;green;0;52.41079;13.55406;unbekannte Priorität
-05K06;Wolfgang-Borchert-Schule (Integrierte Sekundarschule);Blumenstr. 13;13585;Integrierte Sekundarschule;fa-building-o;blue;4160000;52.54571;13.1967;unbekannte Priorität
-05G02;Grundschule am Eichenwald;Gaismannshofer Weg 2;13587;Grundschule;fa-building-o;orange;6710000;52.558423;13.199146;Priorität 2 oder 3
-05G03;Birken-Grundschule;Hügelschanze 8-9;13585;Grundschule;fa-building-o;orange;7950000;52.54863;13.19756;Priorität 2 oder 3
-05G30;30. Schule;Hügelschanze 8-9;13585;Grundschule;fa-building-o;green;0;52.54863;13.19756;Höchste Priorität
-10G08;Wilhelm-Busch-Grundschule;Parsteiner Ring 24;12679;Grundschule;fa-building-o;blue;3470000;52.55325;13.58137;unbekannte Priorität
-09K01;Merian-Schule (Integrierte Sekundarschule);Hoernlestr. 80;12555;Integrierte Sekundarschule;fa-building-o;red;12080000;52.46431;13.57643;Priorität 2 oder 3
-09K08;Schule an der Dahme (Integrierte Sekundarschule);Glienicker Str. 24 -30;12557;Integrierte Sekundarschule;fa-building-o;orange;5240000;52.44056;13.56727;Priorität 2 oder 3
-05Y01;Freiherr-vom-Stein-Gymnasium;Galenstr. 40-44;13597;Gymnasium;fa-building-o;green;0;52.539684;13.198479;unbekannte Priorität
-10G33;Ulmen-Grundschule;Ulmenstr. 79-85;12621;Grundschule;fa-building-o;blue;4350000;52.48584;13.58006;unbekannte Priorität
-05G27;Charlie-Rivel-Grundschule;Flankenschanze 20;13585;Grundschule;fa-building-o;blue;670000;52.543893;13.1996;unbekannte Priorität
-05Y05;Lily-Braun-Gymnasium;Münsingerstr. 2;13597;Gymnasium;fa-building-o;blue;20000;52.538567;13.199029;unbekannte Priorität
-12K11;Albrecht-Haushofer-Schule;Kurzebracker Weg 40-46;13503;Integrierte Sekundarschule;fa-building-o;red;11870000;52.61914;13.22771;Priorität 2 oder 3
-09Y05;Alexander-von-Humboldt-Gymnasium;Oberspreestr. 173;12555;Gymnasium;fa-building-o;orange;7520000;52.445252;13.566972;Priorität 2 oder 3
-09G18;Schule in der Köllnischen Vorstadt (Grundschule);Rudower Str. 201;12557;Grundschule;fa-building-o;blue;3010000;52.43946;13.56429;unbekannte Priorität
-05Y02;Kant-Gymnasium;Bismarckstr. 54;13585;Gymnasium;fa-building-o;red;14620000;52.54286;13.20115;Höchste Priorität
-10G29;Grundschule an der Wuhle;Teterower Ring 79;12619;Grundschule;fa-building-o;blue;1330000;52.52118;13.58041;unbekannte Priorität
-10K01;Rudolf-Virchow-Schule;Glambecker Ring 90;12679;Integrierte Sekundarschule;fa-building-o;blue;3520000;52.5555;13.57573;unbekannte Priorität
-12G34;Otfried-Preußler-Grundschule;Schulzendorfer Str. 99;13503;Grundschule;fa-building-o;orange;5210000;52.613129;13.227141;Priorität 2 oder 3
-10G05;Ebereschen-Grundschule;Borkheider Str. 27;12689;Grundschule;fa-building-o;blue;3510000;52.56407;13.57294;unbekannte Priorität
-06G11;Grundschule Am Rohrgarten (Gemeinschaftsschule);Am Rohrgarten 9;14163;Grundschule;fa-building-o;blue;730000;52.425776;13.224983;unbekannte Priorität
-10G03;Selma-Lagerlöf-Grundschule;Wörlitzer Str. 31;12689;Marzahn-Hellersdorf;fa-building-o;blue;3960000;52.56767;13.57023;unbekannte Priorität
-05G07;Lynar-Grundschule;Lutherstr. 19-20;13585;Grundschule;fa-building-o;blue;1030000;52.54766;13.20683;unbekannte Priorität
-05G01;Ernst-Ludwig-Heim-Grundschule;Grunewaldstr. 8;13597;Grundschule;fa-building-o;blue;4450000;52.5304;13.20672;unbekannte Priorität
-09G15;Schule am Mohnweg (Grundschule);Mohnweg 20;12524;Grundschule;fa-building-o;blue;3340000;52.40733;13.53679;unbekannte Priorität
-12G17;Ellef-Ringnes-Grundschule;Im Erpelgrund 11-17;13503;Grundschule;fa-building-o;blue;4780000;52.60802;13.23202;unbekannte Priorität
-10G31;Franz-Carl-Achard-Grundschule;Flämingstr. 16-18;12689;Grundschule;fa-building-o;blue;1370000;52.56382;13.56592;unbekannte Priorität
-10K11;Marcana-Schule (Gemeinschaftsschule);Flämingstr. 16-18;12689;Integrierte Sekundarschule;fa-building-o;blue;2100000;52.56382;13.56592;unbekannte Priorität
-10G34;Schule am grünen Stadtrand;Geraer Ring 54;12689;"Förderschwerp.""Lernen""";fa-building-o;orange;7440000;52.56973;13.56193;Priorität 2 oder 3
-09Y04;Anne-Frank-Gymnasium;Uranusstr. 15 -17;12524;Gymnasium;fa-building-o;blue;2040000;52.399327;13.525296;unbekannte Priorität
-10G09;Grundschule am Bürgerpark;Jan-Petersen-Str. 18B;12679;Grundschule;fa-building-o;blue;2100000;52.55062;13.56569;unbekannte Priorität
-09K02;Anna-Seghers-Schule (Gemeinschaftsschule);Radickestr. 43;12489;Integrierte Sekundarschule;fa-building-o;orange;8100000;52.435416;13.548246;Priorität 2 oder 3
-09G11;Schule am Pegasuseck (Grundschule);Pegasuseck 5;12524;Grundschule;fa-building-o;blue;3060000;52.40638;13.5294;unbekannte Priorität
-10G07;Karl-Friedrich-Friesen-Grundschule;Max-Herrmann-Str. 5;12687;Grundschule;fa-building-o;green;0;52.55335;13.56415;unbekannte Priorität
-09G10;Schule am Berg (Grundschule);Köpenicker Str. 31;12524;Grundschule;fa-building-o;blue;3230000;52.41866;13.538044;unbekannte Priorität
-10G11;Grundschule an der Mühle;Kienbergstr. 59;12685;Grundschule;fa-building-o;blue;4060000;52.53976;13.5657;unbekannte Priorität
-10G01;Paavo-Nurmi-Grundschule;Schorfheidestr. 42;12689;Grundschule;fa-building-o;orange;5940000;52.54728;13.56405;Priorität 2 oder 3
-10G06;Bruno-Bettelheim-Grundschule (Gemeinschaftsschule);Schleusinger Str. 17;12687;Grundschule;fa-building-o;green;0;52.557763;13.561873;unbekannte Priorität
-06G10;Grundschule am Buschgraben;Ludwigsfelder Str. 43-47;14165;Grundschule;fa-building-o;blue;1460000;52.42192;13.242834;unbekannte Priorität
-10K04;Thüringen-Schule (Gemeinschaftsschule);Liebensteiner Str. 24;12687;Integrierte Sekundarschule;fa-building-o;blue;3620000;52.55821;13.5601;unbekannte Priorität
-10G04;Falken-Grundschule;Geraer Ring 2;12689;Grundschule;fa-building-o;orange;5440000;52.56593;13.5564;Priorität 2 oder 3
-09G09;Heide-Schule (Grundschule);Florian-Geyer-Str. 87;12489;Grundschule;fa-building-o;orange;6510000;52.438648;13.543713;Priorität 2 oder 3
-12G18;Grundschule am Tegelschen Ort;Gerlindeweg 11-23;13505;Grundschule;fa-building-o;blue;4910000;52.576181;13.228007;unbekannte Priorität
-10Y01;Tagore-Gymnasium;Sella-Hasse-Str. 25;12687;Gymnasium;fa-building-o;blue;3560000;52.55271;13.55658;unbekannte Priorität
-10G13;Johann-Strauss-Grundschule;Cecilienstr. 81;12683;Grundschule;fa-building-o;green;0;52.52982;13.55966;unbekannte Priorität
-10K06;Georg-Klingenberg-Schule;Alberichstr. 24;12683;Integrierte Sekundarschule;fa-building-o;blue;4560000;52.49015;13.55783;unbekannte Priorität
-12G24;Renée-Sintenis-Grundschule;Laurinsteig 39-45;13465;Grundschule;fa-building-o;blue;4630000;52.63695;13.27237;unbekannte Priorität
-11Y09;Barnim-Gymnasium;Ahrensfelder Chaussee 41;13057;Gymnasium;fa-building-o;blue;300000;52.569201;13.549303;unbekannte Priorität
-10G10;Peter-Pan-Grundschule;Stolzenhagener Str. 9;12679;Grundschule;fa-building-o;blue;2640000;52.548156;13.551672;unbekannte Priorität
-06G02;Süd-Grundschule;Claszeile 56;14165;Grundschule;fa-building-o;orange;9290000;52.4189;13.25839;Höchste Priorität
-10S04;Schule am Pappelhof;Ketschendorfer Weg 21;12683;"Förderschwerp.""Geistige Entwicklung""";fa-building-o;blue;3160000;52.531157;13.553338;unbekannte Priorität
-05G28;Grundschule an der Pulvermühle;Grützmacherweg 7;13599;Grundschule;fa-building-o;blue;630000;52.544061;13.228327;unbekannte Priorität
-08Y06;Hannah-Arendt-Gymnasium;Elfriede-Kuhr-Str. 17;12355;Gymnasium;fa-building-o;blue;3800000;52.40411;13.508639;unbekannte Priorität
-10G16;Grundschule am Fuchsberg;Dankratweg 19;12683;Grundschule;fa-building-o;blue;3120000;52.49039;13.551484;unbekannte Priorität
-10G12;Grundschule an der Geißenweide;Amanlisweg 40;12685;Grundschule;fa-building-o;blue;2960000;52.537783;13.551797;unbekannte Priorität
-10Y03;Wilhelm-von-Siemens-Gymnasium;Allee der Kosmonauten 134;12683;Gymnasium;fa-building-o;blue;450000;52.533571;13.551106;unbekannte Priorität
-08G37;Rose-Oehmichen-Schule (Grundschule);Lieselotte-Berger-Str. 65;12355;Grundschule;fa-building-o;blue;1330000;52.401126;13.501995;unbekannte Priorität
-06G07;Zinnowwald-Grundschule;Wilskistr. 78;14163;Grundschule;fa-building-o;orange;9090000;52.44543;13.246529;Höchste Priorität
-06Y01;Schadow-Gymnasium;Beuckestr. 27-29;14163;Gymnasium;fa-building-o;red;20090000;52.43149;13.25463;Höchste Priorität
-06Y02;Droste-Hülshoff-Oberschule;Schönower Str. 8;14165;Gymnasium;fa-building-o;red;13340000;52.42846;13.25673;Höchste Priorität
-05G13;Bernd-Ryke-Grundschule;Daumstr. 12;13599;Grundschule;fa-building-o;orange;5310000;52.54494;13.2325;Höchste Priorität
-06S01;Pestalozzi-Schule;Hartmannsweilerweg 47;14163;Integrierte Sekundarschule;fa-building-o;blue;3630000;52.44346;13.24838;unbekannte Priorität
-10Y02;Otto-Nagel-Gymnasium;Schulstr. 11;12683;Gymnasium;fa-building-o;blue;2670000;52.511922;13.549199;unbekannte Priorität
-12G23;Victor-Gollancz-Grundschule;Gollanczstr. 18-24;13465;Grundschule;fa-building-o;orange;6060000;52.63826;13.28757;Priorität 2 oder 3
-08G25;Michael-Ende-Schule (Grundschule);Neuhofer Str. 41;12355;Grundschule;fa-building-o;blue;4280000;52.41346;13.50984;unbekannte Priorität
-03G29;Grundschule Am Sandhaus;Wiltbergstr. 37-39;13125;Grundschule;fa-building-o;blue;770000;52.637343;13.490967;unbekannte Priorität
-06G01;Nord-Grundschule;Potsdamer Str. 7;14163;Grundschule;fa-building-o;orange;6260000;52.435951;13.25558;Priorität 2 oder 3
-06K01;John-F.-Kennedy-Schule;Teltower Damm 87-93;14167;Integrierte Sekundarschule;fa-building-o;red;28540000;52.42589;13.26273;Höchste Priorität
-06G08;Schweizerhof-Grundschule;Leo-Baeck-Str. 28-30;14167;Grundschule;fa-building-o;blue;3930000;52.42278;13.26571;unbekannte Priorität
-03K10;Hufeland-Schule (Integrierte Sekundarschule);Walter-Friedrich-Str. 16-18;13125;Integrierte Sekundarschule;fa-building-o;red;16420000;52.63325;13.49373;Höchste Priorität
-04G15;Charles-Dickens-Grundschule;Dickensweg 15;14055;Grundschule;fa-building-o;blue;3230000;52.508946;13.236971;unbekannte Priorität
-10G14;Grundschule unter dem Regenbogen;Murtzaner Ring 37;12681;Grundschule;fa-building-o;orange;5940000;52.5301;13.54212;Priorität 2 oder 3
-03S10;Marianne-Buggenhagen-Schule;Ernst-Busch-Str. 29;13125;Übrige Förderschwerpunkte;fa-building-o;blue;1060000;52.62953;13.49149;unbekannte Priorität
-11G28;Feldmark-Schule (Grundschule);Wartiner Str. 23;13057;Grundschule;fa-building-o;blue;2670000;52.569161;13.531731;unbekannte Priorität
-10A04;Victor-Klemperer-Kolleg;Martha-Arendsee-Str. 15;12681;Volkshochschul-Kolleg;fa-building-o;blue;3010000;52.5363;13.53885;unbekannte Priorität
-05S03;Schule am Gartenfeld;Gartenfelder Str. 81;13599;"Förderschwerp.""Geistige Entwicklung""";fa-building-o;orange;9050000;52.543211;13.24234;Priorität 2 oder 3
-11G14;Richard-Wagner-Grundschule;Ehrenfelsstr. 36;10318;Grundschule;fa-building-o;blue;3700000;52.479326;13.53427;unbekannte Priorität
-11G12;Lew-Tolstoi-Grundschule;Römerweg 120;10318;Grundschule;fa-building-o;blue;1180000;52.49199;13.53678;unbekannte Priorität
-09Y03;Archenhold-Gymnasium;Rudower Str. 7;12439;Gymnasium;fa-building-o;blue;4530000;52.4514;13.52271;unbekannte Priorität
-08G28;Matthias-Claudius-Schule (Grundschule);Köpenicker Str. 148;12355;Grundschule;fa-building-o;orange;5390000;52.420381;13.501675;Priorität 2 oder 3
-09G22;Schule an der Wuhlheide (Grundschule);Kottmeierstr. 2;12459;Grundschule;fa-building-o;blue;3420000;52.462579;13.524106;unbekannte Priorität
-03G10;Grundschule am Hohen Feld;Bedeweg 1;13125;Grundschule;fa-building-o;blue;1820000;52.61492;13.49606;unbekannte Priorität
-12K10;Carl-Bosch-Schule;Frohnauer Str. 74-80;13467;Integrierte Sekundarschule;fa-building-o;orange;8440000;52.62349;13.29375;Priorität 2 oder 3
-12S05;Wiesengrund-Schule;Frohnauer Str. 74-80;13467;Übrige Förderschwerpunkte;fa-building-o;green;0;52.62349;13.29375;unbekannte Priorität
-03Y16;Robert-Havemann-Gymnasium;Achillesstr. 79;13125;Gymnasium;fa-building-o;orange;7260000;52.615393;13.494218;Priorität 2 oder 3
-06K02;Wilma-Rudolph-Schule (Integrierte Sekundarschule);Am Hegewinkel 2A;14169;Integrierte Sekundarschule;fa-building-o;red;13210000;52.45479;13.26097;Höchste Priorität
-11G29;Matibi-Grundschule;Prendener Str. 15;13059;Grundschule;fa-building-o;blue;1870000;52.5724;13.52072;unbekannte Priorität
-08G11;Schliemann-Schule (Grundschule);Groß-Ziethener Chaussee 73;12355;Grundschule;fa-building-o;blue;3740000;52.41198;13.48526;unbekannte Priorität
-11K05;Fritz-Reuter-Schule;Prendener Str. 29;13059;Integrierte Sekundarschule;fa-building-o;blue;400000;52.570237;13.52104;unbekannte Priorität
-11G06;Adam-Ries-Grundschule;Alt-Friedrichsfelde 66;10315;Grundschule;fa-building-o;orange;5130000;52.5114;13.53125;Priorität 2 oder 3
-03G24;Grundschule im Panketal;Achillesstr. 31;13125;Grundschule;fa-building-o;blue;4140000;52.61986;13.486729;unbekannte Priorität
-08K05;Clay-Schule;Bildhauerweg 9;12355;Integrierte Sekundarschule;fa-building-o;blue;4580000;52.41759;13.48999;unbekannte Priorität
-09G06;Melli-Beese-Schule (Grundschule);Engelhardstr. 18;12487;Grundschule;fa-building-o;blue;2790000;52.44696;13.51031;unbekannte Priorität
-09G07;Schule an der alten Feuerwache (Grundschule);Schnellerstr. 31;12439;Grundschule;fa-building-o;blue;3830000;52.45459;13.51379;unbekannte Priorität
-09K04;Isaac-Newton-Schule (Integrierte Sekundarschule);Zeppelinstr. 76-80;12459;Integrierte Sekundarschule;fa-building-o;orange;6470000;52.4659;13.51817;Priorität 2 oder 3
-11G26;Randow-Grundschule;Randowstr. 45;13057;Grundschule;fa-building-o;blue;1430000;52.56405;13.51904;unbekannte Priorität
-06G06;Mühlenau-Grundschule;Molsheimer Str. 7;14195;Grundschule;fa-building-o;orange;5870000;52.443206;13.276002;Priorität 2 oder 3
-11Y05;Hans-und-Hilde-Coppi-Oberschule;Römerweg 30-32;10318;Gymnasium;fa-building-o;red;10340000;52.4918;13.52343;Priorität 2 oder 3
-06G12;Quentin-Blake-Grundschule;Hüttenweg 40;14195;Grundschule;fa-building-o;blue;4760000;52.454097;13.27055;unbekannte Priorität
-06S02;Biesalski-Schule;Hüttenweg 40;14195;Übrige Förderschwerpunkte;fa-building-o;orange;7170000;52.454097;13.27055;Höchste Priorität
-12K09;Carl-Benz-Schule (Integrierte Sekundarschule);Heidenheimer Str. 53-54;13467;Integrierte Sekundarschule;fa-building-o;orange;8980000;52.615646;13.298748;Priorität 2 oder 3
-09S03;Albatros-Schule;Treskowallee 222;12459;"Förderschwerp.""Geistige Entwicklung""";fa-building-o;blue;1110000;52.471245;13.516154;unbekannte Priorität
-08G33;Schule am Fliederbusch (Grundschule);Kornradenstr. 2;12357;Grundschule;fa-building-o;blue;2730000;52.42424;13.48673;unbekannte Priorität
-04Y02;Wald-Gymnasium;Waldschulallee 95;14055;Gymnasium;fa-building-o;orange;5230000;52.50343;13.25701;Priorität 2 oder 3
-08S04;Schule am Zwickauer Damm;Zwickauer Damm 17-22;12353;Integrierte Sekundarschule;fa-building-o;blue;3770000;52.422;13.48315;unbekannte Priorität
-09Y10;Gebrüder-Montgolfier-Gymnasium;Ellernweg 20-22;12487;Gymnasium;fa-building-o;blue;1460000;52.44833;13.50379;unbekannte Priorität
-11G13;Karlshorster Grundschule;Lisztstr. 6;10318;Grundschule;fa-building-o;blue;230000;52.48925;13.51994;unbekannte Priorität
-09G05;Schule am Ginkobaum (Grundschule);Springbornstr. 250;12487;Grundschule;fa-building-o;blue;1040000;52.44014;13.4979;unbekannte Priorität
-04Y05;Herder-Gymnasium;Westendallee 45-46;14052;Gymnasium;fa-building-o;orange;5030000;52.510663;13.257932;Priorität 2 oder 3
-12Y05;Georg-Herwegh-Gymnasium;Fellbacher Str. 18-19;13467;Gymnasium;fa-building-o;orange;7670000;52.616834;13.303382;Priorität 2 oder 3
-07Y08;Ulrich-von-Hutten-Gymnasium;Rehagener Str. 35-37;12307;Gymnasium;fa-building-o;blue;630000;52.38563;13.40388;unbekannte Priorität
-12S02;Richard-Keller-Schule;Olafstr. 32-34;13467;"Förderschwerp.""Lernen""";fa-building-o;blue;2840000;52.62034;13.30794;unbekannte Priorität
-04G06;Wald-Grundschule;Waldschulallee 83-93;14055;Grundschule;fa-building-o;blue;3850000;52.50259;13.259;unbekannte Priorität
-11S08;Schule Am Breiten Luch;Am Breiten Luch 19;13053;Grundschule;fa-building-o;orange;5430000;52.5627;13.5136;Priorität 2 oder 3
-07G29;Käthe-Kollwitz-Grundschule;Mellener Str. 38-42;12307;Grundschule;fa-building-o;blue;2840000;52.3862;13.40487;unbekannte Priorität
-11K12;Paul-und-Charlotte-Kniese-Schule (Gemeinschaftsschule);Erich-Kurz-Str. 6-10;10319;"Förderschwerp.""Geistige Entwicklung""";fa-building-o;green;0;52.498846;13.519748;unbekannte Priorität
-11S04;Paul-und-Charlotte-Kniese-Schule;Erich-Kurz-Str. 6-10;10319;Übrige Förderschwerpunkte;fa-building-o;blue;1480000;52.498846;13.519748;unbekannte Priorität
-09K06;Hans-Grade-Schule (Integrierte Sekundarschule);Heubergerweg 37;12487;Integrierte Sekundarschule;fa-building-o;green;0;52.444484;13.499022;unbekannte Priorität
-11G22;Martin-Niemöller-Grundschule;Am Breiten Luch 5;13053;Grundschule;fa-building-o;blue;4610000;52.56339;13.51209;unbekannte Priorität
-07G35;Nahariya-Grundschule;Nahariyastr. 13-17;12309;Grundschule;fa-building-o;blue;570000;52.39085;13.41943;unbekannte Priorität
-09G21;Edison-Grundschule;Wattstr. 69-70;12459;Grundschule;fa-building-o;blue;3360000;52.46607;13.50886;unbekannte Priorität
-12G22;Gustav-Dreyer-Grundschule;Freiherr-vom-Stein-Str. 31;13467;Grundschule;fa-building-o;orange;6220000;52.61309;13.30379;Höchste Priorität
-03G23;Grundschule Alt-Karow;Bahnhofstr. 32;13125;Grundschule;fa-building-o;blue;3270000;52.609682;13.479743;unbekannte Priorität
-12G13;Franz-Marc-Grundschule;Treskowstr. 26-31;13507;Grundschule;fa-building-o;orange;7770000;52.58822;13.2828;Priorität 2 oder 3
-12K01;Julius-Leber-Schule;Treskowstr. 26-31;13507;Integrierte Sekundarschule;fa-building-o;green;0;52.58822;13.2828;unbekannte Priorität
-04G05;Dietrich-Bonhoeffer-Grundschule;Spandauer Damm 205-215;14050;Grundschule;fa-building-o;blue;1100000;52.521371;13.26202;unbekannte Priorität
-06G25;Clemens-Brentano-Grundschule;Kommandantenstr. 83-84;12205;Grundschule;fa-building-o;red;10800000;52.433511;13.29316;Höchste Priorität
-04S04;Reinfelder-Schule;Maikäferpfad 30;14055;Grundschule;fa-building-o;orange;6230000;52.49693;13.26373;Priorität 2 oder 3
-11K07;Vincent-van-Gogh-Schule (Integrierte Sekundarschule);Wustrower Str. 26;13051;Integrierte Sekundarschule;fa-building-o;orange;6790000;52.5678;13.50702;Priorität 2 oder 3
-06G30;Mercator-Grundschule;Mercatorweg 8-10;12207;Grundschule;fa-building-o;orange;5860000;52.41225;13.317376;Priorität 2 oder 3
-11G25;Grundschule am Wäldchen;Wustrower Str. 28;13051;Grundschule;fa-building-o;blue;1560000;52.56846;13.50628;unbekannte Priorität
-11G09;Bürgermeister-Ziethen-Grundschule;Massower Str. 39;10315;Grundschule;fa-building-o;blue;2150000;52.50818;13.51665;unbekannte Priorität
-11K08;George-Orwell-Schule;Sewanstr. 223;10319;Integrierte Sekundarschule;fa-building-o;blue;2610000;52.496354;13.514933;unbekannte Priorität
-08K02;Hermann-von-Helmholtz-Schule;Wutzkyallee 68;12353;Integrierte Sekundarschule;fa-building-o;red;14400000;52.421823;13.472974;Priorität 2 oder 3
-07Y09;Georg-Büchner-Gymnasium;Lichtenrader Damm 224;12305;Gymnasium;fa-building-o;red;13650000;52.39186;13.406604;Höchste Priorität
-04S05;Ernst-Adolf-Eschke-Schule für Gehörlose;Waldschulallee 29;14055;Fachschule;fa-building-o;blue;650000;52.4989;13.26508;unbekannte Priorität
-11K01;Alexander-Puschkin-Schule;Massower Str. 37;10315;Integrierte Sekundarschule;fa-building-o;orange;7250000;52.50795;13.51556;Priorität 2 oder 3
-12Y03;Humboldt-Gymnasium;Hatzfeldtallee 2-4;13509;Gymnasium;fa-building-o;red;11560000;52.59176;13.28891;Priorität 2 oder 3
-06G18;Athene-Grundschule;Curtiusstr. 37;12205;Grundschule;fa-building-o;blue;4500000;52.440565;13.290632;unbekannte Priorität
-05K07;Schule an der Jungfernheide (Integrierte Sekundarschule);Lenther Steig 1-3;13629;Integrierte Sekundarschule;fa-building-o;blue;1770000;52.53843;13.26697;unbekannte Priorität
-06Y03;Arndt-Gymnasium Dahlem;Königin-Luise-Str. 80-84;14195;Gymnasium;fa-building-o;green;0;52.45916;13.28001;unbekannte Priorität
-11G11;Bernhard-Grzimek-Grundschule;Sewanstr. 184;10319;Grundschule;fa-building-o;blue;4040000;52.49572;13.51176;unbekannte Priorität
-05Y04;Carl-Friedrich-von-Siemens-Gymnasium;Jungfernheideweg 79;13629;Gymnasium;fa-building-o;orange;8450000;52.54559;13.26983;Höchste Priorität
-06G22;Giesensdorfer Grundschule;Ostpreußendamm 63;12207;Grundschule;fa-building-o;blue;4500000;52.422226;13.31101;unbekannte Priorität
-08K13;Gemeinschaftsschule Campus Efeuweg;Efeuweg 34;12357;Integrierte Sekundarschule;fa-building-o;red;15520000;52.427206;13.47409;Priorität 2 oder 3
-04Y06;Heinz-Berggruen-Gymnasium;Bayernallee 4;14052;Gymnasium;fa-building-o;blue;2160000;52.51103;13.26722;unbekannte Priorität
-06G04;Erich-Kästner-Grundschule;Bachstelzenweg 2-8;14195;Grundschule;fa-building-o;blue;3660000;52.458141;13.283199;unbekannte Priorität
-07K02;Carl-Zeiss-Schule;Barnetstr. 12-14;12305;Integrierte Sekundarschule;fa-building-o;blue;3200000;52.39571;13.40258;unbekannte Priorität
-12G01;Havelmüller-Grundschule;Namslaustr. 49-57;13507;Grundschule;fa-building-o;blue;4040000;52.578512;13.284936;unbekannte Priorität
-04G14;Reinhold-Otto-Grundschule;Leistikowstr. 7-8;14050;Grundschule;fa-building-o;orange;5170000;52.513329;13.268399;Priorität 2 oder 3
-11K11;Paul-Schmidt-Schule (Integrierte Sekundarschule);Malchower Weg 54;13053;Integrierte Sekundarschule;fa-building-o;blue;4320000;52.55475;13.50438;unbekannte Priorität
-12G14;Alfred-Brehm-Grundschule;Ascheberger Weg 8A;13507;Grundschule;fa-building-o;blue;3660000;52.57359;13.28368;unbekannte Priorität
-12G21;Grundschule am Fließtal;Seebadstr. 42-43;13467;Grundschule;fa-building-o;blue;4120000;52.61528;13.32062;unbekannte Priorität
-06K09;Gail-S.-Halvorsen-Integrierte Sekundarschule;Im Gehege 6;14195;Integrierte Sekundarschule;fa-building-o;red;12060000;52.459454;13.284371;Höchste Priorität
-07G26;Grundschule im Taunusviertel;Wiesbadener Str. 20;12309;Grundschule;fa-building-o;blue;3640000;52.40019;13.41799;unbekannte Priorität
-07G30;Annedore-Leber-Grundschule;Halker Zeile 137-149;12305;Grundschule;fa-building-o;orange;5190000;52.39757;13.40197;Priorität 2 oder 3
-11G10;Schule im Ostseekarree (Grundschule);Barther Str. 27;13051;Grundschule;fa-building-o;blue;1580000;52.56409;13.50024;unbekannte Priorität
-05G11;Robert-Reinick-Grundschule;Jungfernheideweg 33-48;13629;Grundschule;fa-building-o;blue;4340000;52.54065;13.27277;unbekannte Priorität
-12Y04;Gabriele-von-Bülow-Gymnasium;Tile-Brügge-Weg 63;13509;Gymnasium;fa-building-o;orange;8690000;52.592148;13.297061;Priorität 2 oder 3
-07K04;Theodor-Haubach-Schule;Grimmstr. 9-11;12305;Integrierte Sekundarschule;fa-building-o;red;12660000;52.398399;13.403988;Priorität 2 oder 3
-11S05;Schule am grünen Grund;Herzbergstr. 79;10365;Übrige Förderschwerpunkte;fa-building-o;blue;660000;52.52822;13.50858;unbekannte Priorität
-06G33;Friedrich-Drake-Schule;Drakestr. 80;12205;Grundschule;fa-building-o;blue;1190000;52.43254;13.30621;unbekannte Priorität
-04Y08;Hildegard-Wegscheider-Gymnasium;Lassenstr. 16-20;14193;Gymnasium;fa-building-o;blue;4390000;52.485116;13.275931;unbekannte Priorität
-07K03;Gustav-Heinemann-Schule;Waldsassener Str. 62;12279;Integrierte Sekundarschule;fa-building-o;blue;3200000;52.40662;13.34754;unbekannte Priorität
-12G15;Hoffmann-von-Fallersleben-Grundschule;Ziekowstr. 80-88;13509;Grundschule;fa-building-o;blue;4530000;52.58744;13.29515;unbekannte Priorität
-06Y11;Goethe-Gymnasium Lichterfelde;Drakestr. 72-75;12205;Gymnasium;fa-building-o;red;10030000;52.434929;13.305363;Höchste Priorität
-11G31;Schmetterlings-Grundschule;Dolgenseestr. 60;10319;Grundschule;fa-building-o;green;0;52.49417;13.50546;unbekannte Priorität
-12G19;Münchhausen-Grundschule;Artemisstr. 22-26;13469;Grundschule;fa-building-o;orange;5570000;52.60851;13.31718;Priorität 2 oder 3
-08G31;Janusz-Korczak-Schule (Grundschule);Wildhüterweg 5;12353;Grundschule;fa-building-o;orange;8040000;52.42179;13.45659;Priorität 2 oder 3
-06K08;Max-von-Laue-Schule;Dürerstr. 27;12203;Integrierte Sekundarschule;fa-building-o;blue;1100000;52.43725;13.305628;unbekannte Priorität
-08K01;Walter-Gropius-Schule (Gemeinschaftsschule);Fritz-Erler-Allee 86;12351;Integrierte Sekundarschule;fa-building-o;red;17000000;52.42934;13.46355;Priorität 2 oder 3
-11G23;Friedrichsfelder Grundschule;Lincolnstr. 67;10315;Grundschule;fa-building-o;blue;3320000;52.503;13.50355;unbekannte Priorität
-06G29;Grundschule am Karpfenteich;Hildburghauser Str. 135;12209;Grundschule;fa-building-o;blue;4540000;52.417401;13.333982;unbekannte Priorität
-11G21;Schule Am Faulen See;Degnerstr. 71;13053;Grundschule;fa-building-o;blue;1150000;52.5521;13.49837;unbekannte Priorität
-04G22;Grunewald-Grundschule;Delbrückstr. 20A;14193;Grundschule;fa-building-o;blue;3890000;52.484525;13.281094;unbekannte Priorität
-08G16;Hugo-Heimann-Schule;Hugo-Heimann-Str. 20;12353;Grundschule;fa-building-o;orange;5280000;52.42538;13.45705;Priorität 2 oder 3
-09G04;Sonnenblumen-Schule (Grundschule);Radenzer Str. 16;12437;Grundschule;fa-building-o;blue;1500000;52.46163;13.48872;unbekannte Priorität
-07G32;Bruno-H.-Bürgel-Grundschule;Rackebüller Weg 70;12305;Grundschule;fa-building-o;orange;6710000;52.404902;13.402536;Höchste Priorität
-12G20;Grundschule am Vierrutenberg;Am Vierrutenberg 59-65;13469;Grundschule;fa-building-o;blue;2970000;52.617516;13.339396;unbekannte Priorität
-11G17;Brodowin-Grundschule;Liebenwalder Str. 22;13055;Grundschule;fa-building-o;blue;4950000;52.53738;13.50067;unbekannte Priorität
-06Y10;Lilienthal-Gymnasium;Ringstr. 2-3;12203;Gymnasium;fa-building-o;red;10470000;52.43595;13.31215;Höchste Priorität
-06K06;Anna Essinger Gemeinschaftsschule;Tietzenweg 101;12203;Integrierte Sekundarschule;fa-building-o;orange;7000000;52.439089;13.309116;Höchste Priorität
-12S06;Toulouse-Lautrec-Schule;Miraustr. 120-126;13509;Übrige Förderschwerpunkte;fa-building-o;orange;8940000;52.58901;13.30389;Höchste Priorität
-06G26;Käthe-Kruse-Grundschule;Tietzenweg 108;12203;Grundschule;fa-building-o;blue;3150000;52.438186;13.310138;unbekannte Priorität
-08G27;Oskar-Heinroth-Schule (Grundschule);Rohrdommelweg 1;12359;Grundschule;fa-building-o;orange;7950000;52.44057;13.47209;Priorität 2 oder 3
-06G24;Grundschule unter den Kastanien;Kastanienstr. 6 -8;12209;Grundschule;fa-building-o;orange;5770000;52.42546;13.32527;Höchste Priorität
-07G34;Marienfelder Schule (Grundschule);Erbendorfer Weg 13;12279;Grundschule;fa-building-o;orange;8530000;52.41209;13.35184;Höchste Priorität
-04Y09;Walther-Rathenau-Gymnasium;Herbertstr. 2-6;14193;Gymnasium;fa-building-o;orange;6370000;52.49143;13.28135;Priorität 2 oder 3
-11G08;Robinson-Grundschule;Wönnichstr. 7;10317;Grundschule;fa-building-o;blue;2700000;52.510047;13.50046;unbekannte Priorität
-12G12;Borsigwalder Grundschule;Miraustr. 100;13509;Grundschule;fa-building-o;blue;2840000;52.58822;13.30561;unbekannte Priorität
-04G24;Carl-Orff-Grundschule;Berkaer Str. 9-10;14199;Grundschule;fa-building-o;orange;6910000;52.47841;13.28709;Priorität 2 oder 3
-12K06;Benjamin-Franklin-Schule (Integrierte Sekundarschule);Sommerfelder Str. 5-7;13509;Integrierte Sekundarschule;fa-building-o;orange;7170000;52.581447;13.300983;Priorität 2 oder 3
-08K04;Heinrich-Mann-Schule;Gerlinger Str. 22;12353;Integrierte Sekundarschule;fa-building-o;orange;6880000;52.41578;13.43231;Priorität 2 oder 3
-08G34;Lisa-Tetzner-Schule (Grundschule);Hasenhegerweg 12;12353;Grundschule;fa-building-o;orange;7370000;52.42254;13.44504;Priorität 2 oder 3
-08S05;Schule am Hasenhegerweg;Hasenhegerweg 12;12353;"Förderschwerp.""Lernen""";fa-building-o;green;0;52.42254;13.44504;Höchste Priorität
-12Y07;Romain-Rolland-Gymnasium;Place Moliere 4;13469;Gymnasium;fa-building-o;red;16370000;52.598998;13.317865;Priorität 2 oder 3
-12S01;Stötzner-Schule;Tietzstr. 26-28;13509;"Förderschwerp.""Lernen""";fa-building-o;blue;3470000;52.584273;13.304873;unbekannte Priorität
-11K09;Philipp-Reis-Schule (Integrierte Sekundarschule);Werneuchener Str. 15;13055;Integrierte Sekundarschule;fa-building-o;orange;5060000;52.53952;13.49572;Priorität 2 oder 3
-06G23;Kronach-Grundschule;Moltkestr. 24-26;12203;Grundschule;fa-building-o;orange;8280000;52.44167;13.313098;Höchste Priorität
-12G28;Grundschule in den Rollbergen;Waldshuter Zeile 6;13469;Grundschule;fa-building-o;orange;6230000;52.609905;13.335731;Priorität 2 oder 3
-06Y12;Willi-Graf-Gymnasium;Ostpreußendamm 166;12207;Gymnasium;fa-building-o;orange;7300000;52.43469;13.32096;Höchste Priorität
-08Y05;Leonardo-da-Vinci-Gymnasium;Haewererweg 35;12349;Gymnasium;fa-building-o;blue;1750000;52.41623;13.42658;unbekannte Priorität
-07G36;Grundschule am Dielingsgrund;Dielingsgrund 35;12305;Grundschule;fa-building-o;orange;7040000;52.41166;13.40863;Priorität 2 oder 3
-08G22;Schule am Regenweiher (Grundschule);Johannisthaler Chaussee 328;12351;Grundschule;fa-building-o;orange;5490000;52.42985;13.45178;Priorität 2 oder 3
-09A05;Treptow-Kolleg;Kiefholzstr. 274;12437;Volkshochschul-Kolleg;fa-building-o;blue;4170000;52.46818;13.48463;unbekannte Priorität
-09S06;6. Schule;Köpenicker Landstr. 185A;12437;Grundschule;fa-building-o;blue;3240000;52.473436;13.48707;unbekannte Priorität
-08G26;Christoph-Ruden-Schule (Grundschule);An den Achterhöfen 13;12349;Grundschule;fa-building-o;orange;6530000;52.421067;13.435095;Priorität 2 oder 3
-07K05;Solling-Schule;Alt-Marienfelde 52;12277;Integrierte Sekundarschule;fa-building-o;red;13740000;52.41397;13.36527;Höchste Priorität
-11Y10;Manfred-von-Ardenne-Gymnasium;Werneuchener Str. 27-28;13055;Gymnasium;fa-building-o;red;10660000;52.54188;13.49242;Priorität 2 oder 3
-04G09;Erwin-von-Witzleben-Grundschule;Halemweg 34;13627;Grundschule;fa-building-o;blue;2840000;52.53967;13.2873;unbekannte Priorität
-04G23;Alt-Schmargendorf-Grundschule;Reichenhaller Str. 8;14199;Grundschule;fa-building-o;red;10810000;52.477085;13.293432;Höchste Priorität
-11G05;Grundschule auf dem lichten Berg;Atzpodienstr. 19;10365;Grundschule;fa-building-o;blue;2080000;52.51686;13.49421;unbekannte Priorität
-11K10;Grüner Campus Malchow (Gemeinschaftsschule);Malchower Chaussee 2;13051;Integrierte Sekundarschule;fa-building-o;red;11830000;52.569831;13.479469;Priorität 2 oder 3
-06G27;Grundschule am Königsgraben;Gallwitzallee 136-144;12249;Grundschule;fa-building-o;blue;4380000;52.42303;13.34815;unbekannte Priorität
-07G28;Kiepert-Grundschule;Prechtlstr. 21-23;12277;Grundschule;fa-building-o;orange;9350000;52.41591;13.37327;Priorität 2 oder 3
-07S03;Steinwald-Schule;Hanielweg 7-9;12277;"Förderschwerp.""Geistige Entwicklung""";fa-building-o;green;0;52.41783;13.36458;unbekannte Priorität
-11G19;Obersee-Grundschule;Roedernstr. 69-72;13053;Grundschule;fa-building-o;green;0;52.543711;13.488079;unbekannte Priorität
-08S07;Schule am Bienwaldring;Breitunger Weg 1;12349;"Förderschwerp.""Geistige Entwicklung""";fa-building-o;orange;6840000;52.42178;13.42537;Priorität 2 oder 3
-03G35;Platanengrundschule;Hauptstr. 20;13159;Grundschule;fa-building-o;blue;1350000;52.618258;13.389549;unbekannte Priorität
-08G29;Wetzlar-Schule (Grundschule);Tischlerzeile 34;12351;Grundschule;fa-building-o;orange;5070000;52.43092;13.44294;Priorität 2 oder 3
-11Y11;Immanuel-Kant-Gymnasium;Lückstr. 63;10317;Gymnasium;fa-building-o;orange;7240000;52.501956;13.489635;Priorität 2 oder 3
-09G03;Schule am Heidekampgraben (Grundschule);Hänselstr. 14;12437;Grundschule;fa-building-o;blue;1900000;52.46872;13.47837;unbekannte Priorität
-04K08;Peter-Ustinov-Schule;Kuno-Fischer-Str. 22-26;14057;Integrierte Sekundarschule;fa-building-o;blue;2530000;52.505241;13.290548;unbekannte Priorität
-08S09;Schule an der Windmühle;Buckower Damm 176;12349;Integrierte Sekundarschule;fa-building-o;blue;2530000;52.42741;13.43451;unbekannte Priorität
-04K07;Integrierte Sekundarschule Wilmersdorf;Kranzer Str. 3;14199;Integrierte Sekundarschule;fa-building-o;orange;8520000;52.482808;13.296098;Priorität 2 oder 3
-08G30;Schule am Sandsteinweg (Grundschule);Hornblendeweg 2;12349;Grundschule;fa-building-o;orange;7650000;52.41829;13.40469;Priorität 2 oder 3
-06G16;Rothenburg-Grundschule;Rothenburgstr. 18;12165;Grundschule;fa-building-o;blue;30000;52.45398;13.31302;unbekannte Priorität
-06Y09;Fichtenberg-Oberschule;Rothenburgstr. 18;12165;Gymnasium;fa-building-o;green;0;52.45398;13.31302;unbekannte Priorität
-06G31;Grundschule an der Bäke;Haydnstr. 15;12203;Grundschule;fa-building-o;orange;8200000;52.447783;13.318838;Höchste Priorität
-11K04;Gutenberg-Schule;Sandinostr. 10;13055;Integrierte Sekundarschule;fa-building-o;orange;6250000;52.53573;13.48743;Priorität 2 oder 3
-06K04;Bröndby-Schule (Integrierte Sekundarschule);Dessauerstr. 63;12249;Integrierte Sekundarschule;fa-building-o;red;15120000;52.428237;13.345888;Höchste Priorität
-03G21;Grundschule unter den Bäumen;Alt-Blankenburg 26;13129;Grundschule;fa-building-o;blue;2940000;52.592262;13.454422;unbekannte Priorität
-06G21;Paul-Schneider-Grundschule;Seydlitzstr. 30-34;12249;Grundschule;fa-building-o;orange;5380000;52.431002;13.341243;Priorität 2 oder 3
-12G30;Reineke-Fuchs-Grundschule;Foxweg 15;13403;Grundschule;fa-building-o;orange;6200000;52.574;13.30985;Priorität 2 oder 3
-03G33;Jeanne-Barez-Schule (Grundschule);Hauptstr. 66;13127;Grundschule;fa-building-o;blue;1940000;52.60417;13.43415;unbekannte Priorität
-12S04;Schule am Park;Eichborndamm 276-284;13437;"Förderschwerp.""Geistige Entwicklung""";fa-building-o;blue;4700000;52.594285;13.330313;unbekannte Priorität
-03G40;Schule am Birkenhof;Arnouxstr. 18;13127;Grundschule;fa-building-o;blue;1640000;52.60791;13.42388;unbekannte Priorität
-06S05;J.-A.-Zeune-Schule für Blinde und Berufsfachschule Dr. Silex;Rothenburgstr. 14;12165;Berufsschule mit sonderpäd. Aufgaben;fa-building-o;orange;6230000;52.455569;13.315047;Höchste Priorität
-06Y06;Beethoven-Oberschule;Barbarastr. 9;12249;Gymnasium;fa-building-o;red;14610000;52.43293;13.34283;Höchste Priorität
-08G35;Schule in der Köllnischen Heide (Grundschule);Hänselstr. 6;12057;Grundschule;fa-building-o;orange;6650000;52.4666;13.4721;Höchste Priorität
-11G07;Hermann-Gmeiner-Grundschule;Harnackstr. 17;10365;Grundschule;fa-building-o;green;0;52.5101;13.48594;unbekannte Priorität
-08G13;Bruno-Taut-Schule (Grundschule);Bruno-Taut-Ring 9C;12359;Grundschule;fa-building-o;blue;4530000;52.44095;13.44886;unbekannte Priorität
-04G13;Nehring-Grundschule;Nehringstr. 9-10;14059;Grundschule;fa-building-o;red;12330000;52.514893;13.293865;Priorität 2 oder 3
-12K12;Campus Hannah Höch (Gemeinschaftsschule);Finsterwalder Str. 52-56;13435;Integrierte Sekundarschule;fa-building-o;red;11180000;52.60028;13.34229;Priorität 2 oder 3
-11G18;Grundschule am Wilhelmsberg;Sandinostr. 8;13055;Grundschule;fa-building-o;blue;4770000;52.537206;13.483664;unbekannte Priorität
-04G21;Halensee-Grundschule;Joachim-Friedrich-Str. 35-36;10711;Grundschule;fa-building-o;orange;6620000;52.49993;13.2961;Priorität 2 oder 3
-04G02;Lietzensee-Grundschule;Witzlebenstr. 34;14057;Grundschule;fa-building-o;blue;4350000;52.5094;13.29502;unbekannte Priorität
-03G20;Grundschule im Moselviertel;Brodenbacher Weg 31;13088;Grundschule;fa-building-o;blue;2930000;52.559028;13.475454;unbekannte Priorität
-09K07;Sophie-Brahe-Schule (Gemeinschaftsschule);Am Plänterwald 17-23;12435;Integrierte Sekundarschule;fa-building-o;orange;5940000;52.48171;13.47804;Priorität 2 oder 3
-12K02;Bettina-von-Arnim-Schule;Senftenberger Ring 49;13435;Integrierte Sekundarschule;fa-building-o;red;18520000;52.60511;13.35859;Höchste Priorität
-06Y07;Paulsen-Gymnasium;Gritznerstr. 57;12163;Gymnasium;fa-building-o;orange;9530000;52.46219;13.314388;Höchste Priorität
-11G03;Grundschule im Gutspark;Josef-Orlopp-Str. 20;10367;Grundschule;fa-building-o;blue;1580000;52.52237;13.48307;unbekannte Priorität
-12K03;Max-Beckmann-Schule (Integrierte Sekundarschule);Auguste-Viktoria-Allee 37;13403;Integrierte Sekundarschule;fa-building-o;orange;9370000;52.57153;13.31463;Priorität 2 oder 3
-11G02;Grundschule am Roederplatz;Bernhard-Bästlein-Str. 22;10367;Grundschule;fa-building-o;blue;4900000;52.52899;13.48214;unbekannte Priorität
-12G33;Lauterbach-Grundschule;Senftenberger Ring 41;13435;Grundschule;fa-building-o;orange;9550000;52.603879;13.359443;Priorität 2 oder 3
-12S03;Lauterbach-Schule;Senftenberger Ring 41;13435;Übrige Förderschwerpunkte;fa-building-o;blue;750000;52.603879;13.359443;unbekannte Priorität
-08S08;Schilling-Schule;Paster-Behrens-Str. 81;12359;Übrige Förderschwerpunkte;fa-building-o;red;11040000;52.442637;13.444198;Priorität 2 oder 3
-03G44;Georg-Zacharias-Grundschule;Sulzfelder Str. 15;13088;Grundschule;fa-building-o;blue;1800000;52.55219;13.47502;unbekannte Priorität
-04K06;Schule am Schloss (Integrierte Sekundarschule);Schloßstr. 55A;14059;Integrierte Sekundarschule;fa-building-o;red;12530000;52.5161;13.29812;Priorität 2 oder 3
-11G16;Schule an der Victoriastadt;Nöldnerstr. 44;10317;Grundschule;fa-building-o;blue;2450000;52.50159;13.48054;unbekannte Priorität
-04G11;Helmuth-James-von-Moltke-Grundschule;Heckerdamm 221;13627;Grundschule;fa-building-o;blue;4440000;52.53903;13.30104;unbekannte Priorität
-12G10;Peter-Witte-Grundschule;Rathauspromenade 75;13437;Grundschule;fa-building-o;orange;6200000;52.5863;13.33039;Priorität 2 oder 3
-11K02;Mildred-Harnack-Schule;Schulze-Boysen-Str. 12;10365;Integrierte Sekundarschule;fa-building-o;orange;8280000;52.511321;13.481213;Priorität 2 oder 3
-04G12;Schinkel-Grundschule;Nithackstr. 8;10585;Grundschule;fa-building-o;orange;7530000;52.51782;13.29876;Priorität 2 oder 3
-11S06;Selma-Lagerlöf-Schule;Bernhard-Bästlein-Str. 56;10367;Übrige Förderschwerpunkte;fa-building-o;orange;5480000;52.53183;13.47998;Priorität 2 oder 3
-12K07;Jean-Krämer-Schule (Integrierte Sekundarschule) Wittenau;Alt-Wittenau 8-12;13437;Integrierte Sekundarschule;fa-building-o;red;10670000;52.58995;13.33545;Priorität 2 oder 3
-12G27;Chamisso-Grundschule;Senftenberger Ring 27;13435;Grundschule;fa-building-o;orange;5810000;52.60169;13.35807;Priorität 2 oder 3
-11K06;Schule am Rathaus;Rathausstr. 8;10367;Integrierte Sekundarschule;fa-building-o;blue;3250000;52.515892;13.48038;unbekannte Priorität
-12Y08;Thomas-Mann-Gymnasium;Königshorster Str. 10;13439;Gymnasium;fa-building-o;red;16100000;52.59848;13.35224;Höchste Priorität
-08K12;Kepler-Schule;Zwillingestr. 21;12057;Integrierte Sekundarschule;fa-building-o;blue;4950000;52.46737;13.46477;unbekannte Priorität
-04G19;Grundschule am Rüdesheimer Platz;Rüdesheimer Str. 24-30;14197;Grundschule;fa-building-o;orange;7900000;52.47113;13.31312;Priorität 2 oder 3
-02G11;Thalia-Grundschule;Alt-Stralau 34;10245;Grundschule;fa-building-o;blue;650000;52.492881;13.476151;unbekannte Priorität
-08G20;Sonnen-Schule (Grundschule);Dammweg 228;12057;Grundschule;fa-building-o;blue;4060000;52.47197;13.46714;unbekannte Priorität
-04K05;Paula-Fürst-Schule (Gemeinschaftsschule);Sybelstr. 20-21;10629;Integrierte Sekundarschule;fa-building-o;orange;5350000;52.50227;13.30194;Priorität 2 oder 3
-06G20;Alt-Lankwitzer Grundschule;Schulstr. 17-21;12247;Grundschule;fa-building-o;blue;4600000;52.437023;13.351096;unbekannte Priorität
-06S03;Peter-Frankenfeld-Schule;Wedellstr. 26;12247;"Förderschwerp.""Geistige Entwicklung""";fa-building-o;blue;2100000;52.43515;13.35522;unbekannte Priorität
-06G28;Ludwig-Bechstein-Grundschule;Halbauer Weg 25;12249;Grundschule;fa-building-o;orange;5790000;52.43255;13.36236;Priorität 2 oder 3
-06G15;Dunant-Grundschule;Gritznerstr. 19-23;12163;Grundschule;fa-building-o;orange;5880000;52.46486;13.31818;Höchste Priorität
-08Y03;Albert-Einstein-Gymnasium;Parchimer Allee 109;12359;Gymnasium;fa-building-o;red;15780000;52.44553;13.44245;Priorität 2 oder 3
-04Y04;Gottfried-Keller-Gymnasium;Olbersstr. 38;10589;Gymnasium;fa-building-o;red;13390000;52.52888;13.3022;Priorität 2 oder 3
-04K09;Otto-von-Guericke-Schule (Integrierte Sekundarschule);Eisenzahnstr. 47-48;10709;Integrierte Sekundarschule;fa-building-o;red;11540000;52.49276;13.30516;Priorität 2 oder 3
-06Y13;Gymnasium Steglitz;Heesestr. 15;12169;Gymnasium;fa-building-o;orange;6690000;52.45671;13.32644;Höchste Priorität
-11S02;Schule am Fennpfuhl;Alfred-Jung-Str. 19;10369;"Förderschwerp.""Lernen""";fa-building-o;blue;4400000;52.52392;13.4769;unbekannte Priorität
-06K03;Kopernikus-Schule (Integrierte Sekundarschule);Lepsiusstr. 24-28;12163;Integrierte Sekundarschule;fa-building-o;orange;7190000;52.4643;13.32069;Höchste Priorität
-08K06;Fritz-Karsen-Schule (Gemeinschaftsschule);Onkel-Bräsig-Str. 76-78;12359;Integrierte Sekundarschule;fa-building-o;red;18380000;52.44865;13.44389;Priorität 2 oder 3
-04G08;Mierendorff-Grundschule;Mierendorffstr. 20-24;10589;Grundschule;fa-building-o;orange;9500000;52.523791;13.303338;Priorität 2 oder 3
-04G20;Katharina-Heinroth-Grundschule;Münstersche Str. 15-17;10709;Grundschule;fa-building-o;orange;8720000;52.494;13.30619;Priorität 2 oder 3
-12G11;Ringelnatz-Grundschule;Wilhelm-Gericke-Str. 7;13437;Grundschule;fa-building-o;blue;3840000;52.5861;13.33753;unbekannte Priorität
-12G09;Grundschule an der Peckwisch;Tornower Weg 26-34;13439;Grundschule;fa-building-o;blue;4640000;52.59299;13.34869;unbekannte Priorität
-12G29;Hermann-Schulz-Grundschule;Kienhorststr. 67-79;13403;Grundschule;fa-building-o;orange;7060000;52.57359;13.32554;Priorität 2 oder 3
-06Y08;Hermann-Ehlers-Oberschule;Elisenstr. 3-4;12169;Gymnasium;fa-building-o;red;10150000;52.45297;13.33373;Höchste Priorität
-12G32;Charlie-Chaplin-Grundschule;Wilhelmsruher Damm 90-94;13439;Grundschule;fa-building-o;blue;2840000;52.59744;13.36465;unbekannte Priorität
-06K10;Helene-Lange-Schule (Integrierte Sekundarschule);Lauenburger Str. 110;12169;Integrierte Sekundarschule;fa-building-o;orange;7550000;52.4528;13.33586;Priorität 2 oder 3
-11S12;Nils-Holgersson-Schule;Otto-Marquardt-Str. 12-14;10369;"Förderschwerp.""Geistige Entwicklung""";fa-building-o;green;0;52.53405;13.47214;unbekannte Priorität
-12G26;Märkische Grundschule;Dannenwalder Weg 163-165;13439;Grundschule;fa-building-o;blue;4850000;52.5952;13.36016;unbekannte Priorität
-07G37;Ikarus-Grundschule;Körtingstr. 45;12107;Grundschule;fa-building-o;orange;6900000;52.43363;13.38389;Priorität 2 oder 3
-08K03;Otto-Hahn-Schule;Buschkrugallee 63;12359;Integrierte Sekundarschule;fa-building-o;blue;3240000;52.45809;13.449;unbekannte Priorität
-11S07;Carl-von-Linné-Schule;Paul-Junius-Str. 15;10367;Berufsschule mit sonderpäd. Aufgaben;fa-building-o;blue;1280000;52.5217;13.47301;unbekannte Priorität
-04S02;Arno-Fuchs-Schule;Richard-Wagner-Str. 30;10585;"Förderschwerp.""Geistige Entwicklung""";fa-building-o;blue;3840000;52.51489;13.30717;unbekannte Priorität
-07G17;Stechlinsee-Grundschule;Rheingaustr. 7;12161;Grundschule;fa-building-o;blue;2800000;52.46934;13.32242;unbekannte Priorität
-06G32;Grundschule am Stadtpark Steglitz;Karl-Stieler-Str. 10-11;12167;Grundschule;fa-building-o;blue;2760000;52.449314;13.34298;unbekannte Priorität
-08K11;Alfred-Nobel-Schule;Britzer Damm 164;12347;Integrierte Sekundarschule;fa-building-o;blue;2190000;52.448;13.43469;unbekannte Priorität
-07Y03;Rheingau-Gymnasium;Schwalbacher Str. 3-4;12161;Gymnasium;fa-building-o;red;10360000;52.470206;13.322611;Priorität 2 oder 3
-02G08;Grundschule am Traveplatz;Jessnerstr. 24-32;10247;Grundschule;fa-building-o;blue;3040000;52.511492;13.471855;unbekannte Priorität
-12G07;Mark-Twain-Grundschule;Auguste-Viktoria-Allee 95;13403;Grundschule;fa-building-o;blue;4890000;52.56864;13.3264;unbekannte Priorität
-07Y04;Paul-Natorp-Gymnasium;Goßlerstr. 13-15;12161;Gymnasium;fa-building-o;green;0;52.46939;13.32431;unbekannte Priorität
-02G04;Pettenkofer-Grundschule;Pettenkoferstr. 20-24;10247;Grundschule;fa-building-o;orange;5070000;52.518656;13.471;Priorität 2 oder 3
-04S06;Finkenkrug-Schule;Mannheimer Str. 21-22;10713;"Förderschwerp.""Geistige Entwicklung""";fa-building-o;blue;1780000;52.48448;13.31606;unbekannte Priorität
-07G16;Ruppin-Grundschule;Offenbacher Str. 5A;14197;Grundschule;fa-building-o;red;12860000;52.47538;13.32137;Höchste Priorität
-04Y03;Sophie-Charlotte-Gymnasium;Sybelstr. 2;10629;Gymnasium;fa-building-o;orange;7210000;52.5023;13.31237;Priorität 2 oder 3
-08G19;Herman-Nohl-Schule (Grundschule);Hannemannstr. 69;12347;Grundschule;fa-building-o;blue;1960000;52.455159;13.43894;unbekannte Priorität
-08S03;Herman-Nohl-Schule;Hannemannstr. 69;12347;"Förderschwerp.""Lernen""";fa-building-o;green;0;52.455159;13.43894;unbekannte Priorität
-07G27;Rudolf-Hildebrand-Grundschule;Friedenstr. 23-25;12107;Grundschule;fa-building-o;orange;8980000;52.43886;13.3855;Priorität 2 oder 3
-02G34;34. Schule (Grundschule);Scharnweberstr. 19;10247;Grundschule;fa-building-o;blue;270000;52.51279;13.46783;unbekannte Priorität
-11G01;Sonnenuhr-Grundschule;Franz-Jacob-Str. 33;10369;Grundschule;fa-building-o;blue;3670000;52.52933;13.46695;unbekannte Priorität
-11Y02;Johann-Gottfried-Herder-Gymnasium;Franz-Jacob-Str. 8;10369;Gymnasium;fa-building-o;blue;1480000;52.52671;13.467245;unbekannte Priorität
-06G14;Sachsenwald-Grundschule;Sachsenwaldstr. 20-21;12157;Grundschule;fa-building-o;blue;3490000;52.46151;13.3354;unbekannte Priorität
-04Y07;Friedrich-Ebert-Gymnasium;Blissestr. 22;10713;Gymnasium;fa-building-o;orange;8430000;52.484621;13.319289;Höchste Priorität
-03G43;Grundschule Wilhelmsruh;Lessingstr. 44;13158;Grundschule;fa-building-o;blue;2100000;52.5903;13.36421;unbekannte Priorität
-04G01;Eichendorff-Grundschule;Goethestr. 19;10625;Grundschule;fa-building-o;blue;4660000;52.50921;13.31305;Priorität 2 oder 3
-04S07;Comenius-Schule;Gieselerstr. 4;10713;Grundschule;fa-building-o;red;11020000;52.48869;13.3181;Priorität 2 oder 3
-03G17;Grundschule am Weißen See;Amalienstr. 6;13086;Grundschule;fa-building-o;orange;8790000;52.555294;13.457004;Höchste Priorität
-04G26;Birger-Forell-Grundschule;Koblenzer Str. 22-24;10715;Grundschule;fa-building-o;orange;5660000;52.480726;13.321893;Priorität 2 oder 3
-08G24;Schule am Teltowkanal (Grundschule);Rungiusstr. 46;12347;Grundschule;fa-building-o;blue;3370000;52.45925;13.44063;unbekannte Priorität
-03G28;Grundschule im Hasengrund;Charlottenstr. 19;13156;Grundschule;fa-building-o;green;0;52.59089;13.410577;unbekannte Priorität
-06G17;Grundschule am Insulaner;Hanstedter Weg 11-15;12169;Grundschule;fa-building-o;blue;4430000;52.45185;13.34956;unbekannte Priorität
-03G18;Picasso-Grundschule;Gounodstr. 71;13088;Grundschule;fa-building-o;blue;3460000;52.547032;13.460359;unbekannte Priorität
-02G09;Zille-Grundschule;Boxhagener Str. 46;10245;Grundschule;fa-building-o;blue;1180000;52.50898;13.4653;unbekannte Priorität
-03G13;Rudolf-Dörrier-Grundschule;Kastanienallee 59;13158;Grundschule;fa-building-o;blue;4910000;52.59125;13.37612;unbekannte Priorität
-07G31;Carl-Sonnenschein-Grundschule;Am Hellespont 4-6;12109;Grundschule;fa-building-o;blue;710000;52.443699;13.408152;unbekannte Priorität
-07G15;Fläming-Grundschule;Illstr. 4-6;12161;Grundschule;fa-building-o;orange;7250000;52.46839;13.3329;Höchste Priorität
-04Y10;Marie-Curie-Gymnasium;Weimarische Str. 21;10715;Gymnasium;fa-building-o;orange;5050000;52.480119;13.324748;Priorität 2 oder 3
-04G07;Ludwig-Cauer-Grundschule;Cauerstr. 36-38;10587;Grundschule;fa-building-o;orange;6920000;52.515043;13.315123;Priorität 2 oder 3
-04K03;Robert-Jungk-Schule;Sächsische Str. 58;10707;Integrierte Sekundarschule;fa-building-o;blue;3200000;52.49448;13.31872;unbekannte Priorität
-07K07;Johanna-Eck-Schule (Integrierte Sekundarschule);Ringstr. 103-106;12105;Integrierte Sekundarschule;fa-building-o;red;13340000;52.44692;13.36411;Höchste Priorität
-04G17;Johann-Peter-Hebel-Grundschule;Emser Str. 50;10719;Grundschule;fa-building-o;orange;5890000;52.49541;13.31942;Priorität 2 oder 3
-08G36;Löwenzahn-Schule (Grundschule);Drorystr. 3;12055;Grundschule;fa-building-o;blue;4860000;52.472499;13.448771;unbekannte Priorität
-12G04;Till-Eulenspiegel-Grundschule;Humboldtstr. 8-13;13407;Grundschule;fa-building-o;orange;5530000;52.5732;13.3423;Priorität 2 oder 3
-01K04;Heinrich-von-Stephan-Schule (Gemeinschaftsschule);Neues Ufer 6;10553;Integrierte Sekundarschule;fa-building-o;orange;6980000;52.524775;13.316714;Priorität 2 oder 3
-04Y11;Goethe-Gymnasium;Gasteiner Str. 23;10717;Gymnasium;fa-building-o;orange;7130000;52.48759;13.3225;Priorität 2 oder 3
-08G23;Zürich-Schule (Grundschule);Wederstr. 49;12347;Grundschule;fa-building-o;blue;1900000;52.462585;13.439533;unbekannte Priorität
-08S01;Adolf-Reichwein-Schule;Sonnenallee 188;12059;"Förderschwerp.""Lernen""";fa-building-o;orange;5350000;52.475733;13.450826;Priorität 2 oder 3
-02Y03;Heinrich-Hertz-Oberschule;Rigaer Str. 81-82;10247;Gymnasium;fa-building-o;orange;7780000;52.51695;13.46306;Höchste Priorität
-09G30;Kiefholz-Grundschule;Kiefholzstr. 45;12435;Grundschule;fa-building-o;blue;950000;52.48626;13.45609;unbekannte Priorität
-07Y07;Eckener-Gymnasium;Kaiserstr. 17-21;12105;Gymnasium;fa-building-o;orange;9540000;52.4451;13.38052;Höchste Priorität
-03Y14;Primo-Levi-Gymnasium;Pistoriusstr. 133;13086;Gymnasium;fa-building-o;red;19850000;52.5516;13.45369;Höchste Priorität
-08G18;Eduard-Mörike-Schule (Grundschule);Stuttgarter Str. 35-39;12059;Grundschule;fa-building-o;orange;7930000;52.477969;13.450143;Priorität 2 oder 3
-03G36;Elisabeth-Christinen-Grundschule;Lindenberger Str. 12;13156;Grundschule;fa-building-o;orange;7650000;52.58294;13.41741;Höchste Priorität
-04G04;Joan-Miró-Grundschule;Bleibtreustr. 43;10623;Grundschule;fa-building-o;orange;8030000;52.50357;13.32014;Priorität 2 oder 3
-02G10;Modersohn-Grundschule;Niemannstr. 3;10245;Grundschule;fa-building-o;blue;510000;52.50705;13.46024;unbekannte Priorität
-03K08;Hagenbeck-Schule;Gustav-Adolf-Str. 60;13086;Integrierte Sekundarschule;fa-building-o;orange;5080000;52.55879;13.44729;Priorität 2 oder 3
-03G38;Grundschule im Blumenviertel;Syringenplatz 30;10407;Grundschule;fa-building-o;blue;3720000;52.535141;13.458074;unbekannte Priorität
-03K03;Konrad-Duden-Schule (Integrierte Sekundarschule);Rolandstr. 35;13156;Integrierte Sekundarschule;fa-building-o;blue;1880000;52.58183;13.41744;unbekannte Priorität
-08G03;Hans-Fallada-Schule (Grundschule);Harzer Str. 73;12059;Grundschule;fa-building-o;orange;7860000;52.483564;13.451851;Priorität 2 oder 3
-08S06;Hans-Fallada-Schule;Harzer Str. 73-74;12059;"Förderschwerp.""Lernen""";fa-building-o;green;0;52.483564;13.451851;unbekannte Priorität
-07G25;Ludwig-Heck-Grundschule;Königstr. 32;12105;Grundschule;fa-building-o;orange;7430000;52.447125;13.383928;Priorität 2 oder 3
-07K10;Friedrich-Bergius-Schule;Perelsplatz 6-9;12159;Integrierte Sekundarschule;fa-building-o;orange;8750000;52.47618;13.33314;Höchste Priorität
-04K02;Friedensburg-Schule;Goethestr. 8-9;10623;Integrierte Sekundarschule;fa-building-o;red;12860000;52.50908;13.32082;Priorität 2 oder 3
-08G17;Richard-Schule (Grundschule);Richardplatz 14;12055;Grundschule;fa-building-o;blue;3070000;52.47359;13.44439;unbekannte Priorität
-07G23;Schätzelberg-Grundschule;Wolfsburger Weg 13-19;12109;Grundschule;fa-building-o;orange;5840000;52.4487;13.40066;Höchste Priorität
-02K06;Emanuel-Lasker-Schule;Modersohnstr. 53;10245;Integrierte Sekundarschule;fa-building-o;blue;2220000;52.50277;13.45729;unbekannte Priorität
-04Y01;Schiller-Gymnasium;Schillerstr. 125-127;10625;Gymnasium;fa-building-o;red;11340000;52.50993;13.321596;Höchste Priorität
-08Y01;Albrecht-Dürer-Gymnasium;Emser Str. 132-137;12051;Gymnasium;fa-building-o;blue;1830000;52.46947;13.43907;unbekannte Priorität
-01G40;Möwensee-Grundschule;Afrikanische Str. 123-125;13351;Grundschule;fa-building-o;orange;6620000;52.55575;13.33375;Höchste Priorität
-03Y15;Max-Delbrück-Gymnasium;Kuckhoffstr. 2-22;13156;Gymnasium;fa-building-o;orange;8200000;52.583884;13.402118;Höchste Priorität
-02G03;Justus-von-Liebig-Grundschule;Liebigstr. 18A;10247;Grundschule;fa-building-o;orange;5430000;52.518699;13.457697;Priorität 2 oder 3
-03S08;Panke-Schule;Galenusstr. 64;13187;"Förderschwerp.""Geistige Entwicklung""";fa-building-o;green;0;52.57877;13.41699;unbekannte Priorität
-03G22;Grundschule am Wasserturm;Tino-Schwierzina-Str. 66;13089;Grundschule;fa-building-o;green;0;52.56546;13.43664;unbekannte Priorität
-08G21;Silberstein-Schule (Grundschule);Silbersteinstr. 42;12051;Grundschule;fa-building-o;blue;3110000;52.466965;13.434906;unbekannte Priorität
-03G47;Schule an der Strauchwiese;Mendelstr. 54;13187;Grundschule;fa-building-o;green;0;52.57805;13.41782;unbekannte Priorität
-03S09;Schule an der Strauchwiese;Mendelstr. 54;13187;Übrige Förderschwerpunkte;fa-building-o;blue;200000;52.57805;13.41782;unbekannte Priorität
-09G01;Bouché-Schule (Grundschule);Bouchestr. 5-10;12435;Grundschule;fa-building-o;blue;3820000;52.49327;13.45252;unbekannte Priorität
-04G25;Cecilien-Schule (Grundschule);Nikolsburger Platz 5;10717;Grundschule;fa-building-o;orange;6060000;52.49331;13.32769;Priorität 2 oder 3
-04G18;Ernst-Habermann-Grundschule;Prinzregentenstr. 33-34;10715;Grundschule;fa-building-o;blue;1720000;52.48328;13.33269;unbekannte Priorität
-12K04;Paul-Löbe-Schule;Lindauer Allee 23-25;13407;Integrierte Sekundarschule;fa-building-o;red;10650000;52.57316;13.35461;Priorität 2 oder 3
-08G15;Hermann-Sander-Schule (Grundschule);Mariendorfer Weg 69;12051;Grundschule;fa-building-o;orange;7130000;52.46416;13.43005;Priorität 2 oder 3
-07K12;Friedenauer Gemeinschaftsschule;Rubensstr. 63;12157;Integrierte Sekundarschule;fa-building-o;green;0;52.469784;13.344068;unbekannte Priorität
-08K09;Röntgen-Schule;Wildenbruchstr. 53;12435;Integrierte Sekundarschule;fa-building-o;orange;8350000;52.488886;13.449558;Priorität 2 oder 3
-02Y04;Georg-Friedrich-Händel-Gymnasium;Frankfurter Allee 6A;10247;Gymnasium;fa-building-o;blue;2080000;52.515331;13.455796;unbekannte Priorität
-07S01;Prignitz-Schule;Pöppelmannstr. 2;12157;"Förderschwerp.""Lernen""";fa-building-o;orange;7540000;52.46884;13.34519;Priorität 2 oder 3
-02G02;Hausburg-Grundschule;Hausburgstr. 20;10249;Grundschule;fa-building-o;orange;6600000;52.524208;13.454324;Höchste Priorität
-07G07;Lindenhof-Grundschule;Reglinstr. 29;12105;Grundschule;fa-building-o;blue;3200000;52.45809;13.36325;unbekannte Priorität
-07G22;Paul-Klee-Grundschule;Konradinstr. 15-17;12105;Grundschule;fa-building-o;orange;8260000;52.454;13.37538;Höchste Priorität
-08G12;Peter-Petersen-Schule (Grundschule);Jonasstr. 15;12053;Grundschule;fa-building-o;blue;1880000;52.47189;13.43548;unbekannte Priorität
-08G14;Konrad-Agahd-Schule (Grundschule);Thomasstr. 39;12053;Grundschule;fa-building-o;blue;2120000;52.4725;13.43556;unbekannte Priorität
-12G05;Kolumbus-Grundschule;Büchsenweg 23A;13409;Grundschule;fa-building-o;blue;4870000;52.57569;13.36622;unbekannte Priorität
-03K04;Gustave-Eiffel-Schule;Hanns-Eisler-Str. 78-80;10409;Integrierte Sekundarschule;fa-building-o;orange;7020000;52.540662;13.44844;Höchste Priorität
-07G06;Sternberg-Grundschule;Mettestr. 8;10825;Grundschule;fa-building-o;blue;2300000;52.48047;13.33924;unbekannte Priorität
-07Y02;Rückert-Gymnasium;Mettestr. 8;10825;Gymnasium;fa-building-o;red;18070000;52.48047;13.33924;Höchste Priorität
-03G32;Grundschule an den Buchen;Wilhelm-Wolff-Str. 19;13156;Grundschule;fa-building-o;blue;3000000;52.579207;13.394536;unbekannte Priorität
-03G34;Mendel-Grundschule;Stiftsweg 3;13187;Grundschule;fa-building-o;blue;3820000;52.573478;13.416325;unbekannte Priorität
-03K05;Heinz-Brandt-Schule;Langhansstr. 120;13086;Integrierte Sekundarschule;fa-building-o;blue;4720000;52.551192;13.441808;unbekannte Priorität
-12Y01;Friedrich-Engels-Gymnasium;Emmentaler Str. 67;13407;Gymnasium;fa-building-o;red;12690000;52.56959;13.35743;Höchste Priorität
-01Y08;Lessing-Gymnasium;Schöningstr. 17;13349;Gymnasium;fa-building-o;orange;9630000;52.55734;13.34371;Höchste Priorität
-03S07;Schule an der Heide;Hermann-Hesse-Str. 48-52;13156;"Förderschwerp.""Lernen""";fa-building-o;blue;1090000;52.578097;13.394472;unbekannte Priorität
-03G12;Paul-Lincke-Grundschule;Pieskower Weg 39;10409;Grundschule;fa-building-o;blue;1350000;52.54129;13.44553;unbekannte Priorität
-02K07;Georg-Weerth-Schule;Eckertstr. 16;10249;Integrierte Sekundarschule;fa-building-o;blue;4850000;52.518996;13.450401;unbekannte Priorität
-08G05;Elbe-Schule (Grundschule);Elbestr. 11;12045;Grundschule;fa-building-o;green;0;52.48442;13.44062;unbekannte Priorität
-08G09;Regenbogen-Schule (Grundschule);Morusstr. 32;12053;Grundschule;fa-building-o;orange;5360000;52.47578;13.43333;Priorität 2 oder 3
-07S04;Marianne-Cohn-Schule;Holzmannstr. 7;12099;"Förderschwerp.""Geistige Entwicklung""";fa-building-o;orange;5770000;52.46433;13.41815;Höchste Priorität
-03Y17;17. Schule (Gymnasium);Conrad-Blenkle-Str. 34;10407;Gymnasium;fa-building-o;green;0;52.534329;13.447008;unbekannte Priorität
-07G20;Maria-Montessori-Grundschule;Friedrich-Wilhelm-Str. 72-74;12103;Grundschule;fa-building-o;blue;4870000;52.45817;13.38069;unbekannte Priorität
-03G01;Schule am Hamburger Platz (Grundschule);Gustav-Adolf-Str. 21;13086;Grundschule;fa-building-o;blue;3470000;52.55381;13.43681;unbekannte Priorität
-01G18;Carl-Bolle-Grundschule;Waldenserstr. 20-21;10551;Grundschule;fa-building-o;orange;9950000;52.528894;13.331807;Höchste Priorität
-01K08;Schule am Schillerpark (Integrierte Sekundarschule);Ofener Str. 6;13349;Integrierte Sekundarschule;fa-building-o;orange;9960000;52.55628;13.3457;Höchste Priorität
-02S01;Schule am Friedrichshain;Lasdehner Str. 19;10243;Integrierte Sekundarschule;fa-building-o;blue;1190000;52.51449;13.4491;unbekannte Priorität
-02G07;Ludwig-Hoffmann-Grundschule;Lasdehner Str. 21-23;10243;Grundschule;fa-building-o;blue;1710000;52.514357;13.448886;unbekannte Priorität
-02G23;Fichtelgebirge-Grundschule;Görlitzer Ufer 2;10997;Grundschule;fa-building-o;orange;6580000;52.49575;13.44495;Höchste Priorität
-01G47;Miriam-Makeba-Grundschule;Zinzendorfstr. 15-16;10555;Grundschule;fa-building-o;orange;7250000;52.52232;13.331446;Höchste Priorität
-01G42;Anna-Lindh-Schule (Grundschule);Guineastr. 17-18;13351;Grundschule;fa-building-o;red;10860000;52.550375;13.341886;Priorität 2 oder 3
-12Y02;Europäisches Gymnasium Bertha-von-Suttner;Reginhardstr. 172;13409;Gymnasium;fa-building-o;red;10740000;52.57145;13.36873;Priorität 2 oder 3
-08K10;Zuckmayer-Schule;Kopfstr. 55;12053;Integrierte Sekundarschule;fa-building-o;orange;8710000;52.4761;13.43129;Priorität 2 oder 3
-12K05;Gustav-Freytag-Schule (Integrierte Sekundarschule);Breitkopfstr. 66-80;13409;Integrierte Sekundarschule;fa-building-o;orange;7980000;52.56976;13.36575;Höchste Priorität
-07Y06;Askanisches Gymnasium;Kaiserin-Augusta-Str. 19-20;12103;Gymnasium;fa-building-o;red;12850000;52.45992;13.37992;Höchste Priorität
-08Y04;Ernst-Abbe-Gymnasium;Sonnenallee 79;12045;Gymnasium;fa-building-o;blue;680000;52.48349;13.43711;unbekannte Priorität
-03Y10;Rosa-Luxemburg-Gymnasium;Kissingenstr. 12;13189;Gymnasium;fa-building-o;green;0;52.56669;13.41948;unbekannte Priorität
-03K07;Tesla-Schule (Gemeinschaftsschule);Rudi-Arndt-Str. 18;10407;Integrierte Sekundarschule;fa-building-o;orange;9900000;52.529086;13.446061;Höchste Priorität
-03G39;Grundschule Wolkenstein;Neumannstr. 65;13189;Grundschule;fa-building-o;blue;2010000;52.56527;13.42024;unbekannte Priorität
-12G02;Grundschule am Schäfersee;Baseler Str. 2-6;13407;Grundschule;fa-building-o;orange;6650000;52.5622;13.3554;Priorität 2 oder 3
-01A04;Berlin-Kolleg;Turmstr. 75;10551;Berlin-Kolleg;fa-building-o;orange;6710000;52.526574;13.334076;Priorität 2 oder 3
-02Y05;Dathe-Gymnasium;Helsingforser Str. 11-13;10243;Gymnasium;fa-building-o;orange;6000000;52.510001;13.445399;Priorität 2 oder 3
-07G19;Paul-Simmel-Grundschule;Felixstr. 26-58;12099;Grundschule;fa-building-o;orange;7990000;52.46137;13.3926;Höchste Priorität
-03G27;Elizabeth-Shaw-Grundschule;Grunowstr. 17;13187;Grundschule;fa-building-o;blue;3040000;52.56831;13.41044;unbekannte Priorität
-08G07;Hermann-Boddin-Schule (Grundschule);Boddinstr. 55;12053;Grundschule;fa-building-o;orange;7800000;52.480416;13.431252;Priorität 2 oder 3
-12G06;Hausotter-Grundschule;Hausotterplatz 4;13409;Grundschule;fa-building-o;blue;4660000;52.56963;13.375634;unbekannte Priorität
-07G14;Löcknitz-Grundschule;Berchtesgadener Str. 10-11;10779;Grundschule;fa-building-o;blue;3530000;52.489558;13.343356;unbekannte Priorität
-08K08;Gemeinschaftsschule auf dem Campus Rütli;Rütlistr. 41;12045;Integrierte Sekundarschule;fa-building-o;red;13070000;52.487309;13.434226;Priorität 2 oder 3
-03K06;Reinhold-Burger-Schule;Neue Schönholzer Str. 32;13187;Integrierte Sekundarschule;fa-building-o;blue;2010000;52.56838;13.40303;unbekannte Priorität
-03G06;Bötzow-Grundschule;John-Schehr-Str. 38;10407;Grundschule;fa-building-o;blue;1390000;52.535104;13.439793;unbekannte Priorität
-03K02;Kurt-Tucholsky-Schule (Integrierte Sekundarschule);Neumannstr. 9-11;13189;Integrierte Sekundarschule;fa-building-o;blue;3030000;52.55812;13.42333;unbekannte Priorität
-08G06;Karl-Weise-Schule (Grundschule);Weisestr. 20;12049;Grundschule;fa-building-o;blue;3670000;52.476503;13.423961;unbekannte Priorität
-08G01;Rixdorfer Schule;Donaustr. 120;12043;Grundschule;fa-building-o;orange;7150000;52.484904;13.431792;Priorität 2 oder 3
-07K06;Georg-von-Giesche-Schule;Hohenstaufenstr. 47-48;10779;Integrierte Sekundarschule;fa-building-o;orange;9720000;52.494144;13.342529;Höchste Priorität
-03G26;Arnold-Zweig-Grundschule;Wollankstr. 131;13187;Grundschule;fa-building-o;blue;340000;52.56868;13.40012;unbekannte Priorität
-07K13;Schule am Berlinickeplatz (Integrierte Sekundarschule);Alt-Tempelhof 53-57;12103;Integrierte Sekundarschule;fa-building-o;red;10300000;52.465657;13.379583;Priorität 2 oder 3
-07G12;Scharmützelsee-Grundschule;Hohenstaufenstr. 49;10779;Grundschule;fa-building-o;orange;6940000;52.494177;13.343268;Priorität 2 oder 3
-03Y13;Felix-Mendelssohn-Bartholdy-Gymnasium;Eugen-Schönhaar-Str. 18;10407;Gymnasium;fa-building-o;green;0;52.537087;13.437857;unbekannte Priorität
-01G24;Gottfried-Röhl-Grundschule;Ungarnstr. 75;13349;Grundschule;fa-building-o;orange;7110000;52.55719;13.35717;Priorität 2 oder 3
-01K02;Ernst-Schering-Schule;Lütticher Str. 47-48;13353;Integrierte Sekundarschule;fa-building-o;red;11020000;52.54701;13.34782;Priorität 2 oder 3
-07Y05;Luise-Henriette-Gymnasium;Germaniastr. 4-6;12099;Gymnasium;fa-building-o;green;0;52.46546;13.39059;unbekannte Priorität
-07G02;Finow-Grundschule;Welserstr. 16-22;10777;Grundschule;fa-building-o;orange;5750000;52.49823;13.34251;Priorität 2 oder 3
-01Y12;Gymnasium Tiergarten;Altonaer Str. 26;10555;Gymnasium;fa-building-o;blue;280000;52.51935;13.3394;unbekannte Priorität
-03Y08;Carl-von-Ossietzky-Gymnasium;Görschstr. 42-44;13187;Gymnasium;fa-building-o;blue;520000;52.566429;13.40007;unbekannte Priorität
-03G41;Trelleborg-Schule (Grundschule);Eschengraben 40;13189;Grundschule;fa-building-o;orange;5660000;52.556012;13.421818;Priorität 2 oder 3
-12G03;Reginhard-Grundschule;Letteallee 39-41;13409;Grundschule;fa-building-o;blue;2850000;52.563219;13.370292;unbekannte Priorität
-07K09;Gustav-Langenscheidt-Schule;Belziger Str. 43-51;10823;Integrierte Sekundarschule;fa-building-o;red;12540000;52.485997;13.350718;Höchste Priorität
-01G19;Hansa-Grundschule;Lessingstr. 5;10555;Grundschule;fa-building-o;blue;1480000;52.5214;13.34019;unbekannte Priorität
-01S05;Schule in der Charité;Augustenburger Platz 1;13353;Übrige Förderschwerpunkte;fa-building-o;green;0;52.542216;13.347104;unbekannte Priorität
-03K09;Janusz-Korczak-Schule (Integrierte Sekundarschule);Dolomitenstr. 94;13187;Integrierte Sekundarschule;fa-building-o;blue;3820000;52.562908;13.407559;unbekannte Priorität
-02K08;Refik-Veseli-Schule (Integrierte Sekundarschule);Skalitzer Str. 55;10997;Integrierte Sekundarschule;fa-building-o;red;12150000;52.49962;13.43555;Höchste Priorität
-01G36;Andersen-Grundschule;Kattegatstr. 26;13359;Grundschule;fa-building-o;blue;3790000;52.56553;13.38891;unbekannte Priorität
-08Y02;Albert-Schweitzer-Gymnasium;Karl-Marx-Str. 14;12043;Gymnasium;fa-building-o;orange;9830000;52.4852;13.42649;Priorität 2 oder 3
-03G08;Grundschule am Planetarium;Ella-Kay-Str. 47;10405;Grundschule;fa-building-o;orange;5430000;52.54145;13.43118;Priorität 2 oder 3
-08G02;Theodor-Storm-Schule (Grundschule);Hobrechtstr. 76;12043;Grundschule;fa-building-o;orange;5560000;52.486488;13.426763;Priorität 2 oder 3
-08G08;Karlsgarten-Schule (Grundschule);Karlsgartenstr. 7;12049;Grundschule;fa-building-o;orange;8820000;52.482099;13.422505;Priorität 2 oder 3
-07G03;Werbellinsee-Grundschule;Luitpoldstr. 38;10781;Grundschule;fa-building-o;blue;1920000;52.495036;13.348236;unbekannte Priorität
-07G18;Grundschule am Barbarossaplatz;Barbarossaplatz 5;10781;Grundschule;fa-building-o;orange;6020000;52.49235;13.34978;Höchste Priorität
-07G10;Teltow-Grundschule;Feurigstr. 57;10827;Grundschule;fa-building-o;orange;8360000;52.484327;13.356154;Höchste Priorität
-02K01;Ellen-Key-Schule;Rüdersdorfer Str. 20-28;10243;Integrierte Sekundarschule;fa-building-o;orange;6230000;52.5152;13.43689;Priorität 2 oder 3
-03K11;Wilhelm-von-Humboldt-Schule (Gemeinschaftsschule);Erich-Weinert-Str. 70;10439;Integrierte Sekundarschule;fa-building-o;blue;2010000;52.54845;13.42476;unbekannte Priorität
-01G41;Erika-Mann-Grundschule;Utrechter Str. 25-27;13347;Grundschule;fa-building-o;orange;5520000;52.55099;13.35786;Priorität 2 oder 3
-01K09;Hedwig-Dohm-Schule (Integrierte Sekundarschule);Stephanstr. 27;10559;Integrierte Sekundarschule;fa-building-o;orange;6550000;52.53367;13.34651;Priorität 2 oder 3
-03G25;Carl-Humann-Grundschule;Scherenbergstr. 7;10439;Grundschule;fa-building-o;blue;1440000;52.55101;13.42173;unbekannte Priorität
-03G37;Klecks-Grundschule;Brixener Str. 40;13187;Grundschule;fa-building-o;blue;490000;52.55989;13.40756;unbekannte Priorität
-02G01;Spartacus-Grundschule;Friedenstr. 40-45;10249;Grundschule;fa-building-o;blue;830000;52.52106;13.43582;unbekannte Priorität
-02G35;Rosa-Parks-Grundschule;Reichenberger Str. 65;10999;Grundschule;fa-building-o;red;13200000;52.495472;13.43052;Priorität 2 oder 3
-03G05;Homer-Grundschule;Pasteurstr. 10-12;10407;Grundschule;fa-building-o;blue;3780000;52.53371;13.43237;unbekannte Priorität
-03Y04;Heinrich-Schliemann-Gymnasium;Dunckerstr. 64;10439;Gymnasium;fa-building-o;orange;5300000;52.54663;13.42365;Priorität 2 oder 3
-02Y01;Andreas-Oberschule;Koppenstr. 76;10243;Gymnasium;fa-building-o;orange;7280000;52.514039;13.434606;Priorität 2 oder 3
-02S03;Margarethe-von-Witzleben-Schule;Palisadenstr. 76-77;10243;Übrige Förderschwerpunkte;fa-building-o;blue;3840000;52.51984;13.4346;unbekannte Priorität
-01G32;Carl-Kraemer-Grundschule;Zechliner Str. 4;13359;Grundschule;fa-building-o;orange;7760000;52.56107;13.38284;Höchste Priorität
-03Y03;Käthe-Kollwitz-Gymnasium;Dunckerstr. 65-66;10439;Gymnasium;fa-building-o;blue;4700000;52.5458;13.42271;unbekannte Priorität
-03G14;Bornholmer Grundschule;Ibsenstr. 17;10439;Grundschule;fa-building-o;orange;9620000;52.55572;13.40768;Höchste Priorität
-02G29;Heinrich-Zille-Grundschule;Waldemarstr. 118;10997;Grundschule;fa-building-o;blue;4040000;52.500729;13.429182;unbekannte Priorität
-02G36;36. Schule (Grundschule);Andreasstr. 50;10243;Übrige Förderschwerpunkte;fa-building-o;blue;2960000;52.51663;13.43215;unbekannte Priorität
-02G27;Hunsrück-Grundschule;Manteuffelstr. 79;10999;Grundschule;fa-building-o;orange;6650000;52.497732;13.426632;Priorität 2 oder 3
-07K01;Sophie-Scholl-Schule;Elßholzstr. 34-37;10781;Integrierte Sekundarschule;fa-building-o;red;16340000;52.492808;13.356583;Priorität 2 oder 3
-01G29;Wilhelm-Hauff-Grundschule;Gotenburger Str. 8;13359;Grundschule;fa-building-o;blue;1630000;52.557813;13.384347;unbekannte Priorität
-07Y01;Robert-Blum-Gymnasium;Kolonnenstr. 21;10829;Gymnasium;fa-building-o;orange;7560000;52.48483;13.36487;Priorität 2 oder 3
-07G24;Tempelherren-Grundschule;Boelckestr. 58-60;12101;Grundschule;fa-building-o;red;11680000;52.478603;13.37647;Höchste Priorität
-03K01;Kurt-Schwitters-Schule;Greifswalder Str. 25;10405;Integrierte Sekundarschule;fa-building-o;blue;3560000;52.5314;13.42807;unbekannte Priorität
-03G46;Grundschule im Eliashof;Senefelderstr. 6;10437;Grundschule;fa-building-o;blue;1140000;52.540786;13.422734;unbekannte Priorität
-03G04;Grundschule an der Marie;Christburger Str. 7;10405;Grundschule;fa-building-o;blue;3580000;52.536148;13.42559;unbekannte Priorität
-01G28;Brüder-Grimm-Grundschule;Tegeler Str. 18-19;13353;Grundschule;fa-building-o;blue;2880000;52.54146;13.35783;unbekannte Priorität
-01G31;Wedding-Grundschule;Antonstr. 10;13347;Grundschule;fa-building-o;orange;6040000;52.546206;13.362468;Priorität 2 oder 3
-01K10;Theodor-Heuss-Schule (Gemeinschaftsschule);Quitzowstr. 141;10559;Integrierte Sekundarschule;fa-building-o;red;10930000;52.535722;13.354875;Priorität 2 oder 3
-01G45;Leo-Lionni-Grundschule;Müllerstr. 158;13353;Grundschule;fa-building-o;orange;9530000;52.544342;13.361352;Höchste Priorität
-07G01;Spreewald-Grundschule;Pallasstr. 15;10781;Grundschule;fa-building-o;orange;8500000;52.49539;13.35693;Höchste Priorität
-01G11;Kurt-Tucholsky-Grundschule;Rathenower Str. 18;10559;Grundschule;fa-building-o;orange;5810000;52.53026;13.35303;Priorität 2 oder 3
-07G05;Havelland-Grundschule;Kolonnenstr. 30;10829;Grundschule;fa-building-o;blue;2910000;52.484772;13.367681;unbekannte Priorität
-03G09;Thomas-Mann-Grundschule;Greifenhagener Str. 58-59;10437;Grundschule;fa-building-o;blue;1850000;52.54663;13.41479;unbekannte Priorität
-02G18;Nürtingen-Grundschule;Mariannenplatz 28;10997;Grundschule;fa-building-o;red;13480000;52.505469;13.426859;Höchste Priorität
-02Y08;Hermann-Hesse-Oberschule;Böckhstr. 16;10967;Gymnasium;fa-building-o;red;10030000;52.493579;13.419151;Höchste Priorität
-01Y07;Französisches Gymnasium;Derfflingerstr. 7;10785;Gymnasium;fa-building-o;orange;6130000;52.50318;13.35549;Priorität 2 oder 3
-07G21;Grundschule auf dem Tempelhofer Feld;Schulenburgring 7-11;12101;Grundschule;fa-building-o;orange;5380000;52.48081;13.38185;Priorität 2 oder 3
-01G27;Gesundbrunnen-Grundschule;Prinzenallee 8;13357;Grundschule;fa-building-o;orange;5270000;52.55338;13.38292;Priorität 2 oder 3
-02K05;Schule am Königstor (Integrierte Sekundarschule);Weinstr. 3;10249;Integrierte Sekundarschule;fa-building-o;blue;200000;52.525666;13.425987;unbekannte Priorität
-03G45;Grundschule im Hofgarten;Danziger Str. 50;10435;Grundschule;fa-building-o;blue;680000;52.53921;13.41918;unbekannte Priorität
-02K09;Albrecht-von-Graefe-Schule (Integrierte Sekundarschule);Graefestr. 85-88;10967;Integrierte Sekundarschule;fa-building-o;orange;5000000;52.494205;13.418709;Priorität 2 oder 3
-07G13;Neumark-Grundschule;Steinmetzstr. 46-50;10783;Grundschule;fa-building-o;orange;6420000;52.49282;13.36249;Höchste Priorität
-01G43;Albert-Gutzmann-Schule (Grundschule);Orthstr. 1;13357;Grundschule;fa-building-o;orange;7440000;52.549234;13.373261;Priorität 2 oder 3
-01S06;Albert-Gutzmann-Schule;Orthstr. 1;13357;Integrierte Sekundarschule;fa-building-o;green;0;52.549234;13.373261;Höchste Priorität
-03G02;Heinrich-Roller-Grundschule;Heinrich-Roller-Str. 18;10405;Grundschule;fa-building-o;orange;7620000;52.53064;13.42364;Höchste Priorität
-02Y07;Robert-Koch-Gymnasium;Dieffenbachstr. 60;10967;Gymnasium;fa-building-o;orange;6680000;52.49323;13.41596;Priorität 2 oder 3
-01G25;Rudolf-Wissell-Grundschule;Ellerbeker Str. 7-8;13357;Grundschule;fa-building-o;orange;7270000;52.55158;13.39611;Höchste Priorität
-01Y09;Diesterweg-Schule (Gymnasium);Böttgerstr. 2-6;13357;Gymnasium;fa-building-o;blue;1080000;52.550012;13.378338;unbekannte Priorität
-02G26;Lemgo-Grundschule;Böckhstr. 5;10967;Grundschule;fa-building-o;orange;6020000;52.494198;13.416454;Priorität 2 oder 3
-01G15;Anne-Frank-Grundschule;Paulstr. 20B;10557;Grundschule;fa-building-o;blue;2120000;52.51827;13.35527;unbekannte Priorität
-01K01;Willy-Brandt-Schule;Grüntaler Str. 5;13357;Integrierte Sekundarschule;fa-building-o;orange;5280000;52.55101;13.386048;unbekannte Priorität
-03G11;Schule am Falkplatz (Grundschule);Gleimstr. 49;10437;Grundschule;fa-building-o;orange;7880000;52.54749;13.40538;Höchste Priorität
-01G07;GutsMuths-Grundschule;Singerstr. 8;10179;Grundschule;fa-building-o;blue;4250000;52.516365;13.42412;unbekannte Priorität
-01Y11;Max-Planck-Schule (Gymnasium);Singerstr. 8A;10179;Gymnasium;fa-building-o;blue;1560000;52.516365;13.42412;unbekannte Priorität
-01G16;Moabiter Grundschule;Paulstr. 28;10557;Grundschule;fa-building-o;orange;7560000;52.521974;13.35657;Priorität 2 oder 3
-01K06;Herbert-Hoover-Schule (Integrierte Sekundarschule);Pankstr. 18-19;13357;Integrierte Sekundarschule;fa-building-o;blue;820000;52.546324;13.373398;unbekannte Priorität
-01S07;Charlotte-Pfeffer-Schule;Berolinastr. 8;10178;"Förderschwerp.""Geistige Entwicklung""";fa-building-o;green;0;52.52226;13.42328;unbekannte Priorität
-02S02;Gustav-Meyer-Schule;Kohlfurter Str. 22;10999;"Förderschwerp.""Geistige Entwicklung""";fa-building-o;orange;9190000;52.497102;13.416721;Höchste Priorität
-02G22;Jens-Nydahl-Grundschule;Kohlfurter Str. 20;10999;Grundschule;fa-building-o;orange;8080000;52.497294;13.41619;Höchste Priorität
-03G03;Grundschule am Kollwitzplatz;Knaackstr. 67;10435;Grundschule;fa-building-o;blue;1880000;52.53768;13.41489;unbekannte Priorität
-03S03;Helene-Haeusler-Schule;Mendelssohnstr. 10;10405;"Förderschwerp.""Geistige Entwicklung""";fa-building-o;blue;2300000;52.5267;13.42002;unbekannte Priorität
-01S01;Schule am Zille-Park;Ravenéstr. 10-12;13347;Integrierte Sekundarschule;fa-building-o;orange;5420000;52.542859;13.372782;Priorität 2 oder 3
-02K10;Ferdinand-Freiligrath-Schule (Integrierte Sekundarschule);Bergmannstr. 64;10961;Integrierte Sekundarschule;fa-building-o;orange;5920000;52.488798;13.40149;Höchste Priorität
-01G37;Heinrich-Seidel-Grundschule;Ramlerstr. 9-10;13355;Grundschule;fa-building-o;orange;8940000;52.54695;13.39407;Höchste Priorität
-01G44;Allegro-Grundschule;Lützowstr. 83-85;10785;Grundschule;fa-building-o;blue;3900000;52.503571;13.363001;unbekannte Priorität
-02K02;Carl-von-Ossietzky-Schule (Gemeinschaftsschule);Blücherstr. 46;10961;Integrierte Sekundarschule;fa-building-o;orange;6460000;52.491647;13.404491;Höchste Priorität
-02G33;Aziz-Nesin-Grundschule;Urbanstr. 15;10961;Grundschule;fa-building-o;blue;4510000;52.49312;13.40611;unbekannte Priorität
-02Y06;Leibniz-Gymnasium;Schleiermacherstr. 23;10961;Gymnasium;fa-building-o;orange;6880000;52.48978;13.39747;Höchste Priorität
-02G21;Reinhardswald-Grundschule;Gneisenaustr. 73-74;10961;Grundschule;fa-building-o;orange;9380000;52.49059;13.3999;Höchste Priorität
-03S01;Schule am Senefelderplatz;Schönhauser Allee 165;10435;"Förderschwerp.""Lernen""";fa-building-o;blue;3080000;52.53452;13.41187;unbekannte Priorität
-01G35;Humboldthain-Grundschule;Grenzstr. 7;13355;Grundschule;fa-building-o;orange;5150000;52.54323;13.380143;Priorität 2 oder 3
-02G13;Charlotte-Salomon-Grundschule;Großbeerenstr. 40;10965;Grundschule;fa-building-o;blue;4510000;52.49041;13.38183;unbekannte Priorität
-02G31;Adolf-Glaßbrenner-Grundschule;Hagelberger Str. 34;10965;Grundschule;fa-building-o;blue;3570000;52.49085;13.38065;unbekannte Priorität
-02G20;Bürgermeister-Herz-Grundschule;Wilmsstr. 10;10961;Grundschule;fa-building-o;blue;3380000;52.49488;13.40516;unbekannte Priorität
-01G39;Vineta-Grundschule;Demminer Str. 27;13355;Grundschule;fa-building-o;blue;2150000;52.54222;13.3969;unbekannte Priorität
-02K04;Lina-Morgenstern-Schule (Gemeinschaftsschule);Gneisenaustr. 7;10961;Integrierte Sekundarschule;fa-building-o;red;10910000;52.49178;13.38971;Höchste Priorität
-03G16;Grundschule am Teutoburger Platz;Templiner Str. 1-3;10119;Grundschule;fa-building-o;blue;80000;52.533635;13.408651;unbekannte Priorität
-02G16;Lenau-Grundschule;Nostitzstr. 60;10961;Grundschule;fa-building-o;red;11630000;52.49381;13.39154;Höchste Priorität
-01G01;Grundschule am Arkonaplatz;Ruppiner Str. 47-48;10115;Grundschule;fa-building-o;blue;2450000;52.53684;13.40039;unbekannte Priorität
-01K03;Ernst-Reuter-Schule;Stralsunder Str. 57;13355;Integrierte Sekundarschule;fa-building-o;red;16740000;52.538896;13.394373;Höchste Priorität
-01G10;City-Grundschule;Sebastianstr. 57;10179;Grundschule;fa-building-o;blue;90000;52.50737;13.40892;unbekannte Priorität
-01G38;Gustav-Falke-Grundschule;Strelitzer Str. 42;13355;Grundschule;fa-building-o;blue;4260000;52.53795;13.39162;unbekannte Priorität
-02G24;Otto-Wels-Grundschule;Alexandrinenstr. 12;10969;Grundschule;fa-building-o;orange;6240000;52.499923;13.401623;Höchste Priorität
-01Y02;John-Lennon-Gymnasium;Zehdenicker Str. 17;10119;Gymnasium;fa-building-o;blue;4950000;52.530923;13.404105;unbekannte Priorität
-02K03;Hector-Peterson-Schule;Tempelhofer Ufer 15;10963;Integrierte Sekundarschule;fa-building-o;red;10060000;52.49832;13.3841;Priorität 2 oder 3
-02G32;Clara-Grunwald-Grundschule;Hallesche Str. 24;10963;Grundschule;fa-building-o;blue;3580000;52.50077;13.38313;unbekannte Priorität
-02G19;Fanny-Hensel-Grundschule;Schöneberger Str. 23;10963;Grundschule;fa-building-o;blue;2180000;52.50303;13.38014;unbekannte Priorität
-01G02;Papageno-Grundschule;Bergstr. 58;10115;Grundschule;fa-building-o;blue;2080000;52.532833;13.391048;unbekannte Priorität
-01G04;Kastanienbaum-Grundschule;Gipsstr. 23A;10119;Grundschule;fa-building-o;orange;5360000;52.52678;13.4018;Priorität 2 oder 3
-02G14;Galilei-Grundschule;Friedrichstr. 13;10969;Grundschule;fa-building-o;blue;4850000;52.501885;13.391531;unbekannte Priorität
-02S06;Liebmann-Schule;Friedrichstr. 13;10969;Übrige Förderschwerpunkte;fa-building-o;green;0;52.501885;13.391531;unbekannte Priorität
-01G05;Grundschule Neues Tor;Hannoversche Str. 20;10115;Grundschule;fa-building-o;blue;4100000;52.52759;13.38033;unbekannte Priorität
-01K07;Hemingway-Schule;Gartenstr. 10-17;10115;Integrierte Sekundarschule;fa-building-o;blue;2880000;52.530483;13.391682;unbekannte Priorität
-01G46;Grundschule am Koppenplatz;Koppenplatz 12;10115;Grundschule;fa-building-o;orange;5280000;52.52778;13.39745;Priorität 2 oder 3
-02G12;Kurt-Schumacher-Grundschule;Puttkamerstr. 19;10969;Grundschule;fa-building-o;orange;9640000;52.504384;13.388493;Höchste Priorität
-01G08;Grundschule am Brandenburger Tor;Wilhelmstr. 52;10117;Grundschule;fa-building-o;orange;5230000;52.51318;13.38276;Priorität 2 oder 3
+id,title,address,zip,type,icon,color,costs,lat,lng,priority
+09G26,Schule an den Püttbergen (Grundschule),Fürstenwalder Allee 182,12589,Grundschule,fa-building-o,orange,5660000,52.43385,13.70158,Priorität 2 oder 3
+09G20,Müggelheimer Schule (Grundschule),Odernheimer Str. 28,12559,Grundschule,fa-building-o,blue,4080000,52.41469,13.66739,unbekannte Priorität
+09G29,Schmöckwitzer Insel-Schule (Grundschule),Adlergestell 776,12527,Grundschule,fa-building-o,blue,4640000,52.376769,13.647546,unbekannte Priorität
+05G29,Mary-Poppins-Grundschule,Am Flugplatz Gatow 20,14089,Grundschule,fa-building-o,blue,340000,52.472209,13.127426,unbekannte Priorität
+06G05,Conrad-Schule (Grundschule),Schulstr. 4,14109,Grundschule,fa-building-o,orange,6180000,52.415181,13.146695,Priorität 2 oder 3
+05Y03,Hans-Carossa-Gymnasium,Am Landschaftspark Gatow 40,14089,Gymnasium,fa-building-o,blue,3100000,52.47244,13.13028,unbekannte Priorität
+05G19,Grundschule am Ritterfeld,Schallweg 31,14089,Grundschule,fa-building-o,blue,2560000,52.455239,13.138357,unbekannte Priorität
+05K09,Schule am Staakener Kleeblatt (Integrierte Sekundarschule),Brunsbütteler Damm 431-437,13591,Integrierte Sekundarschule,fa-building-o,blue,4840000,52.5349,13.13491,unbekannte Priorität
+09Y06,Gerhart-Hauptmann-Gymnasium,Bruno-Wille-Str. 37-45,12587,Gymnasium,fa-building-o,orange,6340000,52.45227,13.63269,Priorität 2 oder 3
+05G14,Linden-Grundschule,Staakener Feldstr. 6-8,13591,Grundschule,fa-building-o,blue,4040000,52.53517,13.14081,unbekannte Priorität
+09G24,Müggelsee-Schule (Grundschule),Aßmannstr. 63,12587,Grundschule,fa-building-o,blue,2870000,52.45072,13.62746,unbekannte Priorität
+05G16,Zeppelin-Grundschule,Heidebergplan 3-4,13591,Grundschule,fa-building-o,blue,3840000,52.5409,13.14635,unbekannte Priorität
+10S08,Schule am Mummelsoll,Eilenburger Str. 4,12627,"Förderschwerp.""Geistige Entwicklung""",fa-building-o,green,0,52.540282,13.629414,unbekannte Priorität
+10G19,Bücherwurm-Schule am Weiher (Grundschule),Eilenburger Str. 1,12627,Grundschule,fa-building-o,orange,5930000,52.54068,13.62913,Priorität 2 oder 3
+09S04,Ahorn-Schule,Peter-Hille-Str. 118,12587,Übrige Förderschwerpunkte,fa-building-o,blue,4020000,52.44782,13.61966,unbekannte Priorität
+09G27,Friedrichshagener Schule (Grundschule),Peter-Hille-Str. 7,12587,Grundschule,fa-building-o,orange,5030000,52.454606,13.621399,Priorität 2 oder 3
+10G30,Mahlsdorfer Grundschule,Feldrain 47,12623,Grundschule,fa-building-o,blue,3970000,52.522102,13.628787,unbekannte Priorität
+09K05,Wilhelm-Bölsche-Schule (Integrierte Sekundarschule),Aßmannstr. 11,12587,Integrierte Sekundarschule,fa-building-o,orange,6300000,52.45109,13.61894,Priorität 2 oder 3
+05G23,Grundschule am Brandwerder,Spandauer Str. 86,13591,Grundschule,fa-building-o,blue,4010000,52.53595,13.15293,unbekannte Priorität
+05G18,Grundschule im Beerwinkel,Im Spektefeld 31,13589,Grundschule,fa-building-o,orange,7500000,52.549023,13.154969,Höchste Priorität
+05K01,Martin-Buber-Oberschule (Integrierte Sekundarschule),Im Spektefeld 33,13589,Integrierte Sekundarschule,fa-building-o,red,12140000,52.54895,13.1565,Höchste Priorität
+05G17,Astrid-Lindgren-Grundschule,Südekumzeile 5,13591,Grundschule,fa-building-o,orange,5090000,52.5311,13.15652,Priorität 2 oder 3
+10K09,Konrad-Wachsmann-Schule,Geithainer Str. 12,12627,Integrierte Sekundarschule,fa-building-o,blue,3320000,52.529047,13.622082,unbekannte Priorität
+09G25,Müggelschlößchen-Schule (Grundschule),Alfred-Randt-Str. 56,12559,Grundschule,fa-building-o,orange,6960000,52.43884,13.6059,Höchste Priorität
+10Y11,Melanchthon-Gymnasium,Adele-Sandrock-Str. 73-75,12627,Gymnasium,fa-building-o,orange,8090000,52.534367,13.618584,Priorität 2 oder 3
+10G22,Kolibri-Grundschule,Schönewalder Str. 9,12627,Grundschule,fa-building-o,green,0,52.532527,13.618558,unbekannte Priorität
+05G25,Grundschule am Wasserwerk,Pionierstr. 197,13589,Grundschule,fa-building-o,blue,3240000,52.55625,13.16467,unbekannte Priorität
+05S04,Schule am Stadtrand,Pionierstr. 197,13589,Übrige Förderschwerpunkte,fa-building-o,green,0,52.55625,13.16467,unbekannte Priorität
+06G09,Dreilinden-Grundschule,Dreilindenstr. 65,14109,Grundschule,fa-building-o,blue,400000,52.4205,13.18369,unbekannte Priorität
+10G26,Friedrich-Schiller-Grundschule,An der Schule 13-17,12623,Grundschule,fa-building-o,blue,3690000,52.5115,13.614782,unbekannte Priorität
+06Y04,Dreilinden-Gymnasium,Dreilindenstr. 49,14109,Gymnasium,fa-building-o,orange,9320000,52.42057,13.18778,Höchste Priorität
+09G16,Wendenschloß-Schule (Grundschule),Köpenzeile 123,12557,Grundschule,fa-building-o,blue,4470000,52.42845,13.5953,unbekannte Priorität
+05G26,Grundschule am Amalienhof,Weinmeisterhornweg 122,13593,Grundschule,fa-building-o,blue,3650000,52.51289,13.1667,unbekannte Priorität
+05G22,Christian-Morgenstern-Grundschule,Räcknitzer Steig 12,13593,Grundschule,fa-building-o,blue,1800000,52.5227,13.16816,unbekannte Priorität
+10G32,Kiekemal-Schule (Grundschule),Hultschiner Damm 219,12623,Grundschule,fa-building-o,blue,330000,52.49407,13.60915,unbekannte Priorität
+10G25,Grundschule am Schleipfuhl,Nossener Str. 85,12627,Grundschule,fa-building-o,blue,4130000,52.52913,13.6081,unbekannte Priorität
+05K05,B.-Traven-Gemeinschaftsschule,Recklinghauser Weg 26-32,13583,Integrierte Sekundarschule,fa-building-o,red,10320000,52.5469,13.17403,Höchste Priorität
+05G24,Grundschule am Windmühlenberg,Am Kinderdorf 23-37,14089,Grundschule,fa-building-o,blue,3300000,52.48547,13.17431,unbekannte Priorität
+05G06,Siegerland-Grundschule,Hermann-Schmidt-Weg 4,13589,Grundschule,fa-building-o,orange,5410000,52.55125,13.175203,Priorität 2 oder 3
+05G12,Grundschule am Weinmeisterhorn,Daberkowstr. 27,13593,Grundschule,fa-building-o,blue,4240000,52.50825,13.1742,unbekannte Priorität
+05K02,Carlo-Schmid-Oberschule (Integrierte Sekundarschule),Lutoner Str. 15-19,13581,Integrierte Sekundarschule,fa-building-o,red,12710000,52.5259,13.17464,Höchste Priorität
+09G14,Schule am Buntzelberg (Grundschule),Schulzendorfer Str. 112,12526,Grundschule,fa-building-o,blue,4500000,52.40671,13.57427,unbekannte Priorität
+10S07,Schule am Rosenhain,Klingenthaler Str. 32,12627,Integrierte Sekundarschule,fa-building-o,blue,2630000,52.53,13.60199,unbekannte Priorität
+09G19,Amtsfeld-Schule (Grundschule),Pablo-Neruda-Str. 8,12559,Grundschule,fa-building-o,blue,2980000,52.44262,13.58891,unbekannte Priorität
+09Y11,Emmy-Noether-Gymnasium,Pablo-Neruda-Str. 6-7,12559,Gymnasium,fa-building-o,orange,6250000,52.44275,13.588735,Priorität 2 oder 3
+10G18,Pusteblume-Grundschule,Kastanienallee 118,12627,Grundschule,fa-building-o,green,0,52.54256,13.6001,unbekannte Priorität
+05G04,Klosterfeld-Grundschule,Seegefelder Str. 125,13583,Grundschule,fa-building-o,blue,2480000,52.53861,13.17968,unbekannte Priorität
+09K09,Grünauer Schule (Gemeinschaftsschule),Walchenseestr. 40,12527,Integrierte Sekundarschule,fa-building-o,orange,6330000,52.419368,13.576124,Priorität 2 oder 3
+05G10,Grundschule am Birkenhain,Seeburger Str. 59,13581,Grundschule,fa-building-o,blue,2580000,52.52596,13.180519,unbekannte Priorität
+09K03,Fritz-Kühn-Schule (Integrierte Sekundarschule),Dahmestr. 45,12526,Integrierte Sekundarschule,fa-building-o,blue,3380000,52.40141,13.5647,unbekannte Priorität
+10K05,Jean-Piaget-Schule,Mittenwalder Str. 5,12629,Integrierte Sekundarschule,fa-building-o,orange,7390000,52.54542,13.59615,Priorität 2 oder 3
+10K10,Wolfgang-Amadeus-Mozart-Schule (Gemeinschaftsschule),Cottbusser Str. 23,12627,Integrierte Sekundarschule,fa-building-o,orange,6290000,52.53699,13.59663,Priorität 2 oder 3
+10G28,Grundschule am Hollerbusch,Erich-Kästner-Str. 64,12619,Grundschule,fa-building-o,orange,7280000,52.52593,13.59512,Priorität 2 oder 3
+05K08,Schule an der Haveldüne (Integrierte Sekundarschule),Jaczostr. 53-67,13595,Integrierte Sekundarschule,fa-building-o,red,14500000,52.51098,13.18567,Höchste Priorität
+09A01,1. Schulpraktisches Seminar Treptow-Köpenick,Luisenstr. 16,12557,Schulpraktisches Seminar,fa-building-o,green,0,52.44107,13.57814,unbekannte Priorität
+10Y08,Sartre-Gymnasium,Kyritzer Str. 103,12629,Gymnasium,fa-building-o,blue,540000,52.54332,13.59106,unbekannte Priorität
+10K07,Caspar-David-Friedrich-Schule,Alte Hellersdorfer Str. 7,12629,Integrierte Sekundarschule,fa-building-o,blue,1130000,52.535223,13.591017,unbekannte Priorität
+10G17,Beatrix-Potter-Grundschule,Ludwigsfelder Str. 7,12629,Grundschule,fa-building-o,orange,5630000,52.54682,13.58926,Priorität 2 oder 3
+09G23,Hauptmann-von-Köpenick-Schule (Grundschule),Borgmannstr. 2,12555,Grundschule,fa-building-o,blue,1490000,52.45624,13.58095,unbekannte Priorität
+05G21,Paul Moor Schule,Adamstr. 24-25,13595,Grundschule,fa-building-o,green,0,52.521,13.19029,unbekannte Priorität
+05S02,Paul-Moor-Schule,Adamstr. 24-25,13595,"Förderschwerp.""Lernen""",fa-building-o,blue,3890000,52.521,13.19029,unbekannte Priorität
+05G09,Schule am Grüngürtel,Askanierring 42,13585,Grundschule,fa-building-o,green,0,52.549099,13.1934,unbekannte Priorität
+05S01,Schule am Grüngürtel,Askanierring 42,13585,"Förderschwerp.""Lernen""",fa-building-o,blue,2780000,52.549099,13.1934,unbekannte Priorität
+05G15,Askanier-Grundschule,Borkzeile 34,13583,Grundschule,fa-building-o,orange,6390000,52.54049,13.19242,Höchste Priorität
+05G08,Konkordia-Grundschule,Elsflether Weg 26,13581,Grundschule,fa-building-o,blue,4880000,52.53018,13.19202,unbekannte Priorität
+06Y05,Werner-von-Siemens-Oberschule,Beskidenstr. 3,14129,Gymnasium,fa-building-o,orange,9310000,52.43194,13.21159,Höchste Priorität
+05G20,Carl-Schurz-Grundschule,Hakenfelder Str. 32,13587,Grundschule,fa-building-o,blue,4310000,52.56751,13.199061,unbekannte Priorität
+10K02,Ernst-Haeckel-Schule,Luckenwalder Str. 53,12629,Integrierte Sekundarschule,fa-building-o,red,10250000,52.54322,13.58574,Priorität 2 oder 3
+05K03,Bertolt-Brecht-Oberschule (Integrierte Sekundarschule),Wilhelmstr. 10,13595,Integrierte Sekundarschule,fa-building-o,red,10580000,52.525308,13.192692,Höchste Priorität
+05K04,Heinrich-Böll-Oberschule (Integrierte Sekundarschule),Am Forstacker 9-11,13587,Integrierte Sekundarschule,fa-building-o,blue,1600000,52.565166,13.199033,unbekannte Priorität
+06G03,Johannes-Tews-Grundschule,Wasgenstr. 50,14129,Grundschule,fa-building-o,orange,9540000,52.43162,13.21262,Höchste Priorität
+05G05,Christoph-Földerich-Grundschule,Földerichplatz 5,13595,Grundschule,fa-building-o,orange,7860000,52.51986,13.193276,Priorität 2 oder 3
+10K08,Johann-Julius-Hecker-Schule,Hohenwalder Str. 2,12689,Integrierte Sekundarschule,fa-building-o,blue,360000,52.56993,13.57866,unbekannte Priorität
+10K03,Kerschensteiner-Schule,Golliner Str. 2,12689,Integrierte Sekundarschule,fa-building-o,orange,5130000,52.56681,13.579505,Priorität 2 oder 3
+09G17,Uhlenhorst-Grundschule,Wongrowitzer Steig 37,12555,Grundschule,fa-building-o,blue,1360000,52.467512,13.579352,unbekannte Priorität
+09G13,Schule am Altglienicker Wasserturm (Grundschule),Sachsenstr. 22,12524,Grundschule,fa-building-o,blue,4440000,52.41079,13.55406,unbekannte Priorität
+09S05,Schule am Altglienicker Wasserturm (Förderzentrum),Sachsenstr. 22,12524,"Förderschwerp.""Lernen""",fa-building-o,green,0,52.41079,13.55406,unbekannte Priorität
+05K06,Wolfgang-Borchert-Schule (Integrierte Sekundarschule),Blumenstr. 13,13585,Integrierte Sekundarschule,fa-building-o,blue,4160000,52.54571,13.1967,unbekannte Priorität
+05G02,Grundschule am Eichenwald,Gaismannshofer Weg 2,13587,Grundschule,fa-building-o,orange,6710000,52.558423,13.199146,Priorität 2 oder 3
+05G03,Birken-Grundschule,Hügelschanze 8-9,13585,Grundschule,fa-building-o,orange,7950000,52.54863,13.19756,Priorität 2 oder 3
+05G30,30. Schule,Hügelschanze 8-9,13585,Grundschule,fa-building-o,green,0,52.54863,13.19756,Höchste Priorität
+10G08,Wilhelm-Busch-Grundschule,Parsteiner Ring 24,12679,Grundschule,fa-building-o,blue,3470000,52.55325,13.58137,unbekannte Priorität
+09K01,Merian-Schule (Integrierte Sekundarschule),Hoernlestr. 80,12555,Integrierte Sekundarschule,fa-building-o,red,12080000,52.46431,13.57643,Priorität 2 oder 3
+09K08,Schule an der Dahme (Integrierte Sekundarschule),Glienicker Str. 24 -30,12557,Integrierte Sekundarschule,fa-building-o,orange,5240000,52.44056,13.56727,Priorität 2 oder 3
+05Y01,Freiherr-vom-Stein-Gymnasium,Galenstr. 40-44,13597,Gymnasium,fa-building-o,green,0,52.539684,13.198479,unbekannte Priorität
+10G33,Ulmen-Grundschule,Ulmenstr. 79-85,12621,Grundschule,fa-building-o,blue,4350000,52.48584,13.58006,unbekannte Priorität
+05G27,Charlie-Rivel-Grundschule,Flankenschanze 20,13585,Grundschule,fa-building-o,blue,670000,52.543893,13.1996,unbekannte Priorität
+05Y05,Lily-Braun-Gymnasium,Münsingerstr. 2,13597,Gymnasium,fa-building-o,blue,20000,52.538567,13.199029,unbekannte Priorität
+12K11,Albrecht-Haushofer-Schule,Kurzebracker Weg 40-46,13503,Integrierte Sekundarschule,fa-building-o,red,11870000,52.61914,13.22771,Priorität 2 oder 3
+09Y05,Alexander-von-Humboldt-Gymnasium,Oberspreestr. 173,12555,Gymnasium,fa-building-o,orange,7520000,52.445252,13.566972,Priorität 2 oder 3
+09G18,Schule in der Köllnischen Vorstadt (Grundschule),Rudower Str. 201,12557,Grundschule,fa-building-o,blue,3010000,52.43946,13.56429,unbekannte Priorität
+05Y02,Kant-Gymnasium,Bismarckstr. 54,13585,Gymnasium,fa-building-o,red,14620000,52.54286,13.20115,Höchste Priorität
+10G29,Grundschule an der Wuhle,Teterower Ring 79,12619,Grundschule,fa-building-o,blue,1330000,52.52118,13.58041,unbekannte Priorität
+10K01,Rudolf-Virchow-Schule,Glambecker Ring 90,12679,Integrierte Sekundarschule,fa-building-o,blue,3520000,52.5555,13.57573,unbekannte Priorität
+12G34,Otfried-Preußler-Grundschule,Schulzendorfer Str. 99,13503,Grundschule,fa-building-o,orange,5210000,52.613129,13.227141,Priorität 2 oder 3
+10G05,Ebereschen-Grundschule,Borkheider Str. 27,12689,Grundschule,fa-building-o,blue,3510000,52.56407,13.57294,unbekannte Priorität
+06G11,Grundschule Am Rohrgarten (Gemeinschaftsschule),Am Rohrgarten 9,14163,Grundschule,fa-building-o,blue,730000,52.425776,13.224983,unbekannte Priorität
+10G03,Selma-Lagerlöf-Grundschule,Wörlitzer Str. 31,12689,Marzahn-Hellersdorf,fa-building-o,blue,3960000,52.56767,13.57023,unbekannte Priorität
+05G07,Lynar-Grundschule,Lutherstr. 19-20,13585,Grundschule,fa-building-o,blue,1030000,52.54766,13.20683,unbekannte Priorität
+05G01,Ernst-Ludwig-Heim-Grundschule,Grunewaldstr. 8,13597,Grundschule,fa-building-o,blue,4450000,52.5304,13.20672,unbekannte Priorität
+09G15,Schule am Mohnweg (Grundschule),Mohnweg 20,12524,Grundschule,fa-building-o,blue,3340000,52.40733,13.53679,unbekannte Priorität
+12G17,Ellef-Ringnes-Grundschule,Im Erpelgrund 11-17,13503,Grundschule,fa-building-o,blue,4780000,52.60802,13.23202,unbekannte Priorität
+10G31,Franz-Carl-Achard-Grundschule,Flämingstr. 16-18,12689,Grundschule,fa-building-o,blue,1370000,52.56382,13.56592,unbekannte Priorität
+10K11,Marcana-Schule (Gemeinschaftsschule),Flämingstr. 16-18,12689,Integrierte Sekundarschule,fa-building-o,blue,2100000,52.56382,13.56592,unbekannte Priorität
+10G34,Schule am grünen Stadtrand,Geraer Ring 54,12689,"Förderschwerp.""Lernen""",fa-building-o,orange,7440000,52.56973,13.56193,Priorität 2 oder 3
+09Y04,Anne-Frank-Gymnasium,Uranusstr. 15 -17,12524,Gymnasium,fa-building-o,blue,2040000,52.399327,13.525296,unbekannte Priorität
+10G09,Grundschule am Bürgerpark,Jan-Petersen-Str. 18B,12679,Grundschule,fa-building-o,blue,2100000,52.55062,13.56569,unbekannte Priorität
+09K02,Anna-Seghers-Schule (Gemeinschaftsschule),Radickestr. 43,12489,Integrierte Sekundarschule,fa-building-o,orange,8100000,52.435416,13.548246,Priorität 2 oder 3
+09G11,Schule am Pegasuseck (Grundschule),Pegasuseck 5,12524,Grundschule,fa-building-o,blue,3060000,52.40638,13.5294,unbekannte Priorität
+10G07,Karl-Friedrich-Friesen-Grundschule,Max-Herrmann-Str. 5,12687,Grundschule,fa-building-o,green,0,52.55335,13.56415,unbekannte Priorität
+09G10,Schule am Berg (Grundschule),Köpenicker Str. 31,12524,Grundschule,fa-building-o,blue,3230000,52.41866,13.538044,unbekannte Priorität
+10G11,Grundschule an der Mühle,Kienbergstr. 59,12685,Grundschule,fa-building-o,blue,4060000,52.53976,13.5657,unbekannte Priorität
+10G01,Paavo-Nurmi-Grundschule,Schorfheidestr. 42,12689,Grundschule,fa-building-o,orange,5940000,52.54728,13.56405,Priorität 2 oder 3
+10G06,Bruno-Bettelheim-Grundschule (Gemeinschaftsschule),Schleusinger Str. 17,12687,Grundschule,fa-building-o,green,0,52.557763,13.561873,unbekannte Priorität
+06G10,Grundschule am Buschgraben,Ludwigsfelder Str. 43-47,14165,Grundschule,fa-building-o,blue,1460000,52.42192,13.242834,unbekannte Priorität
+10K04,Thüringen-Schule (Gemeinschaftsschule),Liebensteiner Str. 24,12687,Integrierte Sekundarschule,fa-building-o,blue,3620000,52.55821,13.5601,unbekannte Priorität
+10G04,Falken-Grundschule,Geraer Ring 2,12689,Grundschule,fa-building-o,orange,5440000,52.56593,13.5564,Priorität 2 oder 3
+09G09,Heide-Schule (Grundschule),Florian-Geyer-Str. 87,12489,Grundschule,fa-building-o,orange,6510000,52.438648,13.543713,Priorität 2 oder 3
+12G18,Grundschule am Tegelschen Ort,Gerlindeweg 11-23,13505,Grundschule,fa-building-o,blue,4910000,52.576181,13.228007,unbekannte Priorität
+10Y01,Tagore-Gymnasium,Sella-Hasse-Str. 25,12687,Gymnasium,fa-building-o,blue,3560000,52.55271,13.55658,unbekannte Priorität
+10G13,Johann-Strauss-Grundschule,Cecilienstr. 81,12683,Grundschule,fa-building-o,green,0,52.52982,13.55966,unbekannte Priorität
+10K06,Georg-Klingenberg-Schule,Alberichstr. 24,12683,Integrierte Sekundarschule,fa-building-o,blue,4560000,52.49015,13.55783,unbekannte Priorität
+12G24,Renée-Sintenis-Grundschule,Laurinsteig 39-45,13465,Grundschule,fa-building-o,blue,4630000,52.63695,13.27237,unbekannte Priorität
+11Y09,Barnim-Gymnasium,Ahrensfelder Chaussee 41,13057,Gymnasium,fa-building-o,blue,300000,52.569201,13.549303,unbekannte Priorität
+10G10,Peter-Pan-Grundschule,Stolzenhagener Str. 9,12679,Grundschule,fa-building-o,blue,2640000,52.548156,13.551672,unbekannte Priorität
+06G02,Süd-Grundschule,Claszeile 56,14165,Grundschule,fa-building-o,orange,9290000,52.4189,13.25839,Höchste Priorität
+10S04,Schule am Pappelhof,Ketschendorfer Weg 21,12683,"Förderschwerp.""Geistige Entwicklung""",fa-building-o,blue,3160000,52.531157,13.553338,unbekannte Priorität
+05G28,Grundschule an der Pulvermühle,Grützmacherweg 7,13599,Grundschule,fa-building-o,blue,630000,52.544061,13.228327,unbekannte Priorität
+08Y06,Hannah-Arendt-Gymnasium,Elfriede-Kuhr-Str. 17,12355,Gymnasium,fa-building-o,blue,3800000,52.40411,13.508639,unbekannte Priorität
+10G16,Grundschule am Fuchsberg,Dankratweg 19,12683,Grundschule,fa-building-o,blue,3120000,52.49039,13.551484,unbekannte Priorität
+10G12,Grundschule an der Geißenweide,Amanlisweg 40,12685,Grundschule,fa-building-o,blue,2960000,52.537783,13.551797,unbekannte Priorität
+10Y03,Wilhelm-von-Siemens-Gymnasium,Allee der Kosmonauten 134,12683,Gymnasium,fa-building-o,blue,450000,52.533571,13.551106,unbekannte Priorität
+08G37,Rose-Oehmichen-Schule (Grundschule),Lieselotte-Berger-Str. 65,12355,Grundschule,fa-building-o,blue,1330000,52.401126,13.501995,unbekannte Priorität
+06G07,Zinnowwald-Grundschule,Wilskistr. 78,14163,Grundschule,fa-building-o,orange,9090000,52.44543,13.246529,Höchste Priorität
+06Y01,Schadow-Gymnasium,Beuckestr. 27-29,14163,Gymnasium,fa-building-o,red,20090000,52.43149,13.25463,Höchste Priorität
+06Y02,Droste-Hülshoff-Oberschule,Schönower Str. 8,14165,Gymnasium,fa-building-o,red,13340000,52.42846,13.25673,Höchste Priorität
+05G13,Bernd-Ryke-Grundschule,Daumstr. 12,13599,Grundschule,fa-building-o,orange,5310000,52.54494,13.2325,Höchste Priorität
+06S01,Pestalozzi-Schule,Hartmannsweilerweg 47,14163,Integrierte Sekundarschule,fa-building-o,blue,3630000,52.44346,13.24838,unbekannte Priorität
+10Y02,Otto-Nagel-Gymnasium,Schulstr. 11,12683,Gymnasium,fa-building-o,blue,2670000,52.511922,13.549199,unbekannte Priorität
+12G23,Victor-Gollancz-Grundschule,Gollanczstr. 18-24,13465,Grundschule,fa-building-o,orange,6060000,52.63826,13.28757,Priorität 2 oder 3
+08G25,Michael-Ende-Schule (Grundschule),Neuhofer Str. 41,12355,Grundschule,fa-building-o,blue,4280000,52.41346,13.50984,unbekannte Priorität
+03G29,Grundschule Am Sandhaus,Wiltbergstr. 37-39,13125,Grundschule,fa-building-o,blue,770000,52.637343,13.490967,unbekannte Priorität
+06G01,Nord-Grundschule,Potsdamer Str. 7,14163,Grundschule,fa-building-o,orange,6260000,52.435951,13.25558,Priorität 2 oder 3
+06K01,John-F.-Kennedy-Schule,Teltower Damm 87-93,14167,Integrierte Sekundarschule,fa-building-o,red,28540000,52.42589,13.26273,Höchste Priorität
+06G08,Schweizerhof-Grundschule,Leo-Baeck-Str. 28-30,14167,Grundschule,fa-building-o,blue,3930000,52.42278,13.26571,unbekannte Priorität
+03K10,Hufeland-Schule (Integrierte Sekundarschule),Walter-Friedrich-Str. 16-18,13125,Integrierte Sekundarschule,fa-building-o,red,16420000,52.63325,13.49373,Höchste Priorität
+04G15,Charles-Dickens-Grundschule,Dickensweg 15,14055,Grundschule,fa-building-o,blue,3230000,52.508946,13.236971,unbekannte Priorität
+10G14,Grundschule unter dem Regenbogen,Murtzaner Ring 37,12681,Grundschule,fa-building-o,orange,5940000,52.5301,13.54212,Priorität 2 oder 3
+03S10,Marianne-Buggenhagen-Schule,Ernst-Busch-Str. 29,13125,Übrige Förderschwerpunkte,fa-building-o,blue,1060000,52.62953,13.49149,unbekannte Priorität
+11G28,Feldmark-Schule (Grundschule),Wartiner Str. 23,13057,Grundschule,fa-building-o,blue,2670000,52.569161,13.531731,unbekannte Priorität
+10A04,Victor-Klemperer-Kolleg,Martha-Arendsee-Str. 15,12681,Volkshochschul-Kolleg,fa-building-o,blue,3010000,52.5363,13.53885,unbekannte Priorität
+05S03,Schule am Gartenfeld,Gartenfelder Str. 81,13599,"Förderschwerp.""Geistige Entwicklung""",fa-building-o,orange,9050000,52.543211,13.24234,Priorität 2 oder 3
+11G14,Richard-Wagner-Grundschule,Ehrenfelsstr. 36,10318,Grundschule,fa-building-o,blue,3700000,52.479326,13.53427,unbekannte Priorität
+11G12,Lew-Tolstoi-Grundschule,Römerweg 120,10318,Grundschule,fa-building-o,blue,1180000,52.49199,13.53678,unbekannte Priorität
+09Y03,Archenhold-Gymnasium,Rudower Str. 7,12439,Gymnasium,fa-building-o,blue,4530000,52.4514,13.52271,unbekannte Priorität
+08G28,Matthias-Claudius-Schule (Grundschule),Köpenicker Str. 148,12355,Grundschule,fa-building-o,orange,5390000,52.420381,13.501675,Priorität 2 oder 3
+09G22,Schule an der Wuhlheide (Grundschule),Kottmeierstr. 2,12459,Grundschule,fa-building-o,blue,3420000,52.462579,13.524106,unbekannte Priorität
+03G10,Grundschule am Hohen Feld,Bedeweg 1,13125,Grundschule,fa-building-o,blue,1820000,52.61492,13.49606,unbekannte Priorität
+12K10,Carl-Bosch-Schule,Frohnauer Str. 74-80,13467,Integrierte Sekundarschule,fa-building-o,orange,8440000,52.62349,13.29375,Priorität 2 oder 3
+12S05,Wiesengrund-Schule,Frohnauer Str. 74-80,13467,Übrige Förderschwerpunkte,fa-building-o,green,0,52.62349,13.29375,unbekannte Priorität
+03Y16,Robert-Havemann-Gymnasium,Achillesstr. 79,13125,Gymnasium,fa-building-o,orange,7260000,52.615393,13.494218,Priorität 2 oder 3
+06K02,Wilma-Rudolph-Schule (Integrierte Sekundarschule),Am Hegewinkel 2A,14169,Integrierte Sekundarschule,fa-building-o,red,13210000,52.45479,13.26097,Höchste Priorität
+11G29,Matibi-Grundschule,Prendener Str. 15,13059,Grundschule,fa-building-o,blue,1870000,52.5724,13.52072,unbekannte Priorität
+08G11,Schliemann-Schule (Grundschule),Groß-Ziethener Chaussee 73,12355,Grundschule,fa-building-o,blue,3740000,52.41198,13.48526,unbekannte Priorität
+11K05,Fritz-Reuter-Schule,Prendener Str. 29,13059,Integrierte Sekundarschule,fa-building-o,blue,400000,52.570237,13.52104,unbekannte Priorität
+11G06,Adam-Ries-Grundschule,Alt-Friedrichsfelde 66,10315,Grundschule,fa-building-o,orange,5130000,52.5114,13.53125,Priorität 2 oder 3
+03G24,Grundschule im Panketal,Achillesstr. 31,13125,Grundschule,fa-building-o,blue,4140000,52.61986,13.486729,unbekannte Priorität
+08K05,Clay-Schule,Bildhauerweg 9,12355,Integrierte Sekundarschule,fa-building-o,blue,4580000,52.41759,13.48999,unbekannte Priorität
+09G06,Melli-Beese-Schule (Grundschule),Engelhardstr. 18,12487,Grundschule,fa-building-o,blue,2790000,52.44696,13.51031,unbekannte Priorität
+09G07,Schule an der alten Feuerwache (Grundschule),Schnellerstr. 31,12439,Grundschule,fa-building-o,blue,3830000,52.45459,13.51379,unbekannte Priorität
+09K04,Isaac-Newton-Schule (Integrierte Sekundarschule),Zeppelinstr. 76-80,12459,Integrierte Sekundarschule,fa-building-o,orange,6470000,52.4659,13.51817,Priorität 2 oder 3
+11G26,Randow-Grundschule,Randowstr. 45,13057,Grundschule,fa-building-o,blue,1430000,52.56405,13.51904,unbekannte Priorität
+06G06,Mühlenau-Grundschule,Molsheimer Str. 7,14195,Grundschule,fa-building-o,orange,5870000,52.443206,13.276002,Priorität 2 oder 3
+11Y05,Hans-und-Hilde-Coppi-Oberschule,Römerweg 30-32,10318,Gymnasium,fa-building-o,red,10340000,52.4918,13.52343,Priorität 2 oder 3
+06G12,Quentin-Blake-Grundschule,Hüttenweg 40,14195,Grundschule,fa-building-o,blue,4760000,52.454097,13.27055,unbekannte Priorität
+06S02,Biesalski-Schule,Hüttenweg 40,14195,Übrige Förderschwerpunkte,fa-building-o,orange,7170000,52.454097,13.27055,Höchste Priorität
+12K09,Carl-Benz-Schule (Integrierte Sekundarschule),Heidenheimer Str. 53-54,13467,Integrierte Sekundarschule,fa-building-o,orange,8980000,52.615646,13.298748,Priorität 2 oder 3
+09S03,Albatros-Schule,Treskowallee 222,12459,"Förderschwerp.""Geistige Entwicklung""",fa-building-o,blue,1110000,52.471245,13.516154,unbekannte Priorität
+08G33,Schule am Fliederbusch (Grundschule),Kornradenstr. 2,12357,Grundschule,fa-building-o,blue,2730000,52.42424,13.48673,unbekannte Priorität
+04Y02,Wald-Gymnasium,Waldschulallee 95,14055,Gymnasium,fa-building-o,orange,5230000,52.50343,13.25701,Priorität 2 oder 3
+08S04,Schule am Zwickauer Damm,Zwickauer Damm 17-22,12353,Integrierte Sekundarschule,fa-building-o,blue,3770000,52.422,13.48315,unbekannte Priorität
+09Y10,Gebrüder-Montgolfier-Gymnasium,Ellernweg 20-22,12487,Gymnasium,fa-building-o,blue,1460000,52.44833,13.50379,unbekannte Priorität
+11G13,Karlshorster Grundschule,Lisztstr. 6,10318,Grundschule,fa-building-o,blue,230000,52.48925,13.51994,unbekannte Priorität
+09G05,Schule am Ginkobaum (Grundschule),Springbornstr. 250,12487,Grundschule,fa-building-o,blue,1040000,52.44014,13.4979,unbekannte Priorität
+04Y05,Herder-Gymnasium,Westendallee 45-46,14052,Gymnasium,fa-building-o,orange,5030000,52.510663,13.257932,Priorität 2 oder 3
+12Y05,Georg-Herwegh-Gymnasium,Fellbacher Str. 18-19,13467,Gymnasium,fa-building-o,orange,7670000,52.616834,13.303382,Priorität 2 oder 3
+07Y08,Ulrich-von-Hutten-Gymnasium,Rehagener Str. 35-37,12307,Gymnasium,fa-building-o,blue,630000,52.38563,13.40388,unbekannte Priorität
+12S02,Richard-Keller-Schule,Olafstr. 32-34,13467,"Förderschwerp.""Lernen""",fa-building-o,blue,2840000,52.62034,13.30794,unbekannte Priorität
+04G06,Wald-Grundschule,Waldschulallee 83-93,14055,Grundschule,fa-building-o,blue,3850000,52.50259,13.259,unbekannte Priorität
+11S08,Schule Am Breiten Luch,Am Breiten Luch 19,13053,Grundschule,fa-building-o,orange,5430000,52.5627,13.5136,Priorität 2 oder 3
+07G29,Käthe-Kollwitz-Grundschule,Mellener Str. 38-42,12307,Grundschule,fa-building-o,blue,2840000,52.3862,13.40487,unbekannte Priorität
+11K12,Paul-und-Charlotte-Kniese-Schule (Gemeinschaftsschule),Erich-Kurz-Str. 6-10,10319,"Förderschwerp.""Geistige Entwicklung""",fa-building-o,green,0,52.498846,13.519748,unbekannte Priorität
+11S04,Paul-und-Charlotte-Kniese-Schule,Erich-Kurz-Str. 6-10,10319,Übrige Förderschwerpunkte,fa-building-o,blue,1480000,52.498846,13.519748,unbekannte Priorität
+09K06,Hans-Grade-Schule (Integrierte Sekundarschule),Heubergerweg 37,12487,Integrierte Sekundarschule,fa-building-o,green,0,52.444484,13.499022,unbekannte Priorität
+11G22,Martin-Niemöller-Grundschule,Am Breiten Luch 5,13053,Grundschule,fa-building-o,blue,4610000,52.56339,13.51209,unbekannte Priorität
+07G35,Nahariya-Grundschule,Nahariyastr. 13-17,12309,Grundschule,fa-building-o,blue,570000,52.39085,13.41943,unbekannte Priorität
+09G21,Edison-Grundschule,Wattstr. 69-70,12459,Grundschule,fa-building-o,blue,3360000,52.46607,13.50886,unbekannte Priorität
+12G22,Gustav-Dreyer-Grundschule,Freiherr-vom-Stein-Str. 31,13467,Grundschule,fa-building-o,orange,6220000,52.61309,13.30379,Höchste Priorität
+03G23,Grundschule Alt-Karow,Bahnhofstr. 32,13125,Grundschule,fa-building-o,blue,3270000,52.609682,13.479743,unbekannte Priorität
+12G13,Franz-Marc-Grundschule,Treskowstr. 26-31,13507,Grundschule,fa-building-o,orange,7770000,52.58822,13.2828,Priorität 2 oder 3
+12K01,Julius-Leber-Schule,Treskowstr. 26-31,13507,Integrierte Sekundarschule,fa-building-o,green,0,52.58822,13.2828,unbekannte Priorität
+04G05,Dietrich-Bonhoeffer-Grundschule,Spandauer Damm 205-215,14050,Grundschule,fa-building-o,blue,1100000,52.521371,13.26202,unbekannte Priorität
+06G25,Clemens-Brentano-Grundschule,Kommandantenstr. 83-84,12205,Grundschule,fa-building-o,red,10800000,52.433511,13.29316,Höchste Priorität
+04S04,Reinfelder-Schule,Maikäferpfad 30,14055,Grundschule,fa-building-o,orange,6230000,52.49693,13.26373,Priorität 2 oder 3
+11K07,Vincent-van-Gogh-Schule (Integrierte Sekundarschule),Wustrower Str. 26,13051,Integrierte Sekundarschule,fa-building-o,orange,6790000,52.5678,13.50702,Priorität 2 oder 3
+06G30,Mercator-Grundschule,Mercatorweg 8-10,12207,Grundschule,fa-building-o,orange,5860000,52.41225,13.317376,Priorität 2 oder 3
+11G25,Grundschule am Wäldchen,Wustrower Str. 28,13051,Grundschule,fa-building-o,blue,1560000,52.56846,13.50628,unbekannte Priorität
+11G09,Bürgermeister-Ziethen-Grundschule,Massower Str. 39,10315,Grundschule,fa-building-o,blue,2150000,52.50818,13.51665,unbekannte Priorität
+11K08,George-Orwell-Schule,Sewanstr. 223,10319,Integrierte Sekundarschule,fa-building-o,blue,2610000,52.496354,13.514933,unbekannte Priorität
+08K02,Hermann-von-Helmholtz-Schule,Wutzkyallee 68,12353,Integrierte Sekundarschule,fa-building-o,red,14400000,52.421823,13.472974,Priorität 2 oder 3
+07Y09,Georg-Büchner-Gymnasium,Lichtenrader Damm 224,12305,Gymnasium,fa-building-o,red,13650000,52.39186,13.406604,Höchste Priorität
+04S05,Ernst-Adolf-Eschke-Schule für Gehörlose,Waldschulallee 29,14055,Fachschule,fa-building-o,blue,650000,52.4989,13.26508,unbekannte Priorität
+11K01,Alexander-Puschkin-Schule,Massower Str. 37,10315,Integrierte Sekundarschule,fa-building-o,orange,7250000,52.50795,13.51556,Priorität 2 oder 3
+12Y03,Humboldt-Gymnasium,Hatzfeldtallee 2-4,13509,Gymnasium,fa-building-o,red,11560000,52.59176,13.28891,Priorität 2 oder 3
+06G18,Athene-Grundschule,Curtiusstr. 37,12205,Grundschule,fa-building-o,blue,4500000,52.440565,13.290632,unbekannte Priorität
+05K07,Schule an der Jungfernheide (Integrierte Sekundarschule),Lenther Steig 1-3,13629,Integrierte Sekundarschule,fa-building-o,blue,1770000,52.53843,13.26697,unbekannte Priorität
+06Y03,Arndt-Gymnasium Dahlem,Königin-Luise-Str. 80-84,14195,Gymnasium,fa-building-o,green,0,52.45916,13.28001,unbekannte Priorität
+11G11,Bernhard-Grzimek-Grundschule,Sewanstr. 184,10319,Grundschule,fa-building-o,blue,4040000,52.49572,13.51176,unbekannte Priorität
+05Y04,Carl-Friedrich-von-Siemens-Gymnasium,Jungfernheideweg 79,13629,Gymnasium,fa-building-o,orange,8450000,52.54559,13.26983,Höchste Priorität
+06G22,Giesensdorfer Grundschule,Ostpreußendamm 63,12207,Grundschule,fa-building-o,blue,4500000,52.422226,13.31101,unbekannte Priorität
+08K13,Gemeinschaftsschule Campus Efeuweg,Efeuweg 34,12357,Integrierte Sekundarschule,fa-building-o,red,15520000,52.427206,13.47409,Priorität 2 oder 3
+04Y06,Heinz-Berggruen-Gymnasium,Bayernallee 4,14052,Gymnasium,fa-building-o,blue,2160000,52.51103,13.26722,unbekannte Priorität
+06G04,Erich-Kästner-Grundschule,Bachstelzenweg 2-8,14195,Grundschule,fa-building-o,blue,3660000,52.458141,13.283199,unbekannte Priorität
+07K02,Carl-Zeiss-Schule,Barnetstr. 12-14,12305,Integrierte Sekundarschule,fa-building-o,blue,3200000,52.39571,13.40258,unbekannte Priorität
+12G01,Havelmüller-Grundschule,Namslaustr. 49-57,13507,Grundschule,fa-building-o,blue,4040000,52.578512,13.284936,unbekannte Priorität
+04G14,Reinhold-Otto-Grundschule,Leistikowstr. 7-8,14050,Grundschule,fa-building-o,orange,5170000,52.513329,13.268399,Priorität 2 oder 3
+11K11,Paul-Schmidt-Schule (Integrierte Sekundarschule),Malchower Weg 54,13053,Integrierte Sekundarschule,fa-building-o,blue,4320000,52.55475,13.50438,unbekannte Priorität
+12G14,Alfred-Brehm-Grundschule,Ascheberger Weg 8A,13507,Grundschule,fa-building-o,blue,3660000,52.57359,13.28368,unbekannte Priorität
+12G21,Grundschule am Fließtal,Seebadstr. 42-43,13467,Grundschule,fa-building-o,blue,4120000,52.61528,13.32062,unbekannte Priorität
+06K09,Gail-S.-Halvorsen-Integrierte Sekundarschule,Im Gehege 6,14195,Integrierte Sekundarschule,fa-building-o,red,12060000,52.459454,13.284371,Höchste Priorität
+07G26,Grundschule im Taunusviertel,Wiesbadener Str. 20,12309,Grundschule,fa-building-o,blue,3640000,52.40019,13.41799,unbekannte Priorität
+07G30,Annedore-Leber-Grundschule,Halker Zeile 137-149,12305,Grundschule,fa-building-o,orange,5190000,52.39757,13.40197,Priorität 2 oder 3
+11G10,Schule im Ostseekarree (Grundschule),Barther Str. 27,13051,Grundschule,fa-building-o,blue,1580000,52.56409,13.50024,unbekannte Priorität
+05G11,Robert-Reinick-Grundschule,Jungfernheideweg 33-48,13629,Grundschule,fa-building-o,blue,4340000,52.54065,13.27277,unbekannte Priorität
+12Y04,Gabriele-von-Bülow-Gymnasium,Tile-Brügge-Weg 63,13509,Gymnasium,fa-building-o,orange,8690000,52.592148,13.297061,Priorität 2 oder 3
+07K04,Theodor-Haubach-Schule,Grimmstr. 9-11,12305,Integrierte Sekundarschule,fa-building-o,red,12660000,52.398399,13.403988,Priorität 2 oder 3
+11S05,Schule am grünen Grund,Herzbergstr. 79,10365,Übrige Förderschwerpunkte,fa-building-o,blue,660000,52.52822,13.50858,unbekannte Priorität
+06G33,Friedrich-Drake-Schule,Drakestr. 80,12205,Grundschule,fa-building-o,blue,1190000,52.43254,13.30621,unbekannte Priorität
+04Y08,Hildegard-Wegscheider-Gymnasium,Lassenstr. 16-20,14193,Gymnasium,fa-building-o,blue,4390000,52.485116,13.275931,unbekannte Priorität
+07K03,Gustav-Heinemann-Schule,Waldsassener Str. 62,12279,Integrierte Sekundarschule,fa-building-o,blue,3200000,52.40662,13.34754,unbekannte Priorität
+12G15,Hoffmann-von-Fallersleben-Grundschule,Ziekowstr. 80-88,13509,Grundschule,fa-building-o,blue,4530000,52.58744,13.29515,unbekannte Priorität
+06Y11,Goethe-Gymnasium Lichterfelde,Drakestr. 72-75,12205,Gymnasium,fa-building-o,red,10030000,52.434929,13.305363,Höchste Priorität
+11G31,Schmetterlings-Grundschule,Dolgenseestr. 60,10319,Grundschule,fa-building-o,green,0,52.49417,13.50546,unbekannte Priorität
+12G19,Münchhausen-Grundschule,Artemisstr. 22-26,13469,Grundschule,fa-building-o,orange,5570000,52.60851,13.31718,Priorität 2 oder 3
+08G31,Janusz-Korczak-Schule (Grundschule),Wildhüterweg 5,12353,Grundschule,fa-building-o,orange,8040000,52.42179,13.45659,Priorität 2 oder 3
+06K08,Max-von-Laue-Schule,Dürerstr. 27,12203,Integrierte Sekundarschule,fa-building-o,blue,1100000,52.43725,13.305628,unbekannte Priorität
+08K01,Walter-Gropius-Schule (Gemeinschaftsschule),Fritz-Erler-Allee 86,12351,Integrierte Sekundarschule,fa-building-o,red,17000000,52.42934,13.46355,Priorität 2 oder 3
+11G23,Friedrichsfelder Grundschule,Lincolnstr. 67,10315,Grundschule,fa-building-o,blue,3320000,52.503,13.50355,unbekannte Priorität
+06G29,Grundschule am Karpfenteich,Hildburghauser Str. 135,12209,Grundschule,fa-building-o,blue,4540000,52.417401,13.333982,unbekannte Priorität
+11G21,Schule Am Faulen See,Degnerstr. 71,13053,Grundschule,fa-building-o,blue,1150000,52.5521,13.49837,unbekannte Priorität
+04G22,Grunewald-Grundschule,Delbrückstr. 20A,14193,Grundschule,fa-building-o,blue,3890000,52.484525,13.281094,unbekannte Priorität
+08G16,Hugo-Heimann-Schule,Hugo-Heimann-Str. 20,12353,Grundschule,fa-building-o,orange,5280000,52.42538,13.45705,Priorität 2 oder 3
+09G04,Sonnenblumen-Schule (Grundschule),Radenzer Str. 16,12437,Grundschule,fa-building-o,blue,1500000,52.46163,13.48872,unbekannte Priorität
+07G32,Bruno-H.-Bürgel-Grundschule,Rackebüller Weg 70,12305,Grundschule,fa-building-o,orange,6710000,52.404902,13.402536,Höchste Priorität
+12G20,Grundschule am Vierrutenberg,Am Vierrutenberg 59-65,13469,Grundschule,fa-building-o,blue,2970000,52.617516,13.339396,unbekannte Priorität
+11G17,Brodowin-Grundschule,Liebenwalder Str. 22,13055,Grundschule,fa-building-o,blue,4950000,52.53738,13.50067,unbekannte Priorität
+06Y10,Lilienthal-Gymnasium,Ringstr. 2-3,12203,Gymnasium,fa-building-o,red,10470000,52.43595,13.31215,Höchste Priorität
+06K06,Anna Essinger Gemeinschaftsschule,Tietzenweg 101,12203,Integrierte Sekundarschule,fa-building-o,orange,7000000,52.439089,13.309116,Höchste Priorität
+12S06,Toulouse-Lautrec-Schule,Miraustr. 120-126,13509,Übrige Förderschwerpunkte,fa-building-o,orange,8940000,52.58901,13.30389,Höchste Priorität
+06G26,Käthe-Kruse-Grundschule,Tietzenweg 108,12203,Grundschule,fa-building-o,blue,3150000,52.438186,13.310138,unbekannte Priorität
+08G27,Oskar-Heinroth-Schule (Grundschule),Rohrdommelweg 1,12359,Grundschule,fa-building-o,orange,7950000,52.44057,13.47209,Priorität 2 oder 3
+06G24,Grundschule unter den Kastanien,Kastanienstr. 6 -8,12209,Grundschule,fa-building-o,orange,5770000,52.42546,13.32527,Höchste Priorität
+07G34,Marienfelder Schule (Grundschule),Erbendorfer Weg 13,12279,Grundschule,fa-building-o,orange,8530000,52.41209,13.35184,Höchste Priorität
+04Y09,Walther-Rathenau-Gymnasium,Herbertstr. 2-6,14193,Gymnasium,fa-building-o,orange,6370000,52.49143,13.28135,Priorität 2 oder 3
+11G08,Robinson-Grundschule,Wönnichstr. 7,10317,Grundschule,fa-building-o,blue,2700000,52.510047,13.50046,unbekannte Priorität
+12G12,Borsigwalder Grundschule,Miraustr. 100,13509,Grundschule,fa-building-o,blue,2840000,52.58822,13.30561,unbekannte Priorität
+04G24,Carl-Orff-Grundschule,Berkaer Str. 9-10,14199,Grundschule,fa-building-o,orange,6910000,52.47841,13.28709,Priorität 2 oder 3
+12K06,Benjamin-Franklin-Schule (Integrierte Sekundarschule),Sommerfelder Str. 5-7,13509,Integrierte Sekundarschule,fa-building-o,orange,7170000,52.581447,13.300983,Priorität 2 oder 3
+08K04,Heinrich-Mann-Schule,Gerlinger Str. 22,12353,Integrierte Sekundarschule,fa-building-o,orange,6880000,52.41578,13.43231,Priorität 2 oder 3
+08G34,Lisa-Tetzner-Schule (Grundschule),Hasenhegerweg 12,12353,Grundschule,fa-building-o,orange,7370000,52.42254,13.44504,Priorität 2 oder 3
+08S05,Schule am Hasenhegerweg,Hasenhegerweg 12,12353,"Förderschwerp.""Lernen""",fa-building-o,green,0,52.42254,13.44504,Höchste Priorität
+12Y07,Romain-Rolland-Gymnasium,Place Moliere 4,13469,Gymnasium,fa-building-o,red,16370000,52.598998,13.317865,Priorität 2 oder 3
+12S01,Stötzner-Schule,Tietzstr. 26-28,13509,"Förderschwerp.""Lernen""",fa-building-o,blue,3470000,52.584273,13.304873,unbekannte Priorität
+11K09,Philipp-Reis-Schule (Integrierte Sekundarschule),Werneuchener Str. 15,13055,Integrierte Sekundarschule,fa-building-o,orange,5060000,52.53952,13.49572,Priorität 2 oder 3
+06G23,Kronach-Grundschule,Moltkestr. 24-26,12203,Grundschule,fa-building-o,orange,8280000,52.44167,13.313098,Höchste Priorität
+12G28,Grundschule in den Rollbergen,Waldshuter Zeile 6,13469,Grundschule,fa-building-o,orange,6230000,52.609905,13.335731,Priorität 2 oder 3
+06Y12,Willi-Graf-Gymnasium,Ostpreußendamm 166,12207,Gymnasium,fa-building-o,orange,7300000,52.43469,13.32096,Höchste Priorität
+08Y05,Leonardo-da-Vinci-Gymnasium,Haewererweg 35,12349,Gymnasium,fa-building-o,blue,1750000,52.41623,13.42658,unbekannte Priorität
+07G36,Grundschule am Dielingsgrund,Dielingsgrund 35,12305,Grundschule,fa-building-o,orange,7040000,52.41166,13.40863,Priorität 2 oder 3
+08G22,Schule am Regenweiher (Grundschule),Johannisthaler Chaussee 328,12351,Grundschule,fa-building-o,orange,5490000,52.42985,13.45178,Priorität 2 oder 3
+09A05,Treptow-Kolleg,Kiefholzstr. 274,12437,Volkshochschul-Kolleg,fa-building-o,blue,4170000,52.46818,13.48463,unbekannte Priorität
+09S06,6. Schule,Köpenicker Landstr. 185A,12437,Grundschule,fa-building-o,blue,3240000,52.473436,13.48707,unbekannte Priorität
+08G26,Christoph-Ruden-Schule (Grundschule),An den Achterhöfen 13,12349,Grundschule,fa-building-o,orange,6530000,52.421067,13.435095,Priorität 2 oder 3
+07K05,Solling-Schule,Alt-Marienfelde 52,12277,Integrierte Sekundarschule,fa-building-o,red,13740000,52.41397,13.36527,Höchste Priorität
+11Y10,Manfred-von-Ardenne-Gymnasium,Werneuchener Str. 27-28,13055,Gymnasium,fa-building-o,red,10660000,52.54188,13.49242,Priorität 2 oder 3
+04G09,Erwin-von-Witzleben-Grundschule,Halemweg 34,13627,Grundschule,fa-building-o,blue,2840000,52.53967,13.2873,unbekannte Priorität
+04G23,Alt-Schmargendorf-Grundschule,Reichenhaller Str. 8,14199,Grundschule,fa-building-o,red,10810000,52.477085,13.293432,Höchste Priorität
+11G05,Grundschule auf dem lichten Berg,Atzpodienstr. 19,10365,Grundschule,fa-building-o,blue,2080000,52.51686,13.49421,unbekannte Priorität
+11K10,Grüner Campus Malchow (Gemeinschaftsschule),Malchower Chaussee 2,13051,Integrierte Sekundarschule,fa-building-o,red,11830000,52.569831,13.479469,Priorität 2 oder 3
+06G27,Grundschule am Königsgraben,Gallwitzallee 136-144,12249,Grundschule,fa-building-o,blue,4380000,52.42303,13.34815,unbekannte Priorität
+07G28,Kiepert-Grundschule,Prechtlstr. 21-23,12277,Grundschule,fa-building-o,orange,9350000,52.41591,13.37327,Priorität 2 oder 3
+07S03,Steinwald-Schule,Hanielweg 7-9,12277,"Förderschwerp.""Geistige Entwicklung""",fa-building-o,green,0,52.41783,13.36458,unbekannte Priorität
+11G19,Obersee-Grundschule,Roedernstr. 69-72,13053,Grundschule,fa-building-o,green,0,52.543711,13.488079,unbekannte Priorität
+08S07,Schule am Bienwaldring,Breitunger Weg 1,12349,"Förderschwerp.""Geistige Entwicklung""",fa-building-o,orange,6840000,52.42178,13.42537,Priorität 2 oder 3
+03G35,Platanengrundschule,Hauptstr. 20,13159,Grundschule,fa-building-o,blue,1350000,52.618258,13.389549,unbekannte Priorität
+08G29,Wetzlar-Schule (Grundschule),Tischlerzeile 34,12351,Grundschule,fa-building-o,orange,5070000,52.43092,13.44294,Priorität 2 oder 3
+11Y11,Immanuel-Kant-Gymnasium,Lückstr. 63,10317,Gymnasium,fa-building-o,orange,7240000,52.501956,13.489635,Priorität 2 oder 3
+09G03,Schule am Heidekampgraben (Grundschule),Hänselstr. 14,12437,Grundschule,fa-building-o,blue,1900000,52.46872,13.47837,unbekannte Priorität
+04K08,Peter-Ustinov-Schule,Kuno-Fischer-Str. 22-26,14057,Integrierte Sekundarschule,fa-building-o,blue,2530000,52.505241,13.290548,unbekannte Priorität
+08S09,Schule an der Windmühle,Buckower Damm 176,12349,Integrierte Sekundarschule,fa-building-o,blue,2530000,52.42741,13.43451,unbekannte Priorität
+04K07,Integrierte Sekundarschule Wilmersdorf,Kranzer Str. 3,14199,Integrierte Sekundarschule,fa-building-o,orange,8520000,52.482808,13.296098,Priorität 2 oder 3
+08G30,Schule am Sandsteinweg (Grundschule),Hornblendeweg 2,12349,Grundschule,fa-building-o,orange,7650000,52.41829,13.40469,Priorität 2 oder 3
+06G16,Rothenburg-Grundschule,Rothenburgstr. 18,12165,Grundschule,fa-building-o,blue,30000,52.45398,13.31302,unbekannte Priorität
+06Y09,Fichtenberg-Oberschule,Rothenburgstr. 18,12165,Gymnasium,fa-building-o,green,0,52.45398,13.31302,unbekannte Priorität
+06G31,Grundschule an der Bäke,Haydnstr. 15,12203,Grundschule,fa-building-o,orange,8200000,52.447783,13.318838,Höchste Priorität
+11K04,Gutenberg-Schule,Sandinostr. 10,13055,Integrierte Sekundarschule,fa-building-o,orange,6250000,52.53573,13.48743,Priorität 2 oder 3
+06K04,Bröndby-Schule (Integrierte Sekundarschule),Dessauerstr. 63,12249,Integrierte Sekundarschule,fa-building-o,red,15120000,52.428237,13.345888,Höchste Priorität
+03G21,Grundschule unter den Bäumen,Alt-Blankenburg 26,13129,Grundschule,fa-building-o,blue,2940000,52.592262,13.454422,unbekannte Priorität
+06G21,Paul-Schneider-Grundschule,Seydlitzstr. 30-34,12249,Grundschule,fa-building-o,orange,5380000,52.431002,13.341243,Priorität 2 oder 3
+12G30,Reineke-Fuchs-Grundschule,Foxweg 15,13403,Grundschule,fa-building-o,orange,6200000,52.574,13.30985,Priorität 2 oder 3
+03G33,Jeanne-Barez-Schule (Grundschule),Hauptstr. 66,13127,Grundschule,fa-building-o,blue,1940000,52.60417,13.43415,unbekannte Priorität
+12S04,Schule am Park,Eichborndamm 276-284,13437,"Förderschwerp.""Geistige Entwicklung""",fa-building-o,blue,4700000,52.594285,13.330313,unbekannte Priorität
+03G40,Schule am Birkenhof,Arnouxstr. 18,13127,Grundschule,fa-building-o,blue,1640000,52.60791,13.42388,unbekannte Priorität
+06S05,J.-A.-Zeune-Schule für Blinde und Berufsfachschule Dr. Silex,Rothenburgstr. 14,12165,Berufsschule mit sonderpäd. Aufgaben,fa-building-o,orange,6230000,52.455569,13.315047,Höchste Priorität
+06Y06,Beethoven-Oberschule,Barbarastr. 9,12249,Gymnasium,fa-building-o,red,14610000,52.43293,13.34283,Höchste Priorität
+08G35,Schule in der Köllnischen Heide (Grundschule),Hänselstr. 6,12057,Grundschule,fa-building-o,orange,6650000,52.4666,13.4721,Höchste Priorität
+11G07,Hermann-Gmeiner-Grundschule,Harnackstr. 17,10365,Grundschule,fa-building-o,green,0,52.5101,13.48594,unbekannte Priorität
+08G13,Bruno-Taut-Schule (Grundschule),Bruno-Taut-Ring 9C,12359,Grundschule,fa-building-o,blue,4530000,52.44095,13.44886,unbekannte Priorität
+04G13,Nehring-Grundschule,Nehringstr. 9-10,14059,Grundschule,fa-building-o,red,12330000,52.514893,13.293865,Priorität 2 oder 3
+12K12,Campus Hannah Höch (Gemeinschaftsschule),Finsterwalder Str. 52-56,13435,Integrierte Sekundarschule,fa-building-o,red,11180000,52.60028,13.34229,Priorität 2 oder 3
+11G18,Grundschule am Wilhelmsberg,Sandinostr. 8,13055,Grundschule,fa-building-o,blue,4770000,52.537206,13.483664,unbekannte Priorität
+04G21,Halensee-Grundschule,Joachim-Friedrich-Str. 35-36,10711,Grundschule,fa-building-o,orange,6620000,52.49993,13.2961,Priorität 2 oder 3
+04G02,Lietzensee-Grundschule,Witzlebenstr. 34,14057,Grundschule,fa-building-o,blue,4350000,52.5094,13.29502,unbekannte Priorität
+03G20,Grundschule im Moselviertel,Brodenbacher Weg 31,13088,Grundschule,fa-building-o,blue,2930000,52.559028,13.475454,unbekannte Priorität
+09K07,Sophie-Brahe-Schule (Gemeinschaftsschule),Am Plänterwald 17-23,12435,Integrierte Sekundarschule,fa-building-o,orange,5940000,52.48171,13.47804,Priorität 2 oder 3
+12K02,Bettina-von-Arnim-Schule,Senftenberger Ring 49,13435,Integrierte Sekundarschule,fa-building-o,red,18520000,52.60511,13.35859,Höchste Priorität
+06Y07,Paulsen-Gymnasium,Gritznerstr. 57,12163,Gymnasium,fa-building-o,orange,9530000,52.46219,13.314388,Höchste Priorität
+11G03,Grundschule im Gutspark,Josef-Orlopp-Str. 20,10367,Grundschule,fa-building-o,blue,1580000,52.52237,13.48307,unbekannte Priorität
+12K03,Max-Beckmann-Schule (Integrierte Sekundarschule),Auguste-Viktoria-Allee 37,13403,Integrierte Sekundarschule,fa-building-o,orange,9370000,52.57153,13.31463,Priorität 2 oder 3
+11G02,Grundschule am Roederplatz,Bernhard-Bästlein-Str. 22,10367,Grundschule,fa-building-o,blue,4900000,52.52899,13.48214,unbekannte Priorität
+12G33,Lauterbach-Grundschule,Senftenberger Ring 41,13435,Grundschule,fa-building-o,orange,9550000,52.603879,13.359443,Priorität 2 oder 3
+12S03,Lauterbach-Schule,Senftenberger Ring 41,13435,Übrige Förderschwerpunkte,fa-building-o,blue,750000,52.603879,13.359443,unbekannte Priorität
+08S08,Schilling-Schule,Paster-Behrens-Str. 81,12359,Übrige Förderschwerpunkte,fa-building-o,red,11040000,52.442637,13.444198,Priorität 2 oder 3
+03G44,Georg-Zacharias-Grundschule,Sulzfelder Str. 15,13088,Grundschule,fa-building-o,blue,1800000,52.55219,13.47502,unbekannte Priorität
+04K06,Schule am Schloss (Integrierte Sekundarschule),Schloßstr. 55A,14059,Integrierte Sekundarschule,fa-building-o,red,12530000,52.5161,13.29812,Priorität 2 oder 3
+11G16,Schule an der Victoriastadt,Nöldnerstr. 44,10317,Grundschule,fa-building-o,blue,2450000,52.50159,13.48054,unbekannte Priorität
+04G11,Helmuth-James-von-Moltke-Grundschule,Heckerdamm 221,13627,Grundschule,fa-building-o,blue,4440000,52.53903,13.30104,unbekannte Priorität
+12G10,Peter-Witte-Grundschule,Rathauspromenade 75,13437,Grundschule,fa-building-o,orange,6200000,52.5863,13.33039,Priorität 2 oder 3
+11K02,Mildred-Harnack-Schule,Schulze-Boysen-Str. 12,10365,Integrierte Sekundarschule,fa-building-o,orange,8280000,52.511321,13.481213,Priorität 2 oder 3
+04G12,Schinkel-Grundschule,Nithackstr. 8,10585,Grundschule,fa-building-o,orange,7530000,52.51782,13.29876,Priorität 2 oder 3
+11S06,Selma-Lagerlöf-Schule,Bernhard-Bästlein-Str. 56,10367,Übrige Förderschwerpunkte,fa-building-o,orange,5480000,52.53183,13.47998,Priorität 2 oder 3
+12K07,Jean-Krämer-Schule (Integrierte Sekundarschule) Wittenau,Alt-Wittenau 8-12,13437,Integrierte Sekundarschule,fa-building-o,red,10670000,52.58995,13.33545,Priorität 2 oder 3
+12G27,Chamisso-Grundschule,Senftenberger Ring 27,13435,Grundschule,fa-building-o,orange,5810000,52.60169,13.35807,Priorität 2 oder 3
+11K06,Schule am Rathaus,Rathausstr. 8,10367,Integrierte Sekundarschule,fa-building-o,blue,3250000,52.515892,13.48038,unbekannte Priorität
+12Y08,Thomas-Mann-Gymnasium,Königshorster Str. 10,13439,Gymnasium,fa-building-o,red,16100000,52.59848,13.35224,Höchste Priorität
+08K12,Kepler-Schule,Zwillingestr. 21,12057,Integrierte Sekundarschule,fa-building-o,blue,4950000,52.46737,13.46477,unbekannte Priorität
+04G19,Grundschule am Rüdesheimer Platz,Rüdesheimer Str. 24-30,14197,Grundschule,fa-building-o,orange,7900000,52.47113,13.31312,Priorität 2 oder 3
+02G11,Thalia-Grundschule,Alt-Stralau 34,10245,Grundschule,fa-building-o,blue,650000,52.492881,13.476151,unbekannte Priorität
+08G20,Sonnen-Schule (Grundschule),Dammweg 228,12057,Grundschule,fa-building-o,blue,4060000,52.47197,13.46714,unbekannte Priorität
+04K05,Paula-Fürst-Schule (Gemeinschaftsschule),Sybelstr. 20-21,10629,Integrierte Sekundarschule,fa-building-o,orange,5350000,52.50227,13.30194,Priorität 2 oder 3
+06G20,Alt-Lankwitzer Grundschule,Schulstr. 17-21,12247,Grundschule,fa-building-o,blue,4600000,52.437023,13.351096,unbekannte Priorität
+06S03,Peter-Frankenfeld-Schule,Wedellstr. 26,12247,"Förderschwerp.""Geistige Entwicklung""",fa-building-o,blue,2100000,52.43515,13.35522,unbekannte Priorität
+06G28,Ludwig-Bechstein-Grundschule,Halbauer Weg 25,12249,Grundschule,fa-building-o,orange,5790000,52.43255,13.36236,Priorität 2 oder 3
+06G15,Dunant-Grundschule,Gritznerstr. 19-23,12163,Grundschule,fa-building-o,orange,5880000,52.46486,13.31818,Höchste Priorität
+08Y03,Albert-Einstein-Gymnasium,Parchimer Allee 109,12359,Gymnasium,fa-building-o,red,15780000,52.44553,13.44245,Priorität 2 oder 3
+04Y04,Gottfried-Keller-Gymnasium,Olbersstr. 38,10589,Gymnasium,fa-building-o,red,13390000,52.52888,13.3022,Priorität 2 oder 3
+04K09,Otto-von-Guericke-Schule (Integrierte Sekundarschule),Eisenzahnstr. 47-48,10709,Integrierte Sekundarschule,fa-building-o,red,11540000,52.49276,13.30516,Priorität 2 oder 3
+06Y13,Gymnasium Steglitz,Heesestr. 15,12169,Gymnasium,fa-building-o,orange,6690000,52.45671,13.32644,Höchste Priorität
+11S02,Schule am Fennpfuhl,Alfred-Jung-Str. 19,10369,"Förderschwerp.""Lernen""",fa-building-o,blue,4400000,52.52392,13.4769,unbekannte Priorität
+06K03,Kopernikus-Schule (Integrierte Sekundarschule),Lepsiusstr. 24-28,12163,Integrierte Sekundarschule,fa-building-o,orange,7190000,52.4643,13.32069,Höchste Priorität
+08K06,Fritz-Karsen-Schule (Gemeinschaftsschule),Onkel-Bräsig-Str. 76-78,12359,Integrierte Sekundarschule,fa-building-o,red,18380000,52.44865,13.44389,Priorität 2 oder 3
+04G08,Mierendorff-Grundschule,Mierendorffstr. 20-24,10589,Grundschule,fa-building-o,orange,9500000,52.523791,13.303338,Priorität 2 oder 3
+04G20,Katharina-Heinroth-Grundschule,Münstersche Str. 15-17,10709,Grundschule,fa-building-o,orange,8720000,52.494,13.30619,Priorität 2 oder 3
+12G11,Ringelnatz-Grundschule,Wilhelm-Gericke-Str. 7,13437,Grundschule,fa-building-o,blue,3840000,52.5861,13.33753,unbekannte Priorität
+12G09,Grundschule an der Peckwisch,Tornower Weg 26-34,13439,Grundschule,fa-building-o,blue,4640000,52.59299,13.34869,unbekannte Priorität
+12G29,Hermann-Schulz-Grundschule,Kienhorststr. 67-79,13403,Grundschule,fa-building-o,orange,7060000,52.57359,13.32554,Priorität 2 oder 3
+06Y08,Hermann-Ehlers-Oberschule,Elisenstr. 3-4,12169,Gymnasium,fa-building-o,red,10150000,52.45297,13.33373,Höchste Priorität
+12G32,Charlie-Chaplin-Grundschule,Wilhelmsruher Damm 90-94,13439,Grundschule,fa-building-o,blue,2840000,52.59744,13.36465,unbekannte Priorität
+06K10,Helene-Lange-Schule (Integrierte Sekundarschule),Lauenburger Str. 110,12169,Integrierte Sekundarschule,fa-building-o,orange,7550000,52.4528,13.33586,Priorität 2 oder 3
+11S12,Nils-Holgersson-Schule,Otto-Marquardt-Str. 12-14,10369,"Förderschwerp.""Geistige Entwicklung""",fa-building-o,green,0,52.53405,13.47214,unbekannte Priorität
+12G26,Märkische Grundschule,Dannenwalder Weg 163-165,13439,Grundschule,fa-building-o,blue,4850000,52.5952,13.36016,unbekannte Priorität
+07G37,Ikarus-Grundschule,Körtingstr. 45,12107,Grundschule,fa-building-o,orange,6900000,52.43363,13.38389,Priorität 2 oder 3
+08K03,Otto-Hahn-Schule,Buschkrugallee 63,12359,Integrierte Sekundarschule,fa-building-o,blue,3240000,52.45809,13.449,unbekannte Priorität
+11S07,Carl-von-Linné-Schule,Paul-Junius-Str. 15,10367,Berufsschule mit sonderpäd. Aufgaben,fa-building-o,blue,1280000,52.5217,13.47301,unbekannte Priorität
+04S02,Arno-Fuchs-Schule,Richard-Wagner-Str. 30,10585,"Förderschwerp.""Geistige Entwicklung""",fa-building-o,blue,3840000,52.51489,13.30717,unbekannte Priorität
+07G17,Stechlinsee-Grundschule,Rheingaustr. 7,12161,Grundschule,fa-building-o,blue,2800000,52.46934,13.32242,unbekannte Priorität
+06G32,Grundschule am Stadtpark Steglitz,Karl-Stieler-Str. 10-11,12167,Grundschule,fa-building-o,blue,2760000,52.449314,13.34298,unbekannte Priorität
+08K11,Alfred-Nobel-Schule,Britzer Damm 164,12347,Integrierte Sekundarschule,fa-building-o,blue,2190000,52.448,13.43469,unbekannte Priorität
+07Y03,Rheingau-Gymnasium,Schwalbacher Str. 3-4,12161,Gymnasium,fa-building-o,red,10360000,52.470206,13.322611,Priorität 2 oder 3
+02G08,Grundschule am Traveplatz,Jessnerstr. 24-32,10247,Grundschule,fa-building-o,blue,3040000,52.511492,13.471855,unbekannte Priorität
+12G07,Mark-Twain-Grundschule,Auguste-Viktoria-Allee 95,13403,Grundschule,fa-building-o,blue,4890000,52.56864,13.3264,unbekannte Priorität
+07Y04,Paul-Natorp-Gymnasium,Goßlerstr. 13-15,12161,Gymnasium,fa-building-o,green,0,52.46939,13.32431,unbekannte Priorität
+02G04,Pettenkofer-Grundschule,Pettenkoferstr. 20-24,10247,Grundschule,fa-building-o,orange,5070000,52.518656,13.471,Priorität 2 oder 3
+04S06,Finkenkrug-Schule,Mannheimer Str. 21-22,10713,"Förderschwerp.""Geistige Entwicklung""",fa-building-o,blue,1780000,52.48448,13.31606,unbekannte Priorität
+07G16,Ruppin-Grundschule,Offenbacher Str. 5A,14197,Grundschule,fa-building-o,red,12860000,52.47538,13.32137,Höchste Priorität
+04Y03,Sophie-Charlotte-Gymnasium,Sybelstr. 2,10629,Gymnasium,fa-building-o,orange,7210000,52.5023,13.31237,Priorität 2 oder 3
+08G19,Herman-Nohl-Schule (Grundschule),Hannemannstr. 69,12347,Grundschule,fa-building-o,blue,1960000,52.455159,13.43894,unbekannte Priorität
+08S03,Herman-Nohl-Schule,Hannemannstr. 69,12347,"Förderschwerp.""Lernen""",fa-building-o,green,0,52.455159,13.43894,unbekannte Priorität
+07G27,Rudolf-Hildebrand-Grundschule,Friedenstr. 23-25,12107,Grundschule,fa-building-o,orange,8980000,52.43886,13.3855,Priorität 2 oder 3
+02G34,34. Schule (Grundschule),Scharnweberstr. 19,10247,Grundschule,fa-building-o,blue,270000,52.51279,13.46783,unbekannte Priorität
+11G01,Sonnenuhr-Grundschule,Franz-Jacob-Str. 33,10369,Grundschule,fa-building-o,blue,3670000,52.52933,13.46695,unbekannte Priorität
+11Y02,Johann-Gottfried-Herder-Gymnasium,Franz-Jacob-Str. 8,10369,Gymnasium,fa-building-o,blue,1480000,52.52671,13.467245,unbekannte Priorität
+06G14,Sachsenwald-Grundschule,Sachsenwaldstr. 20-21,12157,Grundschule,fa-building-o,blue,3490000,52.46151,13.3354,unbekannte Priorität
+04Y07,Friedrich-Ebert-Gymnasium,Blissestr. 22,10713,Gymnasium,fa-building-o,orange,8430000,52.484621,13.319289,Höchste Priorität
+03G43,Grundschule Wilhelmsruh,Lessingstr. 44,13158,Grundschule,fa-building-o,blue,2100000,52.5903,13.36421,unbekannte Priorität
+04G01,Eichendorff-Grundschule,Goethestr. 19,10625,Grundschule,fa-building-o,blue,4660000,52.50921,13.31305,Priorität 2 oder 3
+04S07,Comenius-Schule,Gieselerstr. 4,10713,Grundschule,fa-building-o,red,11020000,52.48869,13.3181,Priorität 2 oder 3
+03G17,Grundschule am Weißen See,Amalienstr. 6,13086,Grundschule,fa-building-o,orange,8790000,52.555294,13.457004,Höchste Priorität
+04G26,Birger-Forell-Grundschule,Koblenzer Str. 22-24,10715,Grundschule,fa-building-o,orange,5660000,52.480726,13.321893,Priorität 2 oder 3
+08G24,Schule am Teltowkanal (Grundschule),Rungiusstr. 46,12347,Grundschule,fa-building-o,blue,3370000,52.45925,13.44063,unbekannte Priorität
+03G28,Grundschule im Hasengrund,Charlottenstr. 19,13156,Grundschule,fa-building-o,green,0,52.59089,13.410577,unbekannte Priorität
+06G17,Grundschule am Insulaner,Hanstedter Weg 11-15,12169,Grundschule,fa-building-o,blue,4430000,52.45185,13.34956,unbekannte Priorität
+03G18,Picasso-Grundschule,Gounodstr. 71,13088,Grundschule,fa-building-o,blue,3460000,52.547032,13.460359,unbekannte Priorität
+02G09,Zille-Grundschule,Boxhagener Str. 46,10245,Grundschule,fa-building-o,blue,1180000,52.50898,13.4653,unbekannte Priorität
+03G13,Rudolf-Dörrier-Grundschule,Kastanienallee 59,13158,Grundschule,fa-building-o,blue,4910000,52.59125,13.37612,unbekannte Priorität
+07G31,Carl-Sonnenschein-Grundschule,Am Hellespont 4-6,12109,Grundschule,fa-building-o,blue,710000,52.443699,13.408152,unbekannte Priorität
+07G15,Fläming-Grundschule,Illstr. 4-6,12161,Grundschule,fa-building-o,orange,7250000,52.46839,13.3329,Höchste Priorität
+04Y10,Marie-Curie-Gymnasium,Weimarische Str. 21,10715,Gymnasium,fa-building-o,orange,5050000,52.480119,13.324748,Priorität 2 oder 3
+04G07,Ludwig-Cauer-Grundschule,Cauerstr. 36-38,10587,Grundschule,fa-building-o,orange,6920000,52.515043,13.315123,Priorität 2 oder 3
+04K03,Robert-Jungk-Schule,Sächsische Str. 58,10707,Integrierte Sekundarschule,fa-building-o,blue,3200000,52.49448,13.31872,unbekannte Priorität
+07K07,Johanna-Eck-Schule (Integrierte Sekundarschule),Ringstr. 103-106,12105,Integrierte Sekundarschule,fa-building-o,red,13340000,52.44692,13.36411,Höchste Priorität
+04G17,Johann-Peter-Hebel-Grundschule,Emser Str. 50,10719,Grundschule,fa-building-o,orange,5890000,52.49541,13.31942,Priorität 2 oder 3
+08G36,Löwenzahn-Schule (Grundschule),Drorystr. 3,12055,Grundschule,fa-building-o,blue,4860000,52.472499,13.448771,unbekannte Priorität
+12G04,Till-Eulenspiegel-Grundschule,Humboldtstr. 8-13,13407,Grundschule,fa-building-o,orange,5530000,52.5732,13.3423,Priorität 2 oder 3
+01K04,Heinrich-von-Stephan-Schule (Gemeinschaftsschule),Neues Ufer 6,10553,Integrierte Sekundarschule,fa-building-o,orange,6980000,52.524775,13.316714,Priorität 2 oder 3
+04Y11,Goethe-Gymnasium,Gasteiner Str. 23,10717,Gymnasium,fa-building-o,orange,7130000,52.48759,13.3225,Priorität 2 oder 3
+08G23,Zürich-Schule (Grundschule),Wederstr. 49,12347,Grundschule,fa-building-o,blue,1900000,52.462585,13.439533,unbekannte Priorität
+08S01,Adolf-Reichwein-Schule,Sonnenallee 188,12059,"Förderschwerp.""Lernen""",fa-building-o,orange,5350000,52.475733,13.450826,Priorität 2 oder 3
+02Y03,Heinrich-Hertz-Oberschule,Rigaer Str. 81-82,10247,Gymnasium,fa-building-o,orange,7780000,52.51695,13.46306,Höchste Priorität
+09G30,Kiefholz-Grundschule,Kiefholzstr. 45,12435,Grundschule,fa-building-o,blue,950000,52.48626,13.45609,unbekannte Priorität
+07Y07,Eckener-Gymnasium,Kaiserstr. 17-21,12105,Gymnasium,fa-building-o,orange,9540000,52.4451,13.38052,Höchste Priorität
+03Y14,Primo-Levi-Gymnasium,Pistoriusstr. 133,13086,Gymnasium,fa-building-o,red,19850000,52.5516,13.45369,Höchste Priorität
+08G18,Eduard-Mörike-Schule (Grundschule),Stuttgarter Str. 35-39,12059,Grundschule,fa-building-o,orange,7930000,52.477969,13.450143,Priorität 2 oder 3
+03G36,Elisabeth-Christinen-Grundschule,Lindenberger Str. 12,13156,Grundschule,fa-building-o,orange,7650000,52.58294,13.41741,Höchste Priorität
+04G04,Joan-Miró-Grundschule,Bleibtreustr. 43,10623,Grundschule,fa-building-o,orange,8030000,52.50357,13.32014,Priorität 2 oder 3
+02G10,Modersohn-Grundschule,Niemannstr. 3,10245,Grundschule,fa-building-o,blue,510000,52.50705,13.46024,unbekannte Priorität
+03K08,Hagenbeck-Schule,Gustav-Adolf-Str. 60,13086,Integrierte Sekundarschule,fa-building-o,orange,5080000,52.55879,13.44729,Priorität 2 oder 3
+03G38,Grundschule im Blumenviertel,Syringenplatz 30,10407,Grundschule,fa-building-o,blue,3720000,52.535141,13.458074,unbekannte Priorität
+03K03,Konrad-Duden-Schule (Integrierte Sekundarschule),Rolandstr. 35,13156,Integrierte Sekundarschule,fa-building-o,blue,1880000,52.58183,13.41744,unbekannte Priorität
+08G03,Hans-Fallada-Schule (Grundschule),Harzer Str. 73,12059,Grundschule,fa-building-o,orange,7860000,52.483564,13.451851,Priorität 2 oder 3
+08S06,Hans-Fallada-Schule,Harzer Str. 73-74,12059,"Förderschwerp.""Lernen""",fa-building-o,green,0,52.483564,13.451851,unbekannte Priorität
+07G25,Ludwig-Heck-Grundschule,Königstr. 32,12105,Grundschule,fa-building-o,orange,7430000,52.447125,13.383928,Priorität 2 oder 3
+07K10,Friedrich-Bergius-Schule,Perelsplatz 6-9,12159,Integrierte Sekundarschule,fa-building-o,orange,8750000,52.47618,13.33314,Höchste Priorität
+04K02,Friedensburg-Schule,Goethestr. 8-9,10623,Integrierte Sekundarschule,fa-building-o,red,12860000,52.50908,13.32082,Priorität 2 oder 3
+08G17,Richard-Schule (Grundschule),Richardplatz 14,12055,Grundschule,fa-building-o,blue,3070000,52.47359,13.44439,unbekannte Priorität
+07G23,Schätzelberg-Grundschule,Wolfsburger Weg 13-19,12109,Grundschule,fa-building-o,orange,5840000,52.4487,13.40066,Höchste Priorität
+02K06,Emanuel-Lasker-Schule,Modersohnstr. 53,10245,Integrierte Sekundarschule,fa-building-o,blue,2220000,52.50277,13.45729,unbekannte Priorität
+04Y01,Schiller-Gymnasium,Schillerstr. 125-127,10625,Gymnasium,fa-building-o,red,11340000,52.50993,13.321596,Höchste Priorität
+08Y01,Albrecht-Dürer-Gymnasium,Emser Str. 132-137,12051,Gymnasium,fa-building-o,blue,1830000,52.46947,13.43907,unbekannte Priorität
+01G40,Möwensee-Grundschule,Afrikanische Str. 123-125,13351,Grundschule,fa-building-o,orange,6620000,52.55575,13.33375,Höchste Priorität
+03Y15,Max-Delbrück-Gymnasium,Kuckhoffstr. 2-22,13156,Gymnasium,fa-building-o,orange,8200000,52.583884,13.402118,Höchste Priorität
+02G03,Justus-von-Liebig-Grundschule,Liebigstr. 18A,10247,Grundschule,fa-building-o,orange,5430000,52.518699,13.457697,Priorität 2 oder 3
+03S08,Panke-Schule,Galenusstr. 64,13187,"Förderschwerp.""Geistige Entwicklung""",fa-building-o,green,0,52.57877,13.41699,unbekannte Priorität
+03G22,Grundschule am Wasserturm,Tino-Schwierzina-Str. 66,13089,Grundschule,fa-building-o,green,0,52.56546,13.43664,unbekannte Priorität
+08G21,Silberstein-Schule (Grundschule),Silbersteinstr. 42,12051,Grundschule,fa-building-o,blue,3110000,52.466965,13.434906,unbekannte Priorität
+03G47,Schule an der Strauchwiese,Mendelstr. 54,13187,Grundschule,fa-building-o,green,0,52.57805,13.41782,unbekannte Priorität
+03S09,Schule an der Strauchwiese,Mendelstr. 54,13187,Übrige Förderschwerpunkte,fa-building-o,blue,200000,52.57805,13.41782,unbekannte Priorität
+09G01,Bouché-Schule (Grundschule),Bouchestr. 5-10,12435,Grundschule,fa-building-o,blue,3820000,52.49327,13.45252,unbekannte Priorität
+04G25,Cecilien-Schule (Grundschule),Nikolsburger Platz 5,10717,Grundschule,fa-building-o,orange,6060000,52.49331,13.32769,Priorität 2 oder 3
+04G18,Ernst-Habermann-Grundschule,Prinzregentenstr. 33-34,10715,Grundschule,fa-building-o,blue,1720000,52.48328,13.33269,unbekannte Priorität
+12K04,Paul-Löbe-Schule,Lindauer Allee 23-25,13407,Integrierte Sekundarschule,fa-building-o,red,10650000,52.57316,13.35461,Priorität 2 oder 3
+08G15,Hermann-Sander-Schule (Grundschule),Mariendorfer Weg 69,12051,Grundschule,fa-building-o,orange,7130000,52.46416,13.43005,Priorität 2 oder 3
+07K12,Friedenauer Gemeinschaftsschule,Rubensstr. 63,12157,Integrierte Sekundarschule,fa-building-o,green,0,52.469784,13.344068,unbekannte Priorität
+08K09,Röntgen-Schule,Wildenbruchstr. 53,12435,Integrierte Sekundarschule,fa-building-o,orange,8350000,52.488886,13.449558,Priorität 2 oder 3
+02Y04,Georg-Friedrich-Händel-Gymnasium,Frankfurter Allee 6A,10247,Gymnasium,fa-building-o,blue,2080000,52.515331,13.455796,unbekannte Priorität
+07S01,Prignitz-Schule,Pöppelmannstr. 2,12157,"Förderschwerp.""Lernen""",fa-building-o,orange,7540000,52.46884,13.34519,Priorität 2 oder 3
+02G02,Hausburg-Grundschule,Hausburgstr. 20,10249,Grundschule,fa-building-o,orange,6600000,52.524208,13.454324,Höchste Priorität
+07G07,Lindenhof-Grundschule,Reglinstr. 29,12105,Grundschule,fa-building-o,blue,3200000,52.45809,13.36325,unbekannte Priorität
+07G22,Paul-Klee-Grundschule,Konradinstr. 15-17,12105,Grundschule,fa-building-o,orange,8260000,52.454,13.37538,Höchste Priorität
+08G12,Peter-Petersen-Schule (Grundschule),Jonasstr. 15,12053,Grundschule,fa-building-o,blue,1880000,52.47189,13.43548,unbekannte Priorität
+08G14,Konrad-Agahd-Schule (Grundschule),Thomasstr. 39,12053,Grundschule,fa-building-o,blue,2120000,52.4725,13.43556,unbekannte Priorität
+12G05,Kolumbus-Grundschule,Büchsenweg 23A,13409,Grundschule,fa-building-o,blue,4870000,52.57569,13.36622,unbekannte Priorität
+03K04,Gustave-Eiffel-Schule,Hanns-Eisler-Str. 78-80,10409,Integrierte Sekundarschule,fa-building-o,orange,7020000,52.540662,13.44844,Höchste Priorität
+07G06,Sternberg-Grundschule,Mettestr. 8,10825,Grundschule,fa-building-o,blue,2300000,52.48047,13.33924,unbekannte Priorität
+07Y02,Rückert-Gymnasium,Mettestr. 8,10825,Gymnasium,fa-building-o,red,18070000,52.48047,13.33924,Höchste Priorität
+03G32,Grundschule an den Buchen,Wilhelm-Wolff-Str. 19,13156,Grundschule,fa-building-o,blue,3000000,52.579207,13.394536,unbekannte Priorität
+03G34,Mendel-Grundschule,Stiftsweg 3,13187,Grundschule,fa-building-o,blue,3820000,52.573478,13.416325,unbekannte Priorität
+03K05,Heinz-Brandt-Schule,Langhansstr. 120,13086,Integrierte Sekundarschule,fa-building-o,blue,4720000,52.551192,13.441808,unbekannte Priorität
+12Y01,Friedrich-Engels-Gymnasium,Emmentaler Str. 67,13407,Gymnasium,fa-building-o,red,12690000,52.56959,13.35743,Höchste Priorität
+01Y08,Lessing-Gymnasium,Schöningstr. 17,13349,Gymnasium,fa-building-o,orange,9630000,52.55734,13.34371,Höchste Priorität
+03S07,Schule an der Heide,Hermann-Hesse-Str. 48-52,13156,"Förderschwerp.""Lernen""",fa-building-o,blue,1090000,52.578097,13.394472,unbekannte Priorität
+03G12,Paul-Lincke-Grundschule,Pieskower Weg 39,10409,Grundschule,fa-building-o,blue,1350000,52.54129,13.44553,unbekannte Priorität
+02K07,Georg-Weerth-Schule,Eckertstr. 16,10249,Integrierte Sekundarschule,fa-building-o,blue,4850000,52.518996,13.450401,unbekannte Priorität
+08G05,Elbe-Schule (Grundschule),Elbestr. 11,12045,Grundschule,fa-building-o,green,0,52.48442,13.44062,unbekannte Priorität
+08G09,Regenbogen-Schule (Grundschule),Morusstr. 32,12053,Grundschule,fa-building-o,orange,5360000,52.47578,13.43333,Priorität 2 oder 3
+07S04,Marianne-Cohn-Schule,Holzmannstr. 7,12099,"Förderschwerp.""Geistige Entwicklung""",fa-building-o,orange,5770000,52.46433,13.41815,Höchste Priorität
+03Y17,17. Schule (Gymnasium),Conrad-Blenkle-Str. 34,10407,Gymnasium,fa-building-o,green,0,52.534329,13.447008,unbekannte Priorität
+07G20,Maria-Montessori-Grundschule,Friedrich-Wilhelm-Str. 72-74,12103,Grundschule,fa-building-o,blue,4870000,52.45817,13.38069,unbekannte Priorität
+03G01,Schule am Hamburger Platz (Grundschule),Gustav-Adolf-Str. 21,13086,Grundschule,fa-building-o,blue,3470000,52.55381,13.43681,unbekannte Priorität
+01G18,Carl-Bolle-Grundschule,Waldenserstr. 20-21,10551,Grundschule,fa-building-o,orange,9950000,52.528894,13.331807,Höchste Priorität
+01K08,Schule am Schillerpark (Integrierte Sekundarschule),Ofener Str. 6,13349,Integrierte Sekundarschule,fa-building-o,orange,9960000,52.55628,13.3457,Höchste Priorität
+02S01,Schule am Friedrichshain,Lasdehner Str. 19,10243,Integrierte Sekundarschule,fa-building-o,blue,1190000,52.51449,13.4491,unbekannte Priorität
+02G07,Ludwig-Hoffmann-Grundschule,Lasdehner Str. 21-23,10243,Grundschule,fa-building-o,blue,1710000,52.514357,13.448886,unbekannte Priorität
+02G23,Fichtelgebirge-Grundschule,Görlitzer Ufer 2,10997,Grundschule,fa-building-o,orange,6580000,52.49575,13.44495,Höchste Priorität
+01G47,Miriam-Makeba-Grundschule,Zinzendorfstr. 15-16,10555,Grundschule,fa-building-o,orange,7250000,52.52232,13.331446,Höchste Priorität
+01G42,Anna-Lindh-Schule (Grundschule),Guineastr. 17-18,13351,Grundschule,fa-building-o,red,10860000,52.550375,13.341886,Priorität 2 oder 3
+12Y02,Europäisches Gymnasium Bertha-von-Suttner,Reginhardstr. 172,13409,Gymnasium,fa-building-o,red,10740000,52.57145,13.36873,Priorität 2 oder 3
+08K10,Zuckmayer-Schule,Kopfstr. 55,12053,Integrierte Sekundarschule,fa-building-o,orange,8710000,52.4761,13.43129,Priorität 2 oder 3
+12K05,Gustav-Freytag-Schule (Integrierte Sekundarschule),Breitkopfstr. 66-80,13409,Integrierte Sekundarschule,fa-building-o,orange,7980000,52.56976,13.36575,Höchste Priorität
+07Y06,Askanisches Gymnasium,Kaiserin-Augusta-Str. 19-20,12103,Gymnasium,fa-building-o,red,12850000,52.45992,13.37992,Höchste Priorität
+08Y04,Ernst-Abbe-Gymnasium,Sonnenallee 79,12045,Gymnasium,fa-building-o,blue,680000,52.48349,13.43711,unbekannte Priorität
+03Y10,Rosa-Luxemburg-Gymnasium,Kissingenstr. 12,13189,Gymnasium,fa-building-o,green,0,52.56669,13.41948,unbekannte Priorität
+03K07,Tesla-Schule (Gemeinschaftsschule),Rudi-Arndt-Str. 18,10407,Integrierte Sekundarschule,fa-building-o,orange,9900000,52.529086,13.446061,Höchste Priorität
+03G39,Grundschule Wolkenstein,Neumannstr. 65,13189,Grundschule,fa-building-o,blue,2010000,52.56527,13.42024,unbekannte Priorität
+12G02,Grundschule am Schäfersee,Baseler Str. 2-6,13407,Grundschule,fa-building-o,orange,6650000,52.5622,13.3554,Priorität 2 oder 3
+01A04,Berlin-Kolleg,Turmstr. 75,10551,Berlin-Kolleg,fa-building-o,orange,6710000,52.526574,13.334076,Priorität 2 oder 3
+02Y05,Dathe-Gymnasium,Helsingforser Str. 11-13,10243,Gymnasium,fa-building-o,orange,6000000,52.510001,13.445399,Priorität 2 oder 3
+07G19,Paul-Simmel-Grundschule,Felixstr. 26-58,12099,Grundschule,fa-building-o,orange,7990000,52.46137,13.3926,Höchste Priorität
+03G27,Elizabeth-Shaw-Grundschule,Grunowstr. 17,13187,Grundschule,fa-building-o,blue,3040000,52.56831,13.41044,unbekannte Priorität
+08G07,Hermann-Boddin-Schule (Grundschule),Boddinstr. 55,12053,Grundschule,fa-building-o,orange,7800000,52.480416,13.431252,Priorität 2 oder 3
+12G06,Hausotter-Grundschule,Hausotterplatz 4,13409,Grundschule,fa-building-o,blue,4660000,52.56963,13.375634,unbekannte Priorität
+07G14,Löcknitz-Grundschule,Berchtesgadener Str. 10-11,10779,Grundschule,fa-building-o,blue,3530000,52.489558,13.343356,unbekannte Priorität
+08K08,Gemeinschaftsschule auf dem Campus Rütli,Rütlistr. 41,12045,Integrierte Sekundarschule,fa-building-o,red,13070000,52.487309,13.434226,Priorität 2 oder 3
+03K06,Reinhold-Burger-Schule,Neue Schönholzer Str. 32,13187,Integrierte Sekundarschule,fa-building-o,blue,2010000,52.56838,13.40303,unbekannte Priorität
+03G06,Bötzow-Grundschule,John-Schehr-Str. 38,10407,Grundschule,fa-building-o,blue,1390000,52.535104,13.439793,unbekannte Priorität
+03K02,Kurt-Tucholsky-Schule (Integrierte Sekundarschule),Neumannstr. 9-11,13189,Integrierte Sekundarschule,fa-building-o,blue,3030000,52.55812,13.42333,unbekannte Priorität
+08G06,Karl-Weise-Schule (Grundschule),Weisestr. 20,12049,Grundschule,fa-building-o,blue,3670000,52.476503,13.423961,unbekannte Priorität
+08G01,Rixdorfer Schule,Donaustr. 120,12043,Grundschule,fa-building-o,orange,7150000,52.484904,13.431792,Priorität 2 oder 3
+07K06,Georg-von-Giesche-Schule,Hohenstaufenstr. 47-48,10779,Integrierte Sekundarschule,fa-building-o,orange,9720000,52.494144,13.342529,Höchste Priorität
+03G26,Arnold-Zweig-Grundschule,Wollankstr. 131,13187,Grundschule,fa-building-o,blue,340000,52.56868,13.40012,unbekannte Priorität
+07K13,Schule am Berlinickeplatz (Integrierte Sekundarschule),Alt-Tempelhof 53-57,12103,Integrierte Sekundarschule,fa-building-o,red,10300000,52.465657,13.379583,Priorität 2 oder 3
+07G12,Scharmützelsee-Grundschule,Hohenstaufenstr. 49,10779,Grundschule,fa-building-o,orange,6940000,52.494177,13.343268,Priorität 2 oder 3
+03Y13,Felix-Mendelssohn-Bartholdy-Gymnasium,Eugen-Schönhaar-Str. 18,10407,Gymnasium,fa-building-o,green,0,52.537087,13.437857,unbekannte Priorität
+01G24,Gottfried-Röhl-Grundschule,Ungarnstr. 75,13349,Grundschule,fa-building-o,orange,7110000,52.55719,13.35717,Priorität 2 oder 3
+01K02,Ernst-Schering-Schule,Lütticher Str. 47-48,13353,Integrierte Sekundarschule,fa-building-o,red,11020000,52.54701,13.34782,Priorität 2 oder 3
+07Y05,Luise-Henriette-Gymnasium,Germaniastr. 4-6,12099,Gymnasium,fa-building-o,green,0,52.46546,13.39059,unbekannte Priorität
+07G02,Finow-Grundschule,Welserstr. 16-22,10777,Grundschule,fa-building-o,orange,5750000,52.49823,13.34251,Priorität 2 oder 3
+01Y12,Gymnasium Tiergarten,Altonaer Str. 26,10555,Gymnasium,fa-building-o,blue,280000,52.51935,13.3394,unbekannte Priorität
+03Y08,Carl-von-Ossietzky-Gymnasium,Görschstr. 42-44,13187,Gymnasium,fa-building-o,blue,520000,52.566429,13.40007,unbekannte Priorität
+03G41,Trelleborg-Schule (Grundschule),Eschengraben 40,13189,Grundschule,fa-building-o,orange,5660000,52.556012,13.421818,Priorität 2 oder 3
+12G03,Reginhard-Grundschule,Letteallee 39-41,13409,Grundschule,fa-building-o,blue,2850000,52.563219,13.370292,unbekannte Priorität
+07K09,Gustav-Langenscheidt-Schule,Belziger Str. 43-51,10823,Integrierte Sekundarschule,fa-building-o,red,12540000,52.485997,13.350718,Höchste Priorität
+01G19,Hansa-Grundschule,Lessingstr. 5,10555,Grundschule,fa-building-o,blue,1480000,52.5214,13.34019,unbekannte Priorität
+01S05,Schule in der Charité,Augustenburger Platz 1,13353,Übrige Förderschwerpunkte,fa-building-o,green,0,52.542216,13.347104,unbekannte Priorität
+03K09,Janusz-Korczak-Schule (Integrierte Sekundarschule),Dolomitenstr. 94,13187,Integrierte Sekundarschule,fa-building-o,blue,3820000,52.562908,13.407559,unbekannte Priorität
+02K08,Refik-Veseli-Schule (Integrierte Sekundarschule),Skalitzer Str. 55,10997,Integrierte Sekundarschule,fa-building-o,red,12150000,52.49962,13.43555,Höchste Priorität
+01G36,Andersen-Grundschule,Kattegatstr. 26,13359,Grundschule,fa-building-o,blue,3790000,52.56553,13.38891,unbekannte Priorität
+08Y02,Albert-Schweitzer-Gymnasium,Karl-Marx-Str. 14,12043,Gymnasium,fa-building-o,orange,9830000,52.4852,13.42649,Priorität 2 oder 3
+03G08,Grundschule am Planetarium,Ella-Kay-Str. 47,10405,Grundschule,fa-building-o,orange,5430000,52.54145,13.43118,Priorität 2 oder 3
+08G02,Theodor-Storm-Schule (Grundschule),Hobrechtstr. 76,12043,Grundschule,fa-building-o,orange,5560000,52.486488,13.426763,Priorität 2 oder 3
+08G08,Karlsgarten-Schule (Grundschule),Karlsgartenstr. 7,12049,Grundschule,fa-building-o,orange,8820000,52.482099,13.422505,Priorität 2 oder 3
+07G03,Werbellinsee-Grundschule,Luitpoldstr. 38,10781,Grundschule,fa-building-o,blue,1920000,52.495036,13.348236,unbekannte Priorität
+07G18,Grundschule am Barbarossaplatz,Barbarossaplatz 5,10781,Grundschule,fa-building-o,orange,6020000,52.49235,13.34978,Höchste Priorität
+07G10,Teltow-Grundschule,Feurigstr. 57,10827,Grundschule,fa-building-o,orange,8360000,52.484327,13.356154,Höchste Priorität
+02K01,Ellen-Key-Schule,Rüdersdorfer Str. 20-28,10243,Integrierte Sekundarschule,fa-building-o,orange,6230000,52.5152,13.43689,Priorität 2 oder 3
+03K11,Wilhelm-von-Humboldt-Schule (Gemeinschaftsschule),Erich-Weinert-Str. 70,10439,Integrierte Sekundarschule,fa-building-o,blue,2010000,52.54845,13.42476,unbekannte Priorität
+01G41,Erika-Mann-Grundschule,Utrechter Str. 25-27,13347,Grundschule,fa-building-o,orange,5520000,52.55099,13.35786,Priorität 2 oder 3
+01K09,Hedwig-Dohm-Schule (Integrierte Sekundarschule),Stephanstr. 27,10559,Integrierte Sekundarschule,fa-building-o,orange,6550000,52.53367,13.34651,Priorität 2 oder 3
+03G25,Carl-Humann-Grundschule,Scherenbergstr. 7,10439,Grundschule,fa-building-o,blue,1440000,52.55101,13.42173,unbekannte Priorität
+03G37,Klecks-Grundschule,Brixener Str. 40,13187,Grundschule,fa-building-o,blue,490000,52.55989,13.40756,unbekannte Priorität
+02G01,Spartacus-Grundschule,Friedenstr. 40-45,10249,Grundschule,fa-building-o,blue,830000,52.52106,13.43582,unbekannte Priorität
+02G35,Rosa-Parks-Grundschule,Reichenberger Str. 65,10999,Grundschule,fa-building-o,red,13200000,52.495472,13.43052,Priorität 2 oder 3
+03G05,Homer-Grundschule,Pasteurstr. 10-12,10407,Grundschule,fa-building-o,blue,3780000,52.53371,13.43237,unbekannte Priorität
+03Y04,Heinrich-Schliemann-Gymnasium,Dunckerstr. 64,10439,Gymnasium,fa-building-o,orange,5300000,52.54663,13.42365,Priorität 2 oder 3
+02Y01,Andreas-Oberschule,Koppenstr. 76,10243,Gymnasium,fa-building-o,orange,7280000,52.514039,13.434606,Priorität 2 oder 3
+02S03,Margarethe-von-Witzleben-Schule,Palisadenstr. 76-77,10243,Übrige Förderschwerpunkte,fa-building-o,blue,3840000,52.51984,13.4346,unbekannte Priorität
+01G32,Carl-Kraemer-Grundschule,Zechliner Str. 4,13359,Grundschule,fa-building-o,orange,7760000,52.56107,13.38284,Höchste Priorität
+03Y03,Käthe-Kollwitz-Gymnasium,Dunckerstr. 65-66,10439,Gymnasium,fa-building-o,blue,4700000,52.5458,13.42271,unbekannte Priorität
+03G14,Bornholmer Grundschule,Ibsenstr. 17,10439,Grundschule,fa-building-o,orange,9620000,52.55572,13.40768,Höchste Priorität
+02G29,Heinrich-Zille-Grundschule,Waldemarstr. 118,10997,Grundschule,fa-building-o,blue,4040000,52.500729,13.429182,unbekannte Priorität
+02G36,36. Schule (Grundschule),Andreasstr. 50,10243,Übrige Förderschwerpunkte,fa-building-o,blue,2960000,52.51663,13.43215,unbekannte Priorität
+02G27,Hunsrück-Grundschule,Manteuffelstr. 79,10999,Grundschule,fa-building-o,orange,6650000,52.497732,13.426632,Priorität 2 oder 3
+07K01,Sophie-Scholl-Schule,Elßholzstr. 34-37,10781,Integrierte Sekundarschule,fa-building-o,red,16340000,52.492808,13.356583,Priorität 2 oder 3
+01G29,Wilhelm-Hauff-Grundschule,Gotenburger Str. 8,13359,Grundschule,fa-building-o,blue,1630000,52.557813,13.384347,unbekannte Priorität
+07Y01,Robert-Blum-Gymnasium,Kolonnenstr. 21,10829,Gymnasium,fa-building-o,orange,7560000,52.48483,13.36487,Priorität 2 oder 3
+07G24,Tempelherren-Grundschule,Boelckestr. 58-60,12101,Grundschule,fa-building-o,red,11680000,52.478603,13.37647,Höchste Priorität
+03K01,Kurt-Schwitters-Schule,Greifswalder Str. 25,10405,Integrierte Sekundarschule,fa-building-o,blue,3560000,52.5314,13.42807,unbekannte Priorität
+03G46,Grundschule im Eliashof,Senefelderstr. 6,10437,Grundschule,fa-building-o,blue,1140000,52.540786,13.422734,unbekannte Priorität
+03G04,Grundschule an der Marie,Christburger Str. 7,10405,Grundschule,fa-building-o,blue,3580000,52.536148,13.42559,unbekannte Priorität
+01G28,Brüder-Grimm-Grundschule,Tegeler Str. 18-19,13353,Grundschule,fa-building-o,blue,2880000,52.54146,13.35783,unbekannte Priorität
+01G31,Wedding-Grundschule,Antonstr. 10,13347,Grundschule,fa-building-o,orange,6040000,52.546206,13.362468,Priorität 2 oder 3
+01K10,Theodor-Heuss-Schule (Gemeinschaftsschule),Quitzowstr. 141,10559,Integrierte Sekundarschule,fa-building-o,red,10930000,52.535722,13.354875,Priorität 2 oder 3
+01G45,Leo-Lionni-Grundschule,Müllerstr. 158,13353,Grundschule,fa-building-o,orange,9530000,52.544342,13.361352,Höchste Priorität
+07G01,Spreewald-Grundschule,Pallasstr. 15,10781,Grundschule,fa-building-o,orange,8500000,52.49539,13.35693,Höchste Priorität
+01G11,Kurt-Tucholsky-Grundschule,Rathenower Str. 18,10559,Grundschule,fa-building-o,orange,5810000,52.53026,13.35303,Priorität 2 oder 3
+07G05,Havelland-Grundschule,Kolonnenstr. 30,10829,Grundschule,fa-building-o,blue,2910000,52.484772,13.367681,unbekannte Priorität
+03G09,Thomas-Mann-Grundschule,Greifenhagener Str. 58-59,10437,Grundschule,fa-building-o,blue,1850000,52.54663,13.41479,unbekannte Priorität
+02G18,Nürtingen-Grundschule,Mariannenplatz 28,10997,Grundschule,fa-building-o,red,13480000,52.505469,13.426859,Höchste Priorität
+02Y08,Hermann-Hesse-Oberschule,Böckhstr. 16,10967,Gymnasium,fa-building-o,red,10030000,52.493579,13.419151,Höchste Priorität
+01Y07,Französisches Gymnasium,Derfflingerstr. 7,10785,Gymnasium,fa-building-o,orange,6130000,52.50318,13.35549,Priorität 2 oder 3
+07G21,Grundschule auf dem Tempelhofer Feld,Schulenburgring 7-11,12101,Grundschule,fa-building-o,orange,5380000,52.48081,13.38185,Priorität 2 oder 3
+01G27,Gesundbrunnen-Grundschule,Prinzenallee 8,13357,Grundschule,fa-building-o,orange,5270000,52.55338,13.38292,Priorität 2 oder 3
+02K05,Schule am Königstor (Integrierte Sekundarschule),Weinstr. 3,10249,Integrierte Sekundarschule,fa-building-o,blue,200000,52.525666,13.425987,unbekannte Priorität
+03G45,Grundschule im Hofgarten,Danziger Str. 50,10435,Grundschule,fa-building-o,blue,680000,52.53921,13.41918,unbekannte Priorität
+02K09,Albrecht-von-Graefe-Schule (Integrierte Sekundarschule),Graefestr. 85-88,10967,Integrierte Sekundarschule,fa-building-o,orange,5000000,52.494205,13.418709,Priorität 2 oder 3
+07G13,Neumark-Grundschule,Steinmetzstr. 46-50,10783,Grundschule,fa-building-o,orange,6420000,52.49282,13.36249,Höchste Priorität
+01G43,Albert-Gutzmann-Schule (Grundschule),Orthstr. 1,13357,Grundschule,fa-building-o,orange,7440000,52.549234,13.373261,Priorität 2 oder 3
+01S06,Albert-Gutzmann-Schule,Orthstr. 1,13357,Integrierte Sekundarschule,fa-building-o,green,0,52.549234,13.373261,Höchste Priorität
+03G02,Heinrich-Roller-Grundschule,Heinrich-Roller-Str. 18,10405,Grundschule,fa-building-o,orange,7620000,52.53064,13.42364,Höchste Priorität
+02Y07,Robert-Koch-Gymnasium,Dieffenbachstr. 60,10967,Gymnasium,fa-building-o,orange,6680000,52.49323,13.41596,Priorität 2 oder 3
+01G25,Rudolf-Wissell-Grundschule,Ellerbeker Str. 7-8,13357,Grundschule,fa-building-o,orange,7270000,52.55158,13.39611,Höchste Priorität
+01Y09,Diesterweg-Schule (Gymnasium),Böttgerstr. 2-6,13357,Gymnasium,fa-building-o,blue,1080000,52.550012,13.378338,unbekannte Priorität
+02G26,Lemgo-Grundschule,Böckhstr. 5,10967,Grundschule,fa-building-o,orange,6020000,52.494198,13.416454,Priorität 2 oder 3
+01G15,Anne-Frank-Grundschule,Paulstr. 20B,10557,Grundschule,fa-building-o,blue,2120000,52.51827,13.35527,unbekannte Priorität
+01K01,Willy-Brandt-Schule,Grüntaler Str. 5,13357,Integrierte Sekundarschule,fa-building-o,orange,5280000,52.55101,13.386048,unbekannte Priorität
+03G11,Schule am Falkplatz (Grundschule),Gleimstr. 49,10437,Grundschule,fa-building-o,orange,7880000,52.54749,13.40538,Höchste Priorität
+01G07,GutsMuths-Grundschule,Singerstr. 8,10179,Grundschule,fa-building-o,blue,4250000,52.516365,13.42412,unbekannte Priorität
+01Y11,Max-Planck-Schule (Gymnasium),Singerstr. 8A,10179,Gymnasium,fa-building-o,blue,1560000,52.516365,13.42412,unbekannte Priorität
+01G16,Moabiter Grundschule,Paulstr. 28,10557,Grundschule,fa-building-o,orange,7560000,52.521974,13.35657,Priorität 2 oder 3
+01K06,Herbert-Hoover-Schule (Integrierte Sekundarschule),Pankstr. 18-19,13357,Integrierte Sekundarschule,fa-building-o,blue,820000,52.546324,13.373398,unbekannte Priorität
+01S07,Charlotte-Pfeffer-Schule,Berolinastr. 8,10178,"Förderschwerp.""Geistige Entwicklung""",fa-building-o,green,0,52.52226,13.42328,unbekannte Priorität
+02S02,Gustav-Meyer-Schule,Kohlfurter Str. 22,10999,"Förderschwerp.""Geistige Entwicklung""",fa-building-o,orange,9190000,52.497102,13.416721,Höchste Priorität
+02G22,Jens-Nydahl-Grundschule,Kohlfurter Str. 20,10999,Grundschule,fa-building-o,orange,8080000,52.497294,13.41619,Höchste Priorität
+03G03,Grundschule am Kollwitzplatz,Knaackstr. 67,10435,Grundschule,fa-building-o,blue,1880000,52.53768,13.41489,unbekannte Priorität
+03S03,Helene-Haeusler-Schule,Mendelssohnstr. 10,10405,"Förderschwerp.""Geistige Entwicklung""",fa-building-o,blue,2300000,52.5267,13.42002,unbekannte Priorität
+01S01,Schule am Zille-Park,Ravenéstr. 10-12,13347,Integrierte Sekundarschule,fa-building-o,orange,5420000,52.542859,13.372782,Priorität 2 oder 3
+02K10,Ferdinand-Freiligrath-Schule (Integrierte Sekundarschule),Bergmannstr. 64,10961,Integrierte Sekundarschule,fa-building-o,orange,5920000,52.488798,13.40149,Höchste Priorität
+01G37,Heinrich-Seidel-Grundschule,Ramlerstr. 9-10,13355,Grundschule,fa-building-o,orange,8940000,52.54695,13.39407,Höchste Priorität
+01G44,Allegro-Grundschule,Lützowstr. 83-85,10785,Grundschule,fa-building-o,blue,3900000,52.503571,13.363001,unbekannte Priorität
+02K02,Carl-von-Ossietzky-Schule (Gemeinschaftsschule),Blücherstr. 46,10961,Integrierte Sekundarschule,fa-building-o,orange,6460000,52.491647,13.404491,Höchste Priorität
+02G33,Aziz-Nesin-Grundschule,Urbanstr. 15,10961,Grundschule,fa-building-o,blue,4510000,52.49312,13.40611,unbekannte Priorität
+02Y06,Leibniz-Gymnasium,Schleiermacherstr. 23,10961,Gymnasium,fa-building-o,orange,6880000,52.48978,13.39747,Höchste Priorität
+02G21,Reinhardswald-Grundschule,Gneisenaustr. 73-74,10961,Grundschule,fa-building-o,orange,9380000,52.49059,13.3999,Höchste Priorität
+03S01,Schule am Senefelderplatz,Schönhauser Allee 165,10435,"Förderschwerp.""Lernen""",fa-building-o,blue,3080000,52.53452,13.41187,unbekannte Priorität
+01G35,Humboldthain-Grundschule,Grenzstr. 7,13355,Grundschule,fa-building-o,orange,5150000,52.54323,13.380143,Priorität 2 oder 3
+02G13,Charlotte-Salomon-Grundschule,Großbeerenstr. 40,10965,Grundschule,fa-building-o,blue,4510000,52.49041,13.38183,unbekannte Priorität
+02G31,Adolf-Glaßbrenner-Grundschule,Hagelberger Str. 34,10965,Grundschule,fa-building-o,blue,3570000,52.49085,13.38065,unbekannte Priorität
+02G20,Bürgermeister-Herz-Grundschule,Wilmsstr. 10,10961,Grundschule,fa-building-o,blue,3380000,52.49488,13.40516,unbekannte Priorität
+01G39,Vineta-Grundschule,Demminer Str. 27,13355,Grundschule,fa-building-o,blue,2150000,52.54222,13.3969,unbekannte Priorität
+02K04,Lina-Morgenstern-Schule (Gemeinschaftsschule),Gneisenaustr. 7,10961,Integrierte Sekundarschule,fa-building-o,red,10910000,52.49178,13.38971,Höchste Priorität
+03G16,Grundschule am Teutoburger Platz,Templiner Str. 1-3,10119,Grundschule,fa-building-o,blue,80000,52.533635,13.408651,unbekannte Priorität
+02G16,Lenau-Grundschule,Nostitzstr. 60,10961,Grundschule,fa-building-o,red,11630000,52.49381,13.39154,Höchste Priorität
+01G01,Grundschule am Arkonaplatz,Ruppiner Str. 47-48,10115,Grundschule,fa-building-o,blue,2450000,52.53684,13.40039,unbekannte Priorität
+01K03,Ernst-Reuter-Schule,Stralsunder Str. 57,13355,Integrierte Sekundarschule,fa-building-o,red,16740000,52.538896,13.394373,Höchste Priorität
+01G10,City-Grundschule,Sebastianstr. 57,10179,Grundschule,fa-building-o,blue,90000,52.50737,13.40892,unbekannte Priorität
+01G38,Gustav-Falke-Grundschule,Strelitzer Str. 42,13355,Grundschule,fa-building-o,blue,4260000,52.53795,13.39162,unbekannte Priorität
+02G24,Otto-Wels-Grundschule,Alexandrinenstr. 12,10969,Grundschule,fa-building-o,orange,6240000,52.499923,13.401623,Höchste Priorität
+01Y02,John-Lennon-Gymnasium,Zehdenicker Str. 17,10119,Gymnasium,fa-building-o,blue,4950000,52.530923,13.404105,unbekannte Priorität
+02K03,Hector-Peterson-Schule,Tempelhofer Ufer 15,10963,Integrierte Sekundarschule,fa-building-o,red,10060000,52.49832,13.3841,Priorität 2 oder 3
+02G32,Clara-Grunwald-Grundschule,Hallesche Str. 24,10963,Grundschule,fa-building-o,blue,3580000,52.50077,13.38313,unbekannte Priorität
+02G19,Fanny-Hensel-Grundschule,Schöneberger Str. 23,10963,Grundschule,fa-building-o,blue,2180000,52.50303,13.38014,unbekannte Priorität
+01G02,Papageno-Grundschule,Bergstr. 58,10115,Grundschule,fa-building-o,blue,2080000,52.532833,13.391048,unbekannte Priorität
+01G04,Kastanienbaum-Grundschule,Gipsstr. 23A,10119,Grundschule,fa-building-o,orange,5360000,52.52678,13.4018,Priorität 2 oder 3
+02G14,Galilei-Grundschule,Friedrichstr. 13,10969,Grundschule,fa-building-o,blue,4850000,52.501885,13.391531,unbekannte Priorität
+02S06,Liebmann-Schule,Friedrichstr. 13,10969,Übrige Förderschwerpunkte,fa-building-o,green,0,52.501885,13.391531,unbekannte Priorität
+01G05,Grundschule Neues Tor,Hannoversche Str. 20,10115,Grundschule,fa-building-o,blue,4100000,52.52759,13.38033,unbekannte Priorität
+01K07,Hemingway-Schule,Gartenstr. 10-17,10115,Integrierte Sekundarschule,fa-building-o,blue,2880000,52.530483,13.391682,unbekannte Priorität
+01G46,Grundschule am Koppenplatz,Koppenplatz 12,10115,Grundschule,fa-building-o,orange,5280000,52.52778,13.39745,Priorität 2 oder 3
+02G12,Kurt-Schumacher-Grundschule,Puttkamerstr. 19,10969,Grundschule,fa-building-o,orange,9640000,52.504384,13.388493,Höchste Priorität
+01G08,Grundschule am Brandenburger Tor,Wilhelmstr. 52,10117,Grundschule,fa-building-o,orange,5230000,52.51318,13.38276,Priorität 2 oder 3
