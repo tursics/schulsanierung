@@ -686,7 +686,7 @@
 	background: #72b026;
 }
 .awesome-marker .icon-white {
-  color: #888 !important;
+/*  color: #888 !important;*/
 }
 .printerLabel div.white, .autocomplete-suggestion div.white {
 	color: #888;
