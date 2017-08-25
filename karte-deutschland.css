@@ -685,5 +685,15 @@
 .autocomplete-icon.backgreen, .priceGreen {
 	background: #72b026;
 }
+.awesome-marker .icon-white {
+  color: #888 !important;
+}
+.printerLabel div.white, .autocomplete-suggestion div.white {
+	color: #888;
+}
+.autocomplete-icon.backwhite, .priceWhite {
+	background: #ddd;
+	color: #888;
+}
 
 /* */
