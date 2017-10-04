@@ -14,5 +14,13 @@
 		"lat": 53.551989,
 		"lng": 10.007282,
 		"zoom": 11
+	},
+	{
+		"key": "krefeld",
+		"title": "Krefeld",
+		"data": "data-krefeld",
+		"lat": 51.340164,
+		"lng": 6.602664,
+		"zoom": 12
 	}
 ]

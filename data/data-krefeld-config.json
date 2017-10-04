@@ -1,0 +1,34 @@
+{
+	"receipt": {
+		"body": [
+			"<div class='full center bold' id='rectitle'></div>",
+			"<div class='full center' id='recaddress'></div>",
+			"<div class='empty'></div>",
+			"<div class='full'>--------------------------------------------</div>",
+			"<div><span class='half'><span id='rectype'></span></span><span class='number'><span id='reccosts'></span> EUR</span></div>",
+			"<div class='full'>--------------------------------------------</div>",
+			"<div class='empty'></div>",
+			"<div><span class='half' id='recNow'></span></div>",
+			"<div class='empty'></div>",
+			"<div class='full center'>Vielen Dank für Ihren Einkauf!</div>",
+			"<div class='full center'>Sanieren Sie bald wieder</div>"
+		],
+		"info": false
+	},
+	"marker": {
+		"color": "color",
+		"icon": "icon"
+	},
+	"printerlabel": {
+		"top": "title",
+		"middle": "costs",
+		"bottom": "finish"
+	},
+	"search": {
+		"pattern": "title",
+		"description": "type",
+		"data": "id",
+		"color": "color",
+		"icon": "icon"
+	}
+}

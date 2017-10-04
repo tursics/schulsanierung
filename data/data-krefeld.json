@@ -1,0 +1,192 @@
+[
+ {
+   "id": "1",
+   "title": "BK Kaufmannsschule Bauteil A",
+   "address": "Neuer Weg 121",
+   "type": "Energetische Sanierung Außenhülle",
+   "costs": "500000.00 €",
+   "finish": "2018",
+   "lat": 51.337062,
+   "lng": 6.544768
+ },
+ {
+   "id": "2",
+   "title": "BK Kaufmannsschule Bauteil B",
+   "address": "Neuer Weg 121",
+   "type": "Energetische Sanierung Außenhülle",
+   "costs": "1400000.00 €",
+   "finish": "2018",
+   "lat": 51.33764,
+   "lng": 6.544334
+ },
+ {
+   "id": "3",
+   "title": "BK Kaufmannsschule Turnhalle",
+   "address": "Neuer Weg 121",
+   "type": "Energetische Sanierung Außenhülle",
+   "costs": "600000.00 €",
+   "finish": "2018",
+   "lat": 51.33782,
+   "lng": 6.545451
+ },
+ {
+   "id": "4",
+   "title": "4. Gesamtschule, Lübecker Weg",
+   "address": "Lübecker Weg 56",
+   "type": "Energetische Sanierung Außenhülle",
+   "costs": "1000000.00 €",
+   "finish": "2018",
+   "lat": 51.35542,
+   "lng": 6.634316
+ },
+ {
+   "id": "5",
+   "title": "Kita Herrmanstraße",
+   "address": "Hermannstr. 39",
+   "type": "Anpassung des Raumangebots",
+   "costs": "1600000.00 €",
+   "finish": "2018",
+   "lat": 51.325029,
+   "lng": 6.551994
+ },
+ {
+   "id": "6",
+   "title": "Kita Dieselstarße",
+   "address": "Dieselstr. 24",
+   "type": "Anpassung des Raumangebots",
+   "costs": "1800000.00 €",
+   "finish": "2019",
+   "lat": 51.348277,
+   "lng": 6.525781
+ },
+ {
+   "id": "7",
+   "title": "Jugendfreizeit Herbertzstraße",
+   "address": "Herbertzstr. 123",
+   "type": "Energetische Dachsanierung",
+   "costs": "200000.00 €",
+   "finish": "Maßnahme ist abgeschlossen",
+   "lat": 51.324227,
+   "lng": 6.59865
+ },
+ {
+   "id": "8",
+   "title": "Kita Neuhofsweg",
+   "address": "Neuhofer Weg 25",
+   "type": "Energetische Sanierung der Fenster",
+   "costs": "250000.00 €",
+   "finish": "Maßnahme ist abgeschlossen",
+   "lat": 51.372927,
+   "lng": 6.618275
+ },
+ {
+   "id": "9",
+   "title": "Kita Steckendorfer Straße",
+   "address": "Steckendorfer Str. 60a",
+   "type": "Erneuerung Dachstuhl",
+   "costs": "250000.00 €",
+   "finish": "2018",
+   "lat": 51.338459,
+   "lng": 6.56841
+ },
+ {
+   "id": "10",
+   "title": "Diverse, Pumpen / Dämmung",
+   "address": "a bis i",
+   "type": "Energetische Maßnahmen",
+   "costs": "150000.00 €",
+   "finish": "",
+   "lat": 51.338002,
+   "lng": 6.567676
+ },
+ {
+   "id": "a",
+   "title": "Fabrik Heder",
+   "address": "Virchowstraße 130",
+   "type": "",
+   "costs": "",
+   "finish": "2017",
+   "lat": 51.322827,
+   "lng": 6.572372
+ },
+ {
+   "id": "b",
+   "title": "Textilmuseum",
+   "address": "Andreasmarkt 8",
+   "type": "",
+   "costs": "",
+   "finish": "2018",
+   "lat": 51.333801,
+   "lng": 6.636943
+ },
+ {
+   "id": "c",
+   "title": "Burg Linn",
+   "address": "Rheinbabenstraße 85",
+   "type": "",
+   "costs": "",
+   "finish": "2017",
+   "lat": 51.334652,
+   "lng": 6.635989
+ },
+ {
+   "id": "d",
+   "title": "Freizeitzentrum Süd / Jugendtreff",
+   "address": "Kölner Str. 190",
+   "type": "",
+   "costs": "",
+   "finish": "2017",
+   "lat": 51.318885,
+   "lng": 6.574731
+ },
+ {
+   "id": "e",
+   "title": "Herbertzstr. KITA & Jugendtreff",
+   "address": "Herbertzstr. 123",
+   "type": "",
+   "costs": "",
+   "finish": "2017",
+   "lat": 51.324476,
+   "lng": 6.598399
+ },
+ {
+   "id": "f",
+   "title": "Rathaus",
+   "address": "Von-der-Leyen-Platz 1",
+   "type": "",
+   "costs": "",
+   "finish": "2018",
+   "lat": 51.334011,
+   "lng": 6.558988
+ },
+ {
+   "id": "g",
+   "title": "BK Kaufmannsschule",
+   "address": "Neuer Weg 121",
+   "type": "",
+   "costs": "",
+   "finish": "2018",
+   "lat": 51.33765,
+   "lng": 6.545211
+ },
+ {
+   "id": "h",
+   "title": "Gesamtschule Kaiserplatz",
+   "address": "Kaiserpl. 50",
+   "type": "",
+   "costs": "",
+   "finish": "2018",
+   "lat": 51.343763,
+   "lng": 6.590972
+ },
+ {
+   "id": "i",
+   "title": "Schulkomplex Horkesgath",
+   "address": "Horkesgath",
+   "type": "",
+   "costs": "",
+   "finish": "2018",
+   "lat": 51.337263,
+   "lng": 6.529176
+ }
+]

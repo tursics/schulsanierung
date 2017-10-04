@@ -1,0 +1,20 @@
+id;title;address;type;costs;finish;lat;lng
+1;BK Kaufmannsschule Bauteil A;Neuer Weg 121;Energetische Sanierung Außenhülle;500000.00 €;2018;51.337062;6.544768
+2;BK Kaufmannsschule Bauteil B;Neuer Weg 121;Energetische Sanierung Außenhülle;1400000.00 €;2018;51.33764;6.544334
+3;BK Kaufmannsschule Turnhalle;Neuer Weg 121;Energetische Sanierung Außenhülle;600000.00 €;2018;51.33782;6.545451
+4;4. Gesamtschule, Lübecker Weg;Lübecker Weg 56;Energetische Sanierung Außenhülle;1000000.00 €;2018;51.35542;6.634316
+5;Kita Herrmanstraße;Hermannstr. 39;Anpassung des Raumangebots;1600000.00 €;2018;51.325029;6.551994
+6;Kita Dieselstarße;Dieselstr. 24;Anpassung des Raumangebots;1800000.00 €;2019;51.348277;6.525781
+7;Jugendfreizeit Herbertzstraße;Herbertzstr. 123;Energetische Dachsanierung;200000.00 €;Maßnahme ist abgeschlossen;51.324227;6.598650
+8;Kita Neuhofsweg;Neuhofer Weg 25;Energetische Sanierung der Fenster;250000.00 €;Maßnahme ist abgeschlossen;51.372927;6.618275
+9;Kita Steckendorfer Straße;Steckendorfer Str. 60a;Erneuerung Dachstuhl;250000.00 €;2018;51.338459;6.56841
+10;Diverse, Pumpen / Dämmung;a bis i;Energetische Maßnahmen;150000.00 €;;51.338002;6.567676
+a;Fabrik Heder;Virchowstraße 130;;;2017;51.322827;6.572372
+b;Textilmuseum;Andreasmarkt 8;;;2018;51.333801;6.636943
+c;Burg Linn;Rheinbabenstraße 85;;;2017;51.334652;6.635989
+d;Freizeitzentrum Süd / Jugendtreff;Kölner Str. 190;;;2017;51.318885;6.574731
+e;Herbertzstr. KITA & Jugendtreff;Herbertzstr. 123;;;2017;51.324476;6.598399
+f;Rathaus;Von-der-Leyen-Platz 1;;;2018;51.334011;6.558988
+g;BK Kaufmannsschule;Neuer Weg 121;;;2018;51.33765;6.545211
+h;Gesamtschule Kaiserplatz;Kaiserpl. 50;;;2018;51.343763;6.590972
+i;Schulkomplex Horkesgath;Horkesgath;;;2018;51.337263;6.529176
