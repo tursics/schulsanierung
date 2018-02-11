@@ -33,19 +33,25 @@ var marker = {
 				// data stored in evt.layer.options.data
 			});
 
-			var that = this;
+			var that = this,
+				buildings = [];
+
 			$.each(data, function (key, val) {
 				if ((typeof val.lat !== 'undefined') && (typeof val.lng !== 'undefined') && val.lat && val.lng) {
-					var marker = L.marker([parseFloat(val.lat), parseFloat(val.lng)], {
-							data: val,
-							format: cityData.printerlabel,
-							icon: L.AwesomeMarkers.icon({
-								icon: val[cityData.marker.icon],
-								prefix: 'fa',
-								markerColor: val[cityData.marker.color]
-							})
-						});
-					that.layerGroup.addLayer(marker);
+					if (-1 === buildings.indexOf(val.BSN)) {
+						buildings.push(val.BSN);
+
+						var marker = L.marker([parseFloat(val.lat), parseFloat(val.lng)], {
+								data: val,
+								format: cityData.printerlabel,
+								icon: L.AwesomeMarkers.icon({
+									icon: 'fa-building-o',
+									prefix: 'fa',
+									markerColor: 'blue'
+								})
+							});
+						that.layerGroup.addLayer(marker);
+					}
 				}
 			});
 		} catch (e) {
@@ -79,8 +85,7 @@ var data = {
 		'use strict';
 
 		var cityData = {
-			printerlabel: 'printerlabel',
-			marker: 'marker'
+			printerlabel: 'printerlabel'
 		};
 
 		$.ajax({
