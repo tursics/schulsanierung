@@ -6,6 +6,63 @@ var mapboxTiles = 'https://{s}.tiles.mapbox.com/v4/tursics.l7ad5ee8/{z}/{x}/{y}.
 
 // -----------------------------------------------------------------------------
 
+function formatNumber(txt) {
+	'use strict';
+
+	txt = String(parseInt(txt, 10));
+	var sign = '',
+		pos = 0;
+	if (txt[0] === '-') {
+		sign = '-';
+		txt = txt.slice(1);
+	}
+
+	pos = txt.length;
+	while (pos > 3) {
+		pos -= 3;
+		txt = txt.slice(0, pos) + '.' + txt.slice(pos);
+	}
+
+	return sign + txt;
+}
+
+// -----------------------------------------------------------------------------
+
+var hover = {
+	layerPopup: null,
+
+	show: function (coordinates, data, format, icon) {
+		'use strict';
+
+		var options = {
+			closeButton: false,
+			offset: L.point(0, -32),
+			className: 'printerLabel'
+		},
+			str = '';
+
+		str += '<div class="top ' + icon.options.markerColor + '">' + data.Name + '</div>';
+		str += '<div class="middle">€' + formatNumber(data.Ausgaben2018) + '</div>';
+		str += '<div class="bottom ' + icon.options.markerColor + '">' + 'Ausgaben für 2018' + '</div>';
+
+		this.layerPopup = L.popup(options)
+			.setLatLng(coordinates)
+			.setContent(str)
+			.openOn(map);
+	},
+
+	hide: function () {
+		'use strict';
+
+		if (this.layerPopup && map) {
+			map.closePopup(this.layerPopup);
+			this.layerPopup = null;
+		}
+	}
+};
+
+// -----------------------------------------------------------------------------
+
 var marker = {
 	layerGroup: null,
 	cityData: null,
@@ -24,13 +81,10 @@ var marker = {
 				// data stored in evt.layer.options.data
 			});
 			this.layerGroup.addEventListener('mouseover', function (evt) {
-				// hover a marker
-				// data stored in evt.latlng.lat and evt.latlng.lng
-				//                evt.layer.options.data
+				hover.show([evt.latlng.lat, evt.latlng.lng], evt.layer.options.data, evt.layer.options.format, evt.layer.options.icon);
 			});
 			this.layerGroup.addEventListener('mouseout', function (evt) {
-				// end hover a marker
-				// data stored in evt.layer.options.data
+				hover.hide(evt.layer.options.data);
 			});
 
 			var that = this,
