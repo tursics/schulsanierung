@@ -12,7 +12,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "siehe 05G30, 30. Grundschule",
    "lat": 52.549099,
-   "lon": 13.1934
+   "lng": 13.1934
  },
  {
    "BSN": "05S02",
@@ -27,7 +27,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "siehe 05G21, Paul-Moor-Schule",
    "lat": 52.521,
-   "lon": 13.19029
+   "lng": 13.19029
  },
  {
    "BSN": "05S03",
@@ -42,7 +42,7 @@
    "Ausgaben2022ff": 1065000,
    "Bemerkungen": "",
    "lat": 52.543211,
-   "lon": 13.24234
+   "lng": 13.24234
  },
  {
    "BSN": "05S03",
@@ -57,7 +57,7 @@
    "Ausgaben2022ff": 4669615,
    "Bemerkungen": "",
    "lat": 52.543211,
-   "lon": 13.24234
+   "lng": 13.24234
  },
  {
    "BSN": "05S03",
@@ -72,7 +72,7 @@
    "Ausgaben2022ff": 2300000,
    "Bemerkungen": "",
    "lat": 52.543211,
-   "lon": 13.24234
+   "lng": 13.24234
  },
  {
    "BSN": "05S04",
@@ -87,7 +87,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "siehe 05G25, GS am Wasserwerk",
    "lat": 52.55625,
-   "lon": 13.16467
+   "lng": 13.16467
  },
  {
    "BSN": "05K05",
@@ -102,7 +102,7 @@
    "Ausgaben2022ff": 9320000,
    "Bemerkungen": "",
    "lat": 52.5469,
-   "lon": 13.17403
+   "lng": 13.17403
  },
  {
    "BSN": "05K05",
@@ -117,7 +117,7 @@
    "Ausgaben2022ff": 1630000,
    "Bemerkungen": "",
    "lat": 52.5469,
-   "lon": 13.17403
+   "lng": 13.17403
  },
  {
    "BSN": "05G01",
@@ -132,7 +132,7 @@
    "Ausgaben2022ff": 1667198,
    "Bemerkungen": "",
    "lat": 52.5304,
-   "lon": 13.20672
+   "lng": 13.20672
  },
  {
    "BSN": "05G01",
@@ -147,7 +147,7 @@
    "Ausgaben2022ff": 1444640,
    "Bemerkungen": "",
    "lat": 52.5304,
-   "lon": 13.20672
+   "lng": 13.20672
  },
  {
    "BSN": "05G01",
@@ -162,7 +162,7 @@
    "Ausgaben2022ff": 0,
    "Bemerkungen": "",
    "lat": 52.5304,
-   "lon": 13.20672
+   "lng": 13.20672
  },
  {
    "BSN": "05G02",
@@ -177,7 +177,7 @@
    "Ausgaben2022ff": 161415,
    "Bemerkungen": "",
    "lat": 52.558423,
-   "lon": 13.199146
+   "lng": 13.199146
  },
  {
    "BSN": "05G02",
@@ -192,7 +192,7 @@
    "Ausgaben2022ff": 1732155,
    "Bemerkungen": "",
    "lat": 52.558423,
-   "lon": 13.199146
+   "lng": 13.199146
  },
  {
    "BSN": "05G02",
@@ -207,7 +207,7 @@
    "Ausgaben2022ff": 1100000,
    "Bemerkungen": "",
    "lat": 52.558423,
-   "lon": 13.199146
+   "lng": 13.199146
  },
  {
    "BSN": "05G04",
@@ -222,7 +222,7 @@
    "Ausgaben2022ff": 103150,
    "Bemerkungen": "",
    "lat": 52.53861,
-   "lon": 13.17968
+   "lng": 13.17968
  },
  {
    "BSN": "05G04",
@@ -237,7 +237,7 @@
    "Ausgaben2022ff": 2107840,
    "Bemerkungen": "",
    "lat": 52.53861,
-   "lon": 13.17968
+   "lng": 13.17968
  },
  {
    "BSN": "05G05",
@@ -252,7 +252,7 @@
    "Ausgaben2022ff": 1664620,
    "Bemerkungen": "",
    "lat": 52.51986,
-   "lon": 13.193276
+   "lng": 13.193276
  },
  {
    "BSN": "05G05",
@@ -267,7 +267,7 @@
    "Ausgaben2022ff": 5672873,
    "Bemerkungen": "",
    "lat": 52.51986,
-   "lon": 13.193276
+   "lng": 13.193276
  },
  {
    "BSN": "05G05",
@@ -282,7 +282,7 @@
    "Ausgaben2022ff": 2200000,
    "Bemerkungen": "",
    "lat": 52.51986,
-   "lon": 13.193276
+   "lng": 13.193276
  },
  {
    "BSN": "05G05",
@@ -297,7 +297,7 @@
    "Ausgaben2022ff": 3754000,
    "Bemerkungen": "",
    "lat": 52.51986,
-   "lon": 13.193276
+   "lng": 13.193276
  },
  {
    "BSN": "05G06",
@@ -312,7 +312,7 @@
    "Ausgaben2022ff": 2277469,
    "Bemerkungen": "",
    "lat": 52.55125,
-   "lon": 13.175203
+   "lng": 13.175203
  },
  {
    "BSN": "05G06",
@@ -327,7 +327,7 @@
    "Ausgaben2022ff": 0,
    "Bemerkungen": "",
    "lat": 52.55125,
-   "lon": 13.175203
+   "lng": 13.175203
  },
  {
    "BSN": "05G06",
@@ -342,7 +342,7 @@
    "Ausgaben2022ff": 0,
    "Bemerkungen": "",
    "lat": 52.55125,
-   "lon": 13.175203
+   "lng": 13.175203
  },
  {
    "BSN": "05G06",
@@ -357,7 +357,7 @@
    "Ausgaben2022ff": 2900000,
    "Bemerkungen": "",
    "lat": 52.55125,
-   "lon": 13.175203
+   "lng": 13.175203
  },
  {
    "BSN": "05G07",
@@ -372,7 +372,7 @@
    "Ausgaben2022ff": 121526,
    "Bemerkungen": "",
    "lat": 52.54766,
-   "lon": 13.20683
+   "lng": 13.20683
  },
  {
    "BSN": "05G07",
@@ -387,7 +387,7 @@
    "Ausgaben2022ff": 900000,
    "Bemerkungen": "",
    "lat": 52.54766,
-   "lon": 13.20683
+   "lng": 13.20683
  },
  {
    "BSN": "05G08",
@@ -402,7 +402,7 @@
    "Ausgaben2022ff": 870470,
    "Bemerkungen": "",
    "lat": 52.53018,
-   "lon": 13.19202
+   "lng": 13.19202
  },
  {
    "BSN": "05G08",
@@ -417,7 +417,7 @@
    "Ausgaben2022ff": 2981503,
    "Bemerkungen": "",
    "lat": 52.53018,
-   "lon": 13.19202
+   "lng": 13.19202
  },
  {
    "BSN": "05G08",
@@ -432,7 +432,7 @@
    "Ausgaben2022ff": 1100000,
    "Bemerkungen": "",
    "lat": 52.53018,
-   "lon": 13.19202
+   "lng": 13.19202
  },
  {
    "BSN": "05G08",
@@ -447,7 +447,7 @@
    "Ausgaben2022ff": 0,
    "Bemerkungen": "",
    "lat": 52.53018,
-   "lon": 13.19202
+   "lng": 13.19202
  },
  {
    "BSN": "05G10",
@@ -462,7 +462,7 @@
    "Ausgaben2022ff": 360560,
    "Bemerkungen": "",
    "lat": 52.52596,
-   "lon": 13.180519
+   "lng": 13.180519
  },
  {
    "BSN": "05G10",
@@ -477,7 +477,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "siehe Gebäude + Sporthalle",
    "lat": 52.52596,
-   "lon": 13.180519
+   "lng": 13.180519
  },
  {
    "BSN": "05G10",
@@ -492,7 +492,7 @@
    "Ausgaben2022ff": 306316,
    "Bemerkungen": "",
    "lat": 52.52596,
-   "lon": 13.180519
+   "lng": 13.180519
  },
  {
    "BSN": "05G11",
@@ -507,7 +507,7 @@
    "Ausgaben2022ff": 2009483,
    "Bemerkungen": "",
    "lat": 52.54065,
-   "lon": 13.27277
+   "lng": 13.27277
  },
  {
    "BSN": "05G11",
@@ -522,7 +522,7 @@
    "Ausgaben2022ff": 1100000,
    "Bemerkungen": "",
    "lat": 52.54065,
-   "lon": 13.27277
+   "lng": 13.27277
  },
  {
    "BSN": "05G11",
@@ -537,7 +537,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.54065,
-   "lon": 13.27277
+   "lng": 13.27277
  },
  {
    "BSN": "05G12",
@@ -552,7 +552,7 @@
    "Ausgaben2022ff": 1038060,
    "Bemerkungen": "",
    "lat": 52.50825,
-   "lon": 13.1742
+   "lng": 13.1742
  },
  {
    "BSN": "05G12",
@@ -567,7 +567,7 @@
    "Ausgaben2022ff": 1370804,
    "Bemerkungen": "",
    "lat": 52.50825,
-   "lon": 13.1742
+   "lng": 13.1742
  },
  {
    "BSN": "05G12",
@@ -582,7 +582,7 @@
    "Ausgaben2022ff": 200000,
    "Bemerkungen": "",
    "lat": 52.50825,
-   "lon": 13.1742
+   "lng": 13.1742
  },
  {
    "BSN": "05G13",
@@ -597,7 +597,7 @@
    "Ausgaben2022ff": 1221670,
    "Bemerkungen": "",
    "lat": 52.54494,
-   "lon": 13.2325
+   "lng": 13.2325
  },
  {
    "BSN": "05G13",
@@ -612,7 +612,7 @@
    "Ausgaben2022ff": 4305627,
    "Bemerkungen": "",
    "lat": 52.54494,
-   "lon": 13.2325
+   "lng": 13.2325
  },
  {
    "BSN": "05G13",
@@ -627,7 +627,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "Abriss für Neubau Typensporthalle geplant",
    "lat": 52.54494,
-   "lon": 13.2325
+   "lng": 13.2325
  },
  {
    "BSN": "05G13",
@@ -642,7 +642,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.54494,
-   "lon": 13.2325
+   "lng": 13.2325
  },
  {
    "BSN": "05G13",
@@ -657,7 +657,7 @@
    "Ausgaben2022ff": 0,
    "Bemerkungen": "",
    "lat": 52.54494,
-   "lon": 13.2325
+   "lng": 13.2325
  },
  {
    "BSN": "05G13",
@@ -672,7 +672,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.54494,
-   "lon": 13.2325
+   "lng": 13.2325
  },
  {
    "BSN": "05G14",
@@ -687,7 +687,7 @@
    "Ausgaben2022ff": 1390305,
    "Bemerkungen": "",
    "lat": 52.53517,
-   "lon": 13.14081
+   "lng": 13.14081
  },
  {
    "BSN": "05G14",
@@ -702,7 +702,7 @@
    "Ausgaben2022ff": 1343173,
    "Bemerkungen": "",
    "lat": 52.53517,
-   "lon": 13.14081
+   "lng": 13.14081
  },
  {
    "BSN": "05G14",
@@ -717,7 +717,7 @@
    "Ausgaben2022ff": 1600000,
    "Bemerkungen": "",
    "lat": 52.53517,
-   "lon": 13.14081
+   "lng": 13.14081
  },
  {
    "BSN": "05G15",
@@ -732,7 +732,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "Status: Sanierung ohne Finanzierung (SoF)",
    "lat": 52.54049,
-   "lon": 13.19242
+   "lng": 13.19242
  },
  {
    "BSN": "05G15",
@@ -747,7 +747,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "Status: Sanierung ohne Finanzierung (SoF)",
    "lat": 52.54049,
-   "lon": 13.19242
+   "lng": 13.19242
  },
  {
    "BSN": "05G15",
@@ -762,7 +762,7 @@
    "Ausgaben2022ff": 950000,
    "Bemerkungen": "Status: Sanierung ohne Finanzierung (SoF)",
    "lat": 52.54049,
-   "lon": 13.19242
+   "lng": 13.19242
  },
  {
    "BSN": "05G16",
@@ -777,7 +777,7 @@
    "Ausgaben2022ff": 3621196,
    "Bemerkungen": "",
    "lat": 52.5409,
-   "lon": 13.14635
+   "lng": 13.14635
  },
  {
    "BSN": "05G16",
@@ -792,7 +792,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.5409,
-   "lon": 13.14635
+   "lng": 13.14635
  },
  {
    "BSN": "05G17",
@@ -807,7 +807,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.5311,
-   "lon": 13.15652
+   "lng": 13.15652
  },
  {
    "BSN": "05G17",
@@ -822,7 +822,7 @@
    "Ausgaben2022ff": 3895291,
    "Bemerkungen": "",
    "lat": 52.5311,
-   "lon": 13.15652
+   "lng": 13.15652
  },
  {
    "BSN": "05G17",
@@ -837,7 +837,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.5311,
-   "lon": 13.15652
+   "lng": 13.15652
  },
  {
    "BSN": "05G17",
@@ -852,7 +852,7 @@
    "Ausgaben2022ff": 1100000,
    "Bemerkungen": "",
    "lat": 52.5311,
-   "lon": 13.15652
+   "lng": 13.15652
  },
  {
    "BSN": "05G18",
@@ -867,7 +867,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "Status: Sanierung ohne Finanzierung (SoF)",
    "lat": 52.549023,
-   "lon": 13.154969
+   "lng": 13.154969
  },
  {
    "BSN": "05G18",
@@ -882,7 +882,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "Status: Sanierung ohne Finanzierung (SoF)",
    "lat": 52.549023,
-   "lon": 13.154969
+   "lng": 13.154969
  },
  {
    "BSN": "05G18",
@@ -897,7 +897,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "Status: Sanierung ohne Finanzierung (SoF)",
    "lat": 52.549023,
-   "lon": 13.154969
+   "lng": 13.154969
  },
  {
    "BSN": "05G19",
@@ -912,7 +912,7 @@
    "Ausgaben2022ff": 1601200,
    "Bemerkungen": "",
    "lat": 52.455239,
-   "lon": 13.138357
+   "lng": 13.138357
  },
  {
    "BSN": "05G19",
@@ -927,7 +927,7 @@
    "Ausgaben2022ff": 1080462,
    "Bemerkungen": "",
    "lat": 52.455239,
-   "lon": 13.138357
+   "lng": 13.138357
  },
  {
    "BSN": "05G20",
@@ -942,7 +942,7 @@
    "Ausgaben2022ff": 1147125,
    "Bemerkungen": "",
    "lat": 52.56751,
-   "lon": 13.199061
+   "lng": 13.199061
  },
  {
    "BSN": "05G20",
@@ -957,7 +957,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.56751,
-   "lon": 13.199061
+   "lng": 13.199061
  },
  {
    "BSN": "05G20",
@@ -972,7 +972,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.56751,
-   "lon": 13.199061
+   "lng": 13.199061
  },
  {
    "BSN": "05G21",
@@ -987,7 +987,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.521,
-   "lon": 13.19029
+   "lng": 13.19029
  },
  {
    "BSN": "05G21",
@@ -1002,7 +1002,7 @@
    "Ausgaben2022ff": 0,
    "Bemerkungen": "",
    "lat": 52.521,
-   "lon": 13.19029
+   "lng": 13.19029
  },
  {
    "BSN": "05G22",
@@ -1017,7 +1017,7 @@
    "Ausgaben2022ff": 0,
    "Bemerkungen": "",
    "lat": 52.5227,
-   "lon": 13.16816
+   "lng": 13.16816
  },
  {
    "BSN": "05G22",
@@ -1032,7 +1032,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.5227,
-   "lon": 13.16816
+   "lng": 13.16816
  },
  {
    "BSN": "05G22",
@@ -1047,7 +1047,7 @@
    "Ausgaben2022ff": 0,
    "Bemerkungen": "",
    "lat": 52.5227,
-   "lon": 13.16816
+   "lng": 13.16816
  },
  {
    "BSN": "05G23",
@@ -1062,7 +1062,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.53595,
-   "lon": 13.15293
+   "lng": 13.15293
  },
  {
    "BSN": "05G23",
@@ -1077,7 +1077,7 @@
    "Ausgaben2022ff": 926635,
    "Bemerkungen": "",
    "lat": 52.53595,
-   "lon": 13.15293
+   "lng": 13.15293
  },
  {
    "BSN": "05G23",
@@ -1092,7 +1092,7 @@
    "Ausgaben2022ff": 0,
    "Bemerkungen": "",
    "lat": 52.53595,
-   "lon": 13.15293
+   "lng": 13.15293
  },
  {
    "BSN": "05G24",
@@ -1107,7 +1107,7 @@
    "Ausgaben2022ff": 857873,
    "Bemerkungen": "",
    "lat": 52.48547,
-   "lon": 13.17431
+   "lng": 13.17431
  },
  {
    "BSN": "05G24",
@@ -1122,7 +1122,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.48547,
-   "lon": 13.17431
+   "lng": 13.17431
  },
  {
    "BSN": "05G25",
@@ -1137,7 +1137,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.55625,
-   "lon": 13.16467
+   "lng": 13.16467
  },
  {
    "BSN": "05G25",
@@ -1152,7 +1152,7 @@
    "Ausgaben2022ff": 1729615,
    "Bemerkungen": "",
    "lat": 52.55625,
-   "lon": 13.16467
+   "lng": 13.16467
  },
  {
    "BSN": "05G25",
@@ -1167,7 +1167,7 @@
    "Ausgaben2022ff": 1500000,
    "Bemerkungen": "",
    "lat": 52.55625,
-   "lon": 13.16467
+   "lng": 13.16467
  },
  {
    "BSN": "05G26",
@@ -1182,7 +1182,7 @@
    "Ausgaben2022ff": 1082030,
    "Bemerkungen": "",
    "lat": 52.51289,
-   "lon": 13.1667
+   "lng": 13.1667
  },
  {
    "BSN": "05G26",
@@ -1197,7 +1197,7 @@
    "Ausgaben2022ff": 1846788,
    "Bemerkungen": "",
    "lat": 52.51289,
-   "lon": 13.1667
+   "lng": 13.1667
  },
  {
    "BSN": "05G26",
@@ -1212,7 +1212,7 @@
    "Ausgaben2022ff": 1611521,
    "Bemerkungen": "",
    "lat": 52.51289,
-   "lon": 13.1667
+   "lng": 13.1667
  },
  {
    "BSN": "05G27",
@@ -1227,7 +1227,7 @@
    "Ausgaben2022ff": 2296538,
    "Bemerkungen": "",
    "lat": 52.543893,
-   "lon": 13.1996
+   "lng": 13.1996
  },
  {
    "BSN": "05G27",
@@ -1242,7 +1242,7 @@
    "Ausgaben2022ff": 657138,
    "Bemerkungen": "",
    "lat": 52.543893,
-   "lon": 13.1996
+   "lng": 13.1996
  },
  {
    "BSN": "05G27",
@@ -1257,7 +1257,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.543893,
-   "lon": 13.1996
+   "lng": 13.1996
  },
  {
    "BSN": "05G27",
@@ -1272,7 +1272,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.543893,
-   "lon": 13.1996
+   "lng": 13.1996
  },
  {
    "BSN": "05G27",
@@ -1287,7 +1287,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.543893,
-   "lon": 13.1996
+   "lng": 13.1996
  },
  {
    "BSN": "05G28",
@@ -1302,7 +1302,7 @@
    "Ausgaben2022ff": 1242610,
    "Bemerkungen": "",
    "lat": 52.544061,
-   "lon": 13.228327
+   "lng": 13.228327
  },
  {
    "BSN": "05G28",
@@ -1317,7 +1317,7 @@
    "Ausgaben2022ff": 628122,
    "Bemerkungen": "",
    "lat": 52.544061,
-   "lon": 13.228327
+   "lng": 13.228327
  },
  {
    "BSN": "05G28",
@@ -1332,7 +1332,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.544061,
-   "lon": 13.228327
+   "lng": 13.228327
  },
  {
    "BSN": "05G28",
@@ -1347,7 +1347,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.544061,
-   "lon": 13.228327
+   "lng": 13.228327
  },
  {
    "BSN": "05G28",
@@ -1362,7 +1362,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.544061,
-   "lon": 13.228327
+   "lng": 13.228327
  },
  {
    "BSN": "05G29",
@@ -1377,7 +1377,7 @@
    "Ausgaben2022ff": 956270,
    "Bemerkungen": "",
    "lat": 52.472209,
-   "lon": 13.127426
+   "lng": 13.127426
  },
  {
    "BSN": "05G29",
@@ -1392,7 +1392,7 @@
    "Ausgaben2022ff": 138485,
    "Bemerkungen": "",
    "lat": 52.472209,
-   "lon": 13.127426
+   "lng": 13.127426
  },
  {
    "BSN": "05G29",
@@ -1407,7 +1407,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.472209,
-   "lon": 13.127426
+   "lng": 13.127426
  },
  {
    "BSN": "05G30",
@@ -1422,7 +1422,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.54863,
-   "lon": 13.19756
+   "lng": 13.19756
  },
  {
    "BSN": "05G30",
@@ -1437,7 +1437,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.54863,
-   "lon": 13.19756
+   "lng": 13.19756
  },
  {
    "BSN": "05G30",
@@ -1452,7 +1452,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.54863,
-   "lon": 13.19756
+   "lng": 13.19756
  },
  {
    "BSN": "05G30",
@@ -1467,7 +1467,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.54863,
-   "lon": 13.19756
+   "lng": 13.19756
  },
  {
    "BSN": "05G30",
@@ -1482,7 +1482,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.54863,
-   "lon": 13.19756
+   "lng": 13.19756
  },
  {
    "BSN": "05GNN",
@@ -1497,7 +1497,7 @@
    "Ausgaben2022ff": 29000000,
    "Bemerkungen": "",
    "lat": 52.564338,
-   "lon": 13.216202
+   "lng": 13.216202
  },
  {
    "BSN": "05Y01",
@@ -1512,7 +1512,7 @@
    "Ausgaben2022ff": 330000,
    "Bemerkungen": "",
    "lat": 52.539684,
-   "lon": 13.198479
+   "lng": 13.198479
  },
  {
    "BSN": "05Y01",
@@ -1527,7 +1527,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.539684,
-   "lon": 13.198479
+   "lng": 13.198479
  },
  {
    "BSN": "05Y01",
@@ -1542,7 +1542,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.539684,
-   "lon": 13.198479
+   "lng": 13.198479
  },
  {
    "BSN": "05Y01",
@@ -1557,7 +1557,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.539684,
-   "lon": 13.198479
+   "lng": 13.198479
  },
  {
    "BSN": "05Y01",
@@ -1572,7 +1572,7 @@
    "Ausgaben2022ff": 6799000,
    "Bemerkungen": "",
    "lat": 52.539684,
-   "lon": 13.198479
+   "lng": 13.198479
  },
  {
    "BSN": "05Y02",
@@ -1587,7 +1587,7 @@
    "Ausgaben2022ff": 4189170,
    "Bemerkungen": "",
    "lat": 52.54286,
-   "lon": 13.20115
+   "lng": 13.20115
  },
  {
    "BSN": "05Y02",
@@ -1602,7 +1602,7 @@
    "Ausgaben2022ff": 9120000,
    "Bemerkungen": "",
    "lat": 52.54286,
-   "lon": 13.20115
+   "lng": 13.20115
  },
  {
    "BSN": "05Y02",
@@ -1617,7 +1617,7 @@
    "Ausgaben2022ff": 3200000,
    "Bemerkungen": "",
    "lat": 52.54286,
-   "lon": 13.20115
+   "lng": 13.20115
  },
  {
    "BSN": "05Y03",
@@ -1632,7 +1632,7 @@
    "Ausgaben2022ff": 1411650,
    "Bemerkungen": "",
    "lat": 52.47244,
-   "lon": 13.13028
+   "lng": 13.13028
  },
  {
    "BSN": "05Y03",
@@ -1647,7 +1647,7 @@
    "Ausgaben2022ff": 1214891,
    "Bemerkungen": "",
    "lat": 52.47244,
-   "lon": 13.13028
+   "lng": 13.13028
  },
  {
    "BSN": "05Y03",
@@ -1662,7 +1662,7 @@
    "Ausgaben2022ff": 1600000,
    "Bemerkungen": "",
    "lat": 52.47244,
-   "lon": 13.13028
+   "lng": 13.13028
  },
  {
    "BSN": "05Y04",
@@ -1677,7 +1677,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.54559,
-   "lon": 13.26983
+   "lng": 13.26983
  },
  {
    "BSN": "05Y04",
@@ -1692,7 +1692,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.54559,
-   "lon": 13.26983
+   "lng": 13.26983
  },
  {
    "BSN": "05Y04",
@@ -1707,7 +1707,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "Abriss für Neubau Typensporthalle geplant",
    "lat": 52.54559,
-   "lon": 13.26983
+   "lng": 13.26983
  },
  {
    "BSN": "05Y04",
@@ -1722,7 +1722,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.54559,
-   "lon": 13.26983
+   "lng": 13.26983
  },
  {
    "BSN": "05Y04",
@@ -1737,7 +1737,7 @@
    "Ausgaben2022ff": 1200000,
    "Bemerkungen": "",
    "lat": 52.54559,
-   "lon": 13.26983
+   "lng": 13.26983
  },
  {
    "BSN": "05Y05",
@@ -1752,7 +1752,7 @@
    "Ausgaben2022ff": 717000,
    "Bemerkungen": "",
    "lat": 52.538567,
-   "lon": 13.199029
+   "lng": 13.199029
  },
  {
    "BSN": "05Y05",
@@ -1767,7 +1767,7 @@
    "Ausgaben2022ff": 9506,
    "Bemerkungen": "",
    "lat": 52.538567,
-   "lon": 13.199029
+   "lng": 13.199029
  },
  {
    "BSN": "05Y05",
@@ -1782,7 +1782,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.538567,
-   "lon": 13.199029
+   "lng": 13.199029
  },
  {
    "BSN": "05Y05",
@@ -1797,7 +1797,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.538567,
-   "lon": 13.199029
+   "lng": 13.199029
  },
  {
    "BSN": "05K01",
@@ -1812,7 +1812,7 @@
    "Ausgaben2022ff": 11140000,
    "Bemerkungen": "",
    "lat": 52.54895,
-   "lon": 13.1565
+   "lng": 13.1565
  },
  {
    "BSN": "05K01",
@@ -1827,7 +1827,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.54895,
-   "lon": 13.1565
+   "lng": 13.1565
  },
  {
    "BSN": "05K02",
@@ -1842,7 +1842,7 @@
    "Ausgaben2022ff": 1641000,
    "Bemerkungen": "",
    "lat": 52.5259,
-   "lon": 13.17464
+   "lng": 13.17464
  },
  {
    "BSN": "05K02",
@@ -1857,7 +1857,7 @@
    "Ausgaben2022ff": 11710000,
    "Bemerkungen": "",
    "lat": 52.5259,
-   "lon": 13.17464
+   "lng": 13.17464
  },
  {
    "BSN": "05K02",
@@ -1872,7 +1872,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.5259,
-   "lon": 13.17464
+   "lng": 13.17464
  },
  {
    "BSN": "05K02",
@@ -1887,7 +1887,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.5259,
-   "lon": 13.17464
+   "lng": 13.17464
  },
  {
    "BSN": "05K03",
@@ -1902,7 +1902,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.525308,
-   "lon": 13.192692
+   "lng": 13.192692
  },
  {
    "BSN": "05K03",
@@ -1917,7 +1917,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.525308,
-   "lon": 13.192692
+   "lng": 13.192692
  },
  {
    "BSN": "05K03",
@@ -1932,7 +1932,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.525308,
-   "lon": 13.192692
+   "lng": 13.192692
  },
  {
    "BSN": "05K04",
@@ -1947,7 +1947,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.565166,
-   "lon": 13.199033
+   "lng": 13.199033
  },
  {
    "BSN": "05K04",
@@ -1962,7 +1962,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.565166,
-   "lon": 13.199033
+   "lng": 13.199033
  },
  {
    "BSN": "05K04",
@@ -1977,7 +1977,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.565166,
-   "lon": 13.199033
+   "lng": 13.199033
  },
  {
    "BSN": "05K04",
@@ -1992,7 +1992,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.565166,
-   "lon": 13.199033
+   "lng": 13.199033
  },
  {
    "BSN": "05K06",
@@ -2007,7 +2007,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.54571,
-   "lon": 13.1967
+   "lng": 13.1967
  },
  {
    "BSN": "05K06",
@@ -2022,7 +2022,7 @@
    "Ausgaben2022ff": 4159633,
    "Bemerkungen": "",
    "lat": 52.54571,
-   "lon": 13.1967
+   "lng": 13.1967
  },
  {
    "BSN": "05K06",
@@ -2037,7 +2037,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.54571,
-   "lon": 13.1967
+   "lng": 13.1967
  },
  {
    "BSN": "05K06",
@@ -2052,7 +2052,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.54571,
-   "lon": 13.1967
+   "lng": 13.1967
  },
  {
    "BSN": "05K06",
@@ -2067,7 +2067,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.54571,
-   "lon": 13.1967
+   "lng": 13.1967
  },
  {
    "BSN": "05K06",
@@ -2082,7 +2082,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.54571,
-   "lon": 13.1967
+   "lng": 13.1967
  },
  {
    "BSN": "05K07",
@@ -2097,7 +2097,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.53843,
-   "lon": 13.26697
+   "lng": 13.26697
  },
  {
    "BSN": "05K07",
@@ -2112,7 +2112,7 @@
    "Ausgaben2022ff": 1181852,
    "Bemerkungen": "",
    "lat": 52.53843,
-   "lon": 13.26697
+   "lng": 13.26697
  },
  {
    "BSN": "05K07",
@@ -2127,7 +2127,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.53843,
-   "lon": 13.26697
+   "lng": 13.26697
  },
  {
    "BSN": "05K07",
@@ -2142,7 +2142,7 @@
    "Ausgaben2022ff": 5800000,
    "Bemerkungen": "",
    "lat": 52.53843,
-   "lon": 13.26697
+   "lng": 13.26697
  },
  {
    "BSN": "05K08",
@@ -2157,7 +2157,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.51098,
-   "lon": 13.18567
+   "lng": 13.18567
  },
  {
    "BSN": "05K08",
@@ -2172,7 +2172,7 @@
    "Ausgaben2022ff": 11511246,
    "Bemerkungen": "",
    "lat": 52.51098,
-   "lon": 13.18567
+   "lng": 13.18567
  },
  {
    "BSN": "05K08",
@@ -2187,7 +2187,7 @@
    "Ausgaben2022ff": 1800000,
    "Bemerkungen": "",
    "lat": 52.51098,
-   "lon": 13.18567
+   "lng": 13.18567
  },
  {
    "BSN": "05K09",
@@ -2202,7 +2202,7 @@
    "Ausgaben2022ff": 1950000,
    "Bemerkungen": "",
    "lat": 52.5349,
-   "lon": 13.13491
+   "lng": 13.13491
  },
  {
    "BSN": "05K09",
@@ -2217,7 +2217,7 @@
    "Ausgaben2022ff": 2409855,
    "Bemerkungen": "",
    "lat": 52.5349,
-   "lon": 13.13491
+   "lng": 13.13491
  },
  {
    "BSN": "05K09",
@@ -2232,7 +2232,7 @@
    "Ausgaben2022ff": 900000,
    "Bemerkungen": "",
    "lat": 52.5349,
-   "lon": 13.13491
+   "lng": 13.13491
  },
  {
    "BSN": "05K09",
@@ -2247,7 +2247,7 @@
    "Ausgaben2022ff": null,
    "Bemerkungen": "",
    "lat": 52.5349,
-   "lon": 13.13491
+   "lng": 13.13491
  },
  {
    "BSN": "05K09",
@@ -2262,6 +2262,6 @@
    "Ausgaben2022ff": 353000,
    "Bemerkungen": "",
    "lat": 52.5349,
-   "lon": 13.13491
+   "lng": 13.13491
  }
 ]
