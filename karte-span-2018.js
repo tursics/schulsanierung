@@ -68,30 +68,28 @@ var hover = {
 // -----------------------------------------------------------------------------
 
 var info = {
+	templateHeader: '<div id="receiptBox">' +
+		'<div id="receiptClose"><i class="fa fa-close" aria-hidden="true"></i></div>' +
+		'<div id="receipt" class="normal">' +
+		'<div class="full center bold" id="recName"></div>' +
+		'<div class="full center" id="recSchulform"></div>',
+	templateItem: '<br>' +
+		'<div class="full bold"><span id="recBautyp"></span></div>' +
+		'<div class="sub">Zuständigkeit: <span id="recZustaendigkeit"></span></div>' +
+		'<div class="sub"><span class="half">Ausgaben 2018</span><span class="number"><span id="recAusgaben2018"></span> €</span></div>' +
+		'<div class="sub"><span class="half">Ausgaben 2019</span><span class="number"><span id="recAusgaben2019"></span> €</span></div>' +
+		'<div class="sub"><span class="half">Ausgaben 2020</span><span class="number"><span id="recAusgaben2020"></span> €</span></div>' +
+		'<div class="sub"><span class="half">Ausgaben 2021</span><span class="number"><span id="recAusgaben2021"></span> €</span></div>' +
+		'<div class="sub"><span class="half">Ausgaben 2022 und später</span><span class="number"><span id="recAusgaben2022ff"></span> €</span></div>' +
+		'<div class="sub"><span id="recBemerkungen"></span></div>',
+	templateFooter: '</div>' +
+		'</div>',
 	initUI: function () {
 		'use strict';
 
-		var str = '';
-		str += '<div id="receiptBox">';
-		str += '<div id="receiptClose"><i class="fa fa-close" aria-hidden="true"></i></div>';
-		str += '<div id="receipt" class="normal">';
-
-		str += '<div class="full center bold" id="recName"></div>';
-		str += '<div class="full center" id="recSchulform"></div>';
-		str += '<br>';
-		str += '<div class="full bold"><span id="recBautyp"></span></div>';
-		str += '<div class="sub">Zuständigkeit: <span id="recZustaendigkeit"></span></div>';
-		str += '<div class="sub">Bemerkungen: <span id="recBemerkungen"></span></div>';
-		str += '<br>';
-		str += '<div class="sub"><span class="half">Ausgaben 2018</span><span class="number"><span id="recAusgaben2018"></span> €</span></div>';
-		str += '<div class="sub"><span class="half">Ausgaben 2019</span><span class="number"><span id="recAusgaben2019"></span> €</span></div>';
-		str += '<div class="sub"><span class="half">Ausgaben 2020</span><span class="number"><span id="recAusgaben2020"></span> €</span></div>';
-		str += '<div class="sub"><span class="half">Ausgaben 2021</span><span class="number"><span id="recAusgaben2021"></span> €</span></div>';
-		str += '<div class="sub"><span class="half">Ausgaben 2022 ff</span><span class="number"><span id="recAusgaben2022ff"></span> €</span></div>';
-
-		str += '</div>';
-		str += '</div>';
-
+		var str = this.templateHeader;
+		str += '<div id="dom"></div>';
+		str += this.templateFooter;
 		$('#pageMap').append(str);
 
 		$('#receipt .group').on('click', function () {
@@ -132,8 +130,22 @@ var info = {
 
 			item.text(txt);
 		}
+		function setTextWithDOM(root, key, txt) {
+			var item = $('#rec' + key, root);
+
+			if (item.parent().hasClass('number')) {
+				txt = formatNumber(txt);
+			} else if (item.parent().hasClass('boolean')) {
+				txt = (txt === 1 ? 'ja' : 'nein');
+			}
+
+			item.text(txt);
+		}
 
 		var key,
+			item,
+			itemObj,
+			dom,
 			date = new Date(),
 			dateD = date.getDate(),
 			dateM = date.getMonth() + 1,
@@ -155,9 +167,26 @@ var info = {
 		}
 		setText('Now', dateD + '.' + dateM + '.' + dateY + ' ' + dateH + ':' + dateMin);
 
+		$('#dom').html('');
+
 		for (key in data) {
 			if (data.hasOwnProperty(key)) {
 				setText(key, data[key]);
+			}
+		}
+
+		for (itemObj in dataObj.data) {
+			item = dataObj.data[itemObj];
+			if (item.BSN === data.BSN) {
+				dom = $.parseHTML(this.templateItem);
+
+				for (key in item) {
+					if (item.hasOwnProperty(key)) {
+						setTextWithDOM(dom, key, item[key]);
+					}
+				}
+
+				$('#dom').append(dom);
 			}
 		}
 
@@ -236,7 +265,9 @@ var marker = {
 
 //-----------------------------------------------------------------------------
 
-var data = {
+var dataObj = {
+
+	data: [],
 
 	initUI: function () {
 		'use strict';
@@ -247,13 +278,17 @@ var data = {
 
 		var cityData = {
 			printerlabel: 'printerlabel'
-		};
+		},
+			that = this;
+
+		that.data = [];
 
 		$.ajax({
 			url: 'data/gebaeudescan2018-span.json',
 			dataType: 'json',
 			mimeType: 'application/json',
 			success: function (data) {
+				that.data = data;
 				marker.show(data, cityData);
 			}
 		});
@@ -277,7 +312,7 @@ function initMap(elementName, lat, lng, zoom) {
 
 		map.addControl(L.control.zoom({ position: 'bottomright'}));
 
-		data.loadData();
+		dataObj.loadData();
 	}
 }
 
@@ -291,7 +326,7 @@ $(document).on("pageshow", "#pageMap", function () {
 	marker.initUI();
 	hover.initUI();
 	info.initUI();
-	data.initUI();
+	dataObj.initUI();
 });
 
 // -----------------------------------------------------------------------------
