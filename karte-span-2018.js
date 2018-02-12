@@ -74,7 +74,22 @@ var info = {
 		var str = '';
 		str += '<div id="receiptBox">';
 		str += '<div id="receiptClose"><i class="fa fa-close" aria-hidden="true"></i></div>';
-		str += '<div id="receipt" class="normal"></div>';
+		str += '<div id="receipt" class="normal">';
+
+		str += '<div class="full center bold" id="recName"></div>';
+		str += '<div class="full center" id="recSchulform"></div>';
+		str += '<br>';
+		str += '<div class="full bold"><span id="recBautyp"></span></div>';
+		str += '<div class="sub">Zuständigkeit: <span id="recZustaendigkeit"></span></div>';
+		str += '<div class="sub">Bemerkungen: <span id="recBemerkungen"></span></div>';
+		str += '<br>';
+		str += '<div class="sub"><span class="half">Ausgaben 2018</span><span class="number"><span id="recAusgaben2018"></span> €</span></div>';
+		str += '<div class="sub"><span class="half">Ausgaben 2019</span><span class="number"><span id="recAusgaben2019"></span> €</span></div>';
+		str += '<div class="sub"><span class="half">Ausgaben 2020</span><span class="number"><span id="recAusgaben2020"></span> €</span></div>';
+		str += '<div class="sub"><span class="half">Ausgaben 2021</span><span class="number"><span id="recAusgaben2021"></span> €</span></div>';
+		str += '<div class="sub"><span class="half">Ausgaben 2022 ff</span><span class="number"><span id="recAusgaben2022ff"></span> €</span></div>';
+
+		str += '</div>';
 		str += '</div>';
 
 		$('#pageMap').append(str);
