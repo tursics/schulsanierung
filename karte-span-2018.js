@@ -31,6 +31,10 @@ function formatNumber(txt) {
 var hover = {
 	layerPopup: null,
 
+	initUI: function () {
+		'use strict';
+	},
+
 	show: function (coordinates, data, format, icon) {
 		'use strict';
 
@@ -63,9 +67,98 @@ var hover = {
 
 // -----------------------------------------------------------------------------
 
+var info = {
+	initUI: function () {
+		'use strict';
+
+		var str = '';
+		str += '<div id="receiptBox">';
+		str += '<div id="receiptClose"><i class="fa fa-close" aria-hidden="true"></i></div>';
+		str += '<div id="receipt" class="normal"></div>';
+		str += '</div>';
+
+		$('#pageMap').append(str);
+
+		$('#receipt .group').on('click', function () {
+			$(this).toggleClass('groupClosed');
+		});
+		$('#receiptClose').on('click', this.hide);
+	},
+
+	init: function (data) {
+		'use strict';
+
+		$('#receiptBox #receipt').html(data.info.body.join("\n"));
+	},
+
+	show: function () {
+		'use strict';
+
+		$('#receiptBox').css('display', 'block');
+	},
+
+	hide: function () {
+		'use strict';
+
+		$('#receiptBox').css('display', 'none');
+	},
+
+	update: function (data) {
+		'use strict';
+
+		function setText(key, txt) {
+			var item = $('#rec' + key);
+
+			if (item.parent().hasClass('number')) {
+				txt = formatNumber(txt);
+			} else if (item.parent().hasClass('boolean')) {
+				txt = (txt === 1 ? 'ja' : 'nein');
+			}
+
+			item.text(txt);
+		}
+
+		var key,
+			date = new Date(),
+			dateD = date.getDate(),
+			dateM = date.getMonth() + 1,
+			dateY = date.getFullYear(),
+			dateH = date.getHours(),
+			dateMin = date.getMinutes();
+
+		if (dateD < 10) {
+			dateD = '0' + dateD;
+		}
+		if (dateM < 10) {
+			dateM = '0' + dateM;
+		}
+		if (dateH < 10) {
+			dateH = '0' + dateH;
+		}
+		if (dateMin < 10) {
+			dateMin = '0' + dateMin;
+		}
+		setText('Now', dateD + '.' + dateM + '.' + dateY + ' ' + dateH + ':' + dateMin);
+
+		for (key in data) {
+			if (data.hasOwnProperty(key)) {
+				setText(key, data[key]);
+			}
+		}
+
+		this.show();
+	}
+};
+
+// -----------------------------------------------------------------------------
+
 var marker = {
 	layerGroup: null,
 	cityData: null,
+
+	initUI: function () {
+		'use strict';
+	},
 
 	show: function (data, cityData) {
 		'use strict';
@@ -77,8 +170,7 @@ var marker = {
 			this.layerGroup.addTo(map);
 
 			this.layerGroup.addEventListener('click', function (evt) {
-				// clicked on a layer
-				// data stored in evt.layer.options.data
+				info.update(evt.layer.options.data);
 			});
 			this.layerGroup.addEventListener('mouseover', function (evt) {
 				hover.show([evt.latlng.lat, evt.latlng.lng], evt.layer.options.data, evt.layer.options.format, evt.layer.options.icon);
@@ -181,6 +273,9 @@ $(document).on("pageshow", "#pageMap", function () {
 
 	initMap('mapContainer', 52.534982, 13.200651, 16);
 
+	marker.initUI();
+	hover.initUI();
+	info.initUI();
 	data.initUI();
 });
 
