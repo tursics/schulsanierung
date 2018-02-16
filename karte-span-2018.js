@@ -76,6 +76,10 @@ var info = {
 	templateItem: '<br>' +
 		'<div class="full bold"><span id="recBautyp"></span></div>' +
 		'<div class="sub">Zuständigkeit: <span id="recZustaendigkeit"></span></div>' +
+		'<div class="sub autocomplete-selected"><span class="half">Gebäudescan 2015</span><span class="number"><span id="recScan2015"></span> €</span></div>' +
+		'<div class="sub autocomplete-selected"><span class="half">Bestätigte Projektkosten</span><span class="number"><span id="recProjektkosten"></span> €</span></div>' +
+		'<div class="sub autocomplete-selected"><span class="half">Ausgaben bisher (16/17)</span><span class="number"><span id="recAusgabenAb2016"></span> €</span></div>' +
+
 		'<div class="sub"><span class="half">Ausgaben 2018</span><span class="number"><span id="recAusgaben2018"></span> €</span></div>' +
 		'<div class="sub"><span class="half">Ausgaben 2019</span><span class="number"><span id="recAusgaben2019"></span> €</span></div>' +
 		'<div class="sub"><span class="half">Ausgaben 2020</span><span class="number"><span id="recAusgaben2020"></span> €</span></div>' +
