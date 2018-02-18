@@ -43,10 +43,22 @@ var hover = {
 			offset: L.point(0, -32),
 			className: 'printerLabel'
 		},
-			str = '';
+			str = '',
+			val = 0,
+			item,
+			itemObj;
+
+		for (itemObj in dataObj.data) {
+			if (dataObj.data.hasOwnProperty(itemObj)) {
+				item = dataObj.data[itemObj];
+				if (item.BSN === data.BSN) {
+					val += item.Ausgaben2018;
+				}
+			}
+		}
 
 		str += '<div class="top ' + icon.options.markerColor + '">' + data.Name + '</div>';
-		str += '<div class="middle">€' + formatNumber(data.Ausgaben2018) + '</div>';
+		str += '<div class="middle">€' + formatNumber(val) + '</div>';
 		str += '<div class="bottom ' + icon.options.markerColor + '">' + 'Ausgaben für 2018' + '</div>';
 
 		this.layerPopup = L.popup(options)
@@ -180,17 +192,19 @@ var info = {
 		}
 
 		for (itemObj in dataObj.data) {
-			item = dataObj.data[itemObj];
-			if (item.BSN === data.BSN) {
-				dom = $.parseHTML(this.templateItem);
+			if (dataObj.data.hasOwnProperty(itemObj)) {
+				item = dataObj.data[itemObj];
+				if (item.BSN === data.BSN) {
+					dom = $.parseHTML(this.templateItem);
 
-				for (key in item) {
-					if (item.hasOwnProperty(key)) {
-						setTextWithDOM(dom, key, item[key]);
+					for (key in item) {
+						if (item.hasOwnProperty(key)) {
+							setTextWithDOM(dom, key, item[key]);
+						}
 					}
-				}
 
-				$('#dom').append(dom);
+					$('#dom').append(dom);
+				}
 			}
 		}
 
